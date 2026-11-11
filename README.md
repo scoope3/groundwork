@@ -21,10 +21,10 @@ A case only reaches this repository after it has run the full path from a scored
 
 ```mermaid
 flowchart LR
-  seed["seed<br/><small>scored candidate</small>"] --> opened["auto-opened<br/><small>two independent sources</small>"]
-  opened --> triaging["triaging<br/><small>I start labelling</small>"]
-  triaging --> active["active<br/><small>links decided</small>"]
-  active --> published["published<br/><small>feed + case page</small>"]
+  seed["seed<br/>scored candidate"] --> opened["auto-opened<br/>two independent sources"]
+  opened --> triaging["triaging<br/>I start labelling"]
+  triaging --> active["active<br/>links decided"]
+  active --> published["published<br/>feed + case page"]
   opened -. "untouched" .-> noise["closed as noise"]
   triaging -. "untouched" .-> noise
 ```
