@@ -15,11 +15,23 @@ Long-form write-ups of the larger cases are on Substack and linked from each cas
 
 ## Reading a case
 
-Every evidence row carries two things that let you weigh it yourself. Its scope says what it can prove: operator-scope evidence (a reused commit email, a registrar account, a certificate-generation fingerprint) can link infrastructure to the same operator; kit-scope evidence (a shared resource hash, an install-script shape) can only say two things run the same software; context evidence supports but never links. Its false-positive rate is measured from my own past decisions on that evidence type, so a row from a type that has been wrong one time in three says so.
+Every evidence row carries two things that let you weigh it yourself. Its scope says what it can prove. Operator-scope evidence can link infrastructure to the same operator, kit-scope evidence can only say two things run the same software, and context evidence supports a claim without linking anything. Its false-positive rate is measured from my own past decisions on that evidence type, so a row from a type that has been wrong one time in three says so.
 
-![case lifecycle](docs/img/case-lifecycle.svg)
+A case only reaches this repository after it has run the full path from a scored candidate to a decision I made by hand.
 
-Indicators are published only from cases I have decided, after sandbox verification where a package or page was involved. Verification bundles are kept privately; their SHA-256 hashes are published with the case so an artefact can be requested and checked.
+```mermaid
+flowchart LR
+  seed["seed<br/><small>scored candidate</small>"] --> opened["auto-opened<br/><small>two independent sources</small>"]
+  opened --> triaging["triaging<br/><small>I start labelling</small>"]
+  triaging --> active["active<br/><small>links decided</small>"]
+  active --> published["published<br/><small>feed + case page</small>"]
+  opened -. "untouched" .-> noise["closed as noise"]
+  triaging -. "untouched" .-> noise
+```
+
+An operator-level link is never created automatically. It needs accepted operator-scope evidence behind it, and only I can assert one.
+
+Indicators are published only from cases I have decided, after sandbox verification where a package or page was involved. Verification bundles are kept privately, and their SHA-256 hashes are published with the case so an artefact can be requested and checked.
 
 ## Using the feed
 
