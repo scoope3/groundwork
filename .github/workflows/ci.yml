@@ -1,0 +1,15 @@
+name: ci
+on: [push, pull_request]
+jobs:
+  checks:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v5
+      - name: nothing but publications in this repository
+        run: |
+          test ! -d src && test ! -f pyproject.toml || { echo "engine code does not belong here"; exit 1; }
+          ! grep -rEl '(sk-[A-Za-z0-9]{20,}|AKIA[0-9A-Z]{16}|ghp_[A-Za-z0-9]{30,})' --exclude-dir=.git . || { echo "secret-shaped string"; exit 1; }
+      - name: feed files are well formed
+        run: |
+          for f in feed/*.csv; do [ -f "$f" ] || continue; head -1 "$f" | grep -q '^published_at,entity_type,value,' || { echo "$f: bad header"; exit 1; }; done
+          for f in feed/*.json; do [ -f "$f" ] || continue; python3 -c "import json,sys; json.load(open('$f'))" || exit 1; done
