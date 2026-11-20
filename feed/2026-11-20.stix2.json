@@ -1,0 +1,1756 @@
+{
+ "type": "bundle",
+ "id": "bundle--000000000002994800847604976939",
+ "objects": [
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000007109789818314014787",
+   "created": "2026-11-20T12:49:04Z",
+   "name": "domain windows-defender.cc",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-20T12:49:04Z",
+   "pattern": "[domain-name:value = 'windows-defender.cc']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000001924553170984359192",
+   "created": "2026-11-20T12:49:04Z",
+   "name": "domain monolit.sbs",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-20T12:49:04Z",
+   "pattern": "[domain-name:value = 'monolit.sbs']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000004969300928768232397",
+   "created": "2026-11-20T12:49:04Z",
+   "name": "domain devtools8.lol",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-20T12:49:04Z",
+   "pattern": "[domain-name:value = 'devtools8.lol']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000007787371285963153488",
+   "created": "2026-11-20T12:49:04Z",
+   "name": "domain toolget2.lol",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-20T12:49:04Z",
+   "pattern": "[domain-name:value = 'toolget2.lol']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000000914958996381340734",
+   "created": "2026-11-20T12:49:04Z",
+   "name": "domain power-shell.cc",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-20T12:49:04Z",
+   "pattern": "[domain-name:value = 'power-shell.cc']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000002118514007906701825",
+   "created": "2026-11-20T12:49:04Z",
+   "name": "domain powershell.lat",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-20T12:49:04Z",
+   "pattern": "[domain-name:value = 'powershell.lat']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000000256936893909561861",
+   "created": "2026-11-20T12:49:04Z",
+   "name": "domain meta3.grovestack.one",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-20T12:49:04Z",
+   "pattern": "[domain-name:value = 'meta3.grovestack.one']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000000054515942023101702",
+   "created": "2026-11-20T12:49:04Z",
+   "name": "url https://telegra.ph/Clear-ridge-11-10",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-20T12:49:04Z",
+   "pattern": "[url:value = 'https://telegra.ph/Clear-ridge-11-10']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000005761715790444256158",
+   "created": "2026-11-20T12:49:04Z",
+   "name": "contract_address 0x1ee6A331881102B84d2DebdD5eefd2E591a65f14",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-20T12:49:04Z",
+   "pattern": "[x-groundwork:value = '0x1ee6A331881102B84d2DebdD5eefd2E591a65f14']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000007430030998840415593",
+   "created": "2026-11-20T12:49:04Z",
+   "name": "crypto_address 0x8bAddf058D11005360900a0542484eE446F2d494",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-20T12:49:04Z",
+   "pattern": "[x-groundwork:value = '0x8bAddf058D11005360900a0542484eE446F2d494']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000005911910738036426863",
+   "created": "2026-11-20T12:49:04Z",
+   "name": "domain scheduler.echoform32.club",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-20T12:49:04Z",
+   "pattern": "[domain-name:value = 'scheduler.echoform32.club']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000005876187004350218102",
+   "created": "2026-11-20T12:49:04Z",
+   "name": "url https://github.com/dreamtherapistcrypt/Chaos-Enscape-Collection-Free-Professional-3D-Rendering",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-20T12:49:04Z",
+   "pattern": "[url:value = 'https://github.com/dreamtherapistcrypt/Chaos-Enscape-Collection-Free-Professional-3D-Rendering']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000004876219707432528422",
+   "created": "2026-11-20T12:49:04Z",
+   "name": "url https://github.com/petacockatooblock/Chaos-Corona-Collection-Free-Professional-Architectural-Rendering",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-20T12:49:04Z",
+   "pattern": "[url:value = 'https://github.com/petacockatooblock/Chaos-Corona-Collection-Free-Professional-Architectural-Rendering']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000004346450444661540542",
+   "created": "2026-11-20T12:49:04Z",
+   "name": "url https://github.com/Blizzardteawning/IK-Multimedia-AmpliTube-5-MAX-v2-Free-Guitar-Bass-Modeling",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-20T12:49:04Z",
+   "pattern": "[url:value = 'https://github.com/Blizzardteawning/IK-Multimedia-AmpliTube-5-MAX-v2-Free-Guitar-Bass-Modeling']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000000768794357148895744",
+   "created": "2026-11-20T12:49:04Z",
+   "name": "url https://github.com/Pondshoreproduce/Celemony-Melodyne-5-Studio-Free-Professional-Vocal-Tuning",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-20T12:49:04Z",
+   "pattern": "[url:value = 'https://github.com/Pondshoreproduce/Celemony-Melodyne-5-Studio-Free-Professional-Vocal-Tuning']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000004012208535710648380",
+   "created": "2026-11-20T12:49:04Z",
+   "name": "url https://github.com/Scalarbatturn/Serato-DJ-Suite-Free-Professional-DJ-Software",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-20T12:49:04Z",
+   "pattern": "[url:value = 'https://github.com/Scalarbatturn/Serato-DJ-Suite-Free-Professional-DJ-Software']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000002185692093319456165",
+   "created": "2026-11-20T12:49:04Z",
+   "name": "url https://github.com/ChromePheasant/Neural-DSP-Plugins-Free-Professional-Guitar-Bass-Production",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-20T12:49:04Z",
+   "pattern": "[url:value = 'https://github.com/ChromePheasant/Neural-DSP-Plugins-Free-Professional-Guitar-Bass-Production']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000009132968717179058520",
+   "created": "2026-11-20T12:49:04Z",
+   "name": "url https://github.com/Wayvontitle2/Autodesk-Revit-2027-Free-Professional-BIM-Software",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-20T12:49:04Z",
+   "pattern": "[url:value = 'https://github.com/Wayvontitle2/Autodesk-Revit-2027-Free-Professional-BIM-Software']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000000182388452166259140",
+   "created": "2026-11-20T12:49:04Z",
+   "name": "url https://github.com/magentacrabsoul/Native-Instruments-Traktor-Pro-4-Free-Professional-DJ-Software",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-20T12:49:04Z",
+   "pattern": "[url:value = 'https://github.com/magentacrabsoul/Native-Instruments-Traktor-Pro-4-Free-Professional-DJ-Software']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000007619170145518469832",
+   "created": "2026-11-20T12:49:04Z",
+   "name": "url https://github.com/RestrictionCarpenter/iZotope-RX-12-Advanced-Free-Professional-Audio-Restoration",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-20T12:49:04Z",
+   "pattern": "[url:value = 'https://github.com/RestrictionCarpenter/iZotope-RX-12-Advanced-Free-Professional-Audio-Restoration']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000003251019933953410756",
+   "created": "2026-11-20T12:49:04Z",
+   "name": "url https://github.com/ratequeenask/Native-Instruments-Guitar-Rig-7-Pro-Free-Guitar-Amp-Effects",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-20T12:49:04Z",
+   "pattern": "[url:value = 'https://github.com/ratequeenask/Native-Instruments-Guitar-Rig-7-Pro-Free-Guitar-Amp-Effects']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000004499535353354359739",
+   "created": "2026-11-20T12:49:04Z",
+   "name": "url https://github.com/Gloryfromcall/Steinberg-SpectraLayers-Pro-13-Free-AI-Audio-Editing",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-20T12:49:04Z",
+   "pattern": "[url:value = 'https://github.com/Gloryfromcall/Steinberg-SpectraLayers-Pro-13-Free-AI-Audio-Editing']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000004655969999168917935",
+   "created": "2026-11-20T12:49:04Z",
+   "name": "url https://github.com/gpujouninravine/rekordbox-Professional-7-Free-Professional-DJ-Software",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-20T12:49:04Z",
+   "pattern": "[url:value = 'https://github.com/gpujouninravine/rekordbox-Professional-7-Free-Professional-DJ-Software']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000003824375217458229566",
+   "created": "2026-11-20T12:49:04Z",
+   "name": "url https://github.com/MinotaurByteBond10/Twinmotion-2026-Free-Professional-Architectural-Visualization",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-20T12:49:04Z",
+   "pattern": "[url:value = 'https://github.com/MinotaurByteBond10/Twinmotion-2026-Free-Professional-Architectural-Visualization']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000006693885746613588173",
+   "created": "2026-11-20T12:49:04Z",
+   "name": "url https://github.com/SkyGeomancer/Chaos-V-Ray-Collection-Free-Professional-3D-Rendering",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-20T12:49:04Z",
+   "pattern": "[url:value = 'https://github.com/SkyGeomancer/Chaos-V-Ray-Collection-Free-Professional-3D-Rendering']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000004396722236667341254",
+   "created": "2026-11-20T12:49:04Z",
+   "name": "url https://github.com/Galaxyeitriumph/Graphisoft-Archicad-29-Collaborate-Free-Professional-BIM-Design",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-20T12:49:04Z",
+   "pattern": "[url:value = 'https://github.com/Galaxyeitriumph/Graphisoft-Archicad-29-Collaborate-Free-Professional-BIM-Design']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000005365862852153427237",
+   "created": "2026-11-20T12:49:04Z",
+   "name": "url https://github.com/spirebossrescue/D5-Render-Teams-3.1.1-Free-Professional-3D-Rendering",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-20T12:49:04Z",
+   "pattern": "[url:value = 'https://github.com/spirebossrescue/D5-Render-Teams-3.1.1-Free-Professional-3D-Rendering']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000008111004230890747936",
+   "created": "2026-11-20T12:49:04Z",
+   "name": "url https://github.com/SheetMythStretch/Vectorworks-Architect-2027-Free-Professional-BIM-Design",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-20T12:49:04Z",
+   "pattern": "[url:value = 'https://github.com/SheetMythStretch/Vectorworks-Architect-2027-Free-Professional-BIM-Design']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000006129157527638463232",
+   "created": "2026-11-20T12:49:04Z",
+   "name": "url https://github.com/existenceblazecanyon/SOLIDWORKS-Design-Ultimate-2026-Free-Professional-3D-CAD",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-20T12:49:04Z",
+   "pattern": "[url:value = 'https://github.com/existenceblazecanyon/SOLIDWORKS-Design-Ultimate-2026-Free-Professional-3D-CAD']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000001977075704997392253",
+   "created": "2026-11-20T12:49:04Z",
+   "name": "url https://github.com/LavaDeerHook/Autodesk-Inventor-Professional-2027-Free-3D-CAD-Design",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-20T12:49:04Z",
+   "pattern": "[url:value = 'https://github.com/LavaDeerHook/Autodesk-Inventor-Professional-2027-Free-3D-CAD-Design']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000004480372753843509449",
+   "created": "2026-11-20T12:49:04Z",
+   "name": "url https://github.com/AnalystSucceed/HWID-Testing-Utility-Free-Hardware-ID-Management",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-20T12:49:04Z",
+   "pattern": "[url:value = 'https://github.com/AnalystSucceed/HWID-Testing-Utility-Free-Hardware-ID-Management']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000004562432306889708344",
+   "created": "2026-11-20T12:49:04Z",
+   "name": "url https://github.com/CoalSmokeMake/voicemod",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-20T12:49:04Z",
+   "pattern": "[url:value = 'https://github.com/CoalSmokeMake/voicemod']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000007603981170004751456",
+   "created": "2026-11-20T12:49:04Z",
+   "name": "url https://github.com/PulverizeFrogFigure/voicemod",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-20T12:49:04Z",
+   "pattern": "[url:value = 'https://github.com/PulverizeFrogFigure/voicemod']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000006151116786073506370",
+   "created": "2026-11-20T12:49:04Z",
+   "name": "url https://github.com/FloodChemistQuilt/voicemod",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-20T12:49:04Z",
+   "pattern": "[url:value = 'https://github.com/FloodChemistQuilt/voicemod']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000004536254943968946717",
+   "created": "2026-11-20T12:49:04Z",
+   "name": "url https://github.com/cliffmotormanvolt38/winutilits",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-20T12:49:04Z",
+   "pattern": "[url:value = 'https://github.com/cliffmotormanvolt38/winutilits']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000007292696796895693879",
+   "created": "2026-11-20T12:49:04Z",
+   "name": "url https://github.com/PeakEconomicFetter/Filmora16-Ai-Editor-Plus",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-20T12:49:04Z",
+   "pattern": "[url:value = 'https://github.com/PeakEconomicFetter/Filmora16-Ai-Editor-Plus']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000004102578547948661389",
+   "created": "2026-11-20T12:49:04Z",
+   "name": "url https://github.com/limetempodemodulator/Microsoft-Power-BI-Pro",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-20T12:49:04Z",
+   "pattern": "[url:value = 'https://github.com/limetempodemodulator/Microsoft-Power-BI-Pro']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000006639118422704667917",
+   "created": "2026-11-20T12:49:04Z",
+   "name": "url https://github.com/ColorsSwanFlare/After-Effects",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-20T12:49:04Z",
+   "pattern": "[url:value = 'https://github.com/ColorsSwanFlare/After-Effects']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000004913550893701300067",
+   "created": "2026-11-20T12:49:04Z",
+   "name": "url https://github.com/AreaCounselorFurnace/EaseUS-Todo-Backup",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-20T12:49:04Z",
+   "pattern": "[url:value = 'https://github.com/AreaCounselorFurnace/EaseUS-Todo-Backup']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000006950215650172106125",
+   "created": "2026-11-20T12:49:04Z",
+   "name": "url https://github.com/ForestBladesmith/Adobe-Audition-PC",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-20T12:49:04Z",
+   "pattern": "[url:value = 'https://github.com/ForestBladesmith/Adobe-Audition-PC']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000003756212448784886395",
+   "created": "2026-11-20T12:49:04Z",
+   "name": "url https://github.com/Modernlavilla/GTA6-PC",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-20T12:49:04Z",
+   "pattern": "[url:value = 'https://github.com/Modernlavilla/GTA6-PC']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000001360370991144880074",
+   "created": "2026-11-20T12:49:04Z",
+   "name": "url https://github.com/SolarMistSay/REAPER-7.84-Free-Professional-Audio-Production",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-20T12:49:04Z",
+   "pattern": "[url:value = 'https://github.com/SolarMistSay/REAPER-7.84-Free-Professional-Audio-Production']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000006159656828111410883",
+   "created": "2026-11-20T12:49:04Z",
+   "name": "url https://github.com/beatlarkknow/Foundry-Nuke-Studio-Free-Download-VFX-Software",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-20T12:49:04Z",
+   "pattern": "[url:value = 'https://github.com/beatlarkknow/Foundry-Nuke-Studio-Free-Download-VFX-Software']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000007384447364072221793",
+   "created": "2026-11-20T12:49:04Z",
+   "name": "url https://github.com/Entityoverregister/FL-Studio-Free-Download-Modified-Edition",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-20T12:49:04Z",
+   "pattern": "[url:value = 'https://github.com/Entityoverregister/FL-Studio-Free-Download-Modified-Edition']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000007606705505388438378",
+   "created": "2026-11-20T12:49:04Z",
+   "name": "url https://github.com/creekspiderwrench/Neat-Video-Professional-Video-Noise-Reduction",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-20T12:49:04Z",
+   "pattern": "[url:value = 'https://github.com/creekspiderwrench/Neat-Video-Professional-Video-Noise-Reduction']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000008430657891338199209",
+   "created": "2026-11-20T12:49:04Z",
+   "name": "url https://github.com/marblecashierdeflate/Adobe-After-Effects-Modified-Edition",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-20T12:49:04Z",
+   "pattern": "[url:value = 'https://github.com/marblecashierdeflate/Adobe-After-Effects-Modified-Edition']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000003399749239241318434",
+   "created": "2026-11-20T12:49:04Z",
+   "name": "url https://github.com/SoundCourier/Steinberg-Cubase-Music-Production-Software",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-20T12:49:04Z",
+   "pattern": "[url:value = 'https://github.com/SoundCourier/Steinberg-Cubase-Music-Production-Software']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000006047322034588263736",
+   "created": "2026-11-20T12:49:04Z",
+   "name": "url https://github.com/Sandglodepot35/Boris-FX-Suite-VFX-Motion-Graphics",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-20T12:49:04Z",
+   "pattern": "[url:value = 'https://github.com/Sandglodepot35/Boris-FX-Suite-VFX-Motion-Graphics']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000002357643928896623300",
+   "created": "2026-11-20T12:49:04Z",
+   "name": "url https://github.com/RetroDukeGrasp/CapCut-Pro-Advanced-Video-Editing-Software",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-20T12:49:04Z",
+   "pattern": "[url:value = 'https://github.com/RetroDukeGrasp/CapCut-Pro-Advanced-Video-Editing-Software']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000002382423481975859230",
+   "created": "2026-11-20T12:49:04Z",
+   "name": "url https://github.com/Goliathvubarrier/VEGAS-Pro-Professional-Video-Editing-Software",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-20T12:49:04Z",
+   "pattern": "[url:value = 'https://github.com/Goliathvubarrier/VEGAS-Pro-Professional-Video-Editing-Software']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000002453361919567641314",
+   "created": "2026-11-20T12:49:04Z",
+   "name": "url https://github.com/AttorneyPrime/DVDFab-Enlarger-AI-Free-AI-Video-Upscaling",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-20T12:49:04Z",
+   "pattern": "[url:value = 'https://github.com/AttorneyPrime/DVDFab-Enlarger-AI-Free-AI-Video-Upscaling']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000005195905376483226180",
+   "created": "2026-11-20T12:49:04Z",
+   "name": "url https://github.com/Celestialdenlure/DaVinci-Resolve-Studio-Video-Editing-Color-Grading",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-20T12:49:04Z",
+   "pattern": "[url:value = 'https://github.com/Celestialdenlure/DaVinci-Resolve-Studio-Video-Editing-Color-Grading']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000001649150908820817483",
+   "created": "2026-11-20T12:49:04Z",
+   "name": "url https://github.com/beingtyrantdescribe/Wondershare-Filmora-Premium-Video-Editing-Software",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-20T12:49:04Z",
+   "pattern": "[url:value = 'https://github.com/beingtyrantdescribe/Wondershare-Filmora-Premium-Video-Editing-Software']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000001018942032229639651",
+   "created": "2026-11-20T12:49:04Z",
+   "name": "url https://github.com/LovebirdQuest/Mocha-Pro-Free-Download-Motion-Tracking-VFX",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-20T12:49:04Z",
+   "pattern": "[url:value = 'https://github.com/LovebirdQuest/Mocha-Pro-Free-Download-Motion-Tracking-VFX']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000000677797071050809559",
+   "created": "2026-11-20T12:49:04Z",
+   "name": "url https://github.com/SpikeEmissary/Avid-Pro-Tools-Ultimate-Free-Professional-Audio-Production",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-20T12:49:04Z",
+   "pattern": "[url:value = 'https://github.com/SpikeEmissary/Avid-Pro-Tools-Ultimate-Free-Professional-Audio-Production']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000004992760988041863628",
+   "created": "2026-11-20T12:49:04Z",
+   "name": "url https://github.com/HighwayPixel/Avid-Media-Composer-Professional-Video-Editing",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-20T12:49:04Z",
+   "pattern": "[url:value = 'https://github.com/HighwayPixel/Avid-Media-Composer-Professional-Video-Editing']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000002481202399001613798",
+   "created": "2026-11-20T12:49:04Z",
+   "name": "url https://github.com/SageSpanner84/Cavalry-Free-2D-Animation-Motion-Graphics-Software",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-20T12:49:04Z",
+   "pattern": "[url:value = 'https://github.com/SageSpanner84/Cavalry-Free-2D-Animation-Motion-Graphics-Software']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000002480928972710916215",
+   "created": "2026-11-20T12:49:04Z",
+   "name": "url https://github.com/GlazeFighter9/Maschine-3-Bundle-Free-Beat-Making-Music-Production",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-20T12:49:04Z",
+   "pattern": "[url:value = 'https://github.com/GlazeFighter9/Maschine-3-Bundle-Free-Beat-Making-Music-Production']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000006459524513570043589",
+   "created": "2026-11-20T12:49:04Z",
+   "name": "url https://github.com/opencolonelswell/Bitwig-Studio-6-Free-Professional-Music-Production",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-20T12:49:04Z",
+   "pattern": "[url:value = 'https://github.com/opencolonelswell/Bitwig-Studio-6-Free-Professional-Music-Production']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000006027514582995582741",
+   "created": "2026-11-20T12:49:04Z",
+   "name": "url https://github.com/Capturebrifence/Adobe-Audition-26.5-Professional-Audio-Editing",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-20T12:49:04Z",
+   "pattern": "[url:value = 'https://github.com/Capturebrifence/Adobe-Audition-26.5-Professional-Audio-Editing']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000008302307404145105371",
+   "created": "2026-11-20T12:49:04Z",
+   "name": "url https://github.com/ChauffeurMoon91/FilmLight-Baselight-v7-Free-Professional-Color-Grading",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-20T12:49:04Z",
+   "pattern": "[url:value = 'https://github.com/ChauffeurMoon91/FilmLight-Baselight-v7-Free-Professional-Color-Grading']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000006839390608593705313",
+   "created": "2026-11-20T12:49:04Z",
+   "name": "url https://github.com/PanelLocksmithSquare/Blackmagic-Fusion-Studio-21-Free-Professional-VFX",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-20T12:49:04Z",
+   "pattern": "[url:value = 'https://github.com/PanelLocksmithSquare/Blackmagic-Fusion-Studio-21-Free-Professional-VFX']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000005536693238971319349",
+   "created": "2026-11-20T12:49:04Z",
+   "name": "url https://github.com/handcuffrajarepair/Adobe-Premiere-Pro-Free-Professional-Video-Editing",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-20T12:49:04Z",
+   "pattern": "[url:value = 'https://github.com/handcuffrajarepair/Adobe-Premiere-Pro-Free-Professional-Video-Editing']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000008037693137922845025",
+   "created": "2026-11-20T12:49:04Z",
+   "name": "url https://github.com/macrosergeantsquare/Native-Instruments-Massive-X-1.7-Free-Professional-Synthesizer",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-20T12:49:04Z",
+   "pattern": "[url:value = 'https://github.com/macrosergeantsquare/Native-Instruments-Massive-X-1.7-Free-Professional-Synthesizer']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000003292061073610391167",
+   "created": "2026-11-20T12:49:04Z",
+   "name": "url https://github.com/RealRegionKind/iZotope-Ozone-12-Advanced-Free-Professional-Audio-Mastering",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-20T12:49:04Z",
+   "pattern": "[url:value = 'https://github.com/RealRegionKind/iZotope-Ozone-12-Advanced-Free-Professional-Audio-Mastering']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000000937599306696257512",
+   "created": "2026-11-20T12:49:04Z",
+   "name": "url https://github.com/Psycheoftrim36/Spitfire-Audio-BBC-Symphony-Orchestra-Professional-Free",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-20T12:49:04Z",
+   "pattern": "[url:value = 'https://github.com/Psycheoftrim36/Spitfire-Audio-BBC-Symphony-Orchestra-Professional-Free']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000001060043565083992793",
+   "created": "2026-11-20T12:49:04Z",
+   "name": "url https://github.com/Torrentdreinferno/EastWest-ComposerCloud-Free-Premium-Virtual-Instruments",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-20T12:49:04Z",
+   "pattern": "[url:value = 'https://github.com/Torrentdreinferno/EastWest-ComposerCloud-Free-Premium-Virtual-Instruments']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000005342760849689801061",
+   "created": "2026-11-20T12:49:04Z",
+   "name": "url https://github.com/Slowgrerhythm/Xfer-Serum-2-Free-Professional-Wavetable-Synthesizer",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-20T12:49:04Z",
+   "pattern": "[url:value = 'https://github.com/Slowgrerhythm/Xfer-Serum-2-Free-Professional-Wavetable-Synthesizer']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000008231726692155254986",
+   "created": "2026-11-20T12:49:04Z",
+   "name": "url https://github.com/LusterJouninAtone25/Spectrasonics-Omnisphere-3-Free-Professional-Synthesizer",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-20T12:49:04Z",
+   "pattern": "[url:value = 'https://github.com/LusterJouninAtone25/Spectrasonics-Omnisphere-3-Free-Professional-Synthesizer']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000008727972708581759619",
+   "created": "2026-11-20T12:49:04Z",
+   "name": "url https://github.com/BreezeFlamingoGorge/Sound-Forge-Plus-2026-Free-Professional-Audio-Editing",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-20T12:49:04Z",
+   "pattern": "[url:value = 'https://github.com/BreezeFlamingoGorge/Sound-Forge-Plus-2026-Free-Professional-Audio-Editing']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000000849197200141720154",
+   "created": "2026-11-20T12:49:04Z",
+   "name": "url https://github.com/ComponentSupplier/Waves-Ultimate-V17-Free-Professional-Audio-Plugins",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-20T12:49:04Z",
+   "pattern": "[url:value = 'https://github.com/ComponentSupplier/Waves-Ultimate-V17-Free-Professional-Audio-Plugins']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000000028472594217799074",
+   "created": "2026-11-20T12:49:04Z",
+   "name": "url https://github.com/dreamcyclevoyage/Plugin-Alliance-PRO-Free-Professional-Audio-Plugins",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-20T12:49:04Z",
+   "pattern": "[url:value = 'https://github.com/dreamcyclevoyage/Plugin-Alliance-PRO-Free-Professional-Audio-Plugins']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000008674342387270182530",
+   "created": "2026-11-20T12:49:04Z",
+   "name": "url https://github.com/RouteShelter/Arturia-Pigments-7-Free-Professional-Synthesizer",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-20T12:49:04Z",
+   "pattern": "[url:value = 'https://github.com/RouteShelter/Arturia-Pigments-7-Free-Professional-Synthesizer']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000009204881342653898283",
+   "created": "2026-11-20T12:49:04Z",
+   "name": "url https://github.com/Shellfespiral/Native-Instruments-Kontakt-8-Full-Free-Professional-Sampler",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-20T12:49:04Z",
+   "pattern": "[url:value = 'https://github.com/Shellfespiral/Native-Instruments-Kontakt-8-Full-Free-Professional-Sampler']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000009187897278523673863",
+   "created": "2026-11-20T12:49:04Z",
+   "name": "url https://github.com/PointAirRecover56/Wise-Care",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-20T12:49:04Z",
+   "pattern": "[url:value = 'https://github.com/PointAirRecover56/Wise-Care']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000007198301763778233422",
+   "created": "2026-11-20T12:49:04Z",
+   "name": "url https://github.com/Rhythmtrualter/Wise-Registrity",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-20T12:49:04Z",
+   "pattern": "[url:value = 'https://github.com/Rhythmtrualter/Wise-Registrity']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000004194743607930710268",
+   "created": "2026-11-20T12:49:04Z",
+   "name": "url https://github.com/silverindustrialgap/Auslogics",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-20T12:49:04Z",
+   "pattern": "[url:value = 'https://github.com/silverindustrialgap/Auslogics']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000002131800740638067828",
+   "created": "2026-11-20T12:49:04Z",
+   "name": "url https://github.com/RopemakerCoil/Burning-Studio",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-20T12:49:04Z",
+   "pattern": "[url:value = 'https://github.com/RopemakerCoil/Burning-Studio']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000008023203795458809854",
+   "created": "2026-11-20T12:49:04Z",
+   "name": "url https://github.com/sandsheriffbeat/Cinebench",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-20T12:49:04Z",
+   "pattern": "[url:value = 'https://github.com/sandsheriffbeat/Cinebench']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000007960703909342260665",
+   "created": "2026-11-20T12:49:04Z",
+   "name": "url https://github.com/SegmentWarden/Data-Grip",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-20T12:49:04Z",
+   "pattern": "[url:value = 'https://github.com/SegmentWarden/Data-Grip']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000007522888479325413051",
+   "created": "2026-11-20T12:49:04Z",
+   "name": "url https://github.com/squareswimmeryell/Easy-Worship",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-20T12:49:04Z",
+   "pattern": "[url:value = 'https://github.com/squareswimmeryell/Easy-Worship']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000007342374178633085766",
+   "created": "2026-11-20T12:49:04Z",
+   "name": "url https://github.com/SplendorCooper/ExitLag",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-20T12:49:04Z",
+   "pattern": "[url:value = 'https://github.com/SplendorCooper/ExitLag']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000005939218320414916954",
+   "created": "2026-11-20T12:49:04Z",
+   "name": "url https://github.com/StylistMultiplexer/HitFilm",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-20T12:49:04Z",
+   "pattern": "[url:value = 'https://github.com/StylistMultiplexer/HitFilm']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000002727880947032059382",
+   "created": "2026-11-20T12:49:04Z",
+   "name": "url https://github.com/symboladvocateshaft/KeyShot-Pro",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-20T12:49:04Z",
+   "pattern": "[url:value = 'https://github.com/symboladvocateshaft/KeyShot-Pro']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000008639510604904533527",
+   "created": "2026-11-20T12:49:04Z",
+   "name": "url https://github.com/VaultAssurance/PHP-Storm",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-20T12:49:04Z",
+   "pattern": "[url:value = 'https://github.com/VaultAssurance/PHP-Storm']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000002550186445567192898",
+   "created": "2026-11-20T12:49:04Z",
+   "name": "url https://github.com/wellflashalter/RX-11-Audio-Editor",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-20T12:49:04Z",
+   "pattern": "[url:value = 'https://github.com/wellflashalter/RX-11-Audio-Editor']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000006104585146630984065",
+   "created": "2026-11-20T12:49:04Z",
+   "name": "url https://github.com/vortexlakecanal/Rufus",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-20T12:49:04Z",
+   "pattern": "[url:value = 'https://github.com/vortexlakecanal/Rufus']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000001962945904714444634",
+   "created": "2026-11-20T12:49:04Z",
+   "name": "url https://github.com/Wyrmfosafeguard/Sylenth-1",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-20T12:49:04Z",
+   "pattern": "[url:value = 'https://github.com/Wyrmfosafeguard/Sylenth-1']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000002050972606861734837",
+   "created": "2026-11-20T12:49:04Z",
+   "name": "url https://github.com/yarnvoicedesignate/ultra-Iso",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-20T12:49:04Z",
+   "pattern": "[url:value = 'https://github.com/yarnvoicedesignate/ultra-Iso']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000005720863168610902027",
+   "created": "2026-11-20T12:49:04Z",
+   "name": "url https://github.com/MediatorRevive/CCleaner-Pro",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-20T12:49:04Z",
+   "pattern": "[url:value = 'https://github.com/MediatorRevive/CCleaner-Pro']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000003223153154572339530",
+   "created": "2026-11-20T12:49:04Z",
+   "name": "url https://github.com/Attodreslicer/drphone-data-recovery",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-20T12:49:04Z",
+   "pattern": "[url:value = 'https://github.com/Attodreslicer/drphone-data-recovery']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000005292142699158725061",
+   "created": "2026-11-20T12:49:04Z",
+   "name": "url https://github.com/56411952/aion-2-enhancement-suite",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-20T12:49:04Z",
+   "pattern": "[url:value = 'https://github.com/56411952/aion-2-enhancement-suite']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000004400003479941798914",
+   "created": "2026-11-20T12:49:04Z",
+   "name": "url https://github.com/foursixity001-hub/aion-2-enhancement-suite",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-20T12:49:04Z",
+   "pattern": "[url:value = 'https://github.com/foursixity001-hub/aion-2-enhancement-suite']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000001749502460435627396",
+   "created": "2026-11-20T12:49:04Z",
+   "name": "url https://github.com/joaopedro903/delta-executor-desktop-toolkit",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-20T12:49:04Z",
+   "pattern": "[url:value = 'https://github.com/joaopedro903/delta-executor-desktop-toolkit']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000004910442083361996075",
+   "created": "2026-11-20T12:49:04Z",
+   "name": "url https://github.com/GpiceQ/inventor-desktop-installer",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-20T12:49:04Z",
+   "pattern": "[url:value = 'https://github.com/GpiceQ/inventor-desktop-installer']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000005857027462028317506",
+   "created": "2026-11-20T12:49:04Z",
+   "name": "url https://github.com/Hubkrereanimate/Secure-PDF-Workstation",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-20T12:49:04Z",
+   "pattern": "[url:value = 'https://github.com/Hubkrereanimate/Secure-PDF-Workstation']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000006978205630218111841",
+   "created": "2026-11-20T12:49:04Z",
+   "name": "url https://github.com/Omegaofidolize/ableton-live-12",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-20T12:49:04Z",
+   "pattern": "[url:value = 'https://github.com/Omegaofidolize/ableton-live-12']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000000138624778300976142",
+   "created": "2026-11-20T12:49:04Z",
+   "name": "url https://github.com/phantomsociallook/auslogics",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-20T12:49:04Z",
+   "pattern": "[url:value = 'https://github.com/phantomsociallook/auslogics']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000005260912422333688550",
+   "created": "2026-11-20T12:49:04Z",
+   "name": "url https://github.com/Pointyodemolish/bloxshade-for-roblox",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-20T12:49:04Z",
+   "pattern": "[url:value = 'https://github.com/Pointyodemolish/bloxshade-for-roblox']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000000372557282006782375",
+   "created": "2026-11-20T12:49:04Z",
+   "name": "url https://github.com/PlanetCraneInterface/autodesk-revit",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-20T12:49:04Z",
+   "pattern": "[url:value = 'https://github.com/PlanetCraneInterface/autodesk-revit']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000006375303153004897358",
+   "created": "2026-11-20T12:49:04Z",
+   "name": "url https://github.com/platooncaptainmarket/better-discord",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-20T12:49:04Z",
+   "pattern": "[url:value = 'https://github.com/platooncaptainmarket/better-discord']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000007292560878125632860",
+   "created": "2026-11-20T12:49:04Z",
+   "name": "url https://github.com/QuakeAdmiral/crash-plan",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-20T12:49:04Z",
+   "pattern": "[url:value = 'https://github.com/QuakeAdmiral/crash-plan']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000001661881391621952768",
+   "created": "2026-11-20T12:49:04Z",
+   "name": "url https://github.com/ShackleCosmetologist/genesis-scanner",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-20T12:49:04Z",
+   "pattern": "[url:value = 'https://github.com/ShackleCosmetologist/genesis-scanner']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000000258853470127978885",
+   "created": "2026-11-20T12:49:04Z",
+   "name": "url https://github.com/shalecorporatelabel/grayket",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-20T12:49:04Z",
+   "pattern": "[url:value = 'https://github.com/shalecorporatelabel/grayket']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000002220725950666460641",
+   "created": "2026-11-20T12:49:04Z",
+   "name": "url https://github.com/SmokeObliterate/imyfone",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-20T12:49:04Z",
+   "pattern": "[url:value = 'https://github.com/SmokeObliterate/imyfone']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000008088732800924006627",
+   "created": "2026-11-20T12:49:04Z",
+   "name": "url https://github.com/SphereMagistrate39/metatrader",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-20T12:49:04Z",
+   "pattern": "[url:value = 'https://github.com/SphereMagistrate39/metatrader']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000008273164050085423342",
+   "created": "2026-11-20T12:49:04Z",
+   "name": "url https://github.com/TerminusPotter/quant-trading-bot",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-20T12:49:04Z",
+   "pattern": "[url:value = 'https://github.com/TerminusPotter/quant-trading-bot']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000005446366238190338017",
+   "created": "2026-11-20T12:49:04Z",
+   "name": "url https://github.com/VillageExecutive/ultra-edit",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-20T12:49:04Z",
+   "pattern": "[url:value = 'https://github.com/VillageExecutive/ultra-edit']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000002543502843590935821",
+   "created": "2026-11-20T12:49:04Z",
+   "name": "url https://github.com/VolcanoBaseCock/voicechanger",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-20T12:49:04Z",
+   "pattern": "[url:value = 'https://github.com/VolcanoBaseCock/voicechanger']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000006132235235387787730",
+   "created": "2026-11-20T12:49:04Z",
+   "name": "url https://github.com/WeaponsmithPray/winutilits",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-20T12:49:04Z",
+   "pattern": "[url:value = 'https://github.com/WeaponsmithPray/winutilits']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000008684489546244141806",
+   "created": "2026-11-20T12:49:04Z",
+   "name": "url https://github.com/WeaveSeekerJinx/wise-care",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-20T12:49:04Z",
+   "pattern": "[url:value = 'https://github.com/WeaveSeekerJinx/wise-care']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000004544374878204245056",
+   "created": "2026-11-20T12:49:04Z",
+   "name": "url https://github.com/Falsetervitalize/discord-server-raider",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-20T12:49:04Z",
+   "pattern": "[url:value = 'https://github.com/Falsetervitalize/discord-server-raider']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000003601746860119352455",
+   "created": "2026-11-20T12:49:04Z",
+   "name": "url https://github.com/gripdiplomatendure1/melodyne-5",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-20T12:49:04Z",
+   "pattern": "[url:value = 'https://github.com/gripdiplomatendure1/melodyne-5']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000006810980306110617527",
+   "created": "2026-11-20T12:49:04Z",
+   "name": "url https://github.com/gryphonduckdefend/microsoft-office",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-20T12:49:04Z",
+   "pattern": "[url:value = 'https://github.com/gryphonduckdefend/microsoft-office']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000001223669296149437803",
+   "created": "2026-11-20T12:49:04Z",
+   "name": "url https://github.com/Grottoflachain/microsoft-365",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-20T12:49:04Z",
+   "pattern": "[url:value = 'https://github.com/Grottoflachain/microsoft-365']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000003249674137987693710",
+   "created": "2026-11-20T12:49:04Z",
+   "name": "url https://github.com/hopegiraffestride/movavi-video-editor-plus",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-20T12:49:04Z",
+   "pattern": "[url:value = 'https://github.com/hopegiraffestride/movavi-video-editor-plus']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000002358303233540938506",
+   "created": "2026-11-20T12:49:04Z",
+   "name": "url https://github.com/JumperCrater/pump-fun",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-20T12:49:04Z",
+   "pattern": "[url:value = 'https://github.com/JumperCrater/pump-fun']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000006471007661630948933",
+   "created": "2026-11-20T12:49:04Z",
+   "name": "url https://github.com/MechanicClaim/total-commander",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-20T12:49:04Z",
+   "pattern": "[url:value = 'https://github.com/MechanicClaim/total-commander']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000002117939006237548656",
+   "created": "2026-11-20T12:49:04Z",
+   "name": "url https://github.com/mortalswanstrait/wise-care",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-20T12:49:04Z",
+   "pattern": "[url:value = 'https://github.com/mortalswanstrait/wise-care']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000000530544373009262999",
+   "created": "2026-11-20T12:49:04Z",
+   "name": "url https://github.com/DeimosPhobos666/office-suite-validator",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-20T12:49:04Z",
+   "pattern": "[url:value = 'https://github.com/DeimosPhobos666/office-suite-validator']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000009131019555655193915",
+   "created": "2026-11-20T12:49:04Z",
+   "name": "url https://github.com/rimoharp/melodyne-5",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-20T12:49:04Z",
+   "pattern": "[url:value = 'https://github.com/rimoharp/melodyne-5']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000002875140700398644493",
+   "created": "2026-11-20T12:49:04Z",
+   "name": "sha256 fbaeb724f58c6c90c38e1af9333b265dabe6e6f78509b47a21da9f9db0db23ec",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-20T12:49:04Z",
+   "pattern": "[file:hashes.'SHA-256' = 'fbaeb724f58c6c90c38e1af9333b265dabe6e6f78509b47a21da9f9db0db23ec']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000001286315890147272138",
+   "created": "2026-11-20T12:49:04Z",
+   "name": "sha256 75cae8dc8680c83a30588f24bfb2902071396117b8fd48a982f8ab8d031ecc9d",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-20T12:49:04Z",
+   "pattern": "[file:hashes.'SHA-256' = '75cae8dc8680c83a30588f24bfb2902071396117b8fd48a982f8ab8d031ecc9d']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000002526841464970981278",
+   "created": "2026-11-20T12:49:04Z",
+   "name": "sha256 df3a3973900153a363e21385ca3394addac8d52c7547827dc334ebff75ee451b",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-20T12:49:04Z",
+   "pattern": "[file:hashes.'SHA-256' = 'df3a3973900153a363e21385ca3394addac8d52c7547827dc334ebff75ee451b']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000004624462684364891800",
+   "created": "2026-11-20T12:49:04Z",
+   "name": "sha256 9f293cda819b74342bb598291010ee02a96af71eb2dabc7ab4c94edea21afa9c",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-20T12:49:04Z",
+   "pattern": "[file:hashes.'SHA-256' = '9f293cda819b74342bb598291010ee02a96af71eb2dabc7ab4c94edea21afa9c']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  }
+ ]
+}
