@@ -42,9 +42,6 @@ Nothing in this case is attributed to a person or group.
 | lure_delivery_domain | operator | 0% | `devtools8.lol` |
 | lure_delivery_domain | operator | 0% | `power-shell.cc` |
 | lure_delivery_domain | operator | 0% | `powershell.lat` |
-| lure_delivery_domain | operator | 0% | `power-shell.cc` |
-| lure_delivery_domain | operator | 0% | `monolit.sbs` |
-| lure_delivery_domain | operator | 0% | `monolit.sbs` |
 | lure_delivery_domain | operator | 0% | `ps-ps.cc` |
 | lure_delivery_domain | operator | 0% | `git-software.cc` |
 | lure_delivery_domain | operator | 0% | `quickrun31.cc` |
