@@ -1,0 +1,5270 @@
+{
+ "type": "bundle",
+ "id": "bundle--000000000006736108929459903919",
+ "objects": [
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000004827010865072865171",
+   "created": "2026-11-21T00:00:13Z",
+   "name": "domain windows-defender.cc",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-21T00:00:13Z",
+   "pattern": "[domain-name:value = 'windows-defender.cc']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000006482546435077279777",
+   "created": "2026-11-21T00:00:13Z",
+   "name": "domain monolit.sbs",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-21T00:00:13Z",
+   "pattern": "[domain-name:value = 'monolit.sbs']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000003142071058062462556",
+   "created": "2026-11-21T00:00:13Z",
+   "name": "domain devtools8.lol",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-21T00:00:13Z",
+   "pattern": "[domain-name:value = 'devtools8.lol']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000001932882077755716786",
+   "created": "2026-11-21T00:00:13Z",
+   "name": "domain toolget2.lol",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-21T00:00:13Z",
+   "pattern": "[domain-name:value = 'toolget2.lol']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000002609919984711422743",
+   "created": "2026-11-21T00:00:13Z",
+   "name": "domain power-shell.cc",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-21T00:00:13Z",
+   "pattern": "[domain-name:value = 'power-shell.cc']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000004928059087906966428",
+   "created": "2026-11-21T00:00:13Z",
+   "name": "domain powershell.lat",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-21T00:00:13Z",
+   "pattern": "[domain-name:value = 'powershell.lat']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000007922153426083035036",
+   "created": "2026-11-21T00:00:13Z",
+   "name": "domain meta3.grovestack.one",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-21T00:00:13Z",
+   "pattern": "[domain-name:value = 'meta3.grovestack.one']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000002729237064132871691",
+   "created": "2026-11-21T00:00:13Z",
+   "name": "url https://telegra.ph/Clear-ridge-11-10",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-21T00:00:13Z",
+   "pattern": "[url:value = 'https://telegra.ph/Clear-ridge-11-10']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000006915269512628392823",
+   "created": "2026-11-21T00:00:13Z",
+   "name": "contract_address 0x1ee6A331881102B84d2DebdD5eefd2E591a65f14",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-21T00:00:13Z",
+   "pattern": "[x-groundwork:value = '0x1ee6A331881102B84d2DebdD5eefd2E591a65f14']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000006787870148210748079",
+   "created": "2026-11-21T00:00:13Z",
+   "name": "crypto_address 0x8bAddf058D11005360900a0542484eE446F2d494",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-21T00:00:13Z",
+   "pattern": "[x-groundwork:value = '0x8bAddf058D11005360900a0542484eE446F2d494']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000005849777615533273446",
+   "created": "2026-11-21T00:00:13Z",
+   "name": "domain scheduler.echoform32.club",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-21T00:00:13Z",
+   "pattern": "[domain-name:value = 'scheduler.echoform32.club']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000003891188663145327460",
+   "created": "2026-11-21T00:00:13Z",
+   "name": "url https://github.com/dreamtherapistcrypt/Chaos-Enscape-Collection-Free-Professional-3D-Rendering",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-21T00:00:13Z",
+   "pattern": "[url:value = 'https://github.com/dreamtherapistcrypt/Chaos-Enscape-Collection-Free-Professional-3D-Rendering']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000005517294939784056977",
+   "created": "2026-11-21T00:00:13Z",
+   "name": "url https://github.com/petacockatooblock/Chaos-Corona-Collection-Free-Professional-Architectural-Rendering",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-21T00:00:13Z",
+   "pattern": "[url:value = 'https://github.com/petacockatooblock/Chaos-Corona-Collection-Free-Professional-Architectural-Rendering']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000005581238120639780890",
+   "created": "2026-11-21T00:00:13Z",
+   "name": "url https://github.com/Blizzardteawning/IK-Multimedia-AmpliTube-5-MAX-v2-Free-Guitar-Bass-Modeling",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-21T00:00:13Z",
+   "pattern": "[url:value = 'https://github.com/Blizzardteawning/IK-Multimedia-AmpliTube-5-MAX-v2-Free-Guitar-Bass-Modeling']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000005617061292593031871",
+   "created": "2026-11-21T00:00:13Z",
+   "name": "url https://github.com/Pondshoreproduce/Celemony-Melodyne-5-Studio-Free-Professional-Vocal-Tuning",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-21T00:00:13Z",
+   "pattern": "[url:value = 'https://github.com/Pondshoreproduce/Celemony-Melodyne-5-Studio-Free-Professional-Vocal-Tuning']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000003170865308397676483",
+   "created": "2026-11-21T00:00:13Z",
+   "name": "url https://github.com/Scalarbatturn/Serato-DJ-Suite-Free-Professional-DJ-Software",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-21T00:00:13Z",
+   "pattern": "[url:value = 'https://github.com/Scalarbatturn/Serato-DJ-Suite-Free-Professional-DJ-Software']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000007328459617873998486",
+   "created": "2026-11-21T00:00:13Z",
+   "name": "url https://github.com/ChromePheasant/Neural-DSP-Plugins-Free-Professional-Guitar-Bass-Production",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-21T00:00:13Z",
+   "pattern": "[url:value = 'https://github.com/ChromePheasant/Neural-DSP-Plugins-Free-Professional-Guitar-Bass-Production']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000006397653972688960351",
+   "created": "2026-11-21T00:00:13Z",
+   "name": "url https://github.com/Wayvontitle2/Autodesk-Revit-2027-Free-Professional-BIM-Software",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-21T00:00:13Z",
+   "pattern": "[url:value = 'https://github.com/Wayvontitle2/Autodesk-Revit-2027-Free-Professional-BIM-Software']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000006000702969162457685",
+   "created": "2026-11-21T00:00:13Z",
+   "name": "url https://github.com/magentacrabsoul/Native-Instruments-Traktor-Pro-4-Free-Professional-DJ-Software",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-21T00:00:13Z",
+   "pattern": "[url:value = 'https://github.com/magentacrabsoul/Native-Instruments-Traktor-Pro-4-Free-Professional-DJ-Software']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000000684642950786924756",
+   "created": "2026-11-21T00:00:13Z",
+   "name": "url https://github.com/RestrictionCarpenter/iZotope-RX-12-Advanced-Free-Professional-Audio-Restoration",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-21T00:00:13Z",
+   "pattern": "[url:value = 'https://github.com/RestrictionCarpenter/iZotope-RX-12-Advanced-Free-Professional-Audio-Restoration']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000003497708363285387339",
+   "created": "2026-11-21T00:00:13Z",
+   "name": "url https://github.com/ratequeenask/Native-Instruments-Guitar-Rig-7-Pro-Free-Guitar-Amp-Effects",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-21T00:00:13Z",
+   "pattern": "[url:value = 'https://github.com/ratequeenask/Native-Instruments-Guitar-Rig-7-Pro-Free-Guitar-Amp-Effects']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000008664724483111030591",
+   "created": "2026-11-21T00:00:13Z",
+   "name": "url https://github.com/Gloryfromcall/Steinberg-SpectraLayers-Pro-13-Free-AI-Audio-Editing",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-21T00:00:13Z",
+   "pattern": "[url:value = 'https://github.com/Gloryfromcall/Steinberg-SpectraLayers-Pro-13-Free-AI-Audio-Editing']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000008375517854077568704",
+   "created": "2026-11-21T00:00:13Z",
+   "name": "url https://github.com/gpujouninravine/rekordbox-Professional-7-Free-Professional-DJ-Software",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-21T00:00:13Z",
+   "pattern": "[url:value = 'https://github.com/gpujouninravine/rekordbox-Professional-7-Free-Professional-DJ-Software']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000003861486321948711072",
+   "created": "2026-11-21T00:00:13Z",
+   "name": "url https://github.com/MinotaurByteBond10/Twinmotion-2026-Free-Professional-Architectural-Visualization",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-21T00:00:13Z",
+   "pattern": "[url:value = 'https://github.com/MinotaurByteBond10/Twinmotion-2026-Free-Professional-Architectural-Visualization']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000007617028085168392768",
+   "created": "2026-11-21T00:00:13Z",
+   "name": "url https://github.com/SkyGeomancer/Chaos-V-Ray-Collection-Free-Professional-3D-Rendering",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-21T00:00:13Z",
+   "pattern": "[url:value = 'https://github.com/SkyGeomancer/Chaos-V-Ray-Collection-Free-Professional-3D-Rendering']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000001500044092595592221",
+   "created": "2026-11-21T00:00:13Z",
+   "name": "url https://github.com/Galaxyeitriumph/Graphisoft-Archicad-29-Collaborate-Free-Professional-BIM-Design",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-21T00:00:13Z",
+   "pattern": "[url:value = 'https://github.com/Galaxyeitriumph/Graphisoft-Archicad-29-Collaborate-Free-Professional-BIM-Design']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000005783211426001564160",
+   "created": "2026-11-21T00:00:13Z",
+   "name": "url https://github.com/spirebossrescue/D5-Render-Teams-3.1.1-Free-Professional-3D-Rendering",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-21T00:00:13Z",
+   "pattern": "[url:value = 'https://github.com/spirebossrescue/D5-Render-Teams-3.1.1-Free-Professional-3D-Rendering']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000005578985224129032829",
+   "created": "2026-11-21T00:00:13Z",
+   "name": "url https://github.com/SheetMythStretch/Vectorworks-Architect-2027-Free-Professional-BIM-Design",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-21T00:00:13Z",
+   "pattern": "[url:value = 'https://github.com/SheetMythStretch/Vectorworks-Architect-2027-Free-Professional-BIM-Design']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000008501999505286499171",
+   "created": "2026-11-21T00:00:13Z",
+   "name": "url https://github.com/existenceblazecanyon/SOLIDWORKS-Design-Ultimate-2026-Free-Professional-3D-CAD",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-21T00:00:13Z",
+   "pattern": "[url:value = 'https://github.com/existenceblazecanyon/SOLIDWORKS-Design-Ultimate-2026-Free-Professional-3D-CAD']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000001283800993752449648",
+   "created": "2026-11-21T00:00:13Z",
+   "name": "url https://github.com/LavaDeerHook/Autodesk-Inventor-Professional-2027-Free-3D-CAD-Design",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-21T00:00:13Z",
+   "pattern": "[url:value = 'https://github.com/LavaDeerHook/Autodesk-Inventor-Professional-2027-Free-3D-CAD-Design']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000009017007415177254860",
+   "created": "2026-11-21T00:00:13Z",
+   "name": "url https://github.com/AnalystSucceed/HWID-Testing-Utility-Free-Hardware-ID-Management",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-21T00:00:13Z",
+   "pattern": "[url:value = 'https://github.com/AnalystSucceed/HWID-Testing-Utility-Free-Hardware-ID-Management']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000007121043982368030120",
+   "created": "2026-11-21T00:00:13Z",
+   "name": "url https://github.com/CoalSmokeMake/voicemod",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-21T00:00:13Z",
+   "pattern": "[url:value = 'https://github.com/CoalSmokeMake/voicemod']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000002378520668831011820",
+   "created": "2026-11-21T00:00:13Z",
+   "name": "url https://github.com/PulverizeFrogFigure/voicemod",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-21T00:00:13Z",
+   "pattern": "[url:value = 'https://github.com/PulverizeFrogFigure/voicemod']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000000370059042224332723",
+   "created": "2026-11-21T00:00:13Z",
+   "name": "url https://github.com/FloodChemistQuilt/voicemod",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-21T00:00:13Z",
+   "pattern": "[url:value = 'https://github.com/FloodChemistQuilt/voicemod']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000005318794541822112887",
+   "created": "2026-11-21T00:00:13Z",
+   "name": "url https://github.com/cliffmotormanvolt38/winutilits",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-21T00:00:13Z",
+   "pattern": "[url:value = 'https://github.com/cliffmotormanvolt38/winutilits']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000002002806675538797653",
+   "created": "2026-11-21T00:00:13Z",
+   "name": "url https://github.com/PeakEconomicFetter/Filmora16-Ai-Editor-Plus",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-21T00:00:13Z",
+   "pattern": "[url:value = 'https://github.com/PeakEconomicFetter/Filmora16-Ai-Editor-Plus']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000005786579802560595382",
+   "created": "2026-11-21T00:00:13Z",
+   "name": "url https://github.com/limetempodemodulator/Microsoft-Power-BI-Pro",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-21T00:00:13Z",
+   "pattern": "[url:value = 'https://github.com/limetempodemodulator/Microsoft-Power-BI-Pro']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000008736204270130709263",
+   "created": "2026-11-21T00:00:13Z",
+   "name": "url https://github.com/ColorsSwanFlare/After-Effects",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-21T00:00:13Z",
+   "pattern": "[url:value = 'https://github.com/ColorsSwanFlare/After-Effects']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000006998363925504846729",
+   "created": "2026-11-21T00:00:13Z",
+   "name": "url https://github.com/AreaCounselorFurnace/EaseUS-Todo-Backup",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-21T00:00:13Z",
+   "pattern": "[url:value = 'https://github.com/AreaCounselorFurnace/EaseUS-Todo-Backup']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000007595452944563712405",
+   "created": "2026-11-21T00:00:13Z",
+   "name": "url https://github.com/ForestBladesmith/Adobe-Audition-PC",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-21T00:00:13Z",
+   "pattern": "[url:value = 'https://github.com/ForestBladesmith/Adobe-Audition-PC']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000001476463157838104614",
+   "created": "2026-11-21T00:00:13Z",
+   "name": "url https://github.com/Modernlavilla/GTA6-PC",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-21T00:00:13Z",
+   "pattern": "[url:value = 'https://github.com/Modernlavilla/GTA6-PC']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000001511696681019199518",
+   "created": "2026-11-21T00:00:13Z",
+   "name": "url https://github.com/SolarMistSay/REAPER-7.84-Free-Professional-Audio-Production",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-21T00:00:13Z",
+   "pattern": "[url:value = 'https://github.com/SolarMistSay/REAPER-7.84-Free-Professional-Audio-Production']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000008414515075270377171",
+   "created": "2026-11-21T00:00:13Z",
+   "name": "url https://github.com/beatlarkknow/Foundry-Nuke-Studio-Free-Download-VFX-Software",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-21T00:00:13Z",
+   "pattern": "[url:value = 'https://github.com/beatlarkknow/Foundry-Nuke-Studio-Free-Download-VFX-Software']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000009058888258850202686",
+   "created": "2026-11-21T00:00:13Z",
+   "name": "url https://github.com/Entityoverregister/FL-Studio-Free-Download-Modified-Edition",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-21T00:00:13Z",
+   "pattern": "[url:value = 'https://github.com/Entityoverregister/FL-Studio-Free-Download-Modified-Edition']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000001768234773004661301",
+   "created": "2026-11-21T00:00:13Z",
+   "name": "url https://github.com/creekspiderwrench/Neat-Video-Professional-Video-Noise-Reduction",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-21T00:00:13Z",
+   "pattern": "[url:value = 'https://github.com/creekspiderwrench/Neat-Video-Professional-Video-Noise-Reduction']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000000596461820972712817",
+   "created": "2026-11-21T00:00:13Z",
+   "name": "url https://github.com/marblecashierdeflate/Adobe-After-Effects-Modified-Edition",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-21T00:00:13Z",
+   "pattern": "[url:value = 'https://github.com/marblecashierdeflate/Adobe-After-Effects-Modified-Edition']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000000455540827216098806",
+   "created": "2026-11-21T00:00:13Z",
+   "name": "url https://github.com/SoundCourier/Steinberg-Cubase-Music-Production-Software",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-21T00:00:13Z",
+   "pattern": "[url:value = 'https://github.com/SoundCourier/Steinberg-Cubase-Music-Production-Software']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000008195874867619261559",
+   "created": "2026-11-21T00:00:13Z",
+   "name": "url https://github.com/Sandglodepot35/Boris-FX-Suite-VFX-Motion-Graphics",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-21T00:00:13Z",
+   "pattern": "[url:value = 'https://github.com/Sandglodepot35/Boris-FX-Suite-VFX-Motion-Graphics']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000007703807855614427469",
+   "created": "2026-11-21T00:00:13Z",
+   "name": "url https://github.com/RetroDukeGrasp/CapCut-Pro-Advanced-Video-Editing-Software",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-21T00:00:13Z",
+   "pattern": "[url:value = 'https://github.com/RetroDukeGrasp/CapCut-Pro-Advanced-Video-Editing-Software']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000001695454417192276716",
+   "created": "2026-11-21T00:00:13Z",
+   "name": "url https://github.com/Goliathvubarrier/VEGAS-Pro-Professional-Video-Editing-Software",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-21T00:00:13Z",
+   "pattern": "[url:value = 'https://github.com/Goliathvubarrier/VEGAS-Pro-Professional-Video-Editing-Software']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000003736807380311217905",
+   "created": "2026-11-21T00:00:13Z",
+   "name": "url https://github.com/AttorneyPrime/DVDFab-Enlarger-AI-Free-AI-Video-Upscaling",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-21T00:00:13Z",
+   "pattern": "[url:value = 'https://github.com/AttorneyPrime/DVDFab-Enlarger-AI-Free-AI-Video-Upscaling']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000000714789188197731607",
+   "created": "2026-11-21T00:00:13Z",
+   "name": "url https://github.com/Celestialdenlure/DaVinci-Resolve-Studio-Video-Editing-Color-Grading",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-21T00:00:13Z",
+   "pattern": "[url:value = 'https://github.com/Celestialdenlure/DaVinci-Resolve-Studio-Video-Editing-Color-Grading']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000003703754034935529993",
+   "created": "2026-11-21T00:00:13Z",
+   "name": "url https://github.com/beingtyrantdescribe/Wondershare-Filmora-Premium-Video-Editing-Software",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-21T00:00:13Z",
+   "pattern": "[url:value = 'https://github.com/beingtyrantdescribe/Wondershare-Filmora-Premium-Video-Editing-Software']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000005505505818200772871",
+   "created": "2026-11-21T00:00:13Z",
+   "name": "url https://github.com/LovebirdQuest/Mocha-Pro-Free-Download-Motion-Tracking-VFX",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-21T00:00:13Z",
+   "pattern": "[url:value = 'https://github.com/LovebirdQuest/Mocha-Pro-Free-Download-Motion-Tracking-VFX']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000004043623348025537910",
+   "created": "2026-11-21T00:00:13Z",
+   "name": "url https://github.com/SpikeEmissary/Avid-Pro-Tools-Ultimate-Free-Professional-Audio-Production",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-21T00:00:13Z",
+   "pattern": "[url:value = 'https://github.com/SpikeEmissary/Avid-Pro-Tools-Ultimate-Free-Professional-Audio-Production']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000006164135014219344493",
+   "created": "2026-11-21T00:00:13Z",
+   "name": "url https://github.com/HighwayPixel/Avid-Media-Composer-Professional-Video-Editing",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-21T00:00:13Z",
+   "pattern": "[url:value = 'https://github.com/HighwayPixel/Avid-Media-Composer-Professional-Video-Editing']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000005120376197911705196",
+   "created": "2026-11-21T00:00:13Z",
+   "name": "url https://github.com/SageSpanner84/Cavalry-Free-2D-Animation-Motion-Graphics-Software",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-21T00:00:13Z",
+   "pattern": "[url:value = 'https://github.com/SageSpanner84/Cavalry-Free-2D-Animation-Motion-Graphics-Software']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000006108539284494363205",
+   "created": "2026-11-21T00:00:13Z",
+   "name": "url https://github.com/GlazeFighter9/Maschine-3-Bundle-Free-Beat-Making-Music-Production",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-21T00:00:13Z",
+   "pattern": "[url:value = 'https://github.com/GlazeFighter9/Maschine-3-Bundle-Free-Beat-Making-Music-Production']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000001835812026994287858",
+   "created": "2026-11-21T00:00:13Z",
+   "name": "url https://github.com/opencolonelswell/Bitwig-Studio-6-Free-Professional-Music-Production",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-21T00:00:13Z",
+   "pattern": "[url:value = 'https://github.com/opencolonelswell/Bitwig-Studio-6-Free-Professional-Music-Production']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000009188182328235426126",
+   "created": "2026-11-21T00:00:13Z",
+   "name": "url https://github.com/Capturebrifence/Adobe-Audition-26.5-Professional-Audio-Editing",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-21T00:00:13Z",
+   "pattern": "[url:value = 'https://github.com/Capturebrifence/Adobe-Audition-26.5-Professional-Audio-Editing']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000000800487788312031296",
+   "created": "2026-11-21T00:00:13Z",
+   "name": "url https://github.com/ChauffeurMoon91/FilmLight-Baselight-v7-Free-Professional-Color-Grading",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-21T00:00:13Z",
+   "pattern": "[url:value = 'https://github.com/ChauffeurMoon91/FilmLight-Baselight-v7-Free-Professional-Color-Grading']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000006652485786800055058",
+   "created": "2026-11-21T00:00:13Z",
+   "name": "url https://github.com/PanelLocksmithSquare/Blackmagic-Fusion-Studio-21-Free-Professional-VFX",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-21T00:00:13Z",
+   "pattern": "[url:value = 'https://github.com/PanelLocksmithSquare/Blackmagic-Fusion-Studio-21-Free-Professional-VFX']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000004965345531266601314",
+   "created": "2026-11-21T00:00:13Z",
+   "name": "url https://github.com/handcuffrajarepair/Adobe-Premiere-Pro-Free-Professional-Video-Editing",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-21T00:00:13Z",
+   "pattern": "[url:value = 'https://github.com/handcuffrajarepair/Adobe-Premiere-Pro-Free-Professional-Video-Editing']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000000860844332994975692",
+   "created": "2026-11-21T00:00:13Z",
+   "name": "url https://github.com/macrosergeantsquare/Native-Instruments-Massive-X-1.7-Free-Professional-Synthesizer",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-21T00:00:13Z",
+   "pattern": "[url:value = 'https://github.com/macrosergeantsquare/Native-Instruments-Massive-X-1.7-Free-Professional-Synthesizer']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000007875170340426790262",
+   "created": "2026-11-21T00:00:13Z",
+   "name": "url https://github.com/RealRegionKind/iZotope-Ozone-12-Advanced-Free-Professional-Audio-Mastering",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-21T00:00:13Z",
+   "pattern": "[url:value = 'https://github.com/RealRegionKind/iZotope-Ozone-12-Advanced-Free-Professional-Audio-Mastering']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000008786427103944741847",
+   "created": "2026-11-21T00:00:13Z",
+   "name": "url https://github.com/Psycheoftrim36/Spitfire-Audio-BBC-Symphony-Orchestra-Professional-Free",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-21T00:00:13Z",
+   "pattern": "[url:value = 'https://github.com/Psycheoftrim36/Spitfire-Audio-BBC-Symphony-Orchestra-Professional-Free']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000002679877654186778556",
+   "created": "2026-11-21T00:00:13Z",
+   "name": "url https://github.com/Torrentdreinferno/EastWest-ComposerCloud-Free-Premium-Virtual-Instruments",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-21T00:00:13Z",
+   "pattern": "[url:value = 'https://github.com/Torrentdreinferno/EastWest-ComposerCloud-Free-Premium-Virtual-Instruments']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000000666383798984093093",
+   "created": "2026-11-21T00:00:13Z",
+   "name": "url https://github.com/Slowgrerhythm/Xfer-Serum-2-Free-Professional-Wavetable-Synthesizer",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-21T00:00:13Z",
+   "pattern": "[url:value = 'https://github.com/Slowgrerhythm/Xfer-Serum-2-Free-Professional-Wavetable-Synthesizer']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000007203579502774386590",
+   "created": "2026-11-21T00:00:13Z",
+   "name": "url https://github.com/LusterJouninAtone25/Spectrasonics-Omnisphere-3-Free-Professional-Synthesizer",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-21T00:00:13Z",
+   "pattern": "[url:value = 'https://github.com/LusterJouninAtone25/Spectrasonics-Omnisphere-3-Free-Professional-Synthesizer']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000007501160556634752188",
+   "created": "2026-11-21T00:00:13Z",
+   "name": "url https://github.com/BreezeFlamingoGorge/Sound-Forge-Plus-2026-Free-Professional-Audio-Editing",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-21T00:00:13Z",
+   "pattern": "[url:value = 'https://github.com/BreezeFlamingoGorge/Sound-Forge-Plus-2026-Free-Professional-Audio-Editing']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000002341466501658463843",
+   "created": "2026-11-21T00:00:13Z",
+   "name": "url https://github.com/ComponentSupplier/Waves-Ultimate-V17-Free-Professional-Audio-Plugins",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-21T00:00:13Z",
+   "pattern": "[url:value = 'https://github.com/ComponentSupplier/Waves-Ultimate-V17-Free-Professional-Audio-Plugins']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000001869988841552592006",
+   "created": "2026-11-21T00:00:13Z",
+   "name": "url https://github.com/dreamcyclevoyage/Plugin-Alliance-PRO-Free-Professional-Audio-Plugins",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-21T00:00:13Z",
+   "pattern": "[url:value = 'https://github.com/dreamcyclevoyage/Plugin-Alliance-PRO-Free-Professional-Audio-Plugins']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000004793336763801518564",
+   "created": "2026-11-21T00:00:13Z",
+   "name": "url https://github.com/RouteShelter/Arturia-Pigments-7-Free-Professional-Synthesizer",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-21T00:00:13Z",
+   "pattern": "[url:value = 'https://github.com/RouteShelter/Arturia-Pigments-7-Free-Professional-Synthesizer']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000005840781727449749260",
+   "created": "2026-11-21T00:00:13Z",
+   "name": "url https://github.com/Shellfespiral/Native-Instruments-Kontakt-8-Full-Free-Professional-Sampler",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-21T00:00:13Z",
+   "pattern": "[url:value = 'https://github.com/Shellfespiral/Native-Instruments-Kontakt-8-Full-Free-Professional-Sampler']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000002062811436093844122",
+   "created": "2026-11-21T00:00:13Z",
+   "name": "url https://github.com/PointAirRecover56/Wise-Care",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-21T00:00:13Z",
+   "pattern": "[url:value = 'https://github.com/PointAirRecover56/Wise-Care']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000004712388842099564304",
+   "created": "2026-11-21T00:00:13Z",
+   "name": "url https://github.com/Rhythmtrualter/Wise-Registrity",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-21T00:00:13Z",
+   "pattern": "[url:value = 'https://github.com/Rhythmtrualter/Wise-Registrity']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000002014125809216050531",
+   "created": "2026-11-21T00:00:13Z",
+   "name": "url https://github.com/silverindustrialgap/Auslogics",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-21T00:00:13Z",
+   "pattern": "[url:value = 'https://github.com/silverindustrialgap/Auslogics']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000006255938773861885183",
+   "created": "2026-11-21T00:00:13Z",
+   "name": "url https://github.com/RopemakerCoil/Burning-Studio",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-21T00:00:13Z",
+   "pattern": "[url:value = 'https://github.com/RopemakerCoil/Burning-Studio']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000006929004898235477476",
+   "created": "2026-11-21T00:00:13Z",
+   "name": "url https://github.com/sandsheriffbeat/Cinebench",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-21T00:00:13Z",
+   "pattern": "[url:value = 'https://github.com/sandsheriffbeat/Cinebench']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000009223142735949947020",
+   "created": "2026-11-21T00:00:13Z",
+   "name": "url https://github.com/SegmentWarden/Data-Grip",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-21T00:00:13Z",
+   "pattern": "[url:value = 'https://github.com/SegmentWarden/Data-Grip']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000001711236348482533797",
+   "created": "2026-11-21T00:00:13Z",
+   "name": "url https://github.com/squareswimmeryell/Easy-Worship",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-21T00:00:13Z",
+   "pattern": "[url:value = 'https://github.com/squareswimmeryell/Easy-Worship']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000004720406126057844064",
+   "created": "2026-11-21T00:00:13Z",
+   "name": "url https://github.com/SplendorCooper/ExitLag",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-21T00:00:13Z",
+   "pattern": "[url:value = 'https://github.com/SplendorCooper/ExitLag']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000005280780998142936140",
+   "created": "2026-11-21T00:00:13Z",
+   "name": "url https://github.com/StylistMultiplexer/HitFilm",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-21T00:00:13Z",
+   "pattern": "[url:value = 'https://github.com/StylistMultiplexer/HitFilm']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000008049189521006779099",
+   "created": "2026-11-21T00:00:13Z",
+   "name": "url https://github.com/symboladvocateshaft/KeyShot-Pro",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-21T00:00:13Z",
+   "pattern": "[url:value = 'https://github.com/symboladvocateshaft/KeyShot-Pro']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000000489199437062855292",
+   "created": "2026-11-21T00:00:13Z",
+   "name": "url https://github.com/VaultAssurance/PHP-Storm",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-21T00:00:13Z",
+   "pattern": "[url:value = 'https://github.com/VaultAssurance/PHP-Storm']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000000554947750597464348",
+   "created": "2026-11-21T00:00:13Z",
+   "name": "url https://github.com/wellflashalter/RX-11-Audio-Editor",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-21T00:00:13Z",
+   "pattern": "[url:value = 'https://github.com/wellflashalter/RX-11-Audio-Editor']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000005502920741295529635",
+   "created": "2026-11-21T00:00:13Z",
+   "name": "url https://github.com/vortexlakecanal/Rufus",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-21T00:00:13Z",
+   "pattern": "[url:value = 'https://github.com/vortexlakecanal/Rufus']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000001355194808499593166",
+   "created": "2026-11-21T00:00:13Z",
+   "name": "url https://github.com/Wyrmfosafeguard/Sylenth-1",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-21T00:00:13Z",
+   "pattern": "[url:value = 'https://github.com/Wyrmfosafeguard/Sylenth-1']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000006746945656228223162",
+   "created": "2026-11-21T00:00:13Z",
+   "name": "url https://github.com/yarnvoicedesignate/ultra-Iso",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-21T00:00:13Z",
+   "pattern": "[url:value = 'https://github.com/yarnvoicedesignate/ultra-Iso']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000002128964285990039471",
+   "created": "2026-11-21T00:00:13Z",
+   "name": "url https://github.com/MediatorRevive/CCleaner-Pro",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-21T00:00:13Z",
+   "pattern": "[url:value = 'https://github.com/MediatorRevive/CCleaner-Pro']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000002825847746277850166",
+   "created": "2026-11-21T00:00:13Z",
+   "name": "url https://github.com/Attodreslicer/drphone-data-recovery",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-21T00:00:13Z",
+   "pattern": "[url:value = 'https://github.com/Attodreslicer/drphone-data-recovery']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000001553142650412209078",
+   "created": "2026-11-21T00:00:13Z",
+   "name": "url https://github.com/56411952/aion-2-enhancement-suite",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-21T00:00:13Z",
+   "pattern": "[url:value = 'https://github.com/56411952/aion-2-enhancement-suite']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000003103106775916014056",
+   "created": "2026-11-21T00:00:13Z",
+   "name": "url https://github.com/foursixity001-hub/aion-2-enhancement-suite",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-21T00:00:13Z",
+   "pattern": "[url:value = 'https://github.com/foursixity001-hub/aion-2-enhancement-suite']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000004051026849268659623",
+   "created": "2026-11-21T00:00:13Z",
+   "name": "url https://github.com/joaopedro903/delta-executor-desktop-toolkit",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-21T00:00:13Z",
+   "pattern": "[url:value = 'https://github.com/joaopedro903/delta-executor-desktop-toolkit']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000002360547272828956836",
+   "created": "2026-11-21T00:00:13Z",
+   "name": "url https://github.com/GpiceQ/inventor-desktop-installer",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-21T00:00:13Z",
+   "pattern": "[url:value = 'https://github.com/GpiceQ/inventor-desktop-installer']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000000898172920748747634",
+   "created": "2026-11-21T00:00:13Z",
+   "name": "url https://github.com/Hubkrereanimate/Secure-PDF-Workstation",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-21T00:00:13Z",
+   "pattern": "[url:value = 'https://github.com/Hubkrereanimate/Secure-PDF-Workstation']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000000365831370185482267",
+   "created": "2026-11-21T00:00:13Z",
+   "name": "url https://github.com/Omegaofidolize/ableton-live-12",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-21T00:00:13Z",
+   "pattern": "[url:value = 'https://github.com/Omegaofidolize/ableton-live-12']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000008653745209760647154",
+   "created": "2026-11-21T00:00:13Z",
+   "name": "url https://github.com/phantomsociallook/auslogics",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-21T00:00:13Z",
+   "pattern": "[url:value = 'https://github.com/phantomsociallook/auslogics']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000006381979081967878053",
+   "created": "2026-11-21T00:00:13Z",
+   "name": "url https://github.com/Pointyodemolish/bloxshade-for-roblox",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-21T00:00:13Z",
+   "pattern": "[url:value = 'https://github.com/Pointyodemolish/bloxshade-for-roblox']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000003620264177779672893",
+   "created": "2026-11-21T00:00:13Z",
+   "name": "url https://github.com/PlanetCraneInterface/autodesk-revit",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-21T00:00:13Z",
+   "pattern": "[url:value = 'https://github.com/PlanetCraneInterface/autodesk-revit']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000007686534515568236575",
+   "created": "2026-11-21T00:00:13Z",
+   "name": "url https://github.com/platooncaptainmarket/better-discord",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-21T00:00:13Z",
+   "pattern": "[url:value = 'https://github.com/platooncaptainmarket/better-discord']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000003713237110441364626",
+   "created": "2026-11-21T00:00:13Z",
+   "name": "url https://github.com/QuakeAdmiral/crash-plan",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-21T00:00:13Z",
+   "pattern": "[url:value = 'https://github.com/QuakeAdmiral/crash-plan']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000003643049577984704451",
+   "created": "2026-11-21T00:00:13Z",
+   "name": "url https://github.com/ShackleCosmetologist/genesis-scanner",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-21T00:00:13Z",
+   "pattern": "[url:value = 'https://github.com/ShackleCosmetologist/genesis-scanner']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000004253121859687522065",
+   "created": "2026-11-21T00:00:13Z",
+   "name": "url https://github.com/shalecorporatelabel/grayket",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-21T00:00:13Z",
+   "pattern": "[url:value = 'https://github.com/shalecorporatelabel/grayket']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000004089040949815244720",
+   "created": "2026-11-21T00:00:13Z",
+   "name": "url https://github.com/SmokeObliterate/imyfone",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-21T00:00:13Z",
+   "pattern": "[url:value = 'https://github.com/SmokeObliterate/imyfone']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000006697748728640760073",
+   "created": "2026-11-21T00:00:13Z",
+   "name": "url https://github.com/SphereMagistrate39/metatrader",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-21T00:00:13Z",
+   "pattern": "[url:value = 'https://github.com/SphereMagistrate39/metatrader']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000002673669132294790083",
+   "created": "2026-11-21T00:00:13Z",
+   "name": "url https://github.com/TerminusPotter/quant-trading-bot",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-21T00:00:13Z",
+   "pattern": "[url:value = 'https://github.com/TerminusPotter/quant-trading-bot']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000002658373259478742745",
+   "created": "2026-11-21T00:00:13Z",
+   "name": "url https://github.com/VillageExecutive/ultra-edit",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-21T00:00:13Z",
+   "pattern": "[url:value = 'https://github.com/VillageExecutive/ultra-edit']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000008582834241720817723",
+   "created": "2026-11-21T00:00:13Z",
+   "name": "url https://github.com/VolcanoBaseCock/voicechanger",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-21T00:00:13Z",
+   "pattern": "[url:value = 'https://github.com/VolcanoBaseCock/voicechanger']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000007594049660698725525",
+   "created": "2026-11-21T00:00:13Z",
+   "name": "url https://github.com/WeaponsmithPray/winutilits",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-21T00:00:13Z",
+   "pattern": "[url:value = 'https://github.com/WeaponsmithPray/winutilits']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000001986044914632394873",
+   "created": "2026-11-21T00:00:13Z",
+   "name": "url https://github.com/WeaveSeekerJinx/wise-care",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-21T00:00:13Z",
+   "pattern": "[url:value = 'https://github.com/WeaveSeekerJinx/wise-care']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000008729802217091781901",
+   "created": "2026-11-21T00:00:13Z",
+   "name": "url https://github.com/Falsetervitalize/discord-server-raider",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-21T00:00:13Z",
+   "pattern": "[url:value = 'https://github.com/Falsetervitalize/discord-server-raider']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000007900691434987222103",
+   "created": "2026-11-21T00:00:13Z",
+   "name": "url https://github.com/gripdiplomatendure1/melodyne-5",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-21T00:00:13Z",
+   "pattern": "[url:value = 'https://github.com/gripdiplomatendure1/melodyne-5']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000006159280637494960764",
+   "created": "2026-11-21T00:00:13Z",
+   "name": "url https://github.com/gryphonduckdefend/microsoft-office",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-21T00:00:13Z",
+   "pattern": "[url:value = 'https://github.com/gryphonduckdefend/microsoft-office']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000005447300216934569490",
+   "created": "2026-11-21T00:00:13Z",
+   "name": "url https://github.com/Grottoflachain/microsoft-365",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-21T00:00:13Z",
+   "pattern": "[url:value = 'https://github.com/Grottoflachain/microsoft-365']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000007419598072926834149",
+   "created": "2026-11-21T00:00:13Z",
+   "name": "url https://github.com/hopegiraffestride/movavi-video-editor-plus",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-21T00:00:13Z",
+   "pattern": "[url:value = 'https://github.com/hopegiraffestride/movavi-video-editor-plus']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000008469918287384117540",
+   "created": "2026-11-21T00:00:13Z",
+   "name": "url https://github.com/JumperCrater/pump-fun",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-21T00:00:13Z",
+   "pattern": "[url:value = 'https://github.com/JumperCrater/pump-fun']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000006448919406869728120",
+   "created": "2026-11-21T00:00:13Z",
+   "name": "url https://github.com/MechanicClaim/total-commander",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-21T00:00:13Z",
+   "pattern": "[url:value = 'https://github.com/MechanicClaim/total-commander']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000005396774368662384276",
+   "created": "2026-11-21T00:00:13Z",
+   "name": "url https://github.com/mortalswanstrait/wise-care",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-21T00:00:13Z",
+   "pattern": "[url:value = 'https://github.com/mortalswanstrait/wise-care']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000000647246972954976224",
+   "created": "2026-11-21T00:00:13Z",
+   "name": "url https://github.com/DeimosPhobos666/office-suite-validator",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-21T00:00:13Z",
+   "pattern": "[url:value = 'https://github.com/DeimosPhobos666/office-suite-validator']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000003905122853836770593",
+   "created": "2026-11-21T00:00:13Z",
+   "name": "url https://github.com/rimoharp/melodyne-5",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-21T00:00:13Z",
+   "pattern": "[url:value = 'https://github.com/rimoharp/melodyne-5']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000006994330264471278078",
+   "created": "2026-11-21T00:00:13Z",
+   "name": "domain ps-ps.cc",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-21T00:00:13Z",
+   "pattern": "[domain-name:value = 'ps-ps.cc']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000007196496560577232329",
+   "created": "2026-11-21T00:00:13Z",
+   "name": "domain git-software.cc",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-21T00:00:13Z",
+   "pattern": "[domain-name:value = 'git-software.cc']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000001345313915219194466",
+   "created": "2026-11-21T00:00:13Z",
+   "name": "domain quickrun31.cc",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-21T00:00:13Z",
+   "pattern": "[domain-name:value = 'quickrun31.cc']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000000387255578350711179",
+   "created": "2026-11-21T00:00:13Z",
+   "name": "domain appget29.tools",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-21T00:00:13Z",
+   "pattern": "[domain-name:value = 'appget29.tools']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000002436479896896248315",
+   "created": "2026-11-21T00:00:13Z",
+   "name": "domain log.travelvault.today",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-21T00:00:13Z",
+   "pattern": "[domain-name:value = 'log.travelvault.today']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000006251639547865719620",
+   "created": "2026-11-21T00:00:13Z",
+   "name": "url https://telegra.ph/Canvas-grove-11-19",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-21T00:00:13Z",
+   "pattern": "[url:value = 'https://telegra.ph/Canvas-grove-11-19']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000006441253692444310206",
+   "created": "2026-11-21T00:00:13Z",
+   "name": "contract_address 0x45a7B8fAec623508bd68be535Cc7618f283ddB48",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-21T00:00:13Z",
+   "pattern": "[x-groundwork:value = '0x45a7B8fAec623508bd68be535Cc7618f283ddB48']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000005287917165874940706",
+   "created": "2026-11-21T00:00:13Z",
+   "name": "url https://github.com/Unitphisignify/xswodvro",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-21T00:00:13Z",
+   "pattern": "[url:value = 'https://github.com/Unitphisignify/xswodvro']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000004331849293773669335",
+   "created": "2026-11-21T00:00:13Z",
+   "name": "url https://github.com/driftcuttlefishjump/Serato-DJ-Pro",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-21T00:00:13Z",
+   "pattern": "[url:value = 'https://github.com/driftcuttlefishjump/Serato-DJ-Pro']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000005030205120961069571",
+   "created": "2026-11-21T00:00:13Z",
+   "name": "url https://github.com/armorsurgeonstill7/Clion",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-21T00:00:13Z",
+   "pattern": "[url:value = 'https://github.com/armorsurgeonstill7/Clion']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000002114384769638772774",
+   "created": "2026-11-21T00:00:13Z",
+   "name": "url https://github.com/PlotOtokageRespect/GrayKet",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-21T00:00:13Z",
+   "pattern": "[url:value = 'https://github.com/PlotOtokageRespect/GrayKet']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000008340478429634022643",
+   "created": "2026-11-21T00:00:13Z",
+   "name": "url https://github.com/ceilingforemanrank/CapCut-for-Windows",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-21T00:00:13Z",
+   "pattern": "[url:value = 'https://github.com/ceilingforemanrank/CapCut-for-Windows']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000003084114083534972861",
+   "created": "2026-11-21T00:00:13Z",
+   "name": "url https://github.com/BowyerSqueeze/Avid-Media-Composer",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-21T00:00:13Z",
+   "pattern": "[url:value = 'https://github.com/BowyerSqueeze/Avid-Media-Composer']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000005874838622463655693",
+   "created": "2026-11-21T00:00:13Z",
+   "name": "url https://github.com/fuserainday80/AOMEI-Backupper",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-21T00:00:13Z",
+   "pattern": "[url:value = 'https://github.com/fuserainday80/AOMEI-Backupper']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000000029798693111796178",
+   "created": "2026-11-21T00:00:13Z",
+   "name": "url https://github.com/Sandstonetenoutfit/Cinebench",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-21T00:00:13Z",
+   "pattern": "[url:value = 'https://github.com/Sandstonetenoutfit/Cinebench']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000003858097549454340181",
+   "created": "2026-11-21T00:00:13Z",
+   "name": "url https://github.com/Crestchadome/VoiceChanger",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-21T00:00:13Z",
+   "pattern": "[url:value = 'https://github.com/Crestchadome/VoiceChanger']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000009032751328932881335",
+   "created": "2026-11-21T00:00:13Z",
+   "name": "url https://github.com/Ninjaclaplunder36/AnyDesk",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-21T00:00:13Z",
+   "pattern": "[url:value = 'https://github.com/Ninjaclaplunder36/AnyDesk']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000000527883744790833537",
+   "created": "2026-11-21T00:00:13Z",
+   "name": "url https://github.com/rainfrogrectifier41/Avid-Media-Composer",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-21T00:00:13Z",
+   "pattern": "[url:value = 'https://github.com/rainfrogrectifier41/Avid-Media-Composer']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000001715910542601186420",
+   "created": "2026-11-21T00:00:13Z",
+   "name": "url https://github.com/rainfrogrectifier41/Autodesk-3ds-MAX",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-21T00:00:13Z",
+   "pattern": "[url:value = 'https://github.com/rainfrogrectifier41/Autodesk-3ds-MAX']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000002760988376724472230",
+   "created": "2026-11-21T00:00:13Z",
+   "name": "url https://github.com/LimestoneCaptain/FabFilter-Total",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-21T00:00:13Z",
+   "pattern": "[url:value = 'https://github.com/LimestoneCaptain/FabFilter-Total']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000005082604508184108772",
+   "created": "2026-11-21T00:00:13Z",
+   "name": "url https://github.com/PinkTrackDesignate/Movavi-Video-Editor-Plus",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-21T00:00:13Z",
+   "pattern": "[url:value = 'https://github.com/PinkTrackDesignate/Movavi-Video-Editor-Plus']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000002960694698893520397",
+   "created": "2026-11-21T00:00:13Z",
+   "name": "url https://github.com/ApparitionElkCorrect/Wise-Care",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-21T00:00:13Z",
+   "pattern": "[url:value = 'https://github.com/ApparitionElkCorrect/Wise-Care']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000008791202045882646471",
+   "created": "2026-11-21T00:00:13Z",
+   "name": "url https://github.com/Colorstoserver/Movavi-Effects",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-21T00:00:13Z",
+   "pattern": "[url:value = 'https://github.com/Colorstoserver/Movavi-Effects']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000006186526930824667803",
+   "created": "2026-11-21T00:00:13Z",
+   "name": "url https://github.com/ShopkeeperConnector/Wise-Registrity",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-21T00:00:13Z",
+   "pattern": "[url:value = 'https://github.com/ShopkeeperConnector/Wise-Registrity']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000001466905082803856638",
+   "created": "2026-11-21T00:00:13Z",
+   "name": "url https://github.com/frostaxetrough/Designcenter-NX",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-21T00:00:13Z",
+   "pattern": "[url:value = 'https://github.com/frostaxetrough/Designcenter-NX']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000003000543716465498605",
+   "created": "2026-11-21T00:00:13Z",
+   "name": "url https://github.com/WraithTellerSpout/Autodesk-3ds-MAX",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-21T00:00:13Z",
+   "pattern": "[url:value = 'https://github.com/WraithTellerSpout/Autodesk-3ds-MAX']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000006096878830910942448",
+   "created": "2026-11-21T00:00:13Z",
+   "name": "url https://github.com/LevelSparkRecognize/Ashampoo-WinOptimizer",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-21T00:00:13Z",
+   "pattern": "[url:value = 'https://github.com/LevelSparkRecognize/Ashampoo-WinOptimizer']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000007763253162044367614",
+   "created": "2026-11-21T00:00:13Z",
+   "name": "url https://github.com/Flashbylevel/FabFilter-Pro",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-21T00:00:13Z",
+   "pattern": "[url:value = 'https://github.com/Flashbylevel/FabFilter-Pro']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000003412684383720129957",
+   "created": "2026-11-21T00:00:13Z",
+   "name": "url https://github.com/BlueProvostCrush/Quicken-Deluxe",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-21T00:00:13Z",
+   "pattern": "[url:value = 'https://github.com/BlueProvostCrush/Quicken-Deluxe']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000008143171701501305009",
+   "created": "2026-11-21T00:00:13Z",
+   "name": "url https://github.com/Volumetheboutique/Directory-Opus",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-21T00:00:13Z",
+   "pattern": "[url:value = 'https://github.com/Volumetheboutique/Directory-Opus']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000008201323352094148520",
+   "created": "2026-11-21T00:00:13Z",
+   "name": "url https://github.com/ViceAdvocate/ArchiCAD",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-21T00:00:13Z",
+   "pattern": "[url:value = 'https://github.com/ViceAdvocate/ArchiCAD']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000004676052815851156925",
+   "created": "2026-11-21T00:00:13Z",
+   "name": "url https://github.com/MajorShaperCultivate/Acronis",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-21T00:00:13Z",
+   "pattern": "[url:value = 'https://github.com/MajorShaperCultivate/Acronis']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000005194462554910620534",
+   "created": "2026-11-21T00:00:13Z",
+   "name": "url https://github.com/MajorShaperCultivate/Ableton-Live-12",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-21T00:00:13Z",
+   "pattern": "[url:value = 'https://github.com/MajorShaperCultivate/Ableton-Live-12']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000003480690445463718023",
+   "created": "2026-11-21T00:00:13Z",
+   "name": "url https://github.com/BottomHeronEradicate/Movavi-Screen-Recorder",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-21T00:00:13Z",
+   "pattern": "[url:value = 'https://github.com/BottomHeronEradicate/Movavi-Screen-Recorder']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000000700116829583551431",
+   "created": "2026-11-21T00:00:13Z",
+   "name": "url https://github.com/FollowerPruner/Melodyne-5",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-21T00:00:13Z",
+   "pattern": "[url:value = 'https://github.com/FollowerPruner/Melodyne-5']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000000831458886850107376",
+   "created": "2026-11-21T00:00:13Z",
+   "name": "url https://github.com/UnicornShade/PHP-Storm",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-21T00:00:13Z",
+   "pattern": "[url:value = 'https://github.com/UnicornShade/PHP-Storm']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000004409462230107774990",
+   "created": "2026-11-21T00:00:13Z",
+   "name": "url https://github.com/Demonsemarvel/Auslogics",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-21T00:00:13Z",
+   "pattern": "[url:value = 'https://github.com/Demonsemarvel/Auslogics']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000007023441624668234800",
+   "created": "2026-11-21T00:00:13Z",
+   "name": "url https://github.com/Icechiponder/SoundPad",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-21T00:00:13Z",
+   "pattern": "[url:value = 'https://github.com/Icechiponder/SoundPad']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000003807991503141133521",
+   "created": "2026-11-21T00:00:13Z",
+   "name": "url https://github.com/MortalGoldsmith40/Autodesk-Revit",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-21T00:00:13Z",
+   "pattern": "[url:value = 'https://github.com/MortalGoldsmith40/Autodesk-Revit']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000008103571553009574728",
+   "created": "2026-11-21T00:00:13Z",
+   "name": "url https://github.com/Topunderfeel/Ableton-Live-12",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-21T00:00:13Z",
+   "pattern": "[url:value = 'https://github.com/Topunderfeel/Ableton-Live-12']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000005193226045128281352",
+   "created": "2026-11-21T00:00:13Z",
+   "name": "url https://github.com/Topunderfeel/Acronis",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-21T00:00:13Z",
+   "pattern": "[url:value = 'https://github.com/Topunderfeel/Acronis']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000001397958209100482420",
+   "created": "2026-11-21T00:00:13Z",
+   "name": "url https://github.com/StoneParakeet/Movavi-Video-Suite-Plus",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-21T00:00:13Z",
+   "pattern": "[url:value = 'https://github.com/StoneParakeet/Movavi-Video-Suite-Plus']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000006101725713720962726",
+   "created": "2026-11-21T00:00:13Z",
+   "name": "url https://github.com/EastShipperRestore/SonyVegas",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-21T00:00:13Z",
+   "pattern": "[url:value = 'https://github.com/EastShipperRestore/SonyVegas']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000004498161336160313166",
+   "created": "2026-11-21T00:00:13Z",
+   "name": "url https://github.com/beastofficerfollow/Movavi-Photo-Editor",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-21T00:00:13Z",
+   "pattern": "[url:value = 'https://github.com/beastofficerfollow/Movavi-Photo-Editor']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000000218980872753242708",
+   "created": "2026-11-21T00:00:13Z",
+   "name": "url https://github.com/LizardScissors/Adobe-Acrobat-Pro",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-21T00:00:13Z",
+   "pattern": "[url:value = 'https://github.com/LizardScissors/Adobe-Acrobat-Pro']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000006671780650454685713",
+   "created": "2026-11-21T00:00:13Z",
+   "name": "url https://github.com/metropolisorioletap/Adobe-InDesign",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-21T00:00:13Z",
+   "pattern": "[url:value = 'https://github.com/metropolisorioletap/Adobe-InDesign']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000002713370646457946967",
+   "created": "2026-11-21T00:00:13Z",
+   "name": "url https://github.com/metropolisorioletap/Actual-Multiplie-Monitors",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-21T00:00:13Z",
+   "pattern": "[url:value = 'https://github.com/metropolisorioletap/Actual-Multiplie-Monitors']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000004662918113519731981",
+   "created": "2026-11-21T00:00:13Z",
+   "name": "url https://github.com/Lineureliminate/HitFilm",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-21T00:00:13Z",
+   "pattern": "[url:value = 'https://github.com/Lineureliminate/HitFilm']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000009060857417873984517",
+   "created": "2026-11-21T00:00:13Z",
+   "name": "url https://github.com/PillarStreamPipe/Burning-Studio",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-21T00:00:13Z",
+   "pattern": "[url:value = 'https://github.com/PillarStreamPipe/Burning-Studio']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000000163863242855240595",
+   "created": "2026-11-21T00:00:13Z",
+   "name": "url https://github.com/Matterwithinbastion/Data-Grip",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-21T00:00:13Z",
+   "pattern": "[url:value = 'https://github.com/Matterwithinbastion/Data-Grip']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000004844683872789759468",
+   "created": "2026-11-21T00:00:13Z",
+   "name": "url https://github.com/GaleVeterinarian/Power-Director",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-21T00:00:13Z",
+   "pattern": "[url:value = 'https://github.com/GaleVeterinarian/Power-Director']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000001258013436753897929",
+   "created": "2026-11-21T00:00:13Z",
+   "name": "url https://github.com/DimCommercialFactory/Start11",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-21T00:00:13Z",
+   "pattern": "[url:value = 'https://github.com/DimCommercialFactory/Start11']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000003097396171765556881",
+   "created": "2026-11-21T00:00:13Z",
+   "name": "url https://github.com/GlueRealmProduce/Cellebrite-UFED",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-21T00:00:13Z",
+   "pattern": "[url:value = 'https://github.com/GlueRealmProduce/Cellebrite-UFED']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000001055643711390808006",
+   "created": "2026-11-21T00:00:13Z",
+   "name": "url https://github.com/EmirOvercome/Adobe-After-Effects",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-21T00:00:13Z",
+   "pattern": "[url:value = 'https://github.com/EmirOvercome/Adobe-After-Effects']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000001147126205111387848",
+   "created": "2026-11-21T00:00:13Z",
+   "name": "url https://github.com/MagicArbiter/Easy-Worship",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-21T00:00:13Z",
+   "pattern": "[url:value = 'https://github.com/MagicArbiter/Easy-Worship']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000002810150548965435107",
+   "created": "2026-11-21T00:00:13Z",
+   "name": "url https://github.com/PersonalityWalker/Movavi-Converter",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-21T00:00:13Z",
+   "pattern": "[url:value = 'https://github.com/PersonalityWalker/Movavi-Converter']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000002955514652940266930",
+   "created": "2026-11-21T00:00:13Z",
+   "name": "url https://github.com/AdmiralDiscriminate/Photo-Commander",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-21T00:00:13Z",
+   "pattern": "[url:value = 'https://github.com/AdmiralDiscriminate/Photo-Commander']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000004023341728008874235",
+   "created": "2026-11-21T00:00:13Z",
+   "name": "url https://github.com/holeconductorcrush/Kontakt-8",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-21T00:00:13Z",
+   "pattern": "[url:value = 'https://github.com/holeconductorcrush/Kontakt-8']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000007560816130123569520",
+   "created": "2026-11-21T00:00:13Z",
+   "name": "url https://github.com/hubdragonminaret/VoiceMod",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-21T00:00:13Z",
+   "pattern": "[url:value = 'https://github.com/hubdragonminaret/VoiceMod']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000001814770970970266455",
+   "created": "2026-11-21T00:00:13Z",
+   "name": "url https://github.com/Windaurotation/Canva-Pro",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-21T00:00:13Z",
+   "pattern": "[url:value = 'https://github.com/Windaurotation/Canva-Pro']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000006186213689651641134",
+   "created": "2026-11-21T00:00:13Z",
+   "name": "url https://github.com/Windaurotation/Better-Discord",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-21T00:00:13Z",
+   "pattern": "[url:value = 'https://github.com/Windaurotation/Better-Discord']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000004774034242729757305",
+   "created": "2026-11-21T00:00:13Z",
+   "name": "url https://github.com/Capitalaosteeple24/sbzjbgdy",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-21T00:00:13Z",
+   "pattern": "[url:value = 'https://github.com/Capitalaosteeple24/sbzjbgdy']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000008674247000114538714",
+   "created": "2026-11-21T00:00:13Z",
+   "name": "url https://github.com/kindguruboost/Data-Grip",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-21T00:00:13Z",
+   "pattern": "[url:value = 'https://github.com/kindguruboost/Data-Grip']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000003194554508282761907",
+   "created": "2026-11-21T00:00:13Z",
+   "name": "url https://github.com/HiddenSparrowMinaret/Wise-Registrity",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-21T00:00:13Z",
+   "pattern": "[url:value = 'https://github.com/HiddenSparrowMinaret/Wise-Registrity']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000002344866143405141186",
+   "created": "2026-11-21T00:00:13Z",
+   "name": "url https://github.com/FoalShrink50/Movavi-Effects",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-21T00:00:13Z",
+   "pattern": "[url:value = 'https://github.com/FoalShrink50/Movavi-Effects']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000005093401985254915145",
+   "created": "2026-11-21T00:00:13Z",
+   "name": "url https://github.com/Weavebennurture/Burning-Studio",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-21T00:00:13Z",
+   "pattern": "[url:value = 'https://github.com/Weavebennurture/Burning-Studio']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000007928657734813224006",
+   "created": "2026-11-21T00:00:13Z",
+   "name": "url https://github.com/Weavebennurture/Avid-Media-Composer",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-21T00:00:13Z",
+   "pattern": "[url:value = 'https://github.com/Weavebennurture/Avid-Media-Composer']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000007406444404282838440",
+   "created": "2026-11-21T00:00:13Z",
+   "name": "url https://github.com/Lineinmonitor/Ozone-12-Advanced",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-21T00:00:13Z",
+   "pattern": "[url:value = 'https://github.com/Lineinmonitor/Ozone-12-Advanced']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000003028684578231860127",
+   "created": "2026-11-21T00:00:13Z",
+   "name": "url https://github.com/PortionHelmsman/Movavi-Converter",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-21T00:00:13Z",
+   "pattern": "[url:value = 'https://github.com/PortionHelmsman/Movavi-Converter']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000006121303813878319240",
+   "created": "2026-11-21T00:00:13Z",
+   "name": "url https://github.com/ashcustodiandolmen/Cinebench",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-21T00:00:13Z",
+   "pattern": "[url:value = 'https://github.com/ashcustodiandolmen/Cinebench']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000007599684791916649189",
+   "created": "2026-11-21T00:00:13Z",
+   "name": "url https://github.com/TrackViceCraft/Movavi-Video-Editor-Plus",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-21T00:00:13Z",
+   "pattern": "[url:value = 'https://github.com/TrackViceCraft/Movavi-Video-Editor-Plus']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000004412090636032714936",
+   "created": "2026-11-21T00:00:13Z",
+   "name": "url https://github.com/BayAssociate/Directory-Opus",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-21T00:00:13Z",
+   "pattern": "[url:value = 'https://github.com/BayAssociate/Directory-Opus']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000008741585390583167279",
+   "created": "2026-11-21T00:00:13Z",
+   "name": "url https://github.com/sharpbytekey/Movavi-Video-Suite-Plus",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-21T00:00:13Z",
+   "pattern": "[url:value = 'https://github.com/sharpbytekey/Movavi-Video-Suite-Plus']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000002140563521694827175",
+   "created": "2026-11-21T00:00:13Z",
+   "name": "url https://github.com/SavageSamuraiTuck/CorelDraw",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-21T00:00:13Z",
+   "pattern": "[url:value = 'https://github.com/SavageSamuraiTuck/CorelDraw']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000009047061180679870394",
+   "created": "2026-11-21T00:00:13Z",
+   "name": "url https://github.com/PeltPythonCall/GrayKet",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-21T00:00:13Z",
+   "pattern": "[url:value = 'https://github.com/PeltPythonCall/GrayKet']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000000572325330691313789",
+   "created": "2026-11-21T00:00:13Z",
+   "name": "url https://github.com/Griffinlyatreasure85/Cellebrite-UFED",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-21T00:00:13Z",
+   "pattern": "[url:value = 'https://github.com/Griffinlyatreasure85/Cellebrite-UFED']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000003823436214300054346",
+   "created": "2026-11-21T00:00:13Z",
+   "name": "url https://github.com/Thornonanchorage/Ashampoo-WinOptimizer",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-21T00:00:13Z",
+   "pattern": "[url:value = 'https://github.com/Thornonanchorage/Ashampoo-WinOptimizer']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000006344527641172330345",
+   "created": "2026-11-21T00:00:13Z",
+   "name": "url https://github.com/MarshalTrench/SonyVegas",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-21T00:00:13Z",
+   "pattern": "[url:value = 'https://github.com/MarshalTrench/SonyVegas']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000007662089990515383744",
+   "created": "2026-11-21T00:00:13Z",
+   "name": "url https://github.com/snatchbytesalvage/CCleaner-Pro",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-21T00:00:13Z",
+   "pattern": "[url:value = 'https://github.com/snatchbytesalvage/CCleaner-Pro']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000008797519630572750641",
+   "created": "2026-11-21T00:00:13Z",
+   "name": "url https://github.com/SaboteurClip/Rufus",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-21T00:00:13Z",
+   "pattern": "[url:value = 'https://github.com/SaboteurClip/Rufus']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000007068297992480488361",
+   "created": "2026-11-21T00:00:13Z",
+   "name": "url https://github.com/JoinBardColonnade/RX-11-Audio-Editor",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-21T00:00:13Z",
+   "pattern": "[url:value = 'https://github.com/JoinBardColonnade/RX-11-Audio-Editor']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000002916291466543346736",
+   "created": "2026-11-21T00:00:13Z",
+   "name": "url https://github.com/PlanetPhaseRaid/VoiceMod",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-21T00:00:13Z",
+   "pattern": "[url:value = 'https://github.com/PlanetPhaseRaid/VoiceMod']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000002595592314178727641",
+   "created": "2026-11-21T00:00:13Z",
+   "name": "url https://github.com/Openbygather/Movavi-Photo-Editor",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-21T00:00:13Z",
+   "pattern": "[url:value = 'https://github.com/Openbygather/Movavi-Photo-Editor']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000004064501685961692188",
+   "created": "2026-11-21T00:00:13Z",
+   "name": "url https://github.com/ScrewDiverHike/Power-Director",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-21T00:00:13Z",
+   "pattern": "[url:value = 'https://github.com/ScrewDiverHike/Power-Director']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000004505096606633762374",
+   "created": "2026-11-21T00:00:13Z",
+   "name": "url https://github.com/Ratiokrunote/Movavi-Converter",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-21T00:00:13Z",
+   "pattern": "[url:value = 'https://github.com/Ratiokrunote/Movavi-Converter']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000000581960925771513908",
+   "created": "2026-11-21T00:00:13Z",
+   "name": "url https://github.com/SlateElementalist/SystemCare-Pro",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-21T00:00:13Z",
+   "pattern": "[url:value = 'https://github.com/SlateElementalist/SystemCare-Pro']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000007424812861957755005",
+   "created": "2026-11-21T00:00:13Z",
+   "name": "url https://github.com/Minotaurtruflex/Microsoft-Project",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-21T00:00:13Z",
+   "pattern": "[url:value = 'https://github.com/Minotaurtruflex/Microsoft-Project']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000008048341779859562925",
+   "created": "2026-11-21T00:00:13Z",
+   "name": "url https://github.com/MelodySwimmer/Ultra-Edit",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-21T00:00:13Z",
+   "pattern": "[url:value = 'https://github.com/MelodySwimmer/Ultra-Edit']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000007910050384055557189",
+   "created": "2026-11-21T00:00:13Z",
+   "name": "url https://github.com/Openyodepict/Movavi-Video-Editor-Plus",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-21T00:00:13Z",
+   "pattern": "[url:value = 'https://github.com/Openyodepict/Movavi-Video-Editor-Plus']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000003860583767882295051",
+   "created": "2026-11-21T00:00:13Z",
+   "name": "url https://github.com/EssenceConductor/Movavi-Video-Suite-Plus",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-21T00:00:13Z",
+   "pattern": "[url:value = 'https://github.com/EssenceConductor/Movavi-Video-Suite-Plus']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000001022996080297097721",
+   "created": "2026-11-21T00:00:13Z",
+   "name": "url https://github.com/crimsonoriolehovel/Movavi-Effects",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-21T00:00:13Z",
+   "pattern": "[url:value = 'https://github.com/crimsonoriolehovel/Movavi-Effects']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000001659861221222551053",
+   "created": "2026-11-21T00:00:13Z",
+   "name": "url https://github.com/HornbillJournal/Photo-Commander",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-21T00:00:13Z",
+   "pattern": "[url:value = 'https://github.com/HornbillJournal/Photo-Commander']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000001704851151305401818",
+   "created": "2026-11-21T00:00:13Z",
+   "name": "url https://github.com/TarantulaKnow/Movavi-Screen-Recorder",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-21T00:00:13Z",
+   "pattern": "[url:value = 'https://github.com/TarantulaKnow/Movavi-Screen-Recorder']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000007241506880830641668",
+   "created": "2026-11-21T00:00:13Z",
+   "name": "url https://github.com/StreetGateChisel/Uttorent",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-21T00:00:13Z",
+   "pattern": "[url:value = 'https://github.com/StreetGateChisel/Uttorent']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000008112713017052207616",
+   "created": "2026-11-21T00:00:13Z",
+   "name": "url https://github.com/PathTailorRadial/StartAll-Back",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-21T00:00:13Z",
+   "pattern": "[url:value = 'https://github.com/PathTailorRadial/StartAll-Back']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000006983344792193739976",
+   "created": "2026-11-21T00:00:13Z",
+   "name": "url https://github.com/portalthunderphase/Movavi-Photo-Editor",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-21T00:00:13Z",
+   "pattern": "[url:value = 'https://github.com/portalthunderphase/Movavi-Photo-Editor']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000002569839477697520359",
+   "created": "2026-11-21T00:00:13Z",
+   "name": "url https://github.com/ExistenceProduction/Auslogics",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-21T00:00:13Z",
+   "pattern": "[url:value = 'https://github.com/ExistenceProduction/Auslogics']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000000898355460505732097",
+   "created": "2026-11-21T00:00:13Z",
+   "name": "url https://github.com/PaintShrimpDawn/Canva-Pro",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-21T00:00:13Z",
+   "pattern": "[url:value = 'https://github.com/PaintShrimpDawn/Canva-Pro']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000000137397407237225062",
+   "created": "2026-11-21T00:00:13Z",
+   "name": "url https://github.com/MailJudgeView/SoundPad",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-21T00:00:13Z",
+   "pattern": "[url:value = 'https://github.com/MailJudgeView/SoundPad']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000007921926415849397716",
+   "created": "2026-11-21T00:00:13Z",
+   "name": "url https://github.com/Ponddergenerate/Movavi-Video-Suite-Plus",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-21T00:00:13Z",
+   "pattern": "[url:value = 'https://github.com/Ponddergenerate/Movavi-Video-Suite-Plus']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000008852679990999007976",
+   "created": "2026-11-21T00:00:13Z",
+   "name": "url https://github.com/ChainWizardAura/Cinebench",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-21T00:00:13Z",
+   "pattern": "[url:value = 'https://github.com/ChainWizardAura/Cinebench']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000001348368852597383454",
+   "created": "2026-11-21T00:00:13Z",
+   "name": "url https://github.com/SmartThunderDisplay/Movavi-Screen-Recorder",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-21T00:00:13Z",
+   "pattern": "[url:value = 'https://github.com/SmartThunderDisplay/Movavi-Screen-Recorder']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000005857311904554366661",
+   "created": "2026-11-21T00:00:13Z",
+   "name": "url https://github.com/FlowBeetle94/Autodesk-Revit",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-21T00:00:13Z",
+   "pattern": "[url:value = 'https://github.com/FlowBeetle94/Autodesk-Revit']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000003194485442980867992",
+   "created": "2026-11-21T00:00:13Z",
+   "name": "url https://github.com/Towerthroughlabel/FabFilter-Total",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-21T00:00:13Z",
+   "pattern": "[url:value = 'https://github.com/Towerthroughlabel/FabFilter-Total']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000006810483085133886140",
+   "created": "2026-11-21T00:00:13Z",
+   "name": "url https://github.com/BlacksmithColumn/AOMEI-Backupper",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-21T00:00:13Z",
+   "pattern": "[url:value = 'https://github.com/BlacksmithColumn/AOMEI-Backupper']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000000356960512575582112",
+   "created": "2026-11-21T00:00:13Z",
+   "name": "url https://github.com/FaceDuckStove/CapCut-for-Windows",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-21T00:00:13Z",
+   "pattern": "[url:value = 'https://github.com/FaceDuckStove/CapCut-for-Windows']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000004222778632160755786",
+   "created": "2026-11-21T00:00:13Z",
+   "name": "url https://github.com/ringorcastay/Ashampoo-WinOptimizer",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-21T00:00:13Z",
+   "pattern": "[url:value = 'https://github.com/ringorcastay/Ashampoo-WinOptimizer']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000004746114128315294053",
+   "created": "2026-11-21T00:00:13Z",
+   "name": "url https://github.com/SerpentCleric/Uttorent",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-21T00:00:13Z",
+   "pattern": "[url:value = 'https://github.com/SerpentCleric/Uttorent']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000004871088389465960319",
+   "created": "2026-11-21T00:00:13Z",
+   "name": "url https://github.com/volumesamuraichill/SystemCare-Pro",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-21T00:00:13Z",
+   "pattern": "[url:value = 'https://github.com/volumesamuraichill/SystemCare-Pro']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000007805910451147336098",
+   "created": "2026-11-21T00:00:13Z",
+   "name": "url https://github.com/NightBiomancer/Cellebrite-UFED",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-21T00:00:13Z",
+   "pattern": "[url:value = 'https://github.com/NightBiomancer/Cellebrite-UFED']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000000878530071162022490",
+   "created": "2026-11-21T00:00:13Z",
+   "name": "url https://github.com/Grandmasterofend/Melodyne-5",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-21T00:00:13Z",
+   "pattern": "[url:value = 'https://github.com/Grandmasterofend/Melodyne-5']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000004855237675520774762",
+   "created": "2026-11-21T00:00:13Z",
+   "name": "url https://github.com/mudcoxswainpit/Movavi-Converter",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-21T00:00:13Z",
+   "pattern": "[url:value = 'https://github.com/mudcoxswainpit/Movavi-Converter']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000008194501301284567351",
+   "created": "2026-11-21T00:00:13Z",
+   "name": "url https://github.com/GiraffeCondense/Burning-Studio",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-21T00:00:13Z",
+   "pattern": "[url:value = 'https://github.com/GiraffeCondense/Burning-Studio']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000002903076031034373943",
+   "created": "2026-11-21T00:00:13Z",
+   "name": "url https://github.com/ShoreRealm72/RX-11-Audio-Editor",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-21T00:00:13Z",
+   "pattern": "[url:value = 'https://github.com/ShoreRealm72/RX-11-Audio-Editor']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000008334459861718692220",
+   "created": "2026-11-21T00:00:13Z",
+   "name": "url https://github.com/WharfStarHike/Wise-Registrity",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-21T00:00:13Z",
+   "pattern": "[url:value = 'https://github.com/WharfStarHike/Wise-Registrity']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000000815976824298851891",
+   "created": "2026-11-21T00:00:13Z",
+   "name": "url https://github.com/BladesmithFirewall/KeyShot-Pro",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-21T00:00:13Z",
+   "pattern": "[url:value = 'https://github.com/BladesmithFirewall/KeyShot-Pro']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000003761457470268320173",
+   "created": "2026-11-21T00:00:13Z",
+   "name": "url https://github.com/GraphLoopGame/FabFilter-Pro",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-21T00:00:13Z",
+   "pattern": "[url:value = 'https://github.com/GraphLoopGame/FabFilter-Pro']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000001899583254033990441",
+   "created": "2026-11-21T00:00:13Z",
+   "name": "url https://github.com/DragonHokageDecoder/Total-Commander",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-21T00:00:13Z",
+   "pattern": "[url:value = 'https://github.com/DragonHokageDecoder/Total-Commander']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000004384211601819636769",
+   "created": "2026-11-21T00:00:13Z",
+   "name": "url https://github.com/Tracksiawning/VoiceMod",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-21T00:00:13Z",
+   "pattern": "[url:value = 'https://github.com/Tracksiawning/VoiceMod']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000005764549578187520960",
+   "created": "2026-11-21T00:00:13Z",
+   "name": "url https://github.com/chaindictatorpalace/AnyDesk",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-21T00:00:13Z",
+   "pattern": "[url:value = 'https://github.com/chaindictatorpalace/AnyDesk']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000002837919938861582224",
+   "created": "2026-11-21T00:00:13Z",
+   "name": "url https://github.com/Obsidiangrohoist/HitFilm",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-21T00:00:13Z",
+   "pattern": "[url:value = 'https://github.com/Obsidiangrohoist/HitFilm']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000008164670178688210223",
+   "created": "2026-11-21T00:00:13Z",
+   "name": "url https://github.com/Ditcharbarrier/ExitLag",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-21T00:00:13Z",
+   "pattern": "[url:value = 'https://github.com/Ditcharbarrier/ExitLag']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000005018587450788556140",
+   "created": "2026-11-21T00:00:13Z",
+   "name": "url https://github.com/FigureNetworkConsole/Movavi-Video-Editor-Plus",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-21T00:00:13Z",
+   "pattern": "[url:value = 'https://github.com/FigureNetworkConsole/Movavi-Video-Editor-Plus']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000009125929706908795418",
+   "created": "2026-11-21T00:00:13Z",
+   "name": "url https://github.com/FenceSpinnerGuide/Rufus",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-21T00:00:13Z",
+   "pattern": "[url:value = 'https://github.com/FenceSpinnerGuide/Rufus']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000002121361851873565869",
+   "created": "2026-11-21T00:00:13Z",
+   "name": "url https://github.com/bittsuchikagelaud/Avid-Media-Composer",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-21T00:00:13Z",
+   "pattern": "[url:value = 'https://github.com/bittsuchikagelaud/Avid-Media-Composer']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000008139647481611512955",
+   "created": "2026-11-21T00:00:13Z",
+   "name": "url https://github.com/Earthyodeliver16/Power-Director",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-21T00:00:13Z",
+   "pattern": "[url:value = 'https://github.com/Earthyodeliver16/Power-Director']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000006297819178553207448",
+   "created": "2026-11-21T00:00:13Z",
+   "name": "url https://github.com/StreetMarine/Autodesk-3ds-MAX",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-21T00:00:13Z",
+   "pattern": "[url:value = 'https://github.com/StreetMarine/Autodesk-3ds-MAX']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000003318428078049631330",
+   "created": "2026-11-21T00:00:13Z",
+   "name": "url https://github.com/FinalJourneyman/Movavi-Effects",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-21T00:00:13Z",
+   "pattern": "[url:value = 'https://github.com/FinalJourneyman/Movavi-Effects']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000007668085367997531378",
+   "created": "2026-11-21T00:00:13Z",
+   "name": "url https://github.com/megasheriffswell/Photo-Commander",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-21T00:00:13Z",
+   "pattern": "[url:value = 'https://github.com/megasheriffswell/Photo-Commander']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000002316988696011230037",
+   "created": "2026-11-21T00:00:13Z",
+   "name": "url https://github.com/ClawFollowerMall/Chief-Architect-Premier",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-21T00:00:13Z",
+   "pattern": "[url:value = 'https://github.com/ClawFollowerMall/Chief-Architect-Premier']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000008297722828579821164",
+   "created": "2026-11-21T00:00:13Z",
+   "name": "url https://github.com/torrentclassbay/SonyVegas",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-21T00:00:13Z",
+   "pattern": "[url:value = 'https://github.com/torrentclassbay/SonyVegas']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000004544840900978724499",
+   "created": "2026-11-21T00:00:13Z",
+   "name": "url https://github.com/oillovebirdbuild/Total-Commander",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-21T00:00:13Z",
+   "pattern": "[url:value = 'https://github.com/oillovebirdbuild/Total-Commander']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000003181184416805128788",
+   "created": "2026-11-21T00:00:13Z",
+   "name": "url https://github.com/ProviderRelease64/WinUtilits",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-21T00:00:13Z",
+   "pattern": "[url:value = 'https://github.com/ProviderRelease64/WinUtilits']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000003657363433841673906",
+   "created": "2026-11-21T00:00:13Z",
+   "name": "url https://github.com/pentagongeneralgaze/VoiceChanger",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-21T00:00:13Z",
+   "pattern": "[url:value = 'https://github.com/pentagongeneralgaze/VoiceChanger']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000001715594325436529858",
+   "created": "2026-11-21T00:00:13Z",
+   "name": "url https://github.com/PheasantMetro/Uttorent",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-21T00:00:13Z",
+   "pattern": "[url:value = 'https://github.com/PheasantMetro/Uttorent']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000003256187497939026882",
+   "created": "2026-11-21T00:00:13Z",
+   "name": "url https://github.com/opticantbarrow/Ultra-Edit",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-21T00:00:13Z",
+   "pattern": "[url:value = 'https://github.com/opticantbarrow/Ultra-Edit']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000006373366459711927800",
+   "created": "2026-11-21T00:00:13Z",
+   "name": "url https://github.com/silverofficialdusk/Easeus-Todo-Backup-For-Windows",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-21T00:00:13Z",
+   "pattern": "[url:value = 'https://github.com/silverofficialdusk/Easeus-Todo-Backup-For-Windows']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000002432594878198401129",
+   "created": "2026-11-21T00:00:13Z",
+   "name": "url https://github.com/sparkfiremancollar21/Microsoft-Project-For-Windows",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-21T00:00:13Z",
+   "pattern": "[url:value = 'https://github.com/sparkfiremancollar21/Microsoft-Project-For-Windows']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000008843411006715131964",
+   "created": "2026-11-21T00:00:13Z",
+   "name": "url https://github.com/BetaChampionTitle/Coreldraw-For-Windows",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-21T00:00:13Z",
+   "pattern": "[url:value = 'https://github.com/BetaChampionTitle/Coreldraw-For-Windows']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000003620737652258082390",
+   "created": "2026-11-21T00:00:13Z",
+   "name": "url https://github.com/StitchSerfJump/Microsoft-Visio-For-Windows",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-21T00:00:13Z",
+   "pattern": "[url:value = 'https://github.com/StitchSerfJump/Microsoft-Visio-For-Windows']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000008806371905219698735",
+   "created": "2026-11-21T00:00:13Z",
+   "name": "url https://github.com/DeckhandIgnite/Davinci-Resolve-Studio-For-Windows",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-21T00:00:13Z",
+   "pattern": "[url:value = 'https://github.com/DeckhandIgnite/Davinci-Resolve-Studio-For-Windows']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000002170720647677461540",
+   "created": "2026-11-21T00:00:13Z",
+   "name": "url https://github.com/ElementalistTurbine/Ccleaner-Professional-For-Windows",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-21T00:00:13Z",
+   "pattern": "[url:value = 'https://github.com/ElementalistTurbine/Ccleaner-Professional-For-Windows']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000001066282533359195129",
+   "created": "2026-11-21T00:00:13Z",
+   "name": "url https://github.com/MudTsuchikage/Fl-Studio-For-Windows",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-21T00:00:13Z",
+   "pattern": "[url:value = 'https://github.com/MudTsuchikage/Fl-Studio-For-Windows']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000005185626340849640120",
+   "created": "2026-11-21T00:00:13Z",
+   "name": "url https://github.com/OrangeSaviorImagine/Abbyy-Finereader-Pdf-For-Windows",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-21T00:00:13Z",
+   "pattern": "[url:value = 'https://github.com/OrangeSaviorImagine/Abbyy-Finereader-Pdf-For-Windows']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000003251901898231268306",
+   "created": "2026-11-21T00:00:13Z",
+   "name": "url https://github.com/Velocityatrhythm/Autodesk-3ds-Max-For-Windows",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-21T00:00:13Z",
+   "pattern": "[url:value = 'https://github.com/Velocityatrhythm/Autodesk-3ds-Max-For-Windows']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000004474160144309326627",
+   "created": "2026-11-21T00:00:13Z",
+   "name": "url https://github.com/MortarBeetleStyle/Autocad-For-Windows",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-21T00:00:13Z",
+   "pattern": "[url:value = 'https://github.com/MortarBeetleStyle/Autocad-For-Windows']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000008945824497529324630",
+   "created": "2026-11-21T00:00:13Z",
+   "name": "url https://github.com/CatchArtisanDone86/Movavi-Video-Editor-For-Windows",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-21T00:00:13Z",
+   "pattern": "[url:value = 'https://github.com/CatchArtisanDone86/Movavi-Video-Editor-For-Windows']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000008066148699706229403",
+   "created": "2026-11-21T00:00:13Z",
+   "name": "url https://github.com/Sandsisupervise20/Adobe-Premiere-Pro-For-Windows-And-Macos",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-21T00:00:13Z",
+   "pattern": "[url:value = 'https://github.com/Sandsisupervise20/Adobe-Premiere-Pro-For-Windows-And-Macos']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000002453364353572519096",
+   "created": "2026-11-21T00:00:13Z",
+   "name": "url https://github.com/gleameconomicjetty/Adobe-Indesign-For-Windows-And-Macos",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-21T00:00:13Z",
+   "pattern": "[url:value = 'https://github.com/gleameconomicjetty/Adobe-Indesign-For-Windows-And-Macos']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000001267316344823706820",
+   "created": "2026-11-21T00:00:13Z",
+   "name": "url https://github.com/ManeSwordGraph/Adobe-Lightroom-Classic-For-Windows-And-Macos",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-21T00:00:13Z",
+   "pattern": "[url:value = 'https://github.com/ManeSwordGraph/Adobe-Lightroom-Classic-For-Windows-And-Macos']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000001270563874910133203",
+   "created": "2026-11-21T00:00:13Z",
+   "name": "url https://github.com/Cachewithinmake/GTA6-Preload-PC",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-21T00:00:13Z",
+   "pattern": "[url:value = 'https://github.com/Cachewithinmake/GTA6-Preload-PC']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000000256527674878592263",
+   "created": "2026-11-21T00:00:13Z",
+   "name": "url https://github.com/SageAdapter8/Rob-Run-Mod-Menu",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-21T00:00:13Z",
+   "pattern": "[url:value = 'https://github.com/SageAdapter8/Rob-Run-Mod-Menu']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000005286896108809511118",
+   "created": "2026-11-21T00:00:13Z",
+   "name": "url https://github.com/Weavedrobless13/Actual-Multiplie-Monitors",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-21T00:00:13Z",
+   "pattern": "[url:value = 'https://github.com/Weavedrobless13/Actual-Multiplie-Monitors']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000000731833487079393391",
+   "created": "2026-11-21T00:00:13Z",
+   "name": "url https://github.com/Weavedrobless13/Acronis",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-21T00:00:13Z",
+   "pattern": "[url:value = 'https://github.com/Weavedrobless13/Acronis']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000000176996388465004030",
+   "created": "2026-11-21T00:00:13Z",
+   "name": "url https://github.com/Wireearadial/Adobe-After-Effects",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-21T00:00:13Z",
+   "pattern": "[url:value = 'https://github.com/Wireearadial/Adobe-After-Effects']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000003130223213323769397",
+   "created": "2026-11-21T00:00:13Z",
+   "name": "url https://github.com/Wireearadial/Actual-Multiplie-Monitors",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-21T00:00:13Z",
+   "pattern": "[url:value = 'https://github.com/Wireearadial/Actual-Multiplie-Monitors']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000005078495385027670620",
+   "created": "2026-11-21T00:00:13Z",
+   "name": "url https://github.com/WharfBeetleGallery37/Acronis",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-21T00:00:13Z",
+   "pattern": "[url:value = 'https://github.com/WharfBeetleGallery37/Acronis']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000007273802049246644436",
+   "created": "2026-11-21T00:00:13Z",
+   "name": "url https://github.com/WharfBeetleGallery37/Ableton-Live-12",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-21T00:00:13Z",
+   "pattern": "[url:value = 'https://github.com/WharfBeetleGallery37/Ableton-Live-12']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000004079212425571630165",
+   "created": "2026-11-21T00:00:13Z",
+   "name": "url https://github.com/ShaleNurseBurst/Wise-Registrity",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-21T00:00:13Z",
+   "pattern": "[url:value = 'https://github.com/ShaleNurseBurst/Wise-Registrity']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000009185098132730357727",
+   "created": "2026-11-21T00:00:13Z",
+   "name": "url https://github.com/ManufacturingTurbine/Serato-DJ-Pro",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-21T00:00:13Z",
+   "pattern": "[url:value = 'https://github.com/ManufacturingTurbine/Serato-DJ-Pro']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000006771757966087638013",
+   "created": "2026-11-21T00:00:13Z",
+   "name": "url https://github.com/BondFletcher/Ashampoo-WinOptimizer",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-21T00:00:13Z",
+   "pattern": "[url:value = 'https://github.com/BondFletcher/Ashampoo-WinOptimizer']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000005454719569101512523",
+   "created": "2026-11-21T00:00:13Z",
+   "name": "url https://github.com/angleartisanstitch/SystemCare-Pro",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-21T00:00:13Z",
+   "pattern": "[url:value = 'https://github.com/angleartisanstitch/SystemCare-Pro']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000008156039983711720717",
+   "created": "2026-11-21T00:00:13Z",
+   "name": "url https://github.com/JoinDamselReduce/Movavi-Video-Suite-Plus",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-21T00:00:13Z",
+   "pattern": "[url:value = 'https://github.com/JoinDamselReduce/Movavi-Video-Suite-Plus']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000002226899029504555729",
+   "created": "2026-11-21T00:00:13Z",
+   "name": "url https://github.com/beastcrewmanraise56/AutoCad",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-21T00:00:13Z",
+   "pattern": "[url:value = 'https://github.com/beastcrewmanraise56/AutoCad']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000006771365318483112616",
+   "created": "2026-11-21T00:00:13Z",
+   "name": "url https://github.com/CaptainFurnish/AOMEI-Backupper",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-21T00:00:13Z",
+   "pattern": "[url:value = 'https://github.com/CaptainFurnish/AOMEI-Backupper']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000006439553345782563971",
+   "created": "2026-11-21T00:00:13Z",
+   "name": "url https://github.com/celestialsteamsupply/Movavi-Video-Suite-Plus",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-21T00:00:13Z",
+   "pattern": "[url:value = 'https://github.com/celestialsteamsupply/Movavi-Video-Suite-Plus']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000000047717402846113842",
+   "created": "2026-11-21T00:00:13Z",
+   "name": "url https://github.com/PathSwallowLock/Wise-Care",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-21T00:00:13Z",
+   "pattern": "[url:value = 'https://github.com/PathSwallowLock/Wise-Care']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000007766761324418808355",
+   "created": "2026-11-21T00:00:13Z",
+   "name": "url https://github.com/BrokerSpiral/CapCut-for-Windows",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-21T00:00:13Z",
+   "pattern": "[url:value = 'https://github.com/BrokerSpiral/CapCut-for-Windows']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000000294238608730717357",
+   "created": "2026-11-21T00:00:13Z",
+   "name": "url https://github.com/convergeattorneyquay/Claude-Jailbreak-Prompt",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-21T00:00:13Z",
+   "pattern": "[url:value = 'https://github.com/convergeattorneyquay/Claude-Jailbreak-Prompt']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000007726101902260239136",
+   "created": "2026-11-21T00:00:13Z",
+   "name": "url https://github.com/Holeyospindle/Movavi-Effects",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-21T00:00:13Z",
+   "pattern": "[url:value = 'https://github.com/Holeyospindle/Movavi-Effects']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000009170392460967042030",
+   "created": "2026-11-21T00:00:13Z",
+   "name": "url https://github.com/Polygonglicavity/FL-Studio",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-21T00:00:13Z",
+   "pattern": "[url:value = 'https://github.com/Polygonglicavity/FL-Studio']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000003399533672719245003",
+   "created": "2026-11-21T00:00:13Z",
+   "name": "url https://github.com/Sandstonelunamode/Autodesk-Revit",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-21T00:00:13Z",
+   "pattern": "[url:value = 'https://github.com/Sandstonelunamode/Autodesk-Revit']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000002370579631773182428",
+   "created": "2026-11-21T00:00:13Z",
+   "name": "url https://github.com/MatrixSeaCode25/SketchUp-Pro",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-21T00:00:13Z",
+   "pattern": "[url:value = 'https://github.com/MatrixSeaCode25/SketchUp-Pro']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000002849666316102693605",
+   "created": "2026-11-21T00:00:13Z",
+   "name": "url https://github.com/HarborAxolotl/Kontakt-8",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-21T00:00:13Z",
+   "pattern": "[url:value = 'https://github.com/HarborAxolotl/Kontakt-8']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000007067210863169004834",
+   "created": "2026-11-21T00:00:13Z",
+   "name": "url https://github.com/StoragePupaAgitate/CorelDraw",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-21T00:00:13Z",
+   "pattern": "[url:value = 'https://github.com/StoragePupaAgitate/CorelDraw']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000006461768318308172129",
+   "created": "2026-11-21T00:00:13Z",
+   "name": "url https://github.com/Magicvanmemorialize/Quicken-Deluxe",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-21T00:00:13Z",
+   "pattern": "[url:value = 'https://github.com/Magicvanmemorialize/Quicken-Deluxe']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000002462310015461003947",
+   "created": "2026-11-21T00:00:13Z",
+   "name": "url https://github.com/OfficialHook/VoiceChanger",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-21T00:00:13Z",
+   "pattern": "[url:value = 'https://github.com/OfficialHook/VoiceChanger']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000007585068827779350083",
+   "created": "2026-11-21T00:00:13Z",
+   "name": "url https://github.com/NoviceBandage/Ashampoo-Uninstaller",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-21T00:00:13Z",
+   "pattern": "[url:value = 'https://github.com/NoviceBandage/Ashampoo-Uninstaller']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000005766346500079838844",
+   "created": "2026-11-21T00:00:13Z",
+   "name": "url https://github.com/TrapSilversmith/KeyShot-Pro",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-21T00:00:13Z",
+   "pattern": "[url:value = 'https://github.com/TrapSilversmith/KeyShot-Pro']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000008778486482305580590",
+   "created": "2026-11-21T00:00:13Z",
+   "name": "url https://github.com/beamcrystalplunder/Actual-Multiplie-Monitors",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-21T00:00:13Z",
+   "pattern": "[url:value = 'https://github.com/beamcrystalplunder/Actual-Multiplie-Monitors']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000004168451072494997418",
+   "created": "2026-11-21T00:00:13Z",
+   "name": "url https://github.com/CassowaryMansion/Autodesk-CFD",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-21T00:00:13Z",
+   "pattern": "[url:value = 'https://github.com/CassowaryMansion/Autodesk-CFD']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000007367372622433797256",
+   "created": "2026-11-21T00:00:13Z",
+   "name": "url https://github.com/BadgeHealerConverter/Adobe-After-Effects",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-21T00:00:13Z",
+   "pattern": "[url:value = 'https://github.com/BadgeHealerConverter/Adobe-After-Effects']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000004585041066433372465",
+   "created": "2026-11-21T00:00:13Z",
+   "name": "url https://github.com/Fabledandtrowel/Claude-Jailbreak-Prompt",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-21T00:00:13Z",
+   "pattern": "[url:value = 'https://github.com/Fabledandtrowel/Claude-Jailbreak-Prompt']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000008440519733582013840",
+   "created": "2026-11-21T00:00:13Z",
+   "name": "url https://github.com/ExaMajorYell/FabFilter-Pro",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-21T00:00:13Z",
+   "pattern": "[url:value = 'https://github.com/ExaMajorYell/FabFilter-Pro']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000003875941187375494664",
+   "created": "2026-11-21T00:00:13Z",
+   "name": "url https://github.com/SphereIguana8/AutoCad",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-21T00:00:13Z",
+   "pattern": "[url:value = 'https://github.com/SphereIguana8/AutoCad']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000003575287759356944120",
+   "created": "2026-11-21T00:00:13Z",
+   "name": "url https://github.com/legendaryturkeyspark/Ozone-12-Advanced",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-21T00:00:13Z",
+   "pattern": "[url:value = 'https://github.com/legendaryturkeyspark/Ozone-12-Advanced']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000003301691702076138619",
+   "created": "2026-11-21T00:00:13Z",
+   "name": "url https://github.com/azurepikemandivide/GrayKet",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-21T00:00:13Z",
+   "pattern": "[url:value = 'https://github.com/azurepikemandivide/GrayKet']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000005457490452259769545",
+   "created": "2026-11-21T00:00:13Z",
+   "name": "url https://github.com/GraphSoldierPergola/Instagram-Liker-Bot",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-21T00:00:13Z",
+   "pattern": "[url:value = 'https://github.com/GraphSoldierPergola/Instagram-Liker-Bot']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000001154243190961466295",
+   "created": "2026-11-21T00:00:13Z",
+   "name": "url https://github.com/DensityCooper/Designcenter-NX",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-21T00:00:13Z",
+   "pattern": "[url:value = 'https://github.com/DensityCooper/Designcenter-NX']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000006775833198803440288",
+   "created": "2026-11-21T00:00:13Z",
+   "name": "url https://github.com/FlowScorpion/HitFilm",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-21T00:00:13Z",
+   "pattern": "[url:value = 'https://github.com/FlowScorpion/HitFilm']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000002829541711168088911",
+   "created": "2026-11-21T00:00:13Z",
+   "name": "url https://github.com/Feelingubattle/FL-Studio",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-21T00:00:13Z",
+   "pattern": "[url:value = 'https://github.com/Feelingubattle/FL-Studio']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000000766019307642810357",
+   "created": "2026-11-21T00:00:13Z",
+   "name": "url https://github.com/Characternearequip/CCleaner-Pro",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-21T00:00:13Z",
+   "pattern": "[url:value = 'https://github.com/Characternearequip/CCleaner-Pro']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000008357094320229499848",
+   "created": "2026-11-21T00:00:13Z",
+   "name": "url https://github.com/mintconductorzen/SonyVegas",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-21T00:00:13Z",
+   "pattern": "[url:value = 'https://github.com/mintconductorzen/SonyVegas']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000001210485019385183711",
+   "created": "2026-11-21T00:00:13Z",
+   "name": "url https://github.com/colonylightsever/Cinebench",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-21T00:00:13Z",
+   "pattern": "[url:value = 'https://github.com/colonylightsever/Cinebench']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000007247562231667735491",
+   "created": "2026-11-21T00:00:13Z",
+   "name": "url https://github.com/bodyconquerorclimb/Adobe-Substance-3d",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-21T00:00:13Z",
+   "pattern": "[url:value = 'https://github.com/bodyconquerorclimb/Adobe-Substance-3d']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000000897525163774800392",
+   "created": "2026-11-21T00:00:13Z",
+   "name": "url https://github.com/heightsongsouk/Microsoft-365",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-21T00:00:13Z",
+   "pattern": "[url:value = 'https://github.com/heightsongsouk/Microsoft-365']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000000841446911345550128",
+   "created": "2026-11-21T00:00:13Z",
+   "name": "url https://github.com/Cacheacrossregain/Auslogics",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-21T00:00:13Z",
+   "pattern": "[url:value = 'https://github.com/Cacheacrossregain/Auslogics']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000008048262651945399570",
+   "created": "2026-11-21T00:00:13Z",
+   "name": "url https://github.com/phantombudgiesheave/Wise-Registrity",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-21T00:00:13Z",
+   "pattern": "[url:value = 'https://github.com/phantombudgiesheave/Wise-Registrity']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000002188868178854839239",
+   "created": "2026-11-21T00:00:13Z",
+   "name": "url https://github.com/Arenadensocket/Data-Grip",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-21T00:00:13Z",
+   "pattern": "[url:value = 'https://github.com/Arenadensocket/Data-Grip']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000002318063754565148033",
+   "created": "2026-11-21T00:00:13Z",
+   "name": "url https://github.com/ChampionHaulerFlue/Burning-Studio",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-21T00:00:13Z",
+   "pattern": "[url:value = 'https://github.com/ChampionHaulerFlue/Burning-Studio']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000000739974068033085015",
+   "created": "2026-11-21T00:00:13Z",
+   "name": "url https://github.com/Ensignchetrap/Easy-Worship",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-21T00:00:13Z",
+   "pattern": "[url:value = 'https://github.com/Ensignchetrap/Easy-Worship']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000003179200613670320497",
+   "created": "2026-11-21T00:00:13Z",
+   "name": "url https://github.com/NightingaleHinge/CCleaner-Pro",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-21T00:00:13Z",
+   "pattern": "[url:value = 'https://github.com/NightingaleHinge/CCleaner-Pro']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000008621634034847146155",
+   "created": "2026-11-21T00:00:13Z",
+   "name": "url https://github.com/FabledEmpressFree19/FabFilter-Total",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-21T00:00:13Z",
+   "pattern": "[url:value = 'https://github.com/FabledEmpressFree19/FabFilter-Total']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000008573686017127573419",
+   "created": "2026-11-21T00:00:13Z",
+   "name": "url https://github.com/Coaliocontact/Chief-Architect-Premier",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-21T00:00:13Z",
+   "pattern": "[url:value = 'https://github.com/Coaliocontact/Chief-Architect-Premier']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000002058928538175454712",
+   "created": "2026-11-21T00:00:13Z",
+   "name": "url https://github.com/hornsurgeontweezers/Movavi-Converter",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-21T00:00:13Z",
+   "pattern": "[url:value = 'https://github.com/hornsurgeontweezers/Movavi-Converter']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000003633707698036860765",
+   "created": "2026-11-21T00:00:13Z",
+   "name": "url https://github.com/anglemayorwinch30/ArchiCAD",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-21T00:00:13Z",
+   "pattern": "[url:value = 'https://github.com/anglemayorwinch30/ArchiCAD']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000007146721773120203967",
+   "created": "2026-11-21T00:00:13Z",
+   "name": "url https://github.com/Topazchosouk/Autodesk-Inventor",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-21T00:00:13Z",
+   "pattern": "[url:value = 'https://github.com/Topazchosouk/Autodesk-Inventor']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000006743757014444079596",
+   "created": "2026-11-21T00:00:13Z",
+   "name": "url https://github.com/BarbTernCrack/Acronis",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-21T00:00:13Z",
+   "pattern": "[url:value = 'https://github.com/BarbTernCrack/Acronis']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000007264517306130789714",
+   "created": "2026-11-21T00:00:13Z",
+   "name": "url https://github.com/wyrmlawyerberth/Catia-Cad",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-21T00:00:13Z",
+   "pattern": "[url:value = 'https://github.com/wyrmlawyerberth/Catia-Cad']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000002439567448060742342",
+   "created": "2026-11-21T00:00:13Z",
+   "name": "url https://github.com/Highwayphomoon/Microsoft-Visio",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-21T00:00:13Z",
+   "pattern": "[url:value = 'https://github.com/Highwayphomoon/Microsoft-Visio']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000008565988892921135491",
+   "created": "2026-11-21T00:00:13Z",
+   "name": "url https://github.com/Dockuafill99/Directory-Opus",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-21T00:00:13Z",
+   "pattern": "[url:value = 'https://github.com/Dockuafill99/Directory-Opus']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000008167910668603839098",
+   "created": "2026-11-21T00:00:13Z",
+   "name": "url https://github.com/BeamHornetStation/Adobe-Photoshop",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-21T00:00:13Z",
+   "pattern": "[url:value = 'https://github.com/BeamHornetStation/Adobe-Photoshop']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000006398903055809583038",
+   "created": "2026-11-21T00:00:13Z",
+   "name": "url https://github.com/OceanViceIgnite97/Cinebench",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-21T00:00:13Z",
+   "pattern": "[url:value = 'https://github.com/OceanViceIgnite97/Cinebench']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000000521068484288985379",
+   "created": "2026-11-21T00:00:13Z",
+   "name": "url https://github.com/DustInterest/Ashampoo-WinOptimizer",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-21T00:00:13Z",
+   "pattern": "[url:value = 'https://github.com/DustInterest/Ashampoo-WinOptimizer']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000003775875103524132876",
+   "created": "2026-11-21T00:00:13Z",
+   "name": "url https://github.com/Captureglewharf/Autodesk-Inventor",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-21T00:00:13Z",
+   "pattern": "[url:value = 'https://github.com/Captureglewharf/Autodesk-Inventor']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000006591245284329892639",
+   "created": "2026-11-21T00:00:13Z",
+   "name": "url https://github.com/stratumvaporrecall/Melodyne-5",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-21T00:00:13Z",
+   "pattern": "[url:value = 'https://github.com/stratumvaporrecall/Melodyne-5']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000002170129779826322795",
+   "created": "2026-11-21T00:00:13Z",
+   "name": "url https://github.com/OperativeNegotiator/WinUtilits",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-21T00:00:13Z",
+   "pattern": "[url:value = 'https://github.com/OperativeNegotiator/WinUtilits']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000003755791841994458446",
+   "created": "2026-11-21T00:00:13Z",
+   "name": "url https://github.com/Ambereuform65/Adobe-Acrobat-Pro",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-21T00:00:13Z",
+   "pattern": "[url:value = 'https://github.com/Ambereuform65/Adobe-Acrobat-Pro']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000001264914078990320690",
+   "created": "2026-11-21T00:00:13Z",
+   "name": "url https://github.com/MagentaMonetary/PHP-Storm",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-21T00:00:13Z",
+   "pattern": "[url:value = 'https://github.com/MagentaMonetary/PHP-Storm']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000001376959012190162463",
+   "created": "2026-11-21T00:00:13Z",
+   "name": "url https://github.com/Stuccoflarear/Burning-Studio",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-21T00:00:13Z",
+   "pattern": "[url:value = 'https://github.com/Stuccoflarear/Burning-Studio']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000000764189740773280349",
+   "created": "2026-11-21T00:00:13Z",
+   "name": "url https://github.com/GraspEmissaryKiln/Ads-Blocker",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-21T00:00:13Z",
+   "pattern": "[url:value = 'https://github.com/GraspEmissaryKiln/Ads-Blocker']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000007271052424368434995",
+   "created": "2026-11-21T00:00:13Z",
+   "name": "url https://github.com/Mortalveamend/StartAll-Back",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-21T00:00:13Z",
+   "pattern": "[url:value = 'https://github.com/Mortalveamend/StartAll-Back']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000007474799001293199256",
+   "created": "2026-11-21T00:00:13Z",
+   "name": "url https://github.com/cascadefireflychill/Instagram-Liker-Bot",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-21T00:00:13Z",
+   "pattern": "[url:value = 'https://github.com/cascadefireflychill/Instagram-Liker-Bot']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000006250174788541520785",
+   "created": "2026-11-21T00:00:13Z",
+   "name": "url https://github.com/DecaStudentIncrease/Data-Grip",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-21T00:00:13Z",
+   "pattern": "[url:value = 'https://github.com/DecaStudentIncrease/Data-Grip']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000001101851323002933498",
+   "created": "2026-11-21T00:00:13Z",
+   "name": "url https://github.com/GripEmuSupply/FabFilter-Total",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-21T00:00:13Z",
+   "pattern": "[url:value = 'https://github.com/GripEmuSupply/FabFilter-Total']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000006539407001059146126",
+   "created": "2026-11-21T00:00:13Z",
+   "name": "url https://github.com/MarineBridge/RX-11-Audio-Editor",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-21T00:00:13Z",
+   "pattern": "[url:value = 'https://github.com/MarineBridge/RX-11-Audio-Editor']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000003995758827695206244",
+   "created": "2026-11-21T00:00:13Z",
+   "name": "url https://github.com/Centisaintpuzzle/Autodesk-Revit",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-21T00:00:13Z",
+   "pattern": "[url:value = 'https://github.com/Centisaintpuzzle/Autodesk-Revit']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000005900651282189786605",
+   "created": "2026-11-21T00:00:13Z",
+   "name": "url https://github.com/TheaterOcean/ExitLag",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-21T00:00:13Z",
+   "pattern": "[url:value = 'https://github.com/TheaterOcean/ExitLag']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000008007161281798312386",
+   "created": "2026-11-21T00:00:13Z",
+   "name": "url https://github.com/beattestingdisplay/Directory-Opus",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-21T00:00:13Z",
+   "pattern": "[url:value = 'https://github.com/beattestingdisplay/Directory-Opus']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000008649962374754207732",
+   "created": "2026-11-21T00:00:13Z",
+   "name": "url https://github.com/CenterBorder/Imei-Repair",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-21T00:00:13Z",
+   "pattern": "[url:value = 'https://github.com/CenterBorder/Imei-Repair']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000004614104730699615186",
+   "created": "2026-11-21T00:00:13Z",
+   "name": "url https://github.com/Hidefitzoscillate/Microsoft-Project",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-21T00:00:13Z",
+   "pattern": "[url:value = 'https://github.com/Hidefitzoscillate/Microsoft-Project']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000005884444462169584010",
+   "created": "2026-11-21T00:00:13Z",
+   "name": "url https://github.com/HectoGoldsmith/Melodyne-5",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-21T00:00:13Z",
+   "pattern": "[url:value = 'https://github.com/HectoGoldsmith/Melodyne-5']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000005289735971200121282",
+   "created": "2026-11-21T00:00:13Z",
+   "name": "url https://github.com/Copperrutrim/AnyUnlock",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-21T00:00:13Z",
+   "pattern": "[url:value = 'https://github.com/Copperrutrim/AnyUnlock']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000008277796960912678895",
+   "created": "2026-11-21T00:00:13Z",
+   "name": "url https://github.com/beachactivistmanor/Adobe-Audition",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-21T00:00:13Z",
+   "pattern": "[url:value = 'https://github.com/beachactivistmanor/Adobe-Audition']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000002971776683665200112",
+   "created": "2026-11-21T00:00:13Z",
+   "name": "url https://github.com/tunnelowlcutters/Display-Fusion",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-21T00:00:13Z",
+   "pattern": "[url:value = 'https://github.com/tunnelowlcutters/Display-Fusion']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000003001359296075613329",
+   "created": "2026-11-21T00:00:13Z",
+   "name": "url https://github.com/TrueSkyTassel/Auslogics",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-21T00:00:13Z",
+   "pattern": "[url:value = 'https://github.com/TrueSkyTassel/Auslogics']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000001788276819812450036",
+   "created": "2026-11-21T00:00:13Z",
+   "name": "url https://github.com/flattoucanphase/GrayKet",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-21T00:00:13Z",
+   "pattern": "[url:value = 'https://github.com/flattoucanphase/GrayKet']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000001677790059859859490",
+   "created": "2026-11-21T00:00:13Z",
+   "name": "url https://github.com/CommercialRuminate/Autodesk-CFD",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-21T00:00:13Z",
+   "pattern": "[url:value = 'https://github.com/CommercialRuminate/Autodesk-CFD']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000007307781383675753636",
+   "created": "2026-11-21T00:00:13Z",
+   "name": "url https://github.com/PurpleStationCharge/AnyDesk",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-21T00:00:13Z",
+   "pattern": "[url:value = 'https://github.com/PurpleStationCharge/AnyDesk']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000002653889140798703419",
+   "created": "2026-11-21T00:00:13Z",
+   "name": "url https://github.com/exajackdawmall/ExitLag",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-21T00:00:13Z",
+   "pattern": "[url:value = 'https://github.com/exajackdawmall/ExitLag']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000004496869002409791221",
+   "created": "2026-11-21T00:00:13Z",
+   "name": "url https://github.com/LimestoneTellerHover/Serato-DJ-Pro",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-21T00:00:13Z",
+   "pattern": "[url:value = 'https://github.com/LimestoneTellerHover/Serato-DJ-Pro']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000008622824547569835349",
+   "created": "2026-11-21T00:00:13Z",
+   "name": "url https://github.com/BasiliskBrakemanMoon/ArchiCAD",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-21T00:00:13Z",
+   "pattern": "[url:value = 'https://github.com/BasiliskBrakemanMoon/ArchiCAD']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000007146067797556727514",
+   "created": "2026-11-21T00:00:13Z",
+   "name": "url https://github.com/barrierpilotcatalog/Ads-Blocker",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-21T00:00:13Z",
+   "pattern": "[url:value = 'https://github.com/barrierpilotcatalog/Ads-Blocker']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000007993425059456211787",
+   "created": "2026-11-21T00:00:13Z",
+   "name": "url https://github.com/NodeRajaCrater/Cellebrite-UFED",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-21T00:00:13Z",
+   "pattern": "[url:value = 'https://github.com/NodeRajaCrater/Cellebrite-UFED']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000001941877868637017270",
+   "created": "2026-11-21T00:00:13Z",
+   "name": "url https://github.com/trueparakeetadmire63/AOMEI-Backupper",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-21T00:00:13Z",
+   "pattern": "[url:value = 'https://github.com/trueparakeetadmire63/AOMEI-Backupper']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000002352556981550226374",
+   "created": "2026-11-21T00:00:13Z",
+   "name": "url https://github.com/NinjaLynxFlow/SystemCare-Pro",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-21T00:00:13Z",
+   "pattern": "[url:value = 'https://github.com/NinjaLynxFlow/SystemCare-Pro']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000001085179388802227734",
+   "created": "2026-11-21T00:00:13Z",
+   "name": "url https://github.com/VectorMotorman/Clion",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-21T00:00:13Z",
+   "pattern": "[url:value = 'https://github.com/VectorMotorman/Clion']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000003928498885756722679",
+   "created": "2026-11-21T00:00:13Z",
+   "name": "url https://github.com/monsterroguecontinue/Start11",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-21T00:00:13Z",
+   "pattern": "[url:value = 'https://github.com/monsterroguecontinue/Start11']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000008830243726751537521",
+   "created": "2026-11-21T00:00:13Z",
+   "name": "sha256 fbaeb724f58c6c90c38e1af9333b265dabe6e6f78509b47a21da9f9db0db23ec",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-21T00:00:13Z",
+   "pattern": "[file:hashes.'SHA-256' = 'fbaeb724f58c6c90c38e1af9333b265dabe6e6f78509b47a21da9f9db0db23ec']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000004775968783288204395",
+   "created": "2026-11-21T00:00:13Z",
+   "name": "sha256 75cae8dc8680c83a30588f24bfb2902071396117b8fd48a982f8ab8d031ecc9d",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-21T00:00:13Z",
+   "pattern": "[file:hashes.'SHA-256' = '75cae8dc8680c83a30588f24bfb2902071396117b8fd48a982f8ab8d031ecc9d']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000008454794843143566006",
+   "created": "2026-11-21T00:00:13Z",
+   "name": "sha256 df3a3973900153a363e21385ca3394addac8d52c7547827dc334ebff75ee451b",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-21T00:00:13Z",
+   "pattern": "[file:hashes.'SHA-256' = 'df3a3973900153a363e21385ca3394addac8d52c7547827dc334ebff75ee451b']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000008624823281187582926",
+   "created": "2026-11-21T00:00:13Z",
+   "name": "sha256 9f293cda819b74342bb598291010ee02a96af71eb2dabc7ab4c94edea21afa9c",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-21T00:00:13Z",
+   "pattern": "[file:hashes.'SHA-256' = '9f293cda819b74342bb598291010ee02a96af71eb2dabc7ab4c94edea21afa9c']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000007537821696824530781",
+   "created": "2026-11-21T00:00:13Z",
+   "name": "sha256 9974033ff14688dba81c1e48a8cf0d4237815ea4c185c8a09fe584812457b576",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-21T00:00:13Z",
+   "pattern": "[file:hashes.'SHA-256' = '9974033ff14688dba81c1e48a8cf0d4237815ea4c185c8a09fe584812457b576']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000006050018664018990534",
+   "created": "2026-11-21T00:00:13Z",
+   "name": "sha256 8a826a8d766d2fe7b0106e9435f319d8db02178a93a74cbdfa43c9094bf0c334",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-21T00:00:13Z",
+   "pattern": "[file:hashes.'SHA-256' = '8a826a8d766d2fe7b0106e9435f319d8db02178a93a74cbdfa43c9094bf0c334']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--000000000009185626117743128174",
+   "created": "2026-11-21T00:00:13Z",
+   "name": "sha256 eef29c3207e463e789555d227c0aae4013cd0d457f80c157b7eb59dcce89ba6f",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-21T00:00:13Z",
+   "pattern": "[file:hashes.'SHA-256' = 'eef29c3207e463e789555d227c0aae4013cd0d457f80c157b7eb59dcce89ba6f']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  }
+ ]
+}

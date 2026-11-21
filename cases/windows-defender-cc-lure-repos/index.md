@@ -1,4 +1,4 @@
-# GitHub lure repos on aged batch-made accounts delivering an information stealer through pasted PowerShell commands
+# GitHub lure repos on aged batch-made accounts, and the information stealer one of their download chains delivers
 
 Category: infrastructure-setup-patterns  
 Published: 2026-11-20  
@@ -6,23 +6,27 @@ Write-up: https://github.com/scoope3/groundwork/tree/main/cases/windows-defender
 
 ## Summary
 
-GitHub accounts created on a handful of days in June and August 2026 each got one empty repository and were then left alone. From 2026-10-18 those accounts began carrying a lure: a README dressed as a free, "pre-activated" copy of commercial software that tells the reader to paste one PowerShell line. On 2026-11-20, 110 of the 113 lure repositories known were live.
+GitHub accounts created on a handful of days in June, August and September 2026 each got one placeholder repository and were then left alone. From 2026-10-01 at the latest those accounts began carrying a lure: a README dressed as a free, "pre-activated" copy of commercial software that tells the reader to paste one command. 354 lure repositories are known: 113 from the first collection (105 still live on 2026-11-20) and 241 found on 2026-11-20 by reading the accounts numbered around the known owners. That second pass read only repositories pushed since 2026-10-01, so the count is a floor.
 
-The pasted line downloads a loader script from one of five hosts. The loader downloads a password-protected RAR archive and an unpacker from `toolget2[.]lol`, unpacks it and starts the program inside. The chain was run end to end in a public Windows sandbox on Windows 10 and Windows 11.
+The lures use two groups of delivery hosts, and what this case says about the stealer applies to the first group only. For `devtools8[.]lol` (with `toolget2[.]lol`) and `quickrun31[.]cc` the chain was run end to end in a public Windows sandbox: a loader script, a password-protected RAR archive and an unpacker, then the program inside. For `ps-ps[.]cc`, `power-shell[.]cc`, `git-software[.]cc` and `windows-defender[.]cc` the scripts were never retrieved here and the hosts served nothing or no longer resolved on 2026-11-20. Other researchers report a different chain for `git-software[.]cc` (HiLleywyn/ward) and for an earlier host with the same script path (Zero-winter, 2026-09-04); what these lures deliver was not verified. `monolit[.]sbs` takes its archive from a file-sharing link and was not run on Windows.
 
-The program is an information stealer with a download-and-run task feature. It exited within seconds in the sandbox. Its unpacked code was read statically: it checks for virtual machines, analysis tools and ten interface languages, and it is built to take browser data, wallets, password-manager and messenger data and developer secrets. It was never observed stealing anything. It decrypts its server address, `meta3[.]grovestack[.]one:443`, from a value built into the program, from a telegra[.]ph page and from a Polygon smart contract. The server was never contacted.
+The program is an information stealer with a download-and-run task feature. It exited within seconds in the sandbox. Its unpacked code was read statically: it checks for virtual machines, analysis tools and ten interface languages, and it is built to take browser data, wallets, password-manager and messenger data and developer secrets. It was never observed stealing anything. It decrypts its server address, `meta3[.]grovestack[.]one:443`, from a value built into the program, from a telegra[.]ph page and from a Polygon smart contract. The server was never contacted. A second build, delivered from `quickrun31[.]cc` on 2026-11-20, has its own key, page and contract and decrypts its server address to `log[.]travelvault[.]today:443`. Those values were reported by a separate static-analysis session, whose reading is also the basis for calling the two builds one family; the three decryptions were repeated here. That server was never contacted either.
 
-The contract was created by a wallet that has created 185 contracts of nearly identical size since 2026-10-08. That all of them are resolvers of this kind is an inference from their size and pattern; only two are tied to a malware build. A sibling build from the same download host was analysed first by Ethan Kawley ([Ethan-Ka/toolget2-malware-analysis](https://github.com/Ethan-Ka/toolget2-malware-analysis), 2026-11-03); its contract comes from the same wallet, and its server is listed below as his finding. Much of the reported behaviour overlaps Elastic Security Labs' description of REVSTEALER, with differences, and Elastic's detection rule does not match this sample, so the family is an inference.
+The contract was created by a wallet that has created 188 contracts of nearly identical size since 2026-10-08. That all of them are resolvers of this kind is an inference from their size and pattern; only three are tied to a malware build (the two builds here and the sibling build). A sibling build from the same download host was analysed first by Ethan Kawley ([Ethan-Ka/toolget2-malware-analysis](https://github.com/Ethan-Ka/toolget2-malware-analysis), 2026-11-03); its contract comes from the same wallet, and its server is listed below as his finding. Much of the reported behaviour overlaps Elastic Security Labs' description of REVSTEALER, with differences, and Elastic's detection rule does not match this sample, so the family is an inference.
+
+Three lures from 2026-11-17 also carry a macOS command for `appget29[.]tools`. In a public macOS sandbox the file it downloads profiled the machine and showed a fake "System Settings" password prompt. Its family and what it takes afterwards are not known.
+
+Accounts of the same make, one of them in a creation batch shared with this case's owners, were also seen carrying a different lure kit on other hosts. The shape or batch of an account therefore does not show whose lure a repository holds; the host in the command does.
 
 ## Reading the indicators
 
-- `lure_delivery_domain`, `next_stage_host`, `stealer_c2`: hosts. Three of the delivery hosts are known only from README text; their scripts were never retrieved.
+- `lure_delivery_domain`, `next_stage_host`, `stealer_c2`: hosts. Five of the delivery hosts (`windows-defender[.]cc`, `power-shell[.]cc`, `powershell[.]lat`, `ps-ps[.]cc`, `git-software[.]cc`) are known only from README text; their scripts were never retrieved.
 - `lure_repo`: the GitHub repositories carrying the lure, live when checked. They are evidence and a takedown list, not a claim about who owns the accounts.
 - `dead_drop`, `resolver_contract`: a page on a public publishing service and a contract on a public blockchain. Block the specific page or watch for the specific call; do not block the services.
 - `deployer_wallet`: kit scope. Whether the wallet belongs to one operator or to a service used by many is not known.
 - `third_party_c2`: reported by another researcher and credited to him; not re-derived here.
 - No first-finder claim is made for any indicator in this case.
-- Files, in the order listed below: the loader script served at `devtools8[.]lol/j2sj9blzc` (PowerShell, 14,841 bytes, same hash in three sandbox runs); the loader script served at `monolit[.]sbs` (PowerShell, 4,819 bytes, retrieved 2026-11-18); the password-protected archive `67q65idtq.rar` served by `toolget2[.]lol` (3,286,078 bytes); and the stealer as delivered, `bh3xm14ke1.exe` (packed, self-signed, 3,460,200 bytes; hash reported by two analysis sessions). The unpacker the loader downloads is reported to be a genuine UnRAR build and is deliberately not listed.
+- Files, in the order listed below: the loader script served at `devtools8[.]lol/j2sj9blzc` (PowerShell, 14,841 bytes, same hash in three sandbox runs); the loader script served at `monolit[.]sbs` (PowerShell, 4,819 bytes, retrieved 2026-11-18); the password-protected archive `67q65idtq.rar` served by `toolget2[.]lol` (3,286,078 bytes); and the stealer as delivered, `bh3xm14ke1.exe` (packed, self-signed, 3,460,200 bytes; hash reported by two analysis sessions). Then the second build as delivered from `quickrun31[.]cc`, `pt12owjk2s.exe` (packed, 2,622,928 bytes); its archive `l1d2va.rar` as served on 2026-11-20; and the macOS program served by `appget29[.]tools` (universal Mach-O, 811,040 bytes). The unpacker the loader downloads is reported to be a genuine UnRAR build and is deliberately not listed.
 
 Nothing in this case is attributed to a person or group.
 
@@ -31,6 +35,7 @@ Nothing in this case is attributed to a person or group.
 | Evidence type | Scope | False-positive rate | On |
 | --- | --- | --- | --- |
 | dead_drop | operator | 0% | `https://telegra.ph/Clear-ridge-11-10` |
+| dead_drop | operator | 0% | `https://telegra.ph/Canvas-grove-11-19` |
 | deployer_wallet | kit | 0% | `0x8bAddf058D11005360900a0542484eE446F2d494` |
 | lure_delivery_domain | operator | 0% | `windows-defender.cc` |
 | lure_delivery_domain | operator | 0% | `monolit.sbs` |
@@ -40,6 +45,10 @@ Nothing in this case is attributed to a person or group.
 | lure_delivery_domain | operator | 0% | `power-shell.cc` |
 | lure_delivery_domain | operator | 0% | `monolit.sbs` |
 | lure_delivery_domain | operator | 0% | `monolit.sbs` |
+| lure_delivery_domain | operator | 0% | `ps-ps.cc` |
+| lure_delivery_domain | operator | 0% | `git-software.cc` |
+| lure_delivery_domain | operator | 0% | `quickrun31.cc` |
+| lure_delivery_domain | operator | 0% | `appget29.tools` |
 | lure_repo | operator | 0% | `https://github.com/dreamtherapistcrypt/Chaos-Enscape-Collection-Free-Professional-3D-Rendering` |
 | lure_repo | operator | 0% | `https://github.com/petacockatooblock/Chaos-Corona-Collection-Free-Professional-Architectural-Rendering` |
 | lure_repo | operator | 0% | `https://github.com/Blizzardteawning/IK-Multimedia-AmpliTube-5-MAX-v2-Free-Guitar-Bass-Modeling` |
@@ -150,11 +159,254 @@ Nothing in this case is attributed to a person or group.
 | lure_repo | operator | 0% | `https://github.com/mortalswanstrait/wise-care` |
 | lure_repo | operator | 0% | `https://github.com/DeimosPhobos666/office-suite-validator` |
 | lure_repo | operator | 0% | `https://github.com/rimoharp/melodyne-5` |
+| lure_repo | operator | 0% | `https://github.com/Unitphisignify/xswodvro` |
+| lure_repo | operator | 0% | `https://github.com/driftcuttlefishjump/Serato-DJ-Pro` |
+| lure_repo | operator | 0% | `https://github.com/armorsurgeonstill7/Clion` |
+| lure_repo | operator | 0% | `https://github.com/PlotOtokageRespect/GrayKet` |
+| lure_repo | operator | 0% | `https://github.com/ceilingforemanrank/CapCut-for-Windows` |
+| lure_repo | operator | 0% | `https://github.com/BowyerSqueeze/Avid-Media-Composer` |
+| lure_repo | operator | 0% | `https://github.com/fuserainday80/AOMEI-Backupper` |
+| lure_repo | operator | 0% | `https://github.com/Sandstonetenoutfit/Cinebench` |
+| lure_repo | operator | 0% | `https://github.com/Crestchadome/VoiceChanger` |
+| lure_repo | operator | 0% | `https://github.com/Ninjaclaplunder36/AnyDesk` |
+| lure_repo | operator | 0% | `https://github.com/rainfrogrectifier41/Avid-Media-Composer` |
+| lure_repo | operator | 0% | `https://github.com/rainfrogrectifier41/Autodesk-3ds-MAX` |
+| lure_repo | operator | 0% | `https://github.com/LimestoneCaptain/FabFilter-Total` |
+| lure_repo | operator | 0% | `https://github.com/PinkTrackDesignate/Movavi-Video-Editor-Plus` |
+| lure_repo | operator | 0% | `https://github.com/ApparitionElkCorrect/Wise-Care` |
+| lure_repo | operator | 0% | `https://github.com/Colorstoserver/Movavi-Effects` |
+| lure_repo | operator | 0% | `https://github.com/ShopkeeperConnector/Wise-Registrity` |
+| lure_repo | operator | 0% | `https://github.com/frostaxetrough/Designcenter-NX` |
+| lure_repo | operator | 0% | `https://github.com/WraithTellerSpout/Autodesk-3ds-MAX` |
+| lure_repo | operator | 0% | `https://github.com/LevelSparkRecognize/Ashampoo-WinOptimizer` |
+| lure_repo | operator | 0% | `https://github.com/Flashbylevel/FabFilter-Pro` |
+| lure_repo | operator | 0% | `https://github.com/BlueProvostCrush/Quicken-Deluxe` |
+| lure_repo | operator | 0% | `https://github.com/Volumetheboutique/Directory-Opus` |
+| lure_repo | operator | 0% | `https://github.com/ViceAdvocate/ArchiCAD` |
+| lure_repo | operator | 0% | `https://github.com/MajorShaperCultivate/Acronis` |
+| lure_repo | operator | 0% | `https://github.com/MajorShaperCultivate/Ableton-Live-12` |
+| lure_repo | operator | 0% | `https://github.com/BottomHeronEradicate/Movavi-Screen-Recorder` |
+| lure_repo | operator | 0% | `https://github.com/FollowerPruner/Melodyne-5` |
+| lure_repo | operator | 0% | `https://github.com/UnicornShade/PHP-Storm` |
+| lure_repo | operator | 0% | `https://github.com/Demonsemarvel/Auslogics` |
+| lure_repo | operator | 0% | `https://github.com/Icechiponder/SoundPad` |
+| lure_repo | operator | 0% | `https://github.com/MortalGoldsmith40/Autodesk-Revit` |
+| lure_repo | operator | 0% | `https://github.com/Topunderfeel/Ableton-Live-12` |
+| lure_repo | operator | 0% | `https://github.com/Topunderfeel/Acronis` |
+| lure_repo | operator | 0% | `https://github.com/StoneParakeet/Movavi-Video-Suite-Plus` |
+| lure_repo | operator | 0% | `https://github.com/EastShipperRestore/SonyVegas` |
+| lure_repo | operator | 0% | `https://github.com/beastofficerfollow/Movavi-Photo-Editor` |
+| lure_repo | operator | 0% | `https://github.com/LizardScissors/Adobe-Acrobat-Pro` |
+| lure_repo | operator | 0% | `https://github.com/metropolisorioletap/Adobe-InDesign` |
+| lure_repo | operator | 0% | `https://github.com/metropolisorioletap/Actual-Multiplie-Monitors` |
+| lure_repo | operator | 0% | `https://github.com/Lineureliminate/HitFilm` |
+| lure_repo | operator | 0% | `https://github.com/PillarStreamPipe/Burning-Studio` |
+| lure_repo | operator | 0% | `https://github.com/Matterwithinbastion/Data-Grip` |
+| lure_repo | operator | 0% | `https://github.com/GaleVeterinarian/Power-Director` |
+| lure_repo | operator | 0% | `https://github.com/DimCommercialFactory/Start11` |
+| lure_repo | operator | 0% | `https://github.com/GlueRealmProduce/Cellebrite-UFED` |
+| lure_repo | operator | 0% | `https://github.com/EmirOvercome/Adobe-After-Effects` |
+| lure_repo | operator | 0% | `https://github.com/MagicArbiter/Easy-Worship` |
+| lure_repo | operator | 0% | `https://github.com/PersonalityWalker/Movavi-Converter` |
+| lure_repo | operator | 0% | `https://github.com/AdmiralDiscriminate/Photo-Commander` |
+| lure_repo | operator | 0% | `https://github.com/holeconductorcrush/Kontakt-8` |
+| lure_repo | operator | 0% | `https://github.com/hubdragonminaret/VoiceMod` |
+| lure_repo | operator | 0% | `https://github.com/Windaurotation/Canva-Pro` |
+| lure_repo | operator | 0% | `https://github.com/Windaurotation/Better-Discord` |
+| lure_repo | operator | 0% | `https://github.com/Capitalaosteeple24/sbzjbgdy` |
+| lure_repo | operator | 0% | `https://github.com/kindguruboost/Data-Grip` |
+| lure_repo | operator | 0% | `https://github.com/HiddenSparrowMinaret/Wise-Registrity` |
+| lure_repo | operator | 0% | `https://github.com/FoalShrink50/Movavi-Effects` |
+| lure_repo | operator | 0% | `https://github.com/Weavebennurture/Burning-Studio` |
+| lure_repo | operator | 0% | `https://github.com/Weavebennurture/Avid-Media-Composer` |
+| lure_repo | operator | 0% | `https://github.com/Lineinmonitor/Ozone-12-Advanced` |
+| lure_repo | operator | 0% | `https://github.com/PortionHelmsman/Movavi-Converter` |
+| lure_repo | operator | 0% | `https://github.com/ashcustodiandolmen/Cinebench` |
+| lure_repo | operator | 0% | `https://github.com/TrackViceCraft/Movavi-Video-Editor-Plus` |
+| lure_repo | operator | 0% | `https://github.com/BayAssociate/Directory-Opus` |
+| lure_repo | operator | 0% | `https://github.com/sharpbytekey/Movavi-Video-Suite-Plus` |
+| lure_repo | operator | 0% | `https://github.com/SavageSamuraiTuck/CorelDraw` |
+| lure_repo | operator | 0% | `https://github.com/PeltPythonCall/GrayKet` |
+| lure_repo | operator | 0% | `https://github.com/Griffinlyatreasure85/Cellebrite-UFED` |
+| lure_repo | operator | 0% | `https://github.com/Thornonanchorage/Ashampoo-WinOptimizer` |
+| lure_repo | operator | 0% | `https://github.com/MarshalTrench/SonyVegas` |
+| lure_repo | operator | 0% | `https://github.com/snatchbytesalvage/CCleaner-Pro` |
+| lure_repo | operator | 0% | `https://github.com/SaboteurClip/Rufus` |
+| lure_repo | operator | 0% | `https://github.com/JoinBardColonnade/RX-11-Audio-Editor` |
+| lure_repo | operator | 0% | `https://github.com/PlanetPhaseRaid/VoiceMod` |
+| lure_repo | operator | 0% | `https://github.com/Openbygather/Movavi-Photo-Editor` |
+| lure_repo | operator | 0% | `https://github.com/ScrewDiverHike/Power-Director` |
+| lure_repo | operator | 0% | `https://github.com/Ratiokrunote/Movavi-Converter` |
+| lure_repo | operator | 0% | `https://github.com/SlateElementalist/SystemCare-Pro` |
+| lure_repo | operator | 0% | `https://github.com/Minotaurtruflex/Microsoft-Project` |
+| lure_repo | operator | 0% | `https://github.com/MelodySwimmer/Ultra-Edit` |
+| lure_repo | operator | 0% | `https://github.com/Openyodepict/Movavi-Video-Editor-Plus` |
+| lure_repo | operator | 0% | `https://github.com/EssenceConductor/Movavi-Video-Suite-Plus` |
+| lure_repo | operator | 0% | `https://github.com/crimsonoriolehovel/Movavi-Effects` |
+| lure_repo | operator | 0% | `https://github.com/HornbillJournal/Photo-Commander` |
+| lure_repo | operator | 0% | `https://github.com/TarantulaKnow/Movavi-Screen-Recorder` |
+| lure_repo | operator | 0% | `https://github.com/StreetGateChisel/Uttorent` |
+| lure_repo | operator | 0% | `https://github.com/PathTailorRadial/StartAll-Back` |
+| lure_repo | operator | 0% | `https://github.com/portalthunderphase/Movavi-Photo-Editor` |
+| lure_repo | operator | 0% | `https://github.com/ExistenceProduction/Auslogics` |
+| lure_repo | operator | 0% | `https://github.com/PaintShrimpDawn/Canva-Pro` |
+| lure_repo | operator | 0% | `https://github.com/MailJudgeView/SoundPad` |
+| lure_repo | operator | 0% | `https://github.com/Ponddergenerate/Movavi-Video-Suite-Plus` |
+| lure_repo | operator | 0% | `https://github.com/ChainWizardAura/Cinebench` |
+| lure_repo | operator | 0% | `https://github.com/SmartThunderDisplay/Movavi-Screen-Recorder` |
+| lure_repo | operator | 0% | `https://github.com/FlowBeetle94/Autodesk-Revit` |
+| lure_repo | operator | 0% | `https://github.com/Towerthroughlabel/FabFilter-Total` |
+| lure_repo | operator | 0% | `https://github.com/BlacksmithColumn/AOMEI-Backupper` |
+| lure_repo | operator | 0% | `https://github.com/FaceDuckStove/CapCut-for-Windows` |
+| lure_repo | operator | 0% | `https://github.com/ringorcastay/Ashampoo-WinOptimizer` |
+| lure_repo | operator | 0% | `https://github.com/SerpentCleric/Uttorent` |
+| lure_repo | operator | 0% | `https://github.com/volumesamuraichill/SystemCare-Pro` |
+| lure_repo | operator | 0% | `https://github.com/NightBiomancer/Cellebrite-UFED` |
+| lure_repo | operator | 0% | `https://github.com/Grandmasterofend/Melodyne-5` |
+| lure_repo | operator | 0% | `https://github.com/mudcoxswainpit/Movavi-Converter` |
+| lure_repo | operator | 0% | `https://github.com/GiraffeCondense/Burning-Studio` |
+| lure_repo | operator | 0% | `https://github.com/ShoreRealm72/RX-11-Audio-Editor` |
+| lure_repo | operator | 0% | `https://github.com/WharfStarHike/Wise-Registrity` |
+| lure_repo | operator | 0% | `https://github.com/BladesmithFirewall/KeyShot-Pro` |
+| lure_repo | operator | 0% | `https://github.com/GraphLoopGame/FabFilter-Pro` |
+| lure_repo | operator | 0% | `https://github.com/DragonHokageDecoder/Total-Commander` |
+| lure_repo | operator | 0% | `https://github.com/Tracksiawning/VoiceMod` |
+| lure_repo | operator | 0% | `https://github.com/chaindictatorpalace/AnyDesk` |
+| lure_repo | operator | 0% | `https://github.com/Obsidiangrohoist/HitFilm` |
+| lure_repo | operator | 0% | `https://github.com/Ditcharbarrier/ExitLag` |
+| lure_repo | operator | 0% | `https://github.com/FigureNetworkConsole/Movavi-Video-Editor-Plus` |
+| lure_repo | operator | 0% | `https://github.com/FenceSpinnerGuide/Rufus` |
+| lure_repo | operator | 0% | `https://github.com/bittsuchikagelaud/Avid-Media-Composer` |
+| lure_repo | operator | 0% | `https://github.com/Earthyodeliver16/Power-Director` |
+| lure_repo | operator | 0% | `https://github.com/StreetMarine/Autodesk-3ds-MAX` |
+| lure_repo | operator | 0% | `https://github.com/FinalJourneyman/Movavi-Effects` |
+| lure_repo | operator | 0% | `https://github.com/megasheriffswell/Photo-Commander` |
+| lure_repo | operator | 0% | `https://github.com/ClawFollowerMall/Chief-Architect-Premier` |
+| lure_repo | operator | 0% | `https://github.com/torrentclassbay/SonyVegas` |
+| lure_repo | operator | 0% | `https://github.com/oillovebirdbuild/Total-Commander` |
+| lure_repo | operator | 0% | `https://github.com/ProviderRelease64/WinUtilits` |
+| lure_repo | operator | 0% | `https://github.com/pentagongeneralgaze/VoiceChanger` |
+| lure_repo | operator | 0% | `https://github.com/PheasantMetro/Uttorent` |
+| lure_repo | operator | 0% | `https://github.com/opticantbarrow/Ultra-Edit` |
+| lure_repo | operator | 0% | `https://github.com/silverofficialdusk/Easeus-Todo-Backup-For-Windows` |
+| lure_repo | operator | 0% | `https://github.com/sparkfiremancollar21/Microsoft-Project-For-Windows` |
+| lure_repo | operator | 0% | `https://github.com/BetaChampionTitle/Coreldraw-For-Windows` |
+| lure_repo | operator | 0% | `https://github.com/StitchSerfJump/Microsoft-Visio-For-Windows` |
+| lure_repo | operator | 0% | `https://github.com/DeckhandIgnite/Davinci-Resolve-Studio-For-Windows` |
+| lure_repo | operator | 0% | `https://github.com/ElementalistTurbine/Ccleaner-Professional-For-Windows` |
+| lure_repo | operator | 0% | `https://github.com/MudTsuchikage/Fl-Studio-For-Windows` |
+| lure_repo | operator | 0% | `https://github.com/OrangeSaviorImagine/Abbyy-Finereader-Pdf-For-Windows` |
+| lure_repo | operator | 0% | `https://github.com/Velocityatrhythm/Autodesk-3ds-Max-For-Windows` |
+| lure_repo | operator | 0% | `https://github.com/MortarBeetleStyle/Autocad-For-Windows` |
+| lure_repo | operator | 0% | `https://github.com/CatchArtisanDone86/Movavi-Video-Editor-For-Windows` |
+| lure_repo | operator | 0% | `https://github.com/Sandsisupervise20/Adobe-Premiere-Pro-For-Windows-And-Macos` |
+| lure_repo | operator | 0% | `https://github.com/gleameconomicjetty/Adobe-Indesign-For-Windows-And-Macos` |
+| lure_repo | operator | 0% | `https://github.com/ManeSwordGraph/Adobe-Lightroom-Classic-For-Windows-And-Macos` |
+| lure_repo | operator | 0% | `https://github.com/Cachewithinmake/GTA6-Preload-PC` |
+| lure_repo | operator | 0% | `https://github.com/SageAdapter8/Rob-Run-Mod-Menu` |
+| lure_repo | operator | 0% | `https://github.com/Weavedrobless13/Actual-Multiplie-Monitors` |
+| lure_repo | operator | 0% | `https://github.com/Weavedrobless13/Acronis` |
+| lure_repo | operator | 0% | `https://github.com/Wireearadial/Adobe-After-Effects` |
+| lure_repo | operator | 0% | `https://github.com/Wireearadial/Actual-Multiplie-Monitors` |
+| lure_repo | operator | 0% | `https://github.com/WharfBeetleGallery37/Acronis` |
+| lure_repo | operator | 0% | `https://github.com/WharfBeetleGallery37/Ableton-Live-12` |
+| lure_repo | operator | 0% | `https://github.com/ShaleNurseBurst/Wise-Registrity` |
+| lure_repo | operator | 0% | `https://github.com/ManufacturingTurbine/Serato-DJ-Pro` |
+| lure_repo | operator | 0% | `https://github.com/BondFletcher/Ashampoo-WinOptimizer` |
+| lure_repo | operator | 0% | `https://github.com/angleartisanstitch/SystemCare-Pro` |
+| lure_repo | operator | 0% | `https://github.com/JoinDamselReduce/Movavi-Video-Suite-Plus` |
+| lure_repo | operator | 0% | `https://github.com/beastcrewmanraise56/AutoCad` |
+| lure_repo | operator | 0% | `https://github.com/CaptainFurnish/AOMEI-Backupper` |
+| lure_repo | operator | 0% | `https://github.com/celestialsteamsupply/Movavi-Video-Suite-Plus` |
+| lure_repo | operator | 0% | `https://github.com/PathSwallowLock/Wise-Care` |
+| lure_repo | operator | 0% | `https://github.com/BrokerSpiral/CapCut-for-Windows` |
+| lure_repo | operator | 0% | `https://github.com/convergeattorneyquay/Claude-Jailbreak-Prompt` |
+| lure_repo | operator | 0% | `https://github.com/Holeyospindle/Movavi-Effects` |
+| lure_repo | operator | 0% | `https://github.com/Polygonglicavity/FL-Studio` |
+| lure_repo | operator | 0% | `https://github.com/Sandstonelunamode/Autodesk-Revit` |
+| lure_repo | operator | 0% | `https://github.com/MatrixSeaCode25/SketchUp-Pro` |
+| lure_repo | operator | 0% | `https://github.com/HarborAxolotl/Kontakt-8` |
+| lure_repo | operator | 0% | `https://github.com/StoragePupaAgitate/CorelDraw` |
+| lure_repo | operator | 0% | `https://github.com/Magicvanmemorialize/Quicken-Deluxe` |
+| lure_repo | operator | 0% | `https://github.com/OfficialHook/VoiceChanger` |
+| lure_repo | operator | 0% | `https://github.com/NoviceBandage/Ashampoo-Uninstaller` |
+| lure_repo | operator | 0% | `https://github.com/TrapSilversmith/KeyShot-Pro` |
+| lure_repo | operator | 0% | `https://github.com/beamcrystalplunder/Actual-Multiplie-Monitors` |
+| lure_repo | operator | 0% | `https://github.com/CassowaryMansion/Autodesk-CFD` |
+| lure_repo | operator | 0% | `https://github.com/BadgeHealerConverter/Adobe-After-Effects` |
+| lure_repo | operator | 0% | `https://github.com/Fabledandtrowel/Claude-Jailbreak-Prompt` |
+| lure_repo | operator | 0% | `https://github.com/ExaMajorYell/FabFilter-Pro` |
+| lure_repo | operator | 0% | `https://github.com/SphereIguana8/AutoCad` |
+| lure_repo | operator | 0% | `https://github.com/legendaryturkeyspark/Ozone-12-Advanced` |
+| lure_repo | operator | 0% | `https://github.com/azurepikemandivide/GrayKet` |
+| lure_repo | operator | 0% | `https://github.com/GraphSoldierPergola/Instagram-Liker-Bot` |
+| lure_repo | operator | 0% | `https://github.com/DensityCooper/Designcenter-NX` |
+| lure_repo | operator | 0% | `https://github.com/FlowScorpion/HitFilm` |
+| lure_repo | operator | 0% | `https://github.com/Feelingubattle/FL-Studio` |
+| lure_repo | operator | 0% | `https://github.com/Characternearequip/CCleaner-Pro` |
+| lure_repo | operator | 0% | `https://github.com/mintconductorzen/SonyVegas` |
+| lure_repo | operator | 0% | `https://github.com/colonylightsever/Cinebench` |
+| lure_repo | operator | 0% | `https://github.com/bodyconquerorclimb/Adobe-Substance-3d` |
+| lure_repo | operator | 0% | `https://github.com/heightsongsouk/Microsoft-365` |
+| lure_repo | operator | 0% | `https://github.com/Cacheacrossregain/Auslogics` |
+| lure_repo | operator | 0% | `https://github.com/phantombudgiesheave/Wise-Registrity` |
+| lure_repo | operator | 0% | `https://github.com/Arenadensocket/Data-Grip` |
+| lure_repo | operator | 0% | `https://github.com/ChampionHaulerFlue/Burning-Studio` |
+| lure_repo | operator | 0% | `https://github.com/Ensignchetrap/Easy-Worship` |
+| lure_repo | operator | 0% | `https://github.com/NightingaleHinge/CCleaner-Pro` |
+| lure_repo | operator | 0% | `https://github.com/FabledEmpressFree19/FabFilter-Total` |
+| lure_repo | operator | 0% | `https://github.com/Coaliocontact/Chief-Architect-Premier` |
+| lure_repo | operator | 0% | `https://github.com/hornsurgeontweezers/Movavi-Converter` |
+| lure_repo | operator | 0% | `https://github.com/anglemayorwinch30/ArchiCAD` |
+| lure_repo | operator | 0% | `https://github.com/Topazchosouk/Autodesk-Inventor` |
+| lure_repo | operator | 0% | `https://github.com/BarbTernCrack/Acronis` |
+| lure_repo | operator | 0% | `https://github.com/wyrmlawyerberth/Catia-Cad` |
+| lure_repo | operator | 0% | `https://github.com/Highwayphomoon/Microsoft-Visio` |
+| lure_repo | operator | 0% | `https://github.com/Dockuafill99/Directory-Opus` |
+| lure_repo | operator | 0% | `https://github.com/BeamHornetStation/Adobe-Photoshop` |
+| lure_repo | operator | 0% | `https://github.com/OceanViceIgnite97/Cinebench` |
+| lure_repo | operator | 0% | `https://github.com/DustInterest/Ashampoo-WinOptimizer` |
+| lure_repo | operator | 0% | `https://github.com/Captureglewharf/Autodesk-Inventor` |
+| lure_repo | operator | 0% | `https://github.com/stratumvaporrecall/Melodyne-5` |
+| lure_repo | operator | 0% | `https://github.com/OperativeNegotiator/WinUtilits` |
+| lure_repo | operator | 0% | `https://github.com/Ambereuform65/Adobe-Acrobat-Pro` |
+| lure_repo | operator | 0% | `https://github.com/MagentaMonetary/PHP-Storm` |
+| lure_repo | operator | 0% | `https://github.com/Stuccoflarear/Burning-Studio` |
+| lure_repo | operator | 0% | `https://github.com/GraspEmissaryKiln/Ads-Blocker` |
+| lure_repo | operator | 0% | `https://github.com/Mortalveamend/StartAll-Back` |
+| lure_repo | operator | 0% | `https://github.com/cascadefireflychill/Instagram-Liker-Bot` |
+| lure_repo | operator | 0% | `https://github.com/DecaStudentIncrease/Data-Grip` |
+| lure_repo | operator | 0% | `https://github.com/GripEmuSupply/FabFilter-Total` |
+| lure_repo | operator | 0% | `https://github.com/MarineBridge/RX-11-Audio-Editor` |
+| lure_repo | operator | 0% | `https://github.com/Centisaintpuzzle/Autodesk-Revit` |
+| lure_repo | operator | 0% | `https://github.com/TheaterOcean/ExitLag` |
+| lure_repo | operator | 0% | `https://github.com/beattestingdisplay/Directory-Opus` |
+| lure_repo | operator | 0% | `https://github.com/CenterBorder/Imei-Repair` |
+| lure_repo | operator | 0% | `https://github.com/Hidefitzoscillate/Microsoft-Project` |
+| lure_repo | operator | 0% | `https://github.com/HectoGoldsmith/Melodyne-5` |
+| lure_repo | operator | 0% | `https://github.com/Copperrutrim/AnyUnlock` |
+| lure_repo | operator | 0% | `https://github.com/beachactivistmanor/Adobe-Audition` |
+| lure_repo | operator | 0% | `https://github.com/tunnelowlcutters/Display-Fusion` |
+| lure_repo | operator | 0% | `https://github.com/TrueSkyTassel/Auslogics` |
+| lure_repo | operator | 0% | `https://github.com/flattoucanphase/GrayKet` |
+| lure_repo | operator | 0% | `https://github.com/CommercialRuminate/Autodesk-CFD` |
+| lure_repo | operator | 0% | `https://github.com/PurpleStationCharge/AnyDesk` |
+| lure_repo | operator | 0% | `https://github.com/exajackdawmall/ExitLag` |
+| lure_repo | operator | 0% | `https://github.com/LimestoneTellerHover/Serato-DJ-Pro` |
+| lure_repo | operator | 0% | `https://github.com/BasiliskBrakemanMoon/ArchiCAD` |
+| lure_repo | operator | 0% | `https://github.com/barrierpilotcatalog/Ads-Blocker` |
+| lure_repo | operator | 0% | `https://github.com/NodeRajaCrater/Cellebrite-UFED` |
+| lure_repo | operator | 0% | `https://github.com/trueparakeetadmire63/AOMEI-Backupper` |
+| lure_repo | operator | 0% | `https://github.com/NinjaLynxFlow/SystemCare-Pro` |
+| lure_repo | operator | 0% | `https://github.com/VectorMotorman/Clion` |
+| lure_repo | operator | 0% | `https://github.com/monsterroguecontinue/Start11` |
 | lure_repo_template | kit | 0% | `github-repo-set:windows-defender-cc` |
 | next_stage_host | operator | 0% | `toolget2.lol` |
 | resolver_contract | operator | 0% | `0x1ee6A331881102B84d2DebdD5eefd2E591a65f14` |
+| resolver_contract | operator | 0% | `0x45a7B8fAec623508bd68be535Cc7618f283ddB48` |
 | star_inflation_pattern | context | 0% | `github-account-batch:2026-08-10` |
 | stealer_c2 | operator | 0% | `meta3.grovestack.one` |
+| stealer_c2 | operator | 0% | `log.travelvault.today` |
 | third_party_c2 | kit | 0% | `scheduler.echoform32.club` |
 
 ## Indicators
@@ -282,6 +534,254 @@ Nothing in this case is attributed to a person or group.
 | url | `https://github.com/mortalswanstrait/wise-care` | lure_repo | not claimed |
 | url | `https://github.com/DeimosPhobos666/office-suite-validator` | lure_repo | not claimed |
 | url | `https://github.com/rimoharp/melodyne-5` | lure_repo | not claimed |
+| domain | `ps-ps.cc` | lure_delivery_domain | not claimed |
+| domain | `git-software.cc` | lure_delivery_domain | not claimed |
+| domain | `quickrun31.cc` | lure_delivery_domain | not claimed |
+| domain | `appget29.tools` | lure_delivery_domain | not claimed |
+| domain | `log.travelvault.today` | stealer_c2 | not claimed |
+| url | `https://telegra.ph/Canvas-grove-11-19` | dead_drop | not claimed |
+| contract_address | `0x45a7B8fAec623508bd68be535Cc7618f283ddB48` | resolver_contract | not claimed |
+| url | `https://github.com/Unitphisignify/xswodvro` | lure_repo | not claimed |
+| url | `https://github.com/driftcuttlefishjump/Serato-DJ-Pro` | lure_repo | not claimed |
+| url | `https://github.com/armorsurgeonstill7/Clion` | lure_repo | not claimed |
+| url | `https://github.com/PlotOtokageRespect/GrayKet` | lure_repo | not claimed |
+| url | `https://github.com/ceilingforemanrank/CapCut-for-Windows` | lure_repo | not claimed |
+| url | `https://github.com/BowyerSqueeze/Avid-Media-Composer` | lure_repo | not claimed |
+| url | `https://github.com/fuserainday80/AOMEI-Backupper` | lure_repo | not claimed |
+| url | `https://github.com/Sandstonetenoutfit/Cinebench` | lure_repo | not claimed |
+| url | `https://github.com/Crestchadome/VoiceChanger` | lure_repo | not claimed |
+| url | `https://github.com/Ninjaclaplunder36/AnyDesk` | lure_repo | not claimed |
+| url | `https://github.com/rainfrogrectifier41/Avid-Media-Composer` | lure_repo | not claimed |
+| url | `https://github.com/rainfrogrectifier41/Autodesk-3ds-MAX` | lure_repo | not claimed |
+| url | `https://github.com/LimestoneCaptain/FabFilter-Total` | lure_repo | not claimed |
+| url | `https://github.com/PinkTrackDesignate/Movavi-Video-Editor-Plus` | lure_repo | not claimed |
+| url | `https://github.com/ApparitionElkCorrect/Wise-Care` | lure_repo | not claimed |
+| url | `https://github.com/Colorstoserver/Movavi-Effects` | lure_repo | not claimed |
+| url | `https://github.com/ShopkeeperConnector/Wise-Registrity` | lure_repo | not claimed |
+| url | `https://github.com/frostaxetrough/Designcenter-NX` | lure_repo | not claimed |
+| url | `https://github.com/WraithTellerSpout/Autodesk-3ds-MAX` | lure_repo | not claimed |
+| url | `https://github.com/LevelSparkRecognize/Ashampoo-WinOptimizer` | lure_repo | not claimed |
+| url | `https://github.com/Flashbylevel/FabFilter-Pro` | lure_repo | not claimed |
+| url | `https://github.com/BlueProvostCrush/Quicken-Deluxe` | lure_repo | not claimed |
+| url | `https://github.com/Volumetheboutique/Directory-Opus` | lure_repo | not claimed |
+| url | `https://github.com/ViceAdvocate/ArchiCAD` | lure_repo | not claimed |
+| url | `https://github.com/MajorShaperCultivate/Acronis` | lure_repo | not claimed |
+| url | `https://github.com/MajorShaperCultivate/Ableton-Live-12` | lure_repo | not claimed |
+| url | `https://github.com/BottomHeronEradicate/Movavi-Screen-Recorder` | lure_repo | not claimed |
+| url | `https://github.com/FollowerPruner/Melodyne-5` | lure_repo | not claimed |
+| url | `https://github.com/UnicornShade/PHP-Storm` | lure_repo | not claimed |
+| url | `https://github.com/Demonsemarvel/Auslogics` | lure_repo | not claimed |
+| url | `https://github.com/Icechiponder/SoundPad` | lure_repo | not claimed |
+| url | `https://github.com/MortalGoldsmith40/Autodesk-Revit` | lure_repo | not claimed |
+| url | `https://github.com/Topunderfeel/Ableton-Live-12` | lure_repo | not claimed |
+| url | `https://github.com/Topunderfeel/Acronis` | lure_repo | not claimed |
+| url | `https://github.com/StoneParakeet/Movavi-Video-Suite-Plus` | lure_repo | not claimed |
+| url | `https://github.com/EastShipperRestore/SonyVegas` | lure_repo | not claimed |
+| url | `https://github.com/beastofficerfollow/Movavi-Photo-Editor` | lure_repo | not claimed |
+| url | `https://github.com/LizardScissors/Adobe-Acrobat-Pro` | lure_repo | not claimed |
+| url | `https://github.com/metropolisorioletap/Adobe-InDesign` | lure_repo | not claimed |
+| url | `https://github.com/metropolisorioletap/Actual-Multiplie-Monitors` | lure_repo | not claimed |
+| url | `https://github.com/Lineureliminate/HitFilm` | lure_repo | not claimed |
+| url | `https://github.com/PillarStreamPipe/Burning-Studio` | lure_repo | not claimed |
+| url | `https://github.com/Matterwithinbastion/Data-Grip` | lure_repo | not claimed |
+| url | `https://github.com/GaleVeterinarian/Power-Director` | lure_repo | not claimed |
+| url | `https://github.com/DimCommercialFactory/Start11` | lure_repo | not claimed |
+| url | `https://github.com/GlueRealmProduce/Cellebrite-UFED` | lure_repo | not claimed |
+| url | `https://github.com/EmirOvercome/Adobe-After-Effects` | lure_repo | not claimed |
+| url | `https://github.com/MagicArbiter/Easy-Worship` | lure_repo | not claimed |
+| url | `https://github.com/PersonalityWalker/Movavi-Converter` | lure_repo | not claimed |
+| url | `https://github.com/AdmiralDiscriminate/Photo-Commander` | lure_repo | not claimed |
+| url | `https://github.com/holeconductorcrush/Kontakt-8` | lure_repo | not claimed |
+| url | `https://github.com/hubdragonminaret/VoiceMod` | lure_repo | not claimed |
+| url | `https://github.com/Windaurotation/Canva-Pro` | lure_repo | not claimed |
+| url | `https://github.com/Windaurotation/Better-Discord` | lure_repo | not claimed |
+| url | `https://github.com/Capitalaosteeple24/sbzjbgdy` | lure_repo | not claimed |
+| url | `https://github.com/kindguruboost/Data-Grip` | lure_repo | not claimed |
+| url | `https://github.com/HiddenSparrowMinaret/Wise-Registrity` | lure_repo | not claimed |
+| url | `https://github.com/FoalShrink50/Movavi-Effects` | lure_repo | not claimed |
+| url | `https://github.com/Weavebennurture/Burning-Studio` | lure_repo | not claimed |
+| url | `https://github.com/Weavebennurture/Avid-Media-Composer` | lure_repo | not claimed |
+| url | `https://github.com/Lineinmonitor/Ozone-12-Advanced` | lure_repo | not claimed |
+| url | `https://github.com/PortionHelmsman/Movavi-Converter` | lure_repo | not claimed |
+| url | `https://github.com/ashcustodiandolmen/Cinebench` | lure_repo | not claimed |
+| url | `https://github.com/TrackViceCraft/Movavi-Video-Editor-Plus` | lure_repo | not claimed |
+| url | `https://github.com/BayAssociate/Directory-Opus` | lure_repo | not claimed |
+| url | `https://github.com/sharpbytekey/Movavi-Video-Suite-Plus` | lure_repo | not claimed |
+| url | `https://github.com/SavageSamuraiTuck/CorelDraw` | lure_repo | not claimed |
+| url | `https://github.com/PeltPythonCall/GrayKet` | lure_repo | not claimed |
+| url | `https://github.com/Griffinlyatreasure85/Cellebrite-UFED` | lure_repo | not claimed |
+| url | `https://github.com/Thornonanchorage/Ashampoo-WinOptimizer` | lure_repo | not claimed |
+| url | `https://github.com/MarshalTrench/SonyVegas` | lure_repo | not claimed |
+| url | `https://github.com/snatchbytesalvage/CCleaner-Pro` | lure_repo | not claimed |
+| url | `https://github.com/SaboteurClip/Rufus` | lure_repo | not claimed |
+| url | `https://github.com/JoinBardColonnade/RX-11-Audio-Editor` | lure_repo | not claimed |
+| url | `https://github.com/PlanetPhaseRaid/VoiceMod` | lure_repo | not claimed |
+| url | `https://github.com/Openbygather/Movavi-Photo-Editor` | lure_repo | not claimed |
+| url | `https://github.com/ScrewDiverHike/Power-Director` | lure_repo | not claimed |
+| url | `https://github.com/Ratiokrunote/Movavi-Converter` | lure_repo | not claimed |
+| url | `https://github.com/SlateElementalist/SystemCare-Pro` | lure_repo | not claimed |
+| url | `https://github.com/Minotaurtruflex/Microsoft-Project` | lure_repo | not claimed |
+| url | `https://github.com/MelodySwimmer/Ultra-Edit` | lure_repo | not claimed |
+| url | `https://github.com/Openyodepict/Movavi-Video-Editor-Plus` | lure_repo | not claimed |
+| url | `https://github.com/EssenceConductor/Movavi-Video-Suite-Plus` | lure_repo | not claimed |
+| url | `https://github.com/crimsonoriolehovel/Movavi-Effects` | lure_repo | not claimed |
+| url | `https://github.com/HornbillJournal/Photo-Commander` | lure_repo | not claimed |
+| url | `https://github.com/TarantulaKnow/Movavi-Screen-Recorder` | lure_repo | not claimed |
+| url | `https://github.com/StreetGateChisel/Uttorent` | lure_repo | not claimed |
+| url | `https://github.com/PathTailorRadial/StartAll-Back` | lure_repo | not claimed |
+| url | `https://github.com/portalthunderphase/Movavi-Photo-Editor` | lure_repo | not claimed |
+| url | `https://github.com/ExistenceProduction/Auslogics` | lure_repo | not claimed |
+| url | `https://github.com/PaintShrimpDawn/Canva-Pro` | lure_repo | not claimed |
+| url | `https://github.com/MailJudgeView/SoundPad` | lure_repo | not claimed |
+| url | `https://github.com/Ponddergenerate/Movavi-Video-Suite-Plus` | lure_repo | not claimed |
+| url | `https://github.com/ChainWizardAura/Cinebench` | lure_repo | not claimed |
+| url | `https://github.com/SmartThunderDisplay/Movavi-Screen-Recorder` | lure_repo | not claimed |
+| url | `https://github.com/FlowBeetle94/Autodesk-Revit` | lure_repo | not claimed |
+| url | `https://github.com/Towerthroughlabel/FabFilter-Total` | lure_repo | not claimed |
+| url | `https://github.com/BlacksmithColumn/AOMEI-Backupper` | lure_repo | not claimed |
+| url | `https://github.com/FaceDuckStove/CapCut-for-Windows` | lure_repo | not claimed |
+| url | `https://github.com/ringorcastay/Ashampoo-WinOptimizer` | lure_repo | not claimed |
+| url | `https://github.com/SerpentCleric/Uttorent` | lure_repo | not claimed |
+| url | `https://github.com/volumesamuraichill/SystemCare-Pro` | lure_repo | not claimed |
+| url | `https://github.com/NightBiomancer/Cellebrite-UFED` | lure_repo | not claimed |
+| url | `https://github.com/Grandmasterofend/Melodyne-5` | lure_repo | not claimed |
+| url | `https://github.com/mudcoxswainpit/Movavi-Converter` | lure_repo | not claimed |
+| url | `https://github.com/GiraffeCondense/Burning-Studio` | lure_repo | not claimed |
+| url | `https://github.com/ShoreRealm72/RX-11-Audio-Editor` | lure_repo | not claimed |
+| url | `https://github.com/WharfStarHike/Wise-Registrity` | lure_repo | not claimed |
+| url | `https://github.com/BladesmithFirewall/KeyShot-Pro` | lure_repo | not claimed |
+| url | `https://github.com/GraphLoopGame/FabFilter-Pro` | lure_repo | not claimed |
+| url | `https://github.com/DragonHokageDecoder/Total-Commander` | lure_repo | not claimed |
+| url | `https://github.com/Tracksiawning/VoiceMod` | lure_repo | not claimed |
+| url | `https://github.com/chaindictatorpalace/AnyDesk` | lure_repo | not claimed |
+| url | `https://github.com/Obsidiangrohoist/HitFilm` | lure_repo | not claimed |
+| url | `https://github.com/Ditcharbarrier/ExitLag` | lure_repo | not claimed |
+| url | `https://github.com/FigureNetworkConsole/Movavi-Video-Editor-Plus` | lure_repo | not claimed |
+| url | `https://github.com/FenceSpinnerGuide/Rufus` | lure_repo | not claimed |
+| url | `https://github.com/bittsuchikagelaud/Avid-Media-Composer` | lure_repo | not claimed |
+| url | `https://github.com/Earthyodeliver16/Power-Director` | lure_repo | not claimed |
+| url | `https://github.com/StreetMarine/Autodesk-3ds-MAX` | lure_repo | not claimed |
+| url | `https://github.com/FinalJourneyman/Movavi-Effects` | lure_repo | not claimed |
+| url | `https://github.com/megasheriffswell/Photo-Commander` | lure_repo | not claimed |
+| url | `https://github.com/ClawFollowerMall/Chief-Architect-Premier` | lure_repo | not claimed |
+| url | `https://github.com/torrentclassbay/SonyVegas` | lure_repo | not claimed |
+| url | `https://github.com/oillovebirdbuild/Total-Commander` | lure_repo | not claimed |
+| url | `https://github.com/ProviderRelease64/WinUtilits` | lure_repo | not claimed |
+| url | `https://github.com/pentagongeneralgaze/VoiceChanger` | lure_repo | not claimed |
+| url | `https://github.com/PheasantMetro/Uttorent` | lure_repo | not claimed |
+| url | `https://github.com/opticantbarrow/Ultra-Edit` | lure_repo | not claimed |
+| url | `https://github.com/silverofficialdusk/Easeus-Todo-Backup-For-Windows` | lure_repo | not claimed |
+| url | `https://github.com/sparkfiremancollar21/Microsoft-Project-For-Windows` | lure_repo | not claimed |
+| url | `https://github.com/BetaChampionTitle/Coreldraw-For-Windows` | lure_repo | not claimed |
+| url | `https://github.com/StitchSerfJump/Microsoft-Visio-For-Windows` | lure_repo | not claimed |
+| url | `https://github.com/DeckhandIgnite/Davinci-Resolve-Studio-For-Windows` | lure_repo | not claimed |
+| url | `https://github.com/ElementalistTurbine/Ccleaner-Professional-For-Windows` | lure_repo | not claimed |
+| url | `https://github.com/MudTsuchikage/Fl-Studio-For-Windows` | lure_repo | not claimed |
+| url | `https://github.com/OrangeSaviorImagine/Abbyy-Finereader-Pdf-For-Windows` | lure_repo | not claimed |
+| url | `https://github.com/Velocityatrhythm/Autodesk-3ds-Max-For-Windows` | lure_repo | not claimed |
+| url | `https://github.com/MortarBeetleStyle/Autocad-For-Windows` | lure_repo | not claimed |
+| url | `https://github.com/CatchArtisanDone86/Movavi-Video-Editor-For-Windows` | lure_repo | not claimed |
+| url | `https://github.com/Sandsisupervise20/Adobe-Premiere-Pro-For-Windows-And-Macos` | lure_repo | not claimed |
+| url | `https://github.com/gleameconomicjetty/Adobe-Indesign-For-Windows-And-Macos` | lure_repo | not claimed |
+| url | `https://github.com/ManeSwordGraph/Adobe-Lightroom-Classic-For-Windows-And-Macos` | lure_repo | not claimed |
+| url | `https://github.com/Cachewithinmake/GTA6-Preload-PC` | lure_repo | not claimed |
+| url | `https://github.com/SageAdapter8/Rob-Run-Mod-Menu` | lure_repo | not claimed |
+| url | `https://github.com/Weavedrobless13/Actual-Multiplie-Monitors` | lure_repo | not claimed |
+| url | `https://github.com/Weavedrobless13/Acronis` | lure_repo | not claimed |
+| url | `https://github.com/Wireearadial/Adobe-After-Effects` | lure_repo | not claimed |
+| url | `https://github.com/Wireearadial/Actual-Multiplie-Monitors` | lure_repo | not claimed |
+| url | `https://github.com/WharfBeetleGallery37/Acronis` | lure_repo | not claimed |
+| url | `https://github.com/WharfBeetleGallery37/Ableton-Live-12` | lure_repo | not claimed |
+| url | `https://github.com/ShaleNurseBurst/Wise-Registrity` | lure_repo | not claimed |
+| url | `https://github.com/ManufacturingTurbine/Serato-DJ-Pro` | lure_repo | not claimed |
+| url | `https://github.com/BondFletcher/Ashampoo-WinOptimizer` | lure_repo | not claimed |
+| url | `https://github.com/angleartisanstitch/SystemCare-Pro` | lure_repo | not claimed |
+| url | `https://github.com/JoinDamselReduce/Movavi-Video-Suite-Plus` | lure_repo | not claimed |
+| url | `https://github.com/beastcrewmanraise56/AutoCad` | lure_repo | not claimed |
+| url | `https://github.com/CaptainFurnish/AOMEI-Backupper` | lure_repo | not claimed |
+| url | `https://github.com/celestialsteamsupply/Movavi-Video-Suite-Plus` | lure_repo | not claimed |
+| url | `https://github.com/PathSwallowLock/Wise-Care` | lure_repo | not claimed |
+| url | `https://github.com/BrokerSpiral/CapCut-for-Windows` | lure_repo | not claimed |
+| url | `https://github.com/convergeattorneyquay/Claude-Jailbreak-Prompt` | lure_repo | not claimed |
+| url | `https://github.com/Holeyospindle/Movavi-Effects` | lure_repo | not claimed |
+| url | `https://github.com/Polygonglicavity/FL-Studio` | lure_repo | not claimed |
+| url | `https://github.com/Sandstonelunamode/Autodesk-Revit` | lure_repo | not claimed |
+| url | `https://github.com/MatrixSeaCode25/SketchUp-Pro` | lure_repo | not claimed |
+| url | `https://github.com/HarborAxolotl/Kontakt-8` | lure_repo | not claimed |
+| url | `https://github.com/StoragePupaAgitate/CorelDraw` | lure_repo | not claimed |
+| url | `https://github.com/Magicvanmemorialize/Quicken-Deluxe` | lure_repo | not claimed |
+| url | `https://github.com/OfficialHook/VoiceChanger` | lure_repo | not claimed |
+| url | `https://github.com/NoviceBandage/Ashampoo-Uninstaller` | lure_repo | not claimed |
+| url | `https://github.com/TrapSilversmith/KeyShot-Pro` | lure_repo | not claimed |
+| url | `https://github.com/beamcrystalplunder/Actual-Multiplie-Monitors` | lure_repo | not claimed |
+| url | `https://github.com/CassowaryMansion/Autodesk-CFD` | lure_repo | not claimed |
+| url | `https://github.com/BadgeHealerConverter/Adobe-After-Effects` | lure_repo | not claimed |
+| url | `https://github.com/Fabledandtrowel/Claude-Jailbreak-Prompt` | lure_repo | not claimed |
+| url | `https://github.com/ExaMajorYell/FabFilter-Pro` | lure_repo | not claimed |
+| url | `https://github.com/SphereIguana8/AutoCad` | lure_repo | not claimed |
+| url | `https://github.com/legendaryturkeyspark/Ozone-12-Advanced` | lure_repo | not claimed |
+| url | `https://github.com/azurepikemandivide/GrayKet` | lure_repo | not claimed |
+| url | `https://github.com/GraphSoldierPergola/Instagram-Liker-Bot` | lure_repo | not claimed |
+| url | `https://github.com/DensityCooper/Designcenter-NX` | lure_repo | not claimed |
+| url | `https://github.com/FlowScorpion/HitFilm` | lure_repo | not claimed |
+| url | `https://github.com/Feelingubattle/FL-Studio` | lure_repo | not claimed |
+| url | `https://github.com/Characternearequip/CCleaner-Pro` | lure_repo | not claimed |
+| url | `https://github.com/mintconductorzen/SonyVegas` | lure_repo | not claimed |
+| url | `https://github.com/colonylightsever/Cinebench` | lure_repo | not claimed |
+| url | `https://github.com/bodyconquerorclimb/Adobe-Substance-3d` | lure_repo | not claimed |
+| url | `https://github.com/heightsongsouk/Microsoft-365` | lure_repo | not claimed |
+| url | `https://github.com/Cacheacrossregain/Auslogics` | lure_repo | not claimed |
+| url | `https://github.com/phantombudgiesheave/Wise-Registrity` | lure_repo | not claimed |
+| url | `https://github.com/Arenadensocket/Data-Grip` | lure_repo | not claimed |
+| url | `https://github.com/ChampionHaulerFlue/Burning-Studio` | lure_repo | not claimed |
+| url | `https://github.com/Ensignchetrap/Easy-Worship` | lure_repo | not claimed |
+| url | `https://github.com/NightingaleHinge/CCleaner-Pro` | lure_repo | not claimed |
+| url | `https://github.com/FabledEmpressFree19/FabFilter-Total` | lure_repo | not claimed |
+| url | `https://github.com/Coaliocontact/Chief-Architect-Premier` | lure_repo | not claimed |
+| url | `https://github.com/hornsurgeontweezers/Movavi-Converter` | lure_repo | not claimed |
+| url | `https://github.com/anglemayorwinch30/ArchiCAD` | lure_repo | not claimed |
+| url | `https://github.com/Topazchosouk/Autodesk-Inventor` | lure_repo | not claimed |
+| url | `https://github.com/BarbTernCrack/Acronis` | lure_repo | not claimed |
+| url | `https://github.com/wyrmlawyerberth/Catia-Cad` | lure_repo | not claimed |
+| url | `https://github.com/Highwayphomoon/Microsoft-Visio` | lure_repo | not claimed |
+| url | `https://github.com/Dockuafill99/Directory-Opus` | lure_repo | not claimed |
+| url | `https://github.com/BeamHornetStation/Adobe-Photoshop` | lure_repo | not claimed |
+| url | `https://github.com/OceanViceIgnite97/Cinebench` | lure_repo | not claimed |
+| url | `https://github.com/DustInterest/Ashampoo-WinOptimizer` | lure_repo | not claimed |
+| url | `https://github.com/Captureglewharf/Autodesk-Inventor` | lure_repo | not claimed |
+| url | `https://github.com/stratumvaporrecall/Melodyne-5` | lure_repo | not claimed |
+| url | `https://github.com/OperativeNegotiator/WinUtilits` | lure_repo | not claimed |
+| url | `https://github.com/Ambereuform65/Adobe-Acrobat-Pro` | lure_repo | not claimed |
+| url | `https://github.com/MagentaMonetary/PHP-Storm` | lure_repo | not claimed |
+| url | `https://github.com/Stuccoflarear/Burning-Studio` | lure_repo | not claimed |
+| url | `https://github.com/GraspEmissaryKiln/Ads-Blocker` | lure_repo | not claimed |
+| url | `https://github.com/Mortalveamend/StartAll-Back` | lure_repo | not claimed |
+| url | `https://github.com/cascadefireflychill/Instagram-Liker-Bot` | lure_repo | not claimed |
+| url | `https://github.com/DecaStudentIncrease/Data-Grip` | lure_repo | not claimed |
+| url | `https://github.com/GripEmuSupply/FabFilter-Total` | lure_repo | not claimed |
+| url | `https://github.com/MarineBridge/RX-11-Audio-Editor` | lure_repo | not claimed |
+| url | `https://github.com/Centisaintpuzzle/Autodesk-Revit` | lure_repo | not claimed |
+| url | `https://github.com/TheaterOcean/ExitLag` | lure_repo | not claimed |
+| url | `https://github.com/beattestingdisplay/Directory-Opus` | lure_repo | not claimed |
+| url | `https://github.com/CenterBorder/Imei-Repair` | lure_repo | not claimed |
+| url | `https://github.com/Hidefitzoscillate/Microsoft-Project` | lure_repo | not claimed |
+| url | `https://github.com/HectoGoldsmith/Melodyne-5` | lure_repo | not claimed |
+| url | `https://github.com/Copperrutrim/AnyUnlock` | lure_repo | not claimed |
+| url | `https://github.com/beachactivistmanor/Adobe-Audition` | lure_repo | not claimed |
+| url | `https://github.com/tunnelowlcutters/Display-Fusion` | lure_repo | not claimed |
+| url | `https://github.com/TrueSkyTassel/Auslogics` | lure_repo | not claimed |
+| url | `https://github.com/flattoucanphase/GrayKet` | lure_repo | not claimed |
+| url | `https://github.com/CommercialRuminate/Autodesk-CFD` | lure_repo | not claimed |
+| url | `https://github.com/PurpleStationCharge/AnyDesk` | lure_repo | not claimed |
+| url | `https://github.com/exajackdawmall/ExitLag` | lure_repo | not claimed |
+| url | `https://github.com/LimestoneTellerHover/Serato-DJ-Pro` | lure_repo | not claimed |
+| url | `https://github.com/BasiliskBrakemanMoon/ArchiCAD` | lure_repo | not claimed |
+| url | `https://github.com/barrierpilotcatalog/Ads-Blocker` | lure_repo | not claimed |
+| url | `https://github.com/NodeRajaCrater/Cellebrite-UFED` | lure_repo | not claimed |
+| url | `https://github.com/trueparakeetadmire63/AOMEI-Backupper` | lure_repo | not claimed |
+| url | `https://github.com/NinjaLynxFlow/SystemCare-Pro` | lure_repo | not claimed |
+| url | `https://github.com/VectorMotorman/Clion` | lure_repo | not claimed |
+| url | `https://github.com/monsterroguecontinue/Start11` | lure_repo | not claimed |
 
 ## Files
 
@@ -291,3 +791,6 @@ Nothing in this case is attributed to a person or group.
 | `75cae8dc8680c83a30588f24bfb2902071396117b8fd48a982f8ab8d031ecc9d` |
 | `df3a3973900153a363e21385ca3394addac8d52c7547827dc334ebff75ee451b` |
 | `9f293cda819b74342bb598291010ee02a96af71eb2dabc7ab4c94edea21afa9c` |
+| `9974033ff14688dba81c1e48a8cf0d4237815ea4c185c8a09fe584812457b576` |
+| `8a826a8d766d2fe7b0106e9435f319d8db02178a93a74cbdfa43c9094bf0c334` |
+| `eef29c3207e463e789555d227c0aae4013cd0d457f80c157b7eb59dcce89ba6f` |
