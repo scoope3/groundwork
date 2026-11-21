@@ -1,15 +1,15 @@
 {
  "type": "bundle",
- "id": "bundle--000000000002763372867266310322",
+ "id": "bundle--6b9850d2-738f-5a61-8c69-000db1690050",
  "objects": [
   {
    "type": "indicator",
    "spec_version": "2.1",
-   "id": "indicator--000000000004310440447793816550",
-   "created": "2026-11-21T00:24:49Z",
+   "id": "indicator--f9653598-63d2-5bed-b706-9bbb6cd4dc1a",
+   "created": "2026-11-21T00:00:00Z",
    "name": "domain ps-ps.cc",
    "pattern_type": "stix",
-   "valid_from": "2026-11-21T00:24:49Z",
+   "valid_from": "2026-11-21T00:00:00Z",
    "pattern": "[domain-name:value = 'ps-ps.cc']",
    "labels": [
     "malicious-activity",
@@ -19,11 +19,11 @@
   {
    "type": "indicator",
    "spec_version": "2.1",
-   "id": "indicator--000000000003207849851245208473",
-   "created": "2026-11-21T00:24:49Z",
+   "id": "indicator--9cbfb1c2-8fde-5a5f-a13f-3919867e2eb9",
+   "created": "2026-11-21T00:00:00Z",
    "name": "domain git-software.cc",
    "pattern_type": "stix",
-   "valid_from": "2026-11-21T00:24:49Z",
+   "valid_from": "2026-11-21T00:00:00Z",
    "pattern": "[domain-name:value = 'git-software.cc']",
    "labels": [
     "malicious-activity",
@@ -33,11 +33,11 @@
   {
    "type": "indicator",
    "spec_version": "2.1",
-   "id": "indicator--000000000005768176206759850747",
-   "created": "2026-11-21T00:24:49Z",
+   "id": "indicator--406b7b37-dc25-5678-919e-85d7b4046abb",
+   "created": "2026-11-21T00:00:00Z",
    "name": "domain quickrun31.cc",
    "pattern_type": "stix",
-   "valid_from": "2026-11-21T00:24:49Z",
+   "valid_from": "2026-11-21T00:00:00Z",
    "pattern": "[domain-name:value = 'quickrun31.cc']",
    "labels": [
     "malicious-activity",
@@ -47,11 +47,11 @@
   {
    "type": "indicator",
    "spec_version": "2.1",
-   "id": "indicator--000000000005429017326572072105",
-   "created": "2026-11-21T00:24:49Z",
+   "id": "indicator--e6d1b089-4307-5968-943e-5087ddd0b54b",
+   "created": "2026-11-21T00:00:00Z",
    "name": "domain appget29.tools",
    "pattern_type": "stix",
-   "valid_from": "2026-11-21T00:24:49Z",
+   "valid_from": "2026-11-21T00:00:00Z",
    "pattern": "[domain-name:value = 'appget29.tools']",
    "labels": [
     "malicious-activity",
@@ -61,11 +61,11 @@
   {
    "type": "indicator",
    "spec_version": "2.1",
-   "id": "indicator--000000000008414089701169728453",
-   "created": "2026-11-21T00:24:49Z",
+   "id": "indicator--a8bd56be-98ec-5682-8ee8-e593d61b6c73",
+   "created": "2026-11-21T00:00:00Z",
    "name": "domain log.travelvault.today",
    "pattern_type": "stix",
-   "valid_from": "2026-11-21T00:24:49Z",
+   "valid_from": "2026-11-21T00:00:00Z",
    "pattern": "[domain-name:value = 'log.travelvault.today']",
    "labels": [
     "malicious-activity",
@@ -75,11 +75,11 @@
   {
    "type": "indicator",
    "spec_version": "2.1",
-   "id": "indicator--000000000002846757548624059119",
-   "created": "2026-11-21T00:24:49Z",
+   "id": "indicator--dd83e124-a9a6-5da1-9e2e-9b1a4f5ebe11",
+   "created": "2026-11-21T00:00:00Z",
    "name": "url https://telegra.ph/Canvas-grove-11-19",
    "pattern_type": "stix",
-   "valid_from": "2026-11-21T00:24:49Z",
+   "valid_from": "2026-11-21T00:00:00Z",
    "pattern": "[url:value = 'https://telegra.ph/Canvas-grove-11-19']",
    "labels": [
     "malicious-activity",
@@ -89,11 +89,11 @@
   {
    "type": "indicator",
    "spec_version": "2.1",
-   "id": "indicator--000000000008720685044607932860",
-   "created": "2026-11-21T00:24:49Z",
+   "id": "indicator--75371313-4924-5e03-935d-de005fc3472f",
+   "created": "2026-11-21T00:00:00Z",
    "name": "contract_address 0x45a7B8fAec623508bd68be535Cc7618f283ddB48",
    "pattern_type": "stix",
-   "valid_from": "2026-11-21T00:24:49Z",
+   "valid_from": "2026-11-21T00:00:00Z",
    "pattern": "[x-groundwork:value = '0x45a7B8fAec623508bd68be535Cc7618f283ddB48']",
    "labels": [
     "malicious-activity",
@@ -103,11 +103,11 @@
   {
    "type": "indicator",
    "spec_version": "2.1",
-   "id": "indicator--000000000007994787478416581969",
-   "created": "2026-11-21T00:24:49Z",
+   "id": "indicator--5a588fa6-0337-50a5-80ea-08c825e7a842",
+   "created": "2026-11-21T00:00:00Z",
    "name": "url https://github.com/Unitphisignify/xswodvro",
    "pattern_type": "stix",
-   "valid_from": "2026-11-21T00:24:49Z",
+   "valid_from": "2026-11-21T00:00:00Z",
    "pattern": "[url:value = 'https://github.com/Unitphisignify/xswodvro']",
    "labels": [
     "malicious-activity",
@@ -117,11 +117,11 @@
   {
    "type": "indicator",
    "spec_version": "2.1",
-   "id": "indicator--000000000008309850344569452724",
-   "created": "2026-11-21T00:24:49Z",
+   "id": "indicator--222b940b-53de-50be-b0ed-a193e9729d57",
+   "created": "2026-11-21T00:00:00Z",
    "name": "url https://github.com/driftcuttlefishjump/Serato-DJ-Pro",
    "pattern_type": "stix",
-   "valid_from": "2026-11-21T00:24:49Z",
+   "valid_from": "2026-11-21T00:00:00Z",
    "pattern": "[url:value = 'https://github.com/driftcuttlefishjump/Serato-DJ-Pro']",
    "labels": [
     "malicious-activity",
@@ -131,11 +131,11 @@
   {
    "type": "indicator",
    "spec_version": "2.1",
-   "id": "indicator--000000000005552989484279223956",
-   "created": "2026-11-21T00:24:49Z",
+   "id": "indicator--7c3bfd8e-b795-5c72-bad4-d750158007ac",
+   "created": "2026-11-21T00:00:00Z",
    "name": "url https://github.com/armorsurgeonstill7/Clion",
    "pattern_type": "stix",
-   "valid_from": "2026-11-21T00:24:49Z",
+   "valid_from": "2026-11-21T00:00:00Z",
    "pattern": "[url:value = 'https://github.com/armorsurgeonstill7/Clion']",
    "labels": [
     "malicious-activity",
@@ -145,11 +145,11 @@
   {
    "type": "indicator",
    "spec_version": "2.1",
-   "id": "indicator--000000000007315456555378177541",
-   "created": "2026-11-21T00:24:49Z",
+   "id": "indicator--8cf52994-d07e-5ee2-b925-6d8c5cff99b6",
+   "created": "2026-11-21T00:00:00Z",
    "name": "url https://github.com/PlotOtokageRespect/GrayKet",
    "pattern_type": "stix",
-   "valid_from": "2026-11-21T00:24:49Z",
+   "valid_from": "2026-11-21T00:00:00Z",
    "pattern": "[url:value = 'https://github.com/PlotOtokageRespect/GrayKet']",
    "labels": [
     "malicious-activity",
@@ -159,11 +159,11 @@
   {
    "type": "indicator",
    "spec_version": "2.1",
-   "id": "indicator--000000000003605450225819472655",
-   "created": "2026-11-21T00:24:49Z",
+   "id": "indicator--95e1990c-4ed3-56ab-afb5-d5dd10a8b4be",
+   "created": "2026-11-21T00:00:00Z",
    "name": "url https://github.com/ceilingforemanrank/CapCut-for-Windows",
    "pattern_type": "stix",
-   "valid_from": "2026-11-21T00:24:49Z",
+   "valid_from": "2026-11-21T00:00:00Z",
    "pattern": "[url:value = 'https://github.com/ceilingforemanrank/CapCut-for-Windows']",
    "labels": [
     "malicious-activity",
@@ -173,11 +173,11 @@
   {
    "type": "indicator",
    "spec_version": "2.1",
-   "id": "indicator--000000000007427603083072627948",
-   "created": "2026-11-21T00:24:49Z",
+   "id": "indicator--92acf328-7080-546c-8bf6-e53dbfaeb2b6",
+   "created": "2026-11-21T00:00:00Z",
    "name": "url https://github.com/BowyerSqueeze/Avid-Media-Composer",
    "pattern_type": "stix",
-   "valid_from": "2026-11-21T00:24:49Z",
+   "valid_from": "2026-11-21T00:00:00Z",
    "pattern": "[url:value = 'https://github.com/BowyerSqueeze/Avid-Media-Composer']",
    "labels": [
     "malicious-activity",
@@ -187,11 +187,11 @@
   {
    "type": "indicator",
    "spec_version": "2.1",
-   "id": "indicator--000000000005267746659932464167",
-   "created": "2026-11-21T00:24:49Z",
+   "id": "indicator--d47bd4d5-b063-5aca-b351-ae90d737df0f",
+   "created": "2026-11-21T00:00:00Z",
    "name": "url https://github.com/fuserainday80/AOMEI-Backupper",
    "pattern_type": "stix",
-   "valid_from": "2026-11-21T00:24:49Z",
+   "valid_from": "2026-11-21T00:00:00Z",
    "pattern": "[url:value = 'https://github.com/fuserainday80/AOMEI-Backupper']",
    "labels": [
     "malicious-activity",
@@ -201,11 +201,11 @@
   {
    "type": "indicator",
    "spec_version": "2.1",
-   "id": "indicator--000000000007391161260077513129",
-   "created": "2026-11-21T00:24:49Z",
+   "id": "indicator--ea79d2db-c159-57c0-b304-31886527f44d",
+   "created": "2026-11-21T00:00:00Z",
    "name": "url https://github.com/Sandstonetenoutfit/Cinebench",
    "pattern_type": "stix",
-   "valid_from": "2026-11-21T00:24:49Z",
+   "valid_from": "2026-11-21T00:00:00Z",
    "pattern": "[url:value = 'https://github.com/Sandstonetenoutfit/Cinebench']",
    "labels": [
     "malicious-activity",
@@ -215,11 +215,11 @@
   {
    "type": "indicator",
    "spec_version": "2.1",
-   "id": "indicator--000000000001561754143879208773",
-   "created": "2026-11-21T00:24:49Z",
+   "id": "indicator--635a26fa-381d-5ecd-9e29-601e464b46a9",
+   "created": "2026-11-21T00:00:00Z",
    "name": "url https://github.com/Crestchadome/VoiceChanger",
    "pattern_type": "stix",
-   "valid_from": "2026-11-21T00:24:49Z",
+   "valid_from": "2026-11-21T00:00:00Z",
    "pattern": "[url:value = 'https://github.com/Crestchadome/VoiceChanger']",
    "labels": [
     "malicious-activity",
@@ -229,11 +229,11 @@
   {
    "type": "indicator",
    "spec_version": "2.1",
-   "id": "indicator--000000000005267173929236113884",
-   "created": "2026-11-21T00:24:49Z",
+   "id": "indicator--93f56ae6-e94d-50c3-987c-70f3f2d03d10",
+   "created": "2026-11-21T00:00:00Z",
    "name": "url https://github.com/Ninjaclaplunder36/AnyDesk",
    "pattern_type": "stix",
-   "valid_from": "2026-11-21T00:24:49Z",
+   "valid_from": "2026-11-21T00:00:00Z",
    "pattern": "[url:value = 'https://github.com/Ninjaclaplunder36/AnyDesk']",
    "labels": [
     "malicious-activity",
@@ -243,11 +243,11 @@
   {
    "type": "indicator",
    "spec_version": "2.1",
-   "id": "indicator--000000000000371350387212289260",
-   "created": "2026-11-21T00:24:49Z",
+   "id": "indicator--a9db5064-39c4-58f7-824a-6ed2f92ed0d5",
+   "created": "2026-11-21T00:00:00Z",
    "name": "url https://github.com/rainfrogrectifier41/Avid-Media-Composer",
    "pattern_type": "stix",
-   "valid_from": "2026-11-21T00:24:49Z",
+   "valid_from": "2026-11-21T00:00:00Z",
    "pattern": "[url:value = 'https://github.com/rainfrogrectifier41/Avid-Media-Composer']",
    "labels": [
     "malicious-activity",
@@ -257,11 +257,11 @@
   {
    "type": "indicator",
    "spec_version": "2.1",
-   "id": "indicator--000000000005978116612351256000",
-   "created": "2026-11-21T00:24:49Z",
+   "id": "indicator--1f0bde9f-5a24-5959-a3fd-80eeaf345cd1",
+   "created": "2026-11-21T00:00:00Z",
    "name": "url https://github.com/rainfrogrectifier41/Autodesk-3ds-MAX",
    "pattern_type": "stix",
-   "valid_from": "2026-11-21T00:24:49Z",
+   "valid_from": "2026-11-21T00:00:00Z",
    "pattern": "[url:value = 'https://github.com/rainfrogrectifier41/Autodesk-3ds-MAX']",
    "labels": [
     "malicious-activity",
@@ -271,11 +271,11 @@
   {
    "type": "indicator",
    "spec_version": "2.1",
-   "id": "indicator--000000000007244652072373709741",
-   "created": "2026-11-21T00:24:49Z",
+   "id": "indicator--ef329a74-d799-5e96-8114-249db18b0eca",
+   "created": "2026-11-21T00:00:00Z",
    "name": "url https://github.com/LimestoneCaptain/FabFilter-Total",
    "pattern_type": "stix",
-   "valid_from": "2026-11-21T00:24:49Z",
+   "valid_from": "2026-11-21T00:00:00Z",
    "pattern": "[url:value = 'https://github.com/LimestoneCaptain/FabFilter-Total']",
    "labels": [
     "malicious-activity",
@@ -285,11 +285,11 @@
   {
    "type": "indicator",
    "spec_version": "2.1",
-   "id": "indicator--000000000005439058294549960320",
-   "created": "2026-11-21T00:24:49Z",
+   "id": "indicator--8c800d85-6ffd-5099-8324-283494426e67",
+   "created": "2026-11-21T00:00:00Z",
    "name": "url https://github.com/PinkTrackDesignate/Movavi-Video-Editor-Plus",
    "pattern_type": "stix",
-   "valid_from": "2026-11-21T00:24:49Z",
+   "valid_from": "2026-11-21T00:00:00Z",
    "pattern": "[url:value = 'https://github.com/PinkTrackDesignate/Movavi-Video-Editor-Plus']",
    "labels": [
     "malicious-activity",
@@ -299,11 +299,11 @@
   {
    "type": "indicator",
    "spec_version": "2.1",
-   "id": "indicator--000000000002133469853959961917",
-   "created": "2026-11-21T00:24:49Z",
+   "id": "indicator--f43b9576-c82d-5703-a0b2-be2ff0dd7961",
+   "created": "2026-11-21T00:00:00Z",
    "name": "url https://github.com/ApparitionElkCorrect/Wise-Care",
    "pattern_type": "stix",
-   "valid_from": "2026-11-21T00:24:49Z",
+   "valid_from": "2026-11-21T00:00:00Z",
    "pattern": "[url:value = 'https://github.com/ApparitionElkCorrect/Wise-Care']",
    "labels": [
     "malicious-activity",
@@ -313,11 +313,11 @@
   {
    "type": "indicator",
    "spec_version": "2.1",
-   "id": "indicator--000000000004010956597834488704",
-   "created": "2026-11-21T00:24:49Z",
+   "id": "indicator--f24b1f56-314b-5493-b4ad-0a51097b3e2f",
+   "created": "2026-11-21T00:00:00Z",
    "name": "url https://github.com/Colorstoserver/Movavi-Effects",
    "pattern_type": "stix",
-   "valid_from": "2026-11-21T00:24:49Z",
+   "valid_from": "2026-11-21T00:00:00Z",
    "pattern": "[url:value = 'https://github.com/Colorstoserver/Movavi-Effects']",
    "labels": [
     "malicious-activity",
@@ -327,11 +327,11 @@
   {
    "type": "indicator",
    "spec_version": "2.1",
-   "id": "indicator--000000000004409752916009568816",
-   "created": "2026-11-21T00:24:49Z",
+   "id": "indicator--6960b40a-dff0-511c-a97d-092b2f0d38b5",
+   "created": "2026-11-21T00:00:00Z",
    "name": "url https://github.com/ShopkeeperConnector/Wise-Registrity",
    "pattern_type": "stix",
-   "valid_from": "2026-11-21T00:24:49Z",
+   "valid_from": "2026-11-21T00:00:00Z",
    "pattern": "[url:value = 'https://github.com/ShopkeeperConnector/Wise-Registrity']",
    "labels": [
     "malicious-activity",
@@ -341,11 +341,11 @@
   {
    "type": "indicator",
    "spec_version": "2.1",
-   "id": "indicator--000000000000518607249974436804",
-   "created": "2026-11-21T00:24:49Z",
+   "id": "indicator--9fd96c09-8078-5029-90b7-a9c9e8ef8d6b",
+   "created": "2026-11-21T00:00:00Z",
    "name": "url https://github.com/frostaxetrough/Designcenter-NX",
    "pattern_type": "stix",
-   "valid_from": "2026-11-21T00:24:49Z",
+   "valid_from": "2026-11-21T00:00:00Z",
    "pattern": "[url:value = 'https://github.com/frostaxetrough/Designcenter-NX']",
    "labels": [
     "malicious-activity",
@@ -355,11 +355,11 @@
   {
    "type": "indicator",
    "spec_version": "2.1",
-   "id": "indicator--000000000004163245612113144311",
-   "created": "2026-11-21T00:24:49Z",
+   "id": "indicator--68ecd13a-e89c-59db-b126-c30327c44a3f",
+   "created": "2026-11-21T00:00:00Z",
    "name": "url https://github.com/WraithTellerSpout/Autodesk-3ds-MAX",
    "pattern_type": "stix",
-   "valid_from": "2026-11-21T00:24:49Z",
+   "valid_from": "2026-11-21T00:00:00Z",
    "pattern": "[url:value = 'https://github.com/WraithTellerSpout/Autodesk-3ds-MAX']",
    "labels": [
     "malicious-activity",
@@ -369,11 +369,11 @@
   {
    "type": "indicator",
    "spec_version": "2.1",
-   "id": "indicator--000000000003903605102348458532",
-   "created": "2026-11-21T00:24:49Z",
+   "id": "indicator--9b510c47-2e9a-5d3b-8e09-9e373cf67e0b",
+   "created": "2026-11-21T00:00:00Z",
    "name": "url https://github.com/LevelSparkRecognize/Ashampoo-WinOptimizer",
    "pattern_type": "stix",
-   "valid_from": "2026-11-21T00:24:49Z",
+   "valid_from": "2026-11-21T00:00:00Z",
    "pattern": "[url:value = 'https://github.com/LevelSparkRecognize/Ashampoo-WinOptimizer']",
    "labels": [
     "malicious-activity",
@@ -383,11 +383,11 @@
   {
    "type": "indicator",
    "spec_version": "2.1",
-   "id": "indicator--000000000001745077239642082687",
-   "created": "2026-11-21T00:24:49Z",
+   "id": "indicator--6ac7a6f2-e46b-5244-b04e-54ae6918f4c7",
+   "created": "2026-11-21T00:00:00Z",
    "name": "url https://github.com/Flashbylevel/FabFilter-Pro",
    "pattern_type": "stix",
-   "valid_from": "2026-11-21T00:24:49Z",
+   "valid_from": "2026-11-21T00:00:00Z",
    "pattern": "[url:value = 'https://github.com/Flashbylevel/FabFilter-Pro']",
    "labels": [
     "malicious-activity",
@@ -397,11 +397,11 @@
   {
    "type": "indicator",
    "spec_version": "2.1",
-   "id": "indicator--000000000000499463604157934233",
-   "created": "2026-11-21T00:24:49Z",
+   "id": "indicator--49cee35a-9a8a-5e20-b981-c4a4d4756faa",
+   "created": "2026-11-21T00:00:00Z",
    "name": "url https://github.com/BlueProvostCrush/Quicken-Deluxe",
    "pattern_type": "stix",
-   "valid_from": "2026-11-21T00:24:49Z",
+   "valid_from": "2026-11-21T00:00:00Z",
    "pattern": "[url:value = 'https://github.com/BlueProvostCrush/Quicken-Deluxe']",
    "labels": [
     "malicious-activity",
@@ -411,11 +411,11 @@
   {
    "type": "indicator",
    "spec_version": "2.1",
-   "id": "indicator--000000000000208989988637525247",
-   "created": "2026-11-21T00:24:49Z",
+   "id": "indicator--2b7c63d2-eba5-51b5-950f-4b4c6ea6dc75",
+   "created": "2026-11-21T00:00:00Z",
    "name": "url https://github.com/Volumetheboutique/Directory-Opus",
    "pattern_type": "stix",
-   "valid_from": "2026-11-21T00:24:49Z",
+   "valid_from": "2026-11-21T00:00:00Z",
    "pattern": "[url:value = 'https://github.com/Volumetheboutique/Directory-Opus']",
    "labels": [
     "malicious-activity",
@@ -425,11 +425,11 @@
   {
    "type": "indicator",
    "spec_version": "2.1",
-   "id": "indicator--000000000008297536876257439644",
-   "created": "2026-11-21T00:24:49Z",
+   "id": "indicator--15d3c8f3-83b4-5a6d-b564-0a1477dde866",
+   "created": "2026-11-21T00:00:00Z",
    "name": "url https://github.com/ViceAdvocate/ArchiCAD",
    "pattern_type": "stix",
-   "valid_from": "2026-11-21T00:24:49Z",
+   "valid_from": "2026-11-21T00:00:00Z",
    "pattern": "[url:value = 'https://github.com/ViceAdvocate/ArchiCAD']",
    "labels": [
     "malicious-activity",
@@ -439,11 +439,11 @@
   {
    "type": "indicator",
    "spec_version": "2.1",
-   "id": "indicator--000000000002815762119962718947",
-   "created": "2026-11-21T00:24:49Z",
+   "id": "indicator--0a4b0933-ef08-5251-af03-d3f928141f21",
+   "created": "2026-11-21T00:00:00Z",
    "name": "url https://github.com/MajorShaperCultivate/Acronis",
    "pattern_type": "stix",
-   "valid_from": "2026-11-21T00:24:49Z",
+   "valid_from": "2026-11-21T00:00:00Z",
    "pattern": "[url:value = 'https://github.com/MajorShaperCultivate/Acronis']",
    "labels": [
     "malicious-activity",
@@ -453,11 +453,11 @@
   {
    "type": "indicator",
    "spec_version": "2.1",
-   "id": "indicator--000000000003937735005415584439",
-   "created": "2026-11-21T00:24:49Z",
+   "id": "indicator--6e6078e1-9b4b-5edd-a4eb-5c8bb994464b",
+   "created": "2026-11-21T00:00:00Z",
    "name": "url https://github.com/MajorShaperCultivate/Ableton-Live-12",
    "pattern_type": "stix",
-   "valid_from": "2026-11-21T00:24:49Z",
+   "valid_from": "2026-11-21T00:00:00Z",
    "pattern": "[url:value = 'https://github.com/MajorShaperCultivate/Ableton-Live-12']",
    "labels": [
     "malicious-activity",
@@ -467,11 +467,11 @@
   {
    "type": "indicator",
    "spec_version": "2.1",
-   "id": "indicator--000000000000635956474801228059",
-   "created": "2026-11-21T00:24:49Z",
+   "id": "indicator--a14f7128-64aa-5516-a61e-91a84661b2dc",
+   "created": "2026-11-21T00:00:00Z",
    "name": "url https://github.com/BottomHeronEradicate/Movavi-Screen-Recorder",
    "pattern_type": "stix",
-   "valid_from": "2026-11-21T00:24:49Z",
+   "valid_from": "2026-11-21T00:00:00Z",
    "pattern": "[url:value = 'https://github.com/BottomHeronEradicate/Movavi-Screen-Recorder']",
    "labels": [
     "malicious-activity",
@@ -481,11 +481,11 @@
   {
    "type": "indicator",
    "spec_version": "2.1",
-   "id": "indicator--000000000006903630771298028110",
-   "created": "2026-11-21T00:24:49Z",
+   "id": "indicator--85d6aaa4-a469-5bde-b28d-58504d4d7e4a",
+   "created": "2026-11-21T00:00:00Z",
    "name": "url https://github.com/FollowerPruner/Melodyne-5",
    "pattern_type": "stix",
-   "valid_from": "2026-11-21T00:24:49Z",
+   "valid_from": "2026-11-21T00:00:00Z",
    "pattern": "[url:value = 'https://github.com/FollowerPruner/Melodyne-5']",
    "labels": [
     "malicious-activity",
@@ -495,11 +495,11 @@
   {
    "type": "indicator",
    "spec_version": "2.1",
-   "id": "indicator--000000000002642445540887782791",
-   "created": "2026-11-21T00:24:49Z",
+   "id": "indicator--b01d7c51-38ea-524d-8896-7388c8d6c2d4",
+   "created": "2026-11-21T00:00:00Z",
    "name": "url https://github.com/UnicornShade/PHP-Storm",
    "pattern_type": "stix",
-   "valid_from": "2026-11-21T00:24:49Z",
+   "valid_from": "2026-11-21T00:00:00Z",
    "pattern": "[url:value = 'https://github.com/UnicornShade/PHP-Storm']",
    "labels": [
     "malicious-activity",
@@ -509,11 +509,11 @@
   {
    "type": "indicator",
    "spec_version": "2.1",
-   "id": "indicator--000000000002060865197391201946",
-   "created": "2026-11-21T00:24:49Z",
+   "id": "indicator--a799e23a-86e5-549e-aa2f-708f5b1c5b3e",
+   "created": "2026-11-21T00:00:00Z",
    "name": "url https://github.com/Demonsemarvel/Auslogics",
    "pattern_type": "stix",
-   "valid_from": "2026-11-21T00:24:49Z",
+   "valid_from": "2026-11-21T00:00:00Z",
    "pattern": "[url:value = 'https://github.com/Demonsemarvel/Auslogics']",
    "labels": [
     "malicious-activity",
@@ -523,11 +523,11 @@
   {
    "type": "indicator",
    "spec_version": "2.1",
-   "id": "indicator--000000000005033928752407018025",
-   "created": "2026-11-21T00:24:49Z",
+   "id": "indicator--08a6a4ec-e673-56a3-b6a0-a68cfc7a0070",
+   "created": "2026-11-21T00:00:00Z",
    "name": "url https://github.com/Icechiponder/SoundPad",
    "pattern_type": "stix",
-   "valid_from": "2026-11-21T00:24:49Z",
+   "valid_from": "2026-11-21T00:00:00Z",
    "pattern": "[url:value = 'https://github.com/Icechiponder/SoundPad']",
    "labels": [
     "malicious-activity",
@@ -537,11 +537,11 @@
   {
    "type": "indicator",
    "spec_version": "2.1",
-   "id": "indicator--000000000002728588920050187582",
-   "created": "2026-11-21T00:24:49Z",
+   "id": "indicator--89689034-46e1-5906-a285-68c41d6ee4dd",
+   "created": "2026-11-21T00:00:00Z",
    "name": "url https://github.com/MortalGoldsmith40/Autodesk-Revit",
    "pattern_type": "stix",
-   "valid_from": "2026-11-21T00:24:49Z",
+   "valid_from": "2026-11-21T00:00:00Z",
    "pattern": "[url:value = 'https://github.com/MortalGoldsmith40/Autodesk-Revit']",
    "labels": [
     "malicious-activity",
@@ -551,11 +551,11 @@
   {
    "type": "indicator",
    "spec_version": "2.1",
-   "id": "indicator--000000000008485625252792256790",
-   "created": "2026-11-21T00:24:49Z",
+   "id": "indicator--19e2d966-3fc5-5228-ad92-a9fe3aab8836",
+   "created": "2026-11-21T00:00:00Z",
    "name": "url https://github.com/Topunderfeel/Ableton-Live-12",
    "pattern_type": "stix",
-   "valid_from": "2026-11-21T00:24:49Z",
+   "valid_from": "2026-11-21T00:00:00Z",
    "pattern": "[url:value = 'https://github.com/Topunderfeel/Ableton-Live-12']",
    "labels": [
     "malicious-activity",
@@ -565,11 +565,11 @@
   {
    "type": "indicator",
    "spec_version": "2.1",
-   "id": "indicator--000000000000248765959174690539",
-   "created": "2026-11-21T00:24:49Z",
+   "id": "indicator--a6c7f0ec-204d-58ae-93b6-5d5b91a38c60",
+   "created": "2026-11-21T00:00:00Z",
    "name": "url https://github.com/Topunderfeel/Acronis",
    "pattern_type": "stix",
-   "valid_from": "2026-11-21T00:24:49Z",
+   "valid_from": "2026-11-21T00:00:00Z",
    "pattern": "[url:value = 'https://github.com/Topunderfeel/Acronis']",
    "labels": [
     "malicious-activity",
@@ -579,11 +579,11 @@
   {
    "type": "indicator",
    "spec_version": "2.1",
-   "id": "indicator--000000000008859260557030263870",
-   "created": "2026-11-21T00:24:49Z",
+   "id": "indicator--996b6c98-db1e-546f-9561-d279cc3af7ed",
+   "created": "2026-11-21T00:00:00Z",
    "name": "url https://github.com/StoneParakeet/Movavi-Video-Suite-Plus",
    "pattern_type": "stix",
-   "valid_from": "2026-11-21T00:24:49Z",
+   "valid_from": "2026-11-21T00:00:00Z",
    "pattern": "[url:value = 'https://github.com/StoneParakeet/Movavi-Video-Suite-Plus']",
    "labels": [
     "malicious-activity",
@@ -593,11 +593,11 @@
   {
    "type": "indicator",
    "spec_version": "2.1",
-   "id": "indicator--000000000000064545072264055355",
-   "created": "2026-11-21T00:24:49Z",
+   "id": "indicator--45cd9c98-c6bf-5f02-976e-679cd81e531a",
+   "created": "2026-11-21T00:00:00Z",
    "name": "url https://github.com/EastShipperRestore/SonyVegas",
    "pattern_type": "stix",
-   "valid_from": "2026-11-21T00:24:49Z",
+   "valid_from": "2026-11-21T00:00:00Z",
    "pattern": "[url:value = 'https://github.com/EastShipperRestore/SonyVegas']",
    "labels": [
     "malicious-activity",
@@ -607,11 +607,11 @@
   {
    "type": "indicator",
    "spec_version": "2.1",
-   "id": "indicator--000000000008053867357322920988",
-   "created": "2026-11-21T00:24:49Z",
+   "id": "indicator--e3aae84d-725e-5650-8855-24d8ab4dc1fe",
+   "created": "2026-11-21T00:00:00Z",
    "name": "url https://github.com/beastofficerfollow/Movavi-Photo-Editor",
    "pattern_type": "stix",
-   "valid_from": "2026-11-21T00:24:49Z",
+   "valid_from": "2026-11-21T00:00:00Z",
    "pattern": "[url:value = 'https://github.com/beastofficerfollow/Movavi-Photo-Editor']",
    "labels": [
     "malicious-activity",
@@ -621,11 +621,11 @@
   {
    "type": "indicator",
    "spec_version": "2.1",
-   "id": "indicator--000000000007107321097794768072",
-   "created": "2026-11-21T00:24:49Z",
+   "id": "indicator--e6a770b0-157d-559b-a59c-c6bd0dc2667c",
+   "created": "2026-11-21T00:00:00Z",
    "name": "url https://github.com/LizardScissors/Adobe-Acrobat-Pro",
    "pattern_type": "stix",
-   "valid_from": "2026-11-21T00:24:49Z",
+   "valid_from": "2026-11-21T00:00:00Z",
    "pattern": "[url:value = 'https://github.com/LizardScissors/Adobe-Acrobat-Pro']",
    "labels": [
     "malicious-activity",
@@ -635,11 +635,11 @@
   {
    "type": "indicator",
    "spec_version": "2.1",
-   "id": "indicator--000000000001389830255865814951",
-   "created": "2026-11-21T00:24:49Z",
+   "id": "indicator--44c42390-02fb-5f31-a18c-8fa5405f55ba",
+   "created": "2026-11-21T00:00:00Z",
    "name": "url https://github.com/metropolisorioletap/Adobe-InDesign",
    "pattern_type": "stix",
-   "valid_from": "2026-11-21T00:24:49Z",
+   "valid_from": "2026-11-21T00:00:00Z",
    "pattern": "[url:value = 'https://github.com/metropolisorioletap/Adobe-InDesign']",
    "labels": [
     "malicious-activity",
@@ -649,11 +649,11 @@
   {
    "type": "indicator",
    "spec_version": "2.1",
-   "id": "indicator--000000000002471782493609142198",
-   "created": "2026-11-21T00:24:49Z",
+   "id": "indicator--3d04bf59-b643-537a-92a3-5fef61530986",
+   "created": "2026-11-21T00:00:00Z",
    "name": "url https://github.com/metropolisorioletap/Actual-Multiplie-Monitors",
    "pattern_type": "stix",
-   "valid_from": "2026-11-21T00:24:49Z",
+   "valid_from": "2026-11-21T00:00:00Z",
    "pattern": "[url:value = 'https://github.com/metropolisorioletap/Actual-Multiplie-Monitors']",
    "labels": [
     "malicious-activity",
@@ -663,11 +663,11 @@
   {
    "type": "indicator",
    "spec_version": "2.1",
-   "id": "indicator--000000000003411458547673090944",
-   "created": "2026-11-21T00:24:49Z",
+   "id": "indicator--fd106214-3166-5fe3-a13c-95d82675830d",
+   "created": "2026-11-21T00:00:00Z",
    "name": "url https://github.com/Lineureliminate/HitFilm",
    "pattern_type": "stix",
-   "valid_from": "2026-11-21T00:24:49Z",
+   "valid_from": "2026-11-21T00:00:00Z",
    "pattern": "[url:value = 'https://github.com/Lineureliminate/HitFilm']",
    "labels": [
     "malicious-activity",
@@ -677,11 +677,11 @@
   {
    "type": "indicator",
    "spec_version": "2.1",
-   "id": "indicator--000000000004283030868499818805",
-   "created": "2026-11-21T00:24:49Z",
+   "id": "indicator--ed5e68df-1d40-5dd8-a1eb-885dccbadffe",
+   "created": "2026-11-21T00:00:00Z",
    "name": "url https://github.com/PillarStreamPipe/Burning-Studio",
    "pattern_type": "stix",
-   "valid_from": "2026-11-21T00:24:49Z",
+   "valid_from": "2026-11-21T00:00:00Z",
    "pattern": "[url:value = 'https://github.com/PillarStreamPipe/Burning-Studio']",
    "labels": [
     "malicious-activity",
@@ -691,11 +691,11 @@
   {
    "type": "indicator",
    "spec_version": "2.1",
-   "id": "indicator--000000000009031161378536753825",
-   "created": "2026-11-21T00:24:49Z",
+   "id": "indicator--7c6a06c5-029a-5b67-84a4-bd19f60dfeb7",
+   "created": "2026-11-21T00:00:00Z",
    "name": "url https://github.com/Matterwithinbastion/Data-Grip",
    "pattern_type": "stix",
-   "valid_from": "2026-11-21T00:24:49Z",
+   "valid_from": "2026-11-21T00:00:00Z",
    "pattern": "[url:value = 'https://github.com/Matterwithinbastion/Data-Grip']",
    "labels": [
     "malicious-activity",
@@ -705,11 +705,11 @@
   {
    "type": "indicator",
    "spec_version": "2.1",
-   "id": "indicator--000000000008777561553939764297",
-   "created": "2026-11-21T00:24:49Z",
+   "id": "indicator--c6aef6b8-1fba-59e0-9bd3-4dae4c255b70",
+   "created": "2026-11-21T00:00:00Z",
    "name": "url https://github.com/GaleVeterinarian/Power-Director",
    "pattern_type": "stix",
-   "valid_from": "2026-11-21T00:24:49Z",
+   "valid_from": "2026-11-21T00:00:00Z",
    "pattern": "[url:value = 'https://github.com/GaleVeterinarian/Power-Director']",
    "labels": [
     "malicious-activity",
@@ -719,11 +719,11 @@
   {
    "type": "indicator",
    "spec_version": "2.1",
-   "id": "indicator--000000000005346937926226152241",
-   "created": "2026-11-21T00:24:49Z",
+   "id": "indicator--702231b5-1454-5bf7-a49d-2fe6b0e10ff3",
+   "created": "2026-11-21T00:00:00Z",
    "name": "url https://github.com/DimCommercialFactory/Start11",
    "pattern_type": "stix",
-   "valid_from": "2026-11-21T00:24:49Z",
+   "valid_from": "2026-11-21T00:00:00Z",
    "pattern": "[url:value = 'https://github.com/DimCommercialFactory/Start11']",
    "labels": [
     "malicious-activity",
@@ -733,11 +733,11 @@
   {
    "type": "indicator",
    "spec_version": "2.1",
-   "id": "indicator--000000000004665630785048351390",
-   "created": "2026-11-21T00:24:49Z",
+   "id": "indicator--256c9ae1-37d6-54fd-b506-3b26910dfcb7",
+   "created": "2026-11-21T00:00:00Z",
    "name": "url https://github.com/GlueRealmProduce/Cellebrite-UFED",
    "pattern_type": "stix",
-   "valid_from": "2026-11-21T00:24:49Z",
+   "valid_from": "2026-11-21T00:00:00Z",
    "pattern": "[url:value = 'https://github.com/GlueRealmProduce/Cellebrite-UFED']",
    "labels": [
     "malicious-activity",
@@ -747,11 +747,11 @@
   {
    "type": "indicator",
    "spec_version": "2.1",
-   "id": "indicator--000000000006308609473629356636",
-   "created": "2026-11-21T00:24:49Z",
+   "id": "indicator--5df94f36-4336-5d1f-95b2-a6dca0e92c9e",
+   "created": "2026-11-21T00:00:00Z",
    "name": "url https://github.com/EmirOvercome/Adobe-After-Effects",
    "pattern_type": "stix",
-   "valid_from": "2026-11-21T00:24:49Z",
+   "valid_from": "2026-11-21T00:00:00Z",
    "pattern": "[url:value = 'https://github.com/EmirOvercome/Adobe-After-Effects']",
    "labels": [
     "malicious-activity",
@@ -761,11 +761,11 @@
   {
    "type": "indicator",
    "spec_version": "2.1",
-   "id": "indicator--000000000007624033517142348072",
-   "created": "2026-11-21T00:24:49Z",
+   "id": "indicator--f8d4830a-64c5-514d-9fc5-06b9d4dc5142",
+   "created": "2026-11-21T00:00:00Z",
    "name": "url https://github.com/MagicArbiter/Easy-Worship",
    "pattern_type": "stix",
-   "valid_from": "2026-11-21T00:24:49Z",
+   "valid_from": "2026-11-21T00:00:00Z",
    "pattern": "[url:value = 'https://github.com/MagicArbiter/Easy-Worship']",
    "labels": [
     "malicious-activity",
@@ -775,11 +775,11 @@
   {
    "type": "indicator",
    "spec_version": "2.1",
-   "id": "indicator--000000000005134460980522659557",
-   "created": "2026-11-21T00:24:49Z",
+   "id": "indicator--9d36df9a-e660-5e69-8fe2-ef9db265cf30",
+   "created": "2026-11-21T00:00:00Z",
    "name": "url https://github.com/PersonalityWalker/Movavi-Converter",
    "pattern_type": "stix",
-   "valid_from": "2026-11-21T00:24:49Z",
+   "valid_from": "2026-11-21T00:00:00Z",
    "pattern": "[url:value = 'https://github.com/PersonalityWalker/Movavi-Converter']",
    "labels": [
     "malicious-activity",
@@ -789,11 +789,11 @@
   {
    "type": "indicator",
    "spec_version": "2.1",
-   "id": "indicator--000000000002621090162766660470",
-   "created": "2026-11-21T00:24:49Z",
+   "id": "indicator--9511c596-acc5-53ad-b1e4-5a2f93935647",
+   "created": "2026-11-21T00:00:00Z",
    "name": "url https://github.com/AdmiralDiscriminate/Photo-Commander",
    "pattern_type": "stix",
-   "valid_from": "2026-11-21T00:24:49Z",
+   "valid_from": "2026-11-21T00:00:00Z",
    "pattern": "[url:value = 'https://github.com/AdmiralDiscriminate/Photo-Commander']",
    "labels": [
     "malicious-activity",
@@ -803,11 +803,11 @@
   {
    "type": "indicator",
    "spec_version": "2.1",
-   "id": "indicator--000000000001574977663081210031",
-   "created": "2026-11-21T00:24:49Z",
+   "id": "indicator--9beef1ae-dcb2-57fe-b6d1-4483e5966844",
+   "created": "2026-11-21T00:00:00Z",
    "name": "url https://github.com/holeconductorcrush/Kontakt-8",
    "pattern_type": "stix",
-   "valid_from": "2026-11-21T00:24:49Z",
+   "valid_from": "2026-11-21T00:00:00Z",
    "pattern": "[url:value = 'https://github.com/holeconductorcrush/Kontakt-8']",
    "labels": [
     "malicious-activity",
@@ -817,11 +817,11 @@
   {
    "type": "indicator",
    "spec_version": "2.1",
-   "id": "indicator--000000000007037296586181403465",
-   "created": "2026-11-21T00:24:49Z",
+   "id": "indicator--db3b16b4-5d2b-5962-af76-dd25cb60c828",
+   "created": "2026-11-21T00:00:00Z",
    "name": "url https://github.com/hubdragonminaret/VoiceMod",
    "pattern_type": "stix",
-   "valid_from": "2026-11-21T00:24:49Z",
+   "valid_from": "2026-11-21T00:00:00Z",
    "pattern": "[url:value = 'https://github.com/hubdragonminaret/VoiceMod']",
    "labels": [
     "malicious-activity",
@@ -831,11 +831,11 @@
   {
    "type": "indicator",
    "spec_version": "2.1",
-   "id": "indicator--000000000008090843489914888841",
-   "created": "2026-11-21T00:24:49Z",
+   "id": "indicator--6d167717-742b-5146-872f-593a2d570e04",
+   "created": "2026-11-21T00:00:00Z",
    "name": "url https://github.com/Windaurotation/Canva-Pro",
    "pattern_type": "stix",
-   "valid_from": "2026-11-21T00:24:49Z",
+   "valid_from": "2026-11-21T00:00:00Z",
    "pattern": "[url:value = 'https://github.com/Windaurotation/Canva-Pro']",
    "labels": [
     "malicious-activity",
@@ -845,11 +845,11 @@
   {
    "type": "indicator",
    "spec_version": "2.1",
-   "id": "indicator--000000000000062305554441317813",
-   "created": "2026-11-21T00:24:49Z",
+   "id": "indicator--d34789ac-c3e2-5869-acd5-a865c45bd6b3",
+   "created": "2026-11-21T00:00:00Z",
    "name": "url https://github.com/Windaurotation/Better-Discord",
    "pattern_type": "stix",
-   "valid_from": "2026-11-21T00:24:49Z",
+   "valid_from": "2026-11-21T00:00:00Z",
    "pattern": "[url:value = 'https://github.com/Windaurotation/Better-Discord']",
    "labels": [
     "malicious-activity",
@@ -859,11 +859,11 @@
   {
    "type": "indicator",
    "spec_version": "2.1",
-   "id": "indicator--000000000001852194214406514931",
-   "created": "2026-11-21T00:24:49Z",
+   "id": "indicator--450a9231-c611-549c-92bb-ab628a9ca3d2",
+   "created": "2026-11-21T00:00:00Z",
    "name": "url https://github.com/Capitalaosteeple24/sbzjbgdy",
    "pattern_type": "stix",
-   "valid_from": "2026-11-21T00:24:49Z",
+   "valid_from": "2026-11-21T00:00:00Z",
    "pattern": "[url:value = 'https://github.com/Capitalaosteeple24/sbzjbgdy']",
    "labels": [
     "malicious-activity",
@@ -873,11 +873,11 @@
   {
    "type": "indicator",
    "spec_version": "2.1",
-   "id": "indicator--000000000006929281326002408872",
-   "created": "2026-11-21T00:24:49Z",
+   "id": "indicator--50a2c512-5892-5ad2-8138-42e6aea7f27c",
+   "created": "2026-11-21T00:00:00Z",
    "name": "url https://github.com/kindguruboost/Data-Grip",
    "pattern_type": "stix",
-   "valid_from": "2026-11-21T00:24:49Z",
+   "valid_from": "2026-11-21T00:00:00Z",
    "pattern": "[url:value = 'https://github.com/kindguruboost/Data-Grip']",
    "labels": [
     "malicious-activity",
@@ -887,11 +887,11 @@
   {
    "type": "indicator",
    "spec_version": "2.1",
-   "id": "indicator--000000000004157084414856410868",
-   "created": "2026-11-21T00:24:49Z",
+   "id": "indicator--58957c13-4630-52d2-a5be-a994be186d5a",
+   "created": "2026-11-21T00:00:00Z",
    "name": "url https://github.com/HiddenSparrowMinaret/Wise-Registrity",
    "pattern_type": "stix",
-   "valid_from": "2026-11-21T00:24:49Z",
+   "valid_from": "2026-11-21T00:00:00Z",
    "pattern": "[url:value = 'https://github.com/HiddenSparrowMinaret/Wise-Registrity']",
    "labels": [
     "malicious-activity",
@@ -901,11 +901,11 @@
   {
    "type": "indicator",
    "spec_version": "2.1",
-   "id": "indicator--000000000004918534536942975107",
-   "created": "2026-11-21T00:24:49Z",
+   "id": "indicator--8ca89a66-473f-50db-9003-10adfcb722e8",
+   "created": "2026-11-21T00:00:00Z",
    "name": "url https://github.com/FoalShrink50/Movavi-Effects",
    "pattern_type": "stix",
-   "valid_from": "2026-11-21T00:24:49Z",
+   "valid_from": "2026-11-21T00:00:00Z",
    "pattern": "[url:value = 'https://github.com/FoalShrink50/Movavi-Effects']",
    "labels": [
     "malicious-activity",
@@ -915,11 +915,11 @@
   {
    "type": "indicator",
    "spec_version": "2.1",
-   "id": "indicator--000000000000262682316483077384",
-   "created": "2026-11-21T00:24:49Z",
+   "id": "indicator--71e80037-903d-5999-aff2-9e5e02d7717a",
+   "created": "2026-11-21T00:00:00Z",
    "name": "url https://github.com/Weavebennurture/Burning-Studio",
    "pattern_type": "stix",
-   "valid_from": "2026-11-21T00:24:49Z",
+   "valid_from": "2026-11-21T00:00:00Z",
    "pattern": "[url:value = 'https://github.com/Weavebennurture/Burning-Studio']",
    "labels": [
     "malicious-activity",
@@ -929,11 +929,11 @@
   {
    "type": "indicator",
    "spec_version": "2.1",
-   "id": "indicator--000000000002111831954498996139",
-   "created": "2026-11-21T00:24:49Z",
+   "id": "indicator--605d7403-1e7c-58ef-8828-420e105666b2",
+   "created": "2026-11-21T00:00:00Z",
    "name": "url https://github.com/Weavebennurture/Avid-Media-Composer",
    "pattern_type": "stix",
-   "valid_from": "2026-11-21T00:24:49Z",
+   "valid_from": "2026-11-21T00:00:00Z",
    "pattern": "[url:value = 'https://github.com/Weavebennurture/Avid-Media-Composer']",
    "labels": [
     "malicious-activity",
@@ -943,11 +943,11 @@
   {
    "type": "indicator",
    "spec_version": "2.1",
-   "id": "indicator--000000000005657324786102760862",
-   "created": "2026-11-21T00:24:49Z",
+   "id": "indicator--77a59cc0-7a15-5999-a300-7338c2a7efb0",
+   "created": "2026-11-21T00:00:00Z",
    "name": "url https://github.com/Lineinmonitor/Ozone-12-Advanced",
    "pattern_type": "stix",
-   "valid_from": "2026-11-21T00:24:49Z",
+   "valid_from": "2026-11-21T00:00:00Z",
    "pattern": "[url:value = 'https://github.com/Lineinmonitor/Ozone-12-Advanced']",
    "labels": [
     "malicious-activity",
@@ -957,11 +957,11 @@
   {
    "type": "indicator",
    "spec_version": "2.1",
-   "id": "indicator--000000000006064253450221411535",
-   "created": "2026-11-21T00:24:49Z",
+   "id": "indicator--26ad1bf7-af87-5ad8-bc38-ded2ea1b75ee",
+   "created": "2026-11-21T00:00:00Z",
    "name": "url https://github.com/PortionHelmsman/Movavi-Converter",
    "pattern_type": "stix",
-   "valid_from": "2026-11-21T00:24:49Z",
+   "valid_from": "2026-11-21T00:00:00Z",
    "pattern": "[url:value = 'https://github.com/PortionHelmsman/Movavi-Converter']",
    "labels": [
     "malicious-activity",
@@ -971,11 +971,11 @@
   {
    "type": "indicator",
    "spec_version": "2.1",
-   "id": "indicator--000000000005937950083813233368",
-   "created": "2026-11-21T00:24:49Z",
+   "id": "indicator--864ccfe7-9419-5a20-921e-246afa49da72",
+   "created": "2026-11-21T00:00:00Z",
    "name": "url https://github.com/ashcustodiandolmen/Cinebench",
    "pattern_type": "stix",
-   "valid_from": "2026-11-21T00:24:49Z",
+   "valid_from": "2026-11-21T00:00:00Z",
    "pattern": "[url:value = 'https://github.com/ashcustodiandolmen/Cinebench']",
    "labels": [
     "malicious-activity",
@@ -985,11 +985,11 @@
   {
    "type": "indicator",
    "spec_version": "2.1",
-   "id": "indicator--000000000001299403820054153298",
-   "created": "2026-11-21T00:24:49Z",
+   "id": "indicator--f004c40a-7f0f-5f7d-8449-ec5e7d1862c7",
+   "created": "2026-11-21T00:00:00Z",
    "name": "url https://github.com/TrackViceCraft/Movavi-Video-Editor-Plus",
    "pattern_type": "stix",
-   "valid_from": "2026-11-21T00:24:49Z",
+   "valid_from": "2026-11-21T00:00:00Z",
    "pattern": "[url:value = 'https://github.com/TrackViceCraft/Movavi-Video-Editor-Plus']",
    "labels": [
     "malicious-activity",
@@ -999,11 +999,11 @@
   {
    "type": "indicator",
    "spec_version": "2.1",
-   "id": "indicator--000000000003204069089883372484",
-   "created": "2026-11-21T00:24:49Z",
+   "id": "indicator--b12614af-6a08-50ab-9870-5d7a7771f729",
+   "created": "2026-11-21T00:00:00Z",
    "name": "url https://github.com/BayAssociate/Directory-Opus",
    "pattern_type": "stix",
-   "valid_from": "2026-11-21T00:24:49Z",
+   "valid_from": "2026-11-21T00:00:00Z",
    "pattern": "[url:value = 'https://github.com/BayAssociate/Directory-Opus']",
    "labels": [
     "malicious-activity",
@@ -1013,11 +1013,11 @@
   {
    "type": "indicator",
    "spec_version": "2.1",
-   "id": "indicator--000000000004342669529455784940",
-   "created": "2026-11-21T00:24:49Z",
+   "id": "indicator--4d247091-d6fb-5ea7-ad9e-184cbadb84ec",
+   "created": "2026-11-21T00:00:00Z",
    "name": "url https://github.com/sharpbytekey/Movavi-Video-Suite-Plus",
    "pattern_type": "stix",
-   "valid_from": "2026-11-21T00:24:49Z",
+   "valid_from": "2026-11-21T00:00:00Z",
    "pattern": "[url:value = 'https://github.com/sharpbytekey/Movavi-Video-Suite-Plus']",
    "labels": [
     "malicious-activity",
@@ -1027,11 +1027,11 @@
   {
    "type": "indicator",
    "spec_version": "2.1",
-   "id": "indicator--000000000001990305841198166743",
-   "created": "2026-11-21T00:24:49Z",
+   "id": "indicator--ab847eea-78d6-5f5f-a0ee-585498010364",
+   "created": "2026-11-21T00:00:00Z",
    "name": "url https://github.com/SavageSamuraiTuck/CorelDraw",
    "pattern_type": "stix",
-   "valid_from": "2026-11-21T00:24:49Z",
+   "valid_from": "2026-11-21T00:00:00Z",
    "pattern": "[url:value = 'https://github.com/SavageSamuraiTuck/CorelDraw']",
    "labels": [
     "malicious-activity",
@@ -1041,11 +1041,11 @@
   {
    "type": "indicator",
    "spec_version": "2.1",
-   "id": "indicator--000000000000451567372394699036",
-   "created": "2026-11-21T00:24:49Z",
+   "id": "indicator--c71ec6f2-9fcb-5255-b05d-086e400aa45a",
+   "created": "2026-11-21T00:00:00Z",
    "name": "url https://github.com/PeltPythonCall/GrayKet",
    "pattern_type": "stix",
-   "valid_from": "2026-11-21T00:24:49Z",
+   "valid_from": "2026-11-21T00:00:00Z",
    "pattern": "[url:value = 'https://github.com/PeltPythonCall/GrayKet']",
    "labels": [
     "malicious-activity",
@@ -1055,11 +1055,11 @@
   {
    "type": "indicator",
    "spec_version": "2.1",
-   "id": "indicator--000000000009005083007938763298",
-   "created": "2026-11-21T00:24:49Z",
+   "id": "indicator--d3e1c53b-1fea-54d4-9acc-6747ba2de80f",
+   "created": "2026-11-21T00:00:00Z",
    "name": "url https://github.com/Griffinlyatreasure85/Cellebrite-UFED",
    "pattern_type": "stix",
-   "valid_from": "2026-11-21T00:24:49Z",
+   "valid_from": "2026-11-21T00:00:00Z",
    "pattern": "[url:value = 'https://github.com/Griffinlyatreasure85/Cellebrite-UFED']",
    "labels": [
     "malicious-activity",
@@ -1069,11 +1069,11 @@
   {
    "type": "indicator",
    "spec_version": "2.1",
-   "id": "indicator--000000000001900405688595645491",
-   "created": "2026-11-21T00:24:49Z",
+   "id": "indicator--6d723450-b9a7-51e3-b957-4c14d5d5360c",
+   "created": "2026-11-21T00:00:00Z",
    "name": "url https://github.com/Thornonanchorage/Ashampoo-WinOptimizer",
    "pattern_type": "stix",
-   "valid_from": "2026-11-21T00:24:49Z",
+   "valid_from": "2026-11-21T00:00:00Z",
    "pattern": "[url:value = 'https://github.com/Thornonanchorage/Ashampoo-WinOptimizer']",
    "labels": [
     "malicious-activity",
@@ -1083,11 +1083,11 @@
   {
    "type": "indicator",
    "spec_version": "2.1",
-   "id": "indicator--000000000004714357119353151690",
-   "created": "2026-11-21T00:24:49Z",
+   "id": "indicator--c347bc62-d2ae-5c01-918e-f1775d86c6c6",
+   "created": "2026-11-21T00:00:00Z",
    "name": "url https://github.com/MarshalTrench/SonyVegas",
    "pattern_type": "stix",
-   "valid_from": "2026-11-21T00:24:49Z",
+   "valid_from": "2026-11-21T00:00:00Z",
    "pattern": "[url:value = 'https://github.com/MarshalTrench/SonyVegas']",
    "labels": [
     "malicious-activity",
@@ -1097,11 +1097,11 @@
   {
    "type": "indicator",
    "spec_version": "2.1",
-   "id": "indicator--000000000000786853162851361687",
-   "created": "2026-11-21T00:24:49Z",
+   "id": "indicator--538a4c49-7dce-5445-8966-22fd4a783b7a",
+   "created": "2026-11-21T00:00:00Z",
    "name": "url https://github.com/snatchbytesalvage/CCleaner-Pro",
    "pattern_type": "stix",
-   "valid_from": "2026-11-21T00:24:49Z",
+   "valid_from": "2026-11-21T00:00:00Z",
    "pattern": "[url:value = 'https://github.com/snatchbytesalvage/CCleaner-Pro']",
    "labels": [
     "malicious-activity",
@@ -1111,11 +1111,11 @@
   {
    "type": "indicator",
    "spec_version": "2.1",
-   "id": "indicator--000000000004878015870179132419",
-   "created": "2026-11-21T00:24:49Z",
+   "id": "indicator--602217b4-fc67-5037-9c53-772805e0f099",
+   "created": "2026-11-21T00:00:00Z",
    "name": "url https://github.com/SaboteurClip/Rufus",
    "pattern_type": "stix",
-   "valid_from": "2026-11-21T00:24:49Z",
+   "valid_from": "2026-11-21T00:00:00Z",
    "pattern": "[url:value = 'https://github.com/SaboteurClip/Rufus']",
    "labels": [
     "malicious-activity",
@@ -1125,11 +1125,11 @@
   {
    "type": "indicator",
    "spec_version": "2.1",
-   "id": "indicator--000000000006060091029813445521",
-   "created": "2026-11-21T00:24:49Z",
+   "id": "indicator--6d5ca5c2-4b41-5185-b89e-c27ef2f465b0",
+   "created": "2026-11-21T00:00:00Z",
    "name": "url https://github.com/JoinBardColonnade/RX-11-Audio-Editor",
    "pattern_type": "stix",
-   "valid_from": "2026-11-21T00:24:49Z",
+   "valid_from": "2026-11-21T00:00:00Z",
    "pattern": "[url:value = 'https://github.com/JoinBardColonnade/RX-11-Audio-Editor']",
    "labels": [
     "malicious-activity",
@@ -1139,11 +1139,11 @@
   {
    "type": "indicator",
    "spec_version": "2.1",
-   "id": "indicator--000000000006226673710827840219",
-   "created": "2026-11-21T00:24:49Z",
+   "id": "indicator--44454bc7-f0ae-5848-bba2-d589ee081b1e",
+   "created": "2026-11-21T00:00:00Z",
    "name": "url https://github.com/PlanetPhaseRaid/VoiceMod",
    "pattern_type": "stix",
-   "valid_from": "2026-11-21T00:24:49Z",
+   "valid_from": "2026-11-21T00:00:00Z",
    "pattern": "[url:value = 'https://github.com/PlanetPhaseRaid/VoiceMod']",
    "labels": [
     "malicious-activity",
@@ -1153,11 +1153,11 @@
   {
    "type": "indicator",
    "spec_version": "2.1",
-   "id": "indicator--000000000004754159069680399847",
-   "created": "2026-11-21T00:24:49Z",
+   "id": "indicator--8bd9f950-a7a1-5235-b020-fcfb6dd7bca5",
+   "created": "2026-11-21T00:00:00Z",
    "name": "url https://github.com/Openbygather/Movavi-Photo-Editor",
    "pattern_type": "stix",
-   "valid_from": "2026-11-21T00:24:49Z",
+   "valid_from": "2026-11-21T00:00:00Z",
    "pattern": "[url:value = 'https://github.com/Openbygather/Movavi-Photo-Editor']",
    "labels": [
     "malicious-activity",
@@ -1167,11 +1167,11 @@
   {
    "type": "indicator",
    "spec_version": "2.1",
-   "id": "indicator--000000000003516401832585852896",
-   "created": "2026-11-21T00:24:49Z",
+   "id": "indicator--73c60147-99a9-5b21-a172-bc517652849f",
+   "created": "2026-11-21T00:00:00Z",
    "name": "url https://github.com/ScrewDiverHike/Power-Director",
    "pattern_type": "stix",
-   "valid_from": "2026-11-21T00:24:49Z",
+   "valid_from": "2026-11-21T00:00:00Z",
    "pattern": "[url:value = 'https://github.com/ScrewDiverHike/Power-Director']",
    "labels": [
     "malicious-activity",
@@ -1181,11 +1181,11 @@
   {
    "type": "indicator",
    "spec_version": "2.1",
-   "id": "indicator--000000000000645846076026678476",
-   "created": "2026-11-21T00:24:49Z",
+   "id": "indicator--3eacfc1c-9550-5c36-abfc-206d3ae63ae9",
+   "created": "2026-11-21T00:00:00Z",
    "name": "url https://github.com/Ratiokrunote/Movavi-Converter",
    "pattern_type": "stix",
-   "valid_from": "2026-11-21T00:24:49Z",
+   "valid_from": "2026-11-21T00:00:00Z",
    "pattern": "[url:value = 'https://github.com/Ratiokrunote/Movavi-Converter']",
    "labels": [
     "malicious-activity",
@@ -1195,11 +1195,11 @@
   {
    "type": "indicator",
    "spec_version": "2.1",
-   "id": "indicator--000000000008526006882528006084",
-   "created": "2026-11-21T00:24:49Z",
+   "id": "indicator--2ad2e4f0-b171-572e-ae3d-78bb6ff8105c",
+   "created": "2026-11-21T00:00:00Z",
    "name": "url https://github.com/SlateElementalist/SystemCare-Pro",
    "pattern_type": "stix",
-   "valid_from": "2026-11-21T00:24:49Z",
+   "valid_from": "2026-11-21T00:00:00Z",
    "pattern": "[url:value = 'https://github.com/SlateElementalist/SystemCare-Pro']",
    "labels": [
     "malicious-activity",
@@ -1209,11 +1209,11 @@
   {
    "type": "indicator",
    "spec_version": "2.1",
-   "id": "indicator--000000000002698059155046834911",
-   "created": "2026-11-21T00:24:49Z",
+   "id": "indicator--36f36715-265b-5cdc-a005-bee2a4e946fb",
+   "created": "2026-11-21T00:00:00Z",
    "name": "url https://github.com/Minotaurtruflex/Microsoft-Project",
    "pattern_type": "stix",
-   "valid_from": "2026-11-21T00:24:49Z",
+   "valid_from": "2026-11-21T00:00:00Z",
    "pattern": "[url:value = 'https://github.com/Minotaurtruflex/Microsoft-Project']",
    "labels": [
     "malicious-activity",
@@ -1223,11 +1223,11 @@
   {
    "type": "indicator",
    "spec_version": "2.1",
-   "id": "indicator--000000000000806260928957281003",
-   "created": "2026-11-21T00:24:49Z",
+   "id": "indicator--6a815604-6142-5e48-b2f4-a58826345a0a",
+   "created": "2026-11-21T00:00:00Z",
    "name": "url https://github.com/MelodySwimmer/Ultra-Edit",
    "pattern_type": "stix",
-   "valid_from": "2026-11-21T00:24:49Z",
+   "valid_from": "2026-11-21T00:00:00Z",
    "pattern": "[url:value = 'https://github.com/MelodySwimmer/Ultra-Edit']",
    "labels": [
     "malicious-activity",
@@ -1237,11 +1237,11 @@
   {
    "type": "indicator",
    "spec_version": "2.1",
-   "id": "indicator--000000000001960646617857655153",
-   "created": "2026-11-21T00:24:49Z",
+   "id": "indicator--0aafa640-b436-513d-9f78-90f64c0cec75",
+   "created": "2026-11-21T00:00:00Z",
    "name": "url https://github.com/Openyodepict/Movavi-Video-Editor-Plus",
    "pattern_type": "stix",
-   "valid_from": "2026-11-21T00:24:49Z",
+   "valid_from": "2026-11-21T00:00:00Z",
    "pattern": "[url:value = 'https://github.com/Openyodepict/Movavi-Video-Editor-Plus']",
    "labels": [
     "malicious-activity",
@@ -1251,11 +1251,11 @@
   {
    "type": "indicator",
    "spec_version": "2.1",
-   "id": "indicator--000000000000915978970789501006",
-   "created": "2026-11-21T00:24:49Z",
+   "id": "indicator--d3d10bde-508f-5c26-8b33-b0fa71db1d2f",
+   "created": "2026-11-21T00:00:00Z",
    "name": "url https://github.com/EssenceConductor/Movavi-Video-Suite-Plus",
    "pattern_type": "stix",
-   "valid_from": "2026-11-21T00:24:49Z",
+   "valid_from": "2026-11-21T00:00:00Z",
    "pattern": "[url:value = 'https://github.com/EssenceConductor/Movavi-Video-Suite-Plus']",
    "labels": [
     "malicious-activity",
@@ -1265,11 +1265,11 @@
   {
    "type": "indicator",
    "spec_version": "2.1",
-   "id": "indicator--000000000006125913952380753222",
-   "created": "2026-11-21T00:24:49Z",
+   "id": "indicator--e353e1da-6694-58a9-ba64-51ab49562779",
+   "created": "2026-11-21T00:00:00Z",
    "name": "url https://github.com/crimsonoriolehovel/Movavi-Effects",
    "pattern_type": "stix",
-   "valid_from": "2026-11-21T00:24:49Z",
+   "valid_from": "2026-11-21T00:00:00Z",
    "pattern": "[url:value = 'https://github.com/crimsonoriolehovel/Movavi-Effects']",
    "labels": [
     "malicious-activity",
@@ -1279,11 +1279,11 @@
   {
    "type": "indicator",
    "spec_version": "2.1",
-   "id": "indicator--000000000002968203237312253895",
-   "created": "2026-11-21T00:24:49Z",
+   "id": "indicator--3dc02856-0dfa-5024-8d6b-006382fe387f",
+   "created": "2026-11-21T00:00:00Z",
    "name": "url https://github.com/HornbillJournal/Photo-Commander",
    "pattern_type": "stix",
-   "valid_from": "2026-11-21T00:24:49Z",
+   "valid_from": "2026-11-21T00:00:00Z",
    "pattern": "[url:value = 'https://github.com/HornbillJournal/Photo-Commander']",
    "labels": [
     "malicious-activity",
@@ -1293,11 +1293,11 @@
   {
    "type": "indicator",
    "spec_version": "2.1",
-   "id": "indicator--000000000002224159497892769225",
-   "created": "2026-11-21T00:24:49Z",
+   "id": "indicator--eda2748e-339e-518d-be00-e93415ac1da6",
+   "created": "2026-11-21T00:00:00Z",
    "name": "url https://github.com/TarantulaKnow/Movavi-Screen-Recorder",
    "pattern_type": "stix",
-   "valid_from": "2026-11-21T00:24:49Z",
+   "valid_from": "2026-11-21T00:00:00Z",
    "pattern": "[url:value = 'https://github.com/TarantulaKnow/Movavi-Screen-Recorder']",
    "labels": [
     "malicious-activity",
@@ -1307,11 +1307,11 @@
   {
    "type": "indicator",
    "spec_version": "2.1",
-   "id": "indicator--000000000004450106171933796402",
-   "created": "2026-11-21T00:24:49Z",
+   "id": "indicator--a124299c-a302-55ca-baff-e87a635cbb03",
+   "created": "2026-11-21T00:00:00Z",
    "name": "url https://github.com/StreetGateChisel/Uttorent",
    "pattern_type": "stix",
-   "valid_from": "2026-11-21T00:24:49Z",
+   "valid_from": "2026-11-21T00:00:00Z",
    "pattern": "[url:value = 'https://github.com/StreetGateChisel/Uttorent']",
    "labels": [
     "malicious-activity",
@@ -1321,11 +1321,11 @@
   {
    "type": "indicator",
    "spec_version": "2.1",
-   "id": "indicator--000000000008481234167162621889",
-   "created": "2026-11-21T00:24:49Z",
+   "id": "indicator--fade232b-2cc7-58fe-835a-e2f0f4b6e7b6",
+   "created": "2026-11-21T00:00:00Z",
    "name": "url https://github.com/PathTailorRadial/StartAll-Back",
    "pattern_type": "stix",
-   "valid_from": "2026-11-21T00:24:49Z",
+   "valid_from": "2026-11-21T00:00:00Z",
    "pattern": "[url:value = 'https://github.com/PathTailorRadial/StartAll-Back']",
    "labels": [
     "malicious-activity",
@@ -1335,11 +1335,11 @@
   {
    "type": "indicator",
    "spec_version": "2.1",
-   "id": "indicator--000000000004520091577204623675",
-   "created": "2026-11-21T00:24:49Z",
+   "id": "indicator--84fd738d-445f-5d6f-94de-5d64db197aaa",
+   "created": "2026-11-21T00:00:00Z",
    "name": "url https://github.com/portalthunderphase/Movavi-Photo-Editor",
    "pattern_type": "stix",
-   "valid_from": "2026-11-21T00:24:49Z",
+   "valid_from": "2026-11-21T00:00:00Z",
    "pattern": "[url:value = 'https://github.com/portalthunderphase/Movavi-Photo-Editor']",
    "labels": [
     "malicious-activity",
@@ -1349,11 +1349,11 @@
   {
    "type": "indicator",
    "spec_version": "2.1",
-   "id": "indicator--000000000000759744765141917841",
-   "created": "2026-11-21T00:24:49Z",
+   "id": "indicator--e19ccf7e-7509-555d-a007-b796940e64a0",
+   "created": "2026-11-21T00:00:00Z",
    "name": "url https://github.com/ExistenceProduction/Auslogics",
    "pattern_type": "stix",
-   "valid_from": "2026-11-21T00:24:49Z",
+   "valid_from": "2026-11-21T00:00:00Z",
    "pattern": "[url:value = 'https://github.com/ExistenceProduction/Auslogics']",
    "labels": [
     "malicious-activity",
@@ -1363,11 +1363,11 @@
   {
    "type": "indicator",
    "spec_version": "2.1",
-   "id": "indicator--000000000001828583526776597455",
-   "created": "2026-11-21T00:24:49Z",
+   "id": "indicator--18f720ba-cdb7-5ecb-bbee-cf4cd8f139f0",
+   "created": "2026-11-21T00:00:00Z",
    "name": "url https://github.com/PaintShrimpDawn/Canva-Pro",
    "pattern_type": "stix",
-   "valid_from": "2026-11-21T00:24:49Z",
+   "valid_from": "2026-11-21T00:00:00Z",
    "pattern": "[url:value = 'https://github.com/PaintShrimpDawn/Canva-Pro']",
    "labels": [
     "malicious-activity",
@@ -1377,11 +1377,11 @@
   {
    "type": "indicator",
    "spec_version": "2.1",
-   "id": "indicator--000000000007541024610442809348",
-   "created": "2026-11-21T00:24:49Z",
+   "id": "indicator--0755e2cd-6141-5beb-af89-ec25f73a85cb",
+   "created": "2026-11-21T00:00:00Z",
    "name": "url https://github.com/MailJudgeView/SoundPad",
    "pattern_type": "stix",
-   "valid_from": "2026-11-21T00:24:49Z",
+   "valid_from": "2026-11-21T00:00:00Z",
    "pattern": "[url:value = 'https://github.com/MailJudgeView/SoundPad']",
    "labels": [
     "malicious-activity",
@@ -1391,11 +1391,11 @@
   {
    "type": "indicator",
    "spec_version": "2.1",
-   "id": "indicator--000000000003097745155820642573",
-   "created": "2026-11-21T00:24:49Z",
+   "id": "indicator--7c15265b-0830-51a3-9e1f-0723cdc1577e",
+   "created": "2026-11-21T00:00:00Z",
    "name": "url https://github.com/Ponddergenerate/Movavi-Video-Suite-Plus",
    "pattern_type": "stix",
-   "valid_from": "2026-11-21T00:24:49Z",
+   "valid_from": "2026-11-21T00:00:00Z",
    "pattern": "[url:value = 'https://github.com/Ponddergenerate/Movavi-Video-Suite-Plus']",
    "labels": [
     "malicious-activity",
@@ -1405,11 +1405,11 @@
   {
    "type": "indicator",
    "spec_version": "2.1",
-   "id": "indicator--000000000002739716803125660741",
-   "created": "2026-11-21T00:24:49Z",
+   "id": "indicator--c925e1c0-9809-59f0-ba75-5e34151b6a81",
+   "created": "2026-11-21T00:00:00Z",
    "name": "url https://github.com/ChainWizardAura/Cinebench",
    "pattern_type": "stix",
-   "valid_from": "2026-11-21T00:24:49Z",
+   "valid_from": "2026-11-21T00:00:00Z",
    "pattern": "[url:value = 'https://github.com/ChainWizardAura/Cinebench']",
    "labels": [
     "malicious-activity",
@@ -1419,11 +1419,11 @@
   {
    "type": "indicator",
    "spec_version": "2.1",
-   "id": "indicator--000000000005437569186900963788",
-   "created": "2026-11-21T00:24:49Z",
+   "id": "indicator--b8ff146a-687b-5cae-88bc-a04c2791c7f6",
+   "created": "2026-11-21T00:00:00Z",
    "name": "url https://github.com/SmartThunderDisplay/Movavi-Screen-Recorder",
    "pattern_type": "stix",
-   "valid_from": "2026-11-21T00:24:49Z",
+   "valid_from": "2026-11-21T00:00:00Z",
    "pattern": "[url:value = 'https://github.com/SmartThunderDisplay/Movavi-Screen-Recorder']",
    "labels": [
     "malicious-activity",
@@ -1433,11 +1433,11 @@
   {
    "type": "indicator",
    "spec_version": "2.1",
-   "id": "indicator--000000000007521708852114527996",
-   "created": "2026-11-21T00:24:49Z",
+   "id": "indicator--ffb773a0-4e36-5a0b-bb56-e743e4ae6987",
+   "created": "2026-11-21T00:00:00Z",
    "name": "url https://github.com/FlowBeetle94/Autodesk-Revit",
    "pattern_type": "stix",
-   "valid_from": "2026-11-21T00:24:49Z",
+   "valid_from": "2026-11-21T00:00:00Z",
    "pattern": "[url:value = 'https://github.com/FlowBeetle94/Autodesk-Revit']",
    "labels": [
     "malicious-activity",
@@ -1447,11 +1447,11 @@
   {
    "type": "indicator",
    "spec_version": "2.1",
-   "id": "indicator--000000000008780508462433133427",
-   "created": "2026-11-21T00:24:49Z",
+   "id": "indicator--3f0d5aa7-e387-5e1a-9279-31269ac468e3",
+   "created": "2026-11-21T00:00:00Z",
    "name": "url https://github.com/Towerthroughlabel/FabFilter-Total",
    "pattern_type": "stix",
-   "valid_from": "2026-11-21T00:24:49Z",
+   "valid_from": "2026-11-21T00:00:00Z",
    "pattern": "[url:value = 'https://github.com/Towerthroughlabel/FabFilter-Total']",
    "labels": [
     "malicious-activity",
@@ -1461,11 +1461,11 @@
   {
    "type": "indicator",
    "spec_version": "2.1",
-   "id": "indicator--000000000008618834935575732125",
-   "created": "2026-11-21T00:24:49Z",
+   "id": "indicator--ee5931cb-e8c4-5294-8151-8c3b637c3bdc",
+   "created": "2026-11-21T00:00:00Z",
    "name": "url https://github.com/BlacksmithColumn/AOMEI-Backupper",
    "pattern_type": "stix",
-   "valid_from": "2026-11-21T00:24:49Z",
+   "valid_from": "2026-11-21T00:00:00Z",
    "pattern": "[url:value = 'https://github.com/BlacksmithColumn/AOMEI-Backupper']",
    "labels": [
     "malicious-activity",
@@ -1475,11 +1475,11 @@
   {
    "type": "indicator",
    "spec_version": "2.1",
-   "id": "indicator--000000000002491549733600779430",
-   "created": "2026-11-21T00:24:49Z",
+   "id": "indicator--b3132b32-28dd-59db-9393-4848b1aca000",
+   "created": "2026-11-21T00:00:00Z",
    "name": "url https://github.com/FaceDuckStove/CapCut-for-Windows",
    "pattern_type": "stix",
-   "valid_from": "2026-11-21T00:24:49Z",
+   "valid_from": "2026-11-21T00:00:00Z",
    "pattern": "[url:value = 'https://github.com/FaceDuckStove/CapCut-for-Windows']",
    "labels": [
     "malicious-activity",
@@ -1489,11 +1489,11 @@
   {
    "type": "indicator",
    "spec_version": "2.1",
-   "id": "indicator--000000000000692581271692398518",
-   "created": "2026-11-21T00:24:49Z",
+   "id": "indicator--36aeae2d-d6f8-5ffb-96a8-2767723a5b20",
+   "created": "2026-11-21T00:00:00Z",
    "name": "url https://github.com/ringorcastay/Ashampoo-WinOptimizer",
    "pattern_type": "stix",
-   "valid_from": "2026-11-21T00:24:49Z",
+   "valid_from": "2026-11-21T00:00:00Z",
    "pattern": "[url:value = 'https://github.com/ringorcastay/Ashampoo-WinOptimizer']",
    "labels": [
     "malicious-activity",
@@ -1503,11 +1503,11 @@
   {
    "type": "indicator",
    "spec_version": "2.1",
-   "id": "indicator--000000000007129308445989266140",
-   "created": "2026-11-21T00:24:49Z",
+   "id": "indicator--d65c748a-68bd-54bb-9f3e-6d2933d6c552",
+   "created": "2026-11-21T00:00:00Z",
    "name": "url https://github.com/SerpentCleric/Uttorent",
    "pattern_type": "stix",
-   "valid_from": "2026-11-21T00:24:49Z",
+   "valid_from": "2026-11-21T00:00:00Z",
    "pattern": "[url:value = 'https://github.com/SerpentCleric/Uttorent']",
    "labels": [
     "malicious-activity",
@@ -1517,11 +1517,11 @@
   {
    "type": "indicator",
    "spec_version": "2.1",
-   "id": "indicator--000000000004175958330385034544",
-   "created": "2026-11-21T00:24:49Z",
+   "id": "indicator--c840e534-02fd-512d-9df4-d86d9adbb1da",
+   "created": "2026-11-21T00:00:00Z",
    "name": "url https://github.com/volumesamuraichill/SystemCare-Pro",
    "pattern_type": "stix",
-   "valid_from": "2026-11-21T00:24:49Z",
+   "valid_from": "2026-11-21T00:00:00Z",
    "pattern": "[url:value = 'https://github.com/volumesamuraichill/SystemCare-Pro']",
    "labels": [
     "malicious-activity",
@@ -1531,11 +1531,11 @@
   {
    "type": "indicator",
    "spec_version": "2.1",
-   "id": "indicator--000000000001851243511183797722",
-   "created": "2026-11-21T00:24:49Z",
+   "id": "indicator--04423c70-79ce-5d2c-860a-d508194527b7",
+   "created": "2026-11-21T00:00:00Z",
    "name": "url https://github.com/NightBiomancer/Cellebrite-UFED",
    "pattern_type": "stix",
-   "valid_from": "2026-11-21T00:24:49Z",
+   "valid_from": "2026-11-21T00:00:00Z",
    "pattern": "[url:value = 'https://github.com/NightBiomancer/Cellebrite-UFED']",
    "labels": [
     "malicious-activity",
@@ -1545,11 +1545,11 @@
   {
    "type": "indicator",
    "spec_version": "2.1",
-   "id": "indicator--000000000004832231611139738924",
-   "created": "2026-11-21T00:24:49Z",
+   "id": "indicator--d38ee577-7b89-5075-bc88-a8b3c2f981f4",
+   "created": "2026-11-21T00:00:00Z",
    "name": "url https://github.com/Grandmasterofend/Melodyne-5",
    "pattern_type": "stix",
-   "valid_from": "2026-11-21T00:24:49Z",
+   "valid_from": "2026-11-21T00:00:00Z",
    "pattern": "[url:value = 'https://github.com/Grandmasterofend/Melodyne-5']",
    "labels": [
     "malicious-activity",
@@ -1559,11 +1559,11 @@
   {
    "type": "indicator",
    "spec_version": "2.1",
-   "id": "indicator--000000000000128529386837348124",
-   "created": "2026-11-21T00:24:49Z",
+   "id": "indicator--ac6da74b-c60f-583c-a4f5-f336198cf81b",
+   "created": "2026-11-21T00:00:00Z",
    "name": "url https://github.com/mudcoxswainpit/Movavi-Converter",
    "pattern_type": "stix",
-   "valid_from": "2026-11-21T00:24:49Z",
+   "valid_from": "2026-11-21T00:00:00Z",
    "pattern": "[url:value = 'https://github.com/mudcoxswainpit/Movavi-Converter']",
    "labels": [
     "malicious-activity",
@@ -1573,11 +1573,11 @@
   {
    "type": "indicator",
    "spec_version": "2.1",
-   "id": "indicator--000000000007529908793652121712",
-   "created": "2026-11-21T00:24:49Z",
+   "id": "indicator--ae03d692-5dfd-5ec7-bb3d-4f7e8d700142",
+   "created": "2026-11-21T00:00:00Z",
    "name": "url https://github.com/GiraffeCondense/Burning-Studio",
    "pattern_type": "stix",
-   "valid_from": "2026-11-21T00:24:49Z",
+   "valid_from": "2026-11-21T00:00:00Z",
    "pattern": "[url:value = 'https://github.com/GiraffeCondense/Burning-Studio']",
    "labels": [
     "malicious-activity",
@@ -1587,11 +1587,11 @@
   {
    "type": "indicator",
    "spec_version": "2.1",
-   "id": "indicator--000000000007997597519904452073",
-   "created": "2026-11-21T00:24:49Z",
+   "id": "indicator--3fe4ca0a-12be-5a78-b332-b036eb5200d6",
+   "created": "2026-11-21T00:00:00Z",
    "name": "url https://github.com/ShoreRealm72/RX-11-Audio-Editor",
    "pattern_type": "stix",
-   "valid_from": "2026-11-21T00:24:49Z",
+   "valid_from": "2026-11-21T00:00:00Z",
    "pattern": "[url:value = 'https://github.com/ShoreRealm72/RX-11-Audio-Editor']",
    "labels": [
     "malicious-activity",
@@ -1601,11 +1601,11 @@
   {
    "type": "indicator",
    "spec_version": "2.1",
-   "id": "indicator--000000000008345369286437599290",
-   "created": "2026-11-21T00:24:49Z",
+   "id": "indicator--3ad544bf-a3fe-5202-b8f0-ca9db75ed1a1",
+   "created": "2026-11-21T00:00:00Z",
    "name": "url https://github.com/WharfStarHike/Wise-Registrity",
    "pattern_type": "stix",
-   "valid_from": "2026-11-21T00:24:49Z",
+   "valid_from": "2026-11-21T00:00:00Z",
    "pattern": "[url:value = 'https://github.com/WharfStarHike/Wise-Registrity']",
    "labels": [
     "malicious-activity",
@@ -1615,11 +1615,11 @@
   {
    "type": "indicator",
    "spec_version": "2.1",
-   "id": "indicator--000000000004056538026306770654",
-   "created": "2026-11-21T00:24:49Z",
+   "id": "indicator--9baf42cf-6abd-5a47-84c7-a2005b4740ad",
+   "created": "2026-11-21T00:00:00Z",
    "name": "url https://github.com/BladesmithFirewall/KeyShot-Pro",
    "pattern_type": "stix",
-   "valid_from": "2026-11-21T00:24:49Z",
+   "valid_from": "2026-11-21T00:00:00Z",
    "pattern": "[url:value = 'https://github.com/BladesmithFirewall/KeyShot-Pro']",
    "labels": [
     "malicious-activity",
@@ -1629,11 +1629,11 @@
   {
    "type": "indicator",
    "spec_version": "2.1",
-   "id": "indicator--000000000006505593600991194778",
-   "created": "2026-11-21T00:24:49Z",
+   "id": "indicator--ea9e9387-5d3f-518a-87ba-cc61184b1b09",
+   "created": "2026-11-21T00:00:00Z",
    "name": "url https://github.com/GraphLoopGame/FabFilter-Pro",
    "pattern_type": "stix",
-   "valid_from": "2026-11-21T00:24:49Z",
+   "valid_from": "2026-11-21T00:00:00Z",
    "pattern": "[url:value = 'https://github.com/GraphLoopGame/FabFilter-Pro']",
    "labels": [
     "malicious-activity",
@@ -1643,11 +1643,11 @@
   {
    "type": "indicator",
    "spec_version": "2.1",
-   "id": "indicator--000000000008344452052292424993",
-   "created": "2026-11-21T00:24:49Z",
+   "id": "indicator--4665a62c-fa94-527a-840a-6bce4e2d88e4",
+   "created": "2026-11-21T00:00:00Z",
    "name": "url https://github.com/DragonHokageDecoder/Total-Commander",
    "pattern_type": "stix",
-   "valid_from": "2026-11-21T00:24:49Z",
+   "valid_from": "2026-11-21T00:00:00Z",
    "pattern": "[url:value = 'https://github.com/DragonHokageDecoder/Total-Commander']",
    "labels": [
     "malicious-activity",
@@ -1657,11 +1657,11 @@
   {
    "type": "indicator",
    "spec_version": "2.1",
-   "id": "indicator--000000000000128081448270838898",
-   "created": "2026-11-21T00:24:49Z",
+   "id": "indicator--756591e6-6cd9-5929-9230-03eb954b470b",
+   "created": "2026-11-21T00:00:00Z",
    "name": "url https://github.com/Tracksiawning/VoiceMod",
    "pattern_type": "stix",
-   "valid_from": "2026-11-21T00:24:49Z",
+   "valid_from": "2026-11-21T00:00:00Z",
    "pattern": "[url:value = 'https://github.com/Tracksiawning/VoiceMod']",
    "labels": [
     "malicious-activity",
@@ -1671,11 +1671,11 @@
   {
    "type": "indicator",
    "spec_version": "2.1",
-   "id": "indicator--000000000004006210668162233735",
-   "created": "2026-11-21T00:24:49Z",
+   "id": "indicator--621da746-6ff4-5248-88be-903e56e5a323",
+   "created": "2026-11-21T00:00:00Z",
    "name": "url https://github.com/chaindictatorpalace/AnyDesk",
    "pattern_type": "stix",
-   "valid_from": "2026-11-21T00:24:49Z",
+   "valid_from": "2026-11-21T00:00:00Z",
    "pattern": "[url:value = 'https://github.com/chaindictatorpalace/AnyDesk']",
    "labels": [
     "malicious-activity",
@@ -1685,11 +1685,11 @@
   {
    "type": "indicator",
    "spec_version": "2.1",
-   "id": "indicator--000000000007848680421555989696",
-   "created": "2026-11-21T00:24:49Z",
+   "id": "indicator--ba5a3337-375c-596a-919e-37da6d70a9cf",
+   "created": "2026-11-21T00:00:00Z",
    "name": "url https://github.com/Obsidiangrohoist/HitFilm",
    "pattern_type": "stix",
-   "valid_from": "2026-11-21T00:24:49Z",
+   "valid_from": "2026-11-21T00:00:00Z",
    "pattern": "[url:value = 'https://github.com/Obsidiangrohoist/HitFilm']",
    "labels": [
     "malicious-activity",
@@ -1699,11 +1699,11 @@
   {
    "type": "indicator",
    "spec_version": "2.1",
-   "id": "indicator--000000000001381863238130427879",
-   "created": "2026-11-21T00:24:49Z",
+   "id": "indicator--30d758f7-89fa-56c3-8f9a-1a24a01aa356",
+   "created": "2026-11-21T00:00:00Z",
    "name": "url https://github.com/Ditcharbarrier/ExitLag",
    "pattern_type": "stix",
-   "valid_from": "2026-11-21T00:24:49Z",
+   "valid_from": "2026-11-21T00:00:00Z",
    "pattern": "[url:value = 'https://github.com/Ditcharbarrier/ExitLag']",
    "labels": [
     "malicious-activity",
@@ -1713,11 +1713,11 @@
   {
    "type": "indicator",
    "spec_version": "2.1",
-   "id": "indicator--000000000003897242421847371371",
-   "created": "2026-11-21T00:24:49Z",
+   "id": "indicator--a1e1e7ee-fb70-5138-aecb-ac497b42db85",
+   "created": "2026-11-21T00:00:00Z",
    "name": "url https://github.com/FigureNetworkConsole/Movavi-Video-Editor-Plus",
    "pattern_type": "stix",
-   "valid_from": "2026-11-21T00:24:49Z",
+   "valid_from": "2026-11-21T00:00:00Z",
    "pattern": "[url:value = 'https://github.com/FigureNetworkConsole/Movavi-Video-Editor-Plus']",
    "labels": [
     "malicious-activity",
@@ -1727,11 +1727,11 @@
   {
    "type": "indicator",
    "spec_version": "2.1",
-   "id": "indicator--000000000003462344619084216799",
-   "created": "2026-11-21T00:24:49Z",
+   "id": "indicator--34208bd8-d7d5-5488-9bd3-8f97c6dfcae5",
+   "created": "2026-11-21T00:00:00Z",
    "name": "url https://github.com/FenceSpinnerGuide/Rufus",
    "pattern_type": "stix",
-   "valid_from": "2026-11-21T00:24:49Z",
+   "valid_from": "2026-11-21T00:00:00Z",
    "pattern": "[url:value = 'https://github.com/FenceSpinnerGuide/Rufus']",
    "labels": [
     "malicious-activity",
@@ -1741,11 +1741,11 @@
   {
    "type": "indicator",
    "spec_version": "2.1",
-   "id": "indicator--000000000002739540861899246452",
-   "created": "2026-11-21T00:24:49Z",
+   "id": "indicator--d13f32c3-726b-597e-984c-c2790615d8ce",
+   "created": "2026-11-21T00:00:00Z",
    "name": "url https://github.com/bittsuchikagelaud/Avid-Media-Composer",
    "pattern_type": "stix",
-   "valid_from": "2026-11-21T00:24:49Z",
+   "valid_from": "2026-11-21T00:00:00Z",
    "pattern": "[url:value = 'https://github.com/bittsuchikagelaud/Avid-Media-Composer']",
    "labels": [
     "malicious-activity",
@@ -1755,11 +1755,11 @@
   {
    "type": "indicator",
    "spec_version": "2.1",
-   "id": "indicator--000000000000273124584151765569",
-   "created": "2026-11-21T00:24:49Z",
+   "id": "indicator--3ca05aca-5397-535b-8634-007c9b303e6b",
+   "created": "2026-11-21T00:00:00Z",
    "name": "url https://github.com/Earthyodeliver16/Power-Director",
    "pattern_type": "stix",
-   "valid_from": "2026-11-21T00:24:49Z",
+   "valid_from": "2026-11-21T00:00:00Z",
    "pattern": "[url:value = 'https://github.com/Earthyodeliver16/Power-Director']",
    "labels": [
     "malicious-activity",
@@ -1769,11 +1769,11 @@
   {
    "type": "indicator",
    "spec_version": "2.1",
-   "id": "indicator--000000000006555691453571970492",
-   "created": "2026-11-21T00:24:49Z",
+   "id": "indicator--a6c267a2-0dab-599f-9794-23b00c4f2fcd",
+   "created": "2026-11-21T00:00:00Z",
    "name": "url https://github.com/StreetMarine/Autodesk-3ds-MAX",
    "pattern_type": "stix",
-   "valid_from": "2026-11-21T00:24:49Z",
+   "valid_from": "2026-11-21T00:00:00Z",
    "pattern": "[url:value = 'https://github.com/StreetMarine/Autodesk-3ds-MAX']",
    "labels": [
     "malicious-activity",
@@ -1783,11 +1783,11 @@
   {
    "type": "indicator",
    "spec_version": "2.1",
-   "id": "indicator--000000000008901882679046927426",
-   "created": "2026-11-21T00:24:49Z",
+   "id": "indicator--e788cbb6-d736-55ac-9e61-0555710732d9",
+   "created": "2026-11-21T00:00:00Z",
    "name": "url https://github.com/FinalJourneyman/Movavi-Effects",
    "pattern_type": "stix",
-   "valid_from": "2026-11-21T00:24:49Z",
+   "valid_from": "2026-11-21T00:00:00Z",
    "pattern": "[url:value = 'https://github.com/FinalJourneyman/Movavi-Effects']",
    "labels": [
     "malicious-activity",
@@ -1797,11 +1797,11 @@
   {
    "type": "indicator",
    "spec_version": "2.1",
-   "id": "indicator--000000000006192757643945079742",
-   "created": "2026-11-21T00:24:49Z",
+   "id": "indicator--521ce9c0-1de9-526b-9a68-fd2ac8ad2a79",
+   "created": "2026-11-21T00:00:00Z",
    "name": "url https://github.com/megasheriffswell/Photo-Commander",
    "pattern_type": "stix",
-   "valid_from": "2026-11-21T00:24:49Z",
+   "valid_from": "2026-11-21T00:00:00Z",
    "pattern": "[url:value = 'https://github.com/megasheriffswell/Photo-Commander']",
    "labels": [
     "malicious-activity",
@@ -1811,11 +1811,11 @@
   {
    "type": "indicator",
    "spec_version": "2.1",
-   "id": "indicator--000000000001863876607919275511",
-   "created": "2026-11-21T00:24:49Z",
+   "id": "indicator--dcecca04-677e-5ce0-a232-4ca2474a3021",
+   "created": "2026-11-21T00:00:00Z",
    "name": "url https://github.com/ClawFollowerMall/Chief-Architect-Premier",
    "pattern_type": "stix",
-   "valid_from": "2026-11-21T00:24:49Z",
+   "valid_from": "2026-11-21T00:00:00Z",
    "pattern": "[url:value = 'https://github.com/ClawFollowerMall/Chief-Architect-Premier']",
    "labels": [
     "malicious-activity",
@@ -1825,11 +1825,11 @@
   {
    "type": "indicator",
    "spec_version": "2.1",
-   "id": "indicator--000000000006805489513914796545",
-   "created": "2026-11-21T00:24:49Z",
+   "id": "indicator--7c23e44c-842c-52bf-a140-993e32773329",
+   "created": "2026-11-21T00:00:00Z",
    "name": "url https://github.com/torrentclassbay/SonyVegas",
    "pattern_type": "stix",
-   "valid_from": "2026-11-21T00:24:49Z",
+   "valid_from": "2026-11-21T00:00:00Z",
    "pattern": "[url:value = 'https://github.com/torrentclassbay/SonyVegas']",
    "labels": [
     "malicious-activity",
@@ -1839,11 +1839,11 @@
   {
    "type": "indicator",
    "spec_version": "2.1",
-   "id": "indicator--000000000001600881350457147552",
-   "created": "2026-11-21T00:24:49Z",
+   "id": "indicator--c2328dc5-e7a8-501c-9d7c-3a98e1936a85",
+   "created": "2026-11-21T00:00:00Z",
    "name": "url https://github.com/oillovebirdbuild/Total-Commander",
    "pattern_type": "stix",
-   "valid_from": "2026-11-21T00:24:49Z",
+   "valid_from": "2026-11-21T00:00:00Z",
    "pattern": "[url:value = 'https://github.com/oillovebirdbuild/Total-Commander']",
    "labels": [
     "malicious-activity",
@@ -1853,11 +1853,11 @@
   {
    "type": "indicator",
    "spec_version": "2.1",
-   "id": "indicator--000000000001143764040746188339",
-   "created": "2026-11-21T00:24:49Z",
+   "id": "indicator--f57c0317-eeda-503e-b0b2-5cff6775bbdd",
+   "created": "2026-11-21T00:00:00Z",
    "name": "url https://github.com/ProviderRelease64/WinUtilits",
    "pattern_type": "stix",
-   "valid_from": "2026-11-21T00:24:49Z",
+   "valid_from": "2026-11-21T00:00:00Z",
    "pattern": "[url:value = 'https://github.com/ProviderRelease64/WinUtilits']",
    "labels": [
     "malicious-activity",
@@ -1867,11 +1867,11 @@
   {
    "type": "indicator",
    "spec_version": "2.1",
-   "id": "indicator--000000000007420874989198896431",
-   "created": "2026-11-21T00:24:49Z",
+   "id": "indicator--09003c58-b69d-57e3-9e9b-e156ded4085f",
+   "created": "2026-11-21T00:00:00Z",
    "name": "url https://github.com/pentagongeneralgaze/VoiceChanger",
    "pattern_type": "stix",
-   "valid_from": "2026-11-21T00:24:49Z",
+   "valid_from": "2026-11-21T00:00:00Z",
    "pattern": "[url:value = 'https://github.com/pentagongeneralgaze/VoiceChanger']",
    "labels": [
     "malicious-activity",
@@ -1881,11 +1881,11 @@
   {
    "type": "indicator",
    "spec_version": "2.1",
-   "id": "indicator--000000000000787187339356109455",
-   "created": "2026-11-21T00:24:49Z",
+   "id": "indicator--36e0dc59-f46d-5054-8ecc-69e3244fd861",
+   "created": "2026-11-21T00:00:00Z",
    "name": "url https://github.com/PheasantMetro/Uttorent",
    "pattern_type": "stix",
-   "valid_from": "2026-11-21T00:24:49Z",
+   "valid_from": "2026-11-21T00:00:00Z",
    "pattern": "[url:value = 'https://github.com/PheasantMetro/Uttorent']",
    "labels": [
     "malicious-activity",
@@ -1895,11 +1895,11 @@
   {
    "type": "indicator",
    "spec_version": "2.1",
-   "id": "indicator--000000000001045210379631534753",
-   "created": "2026-11-21T00:24:49Z",
+   "id": "indicator--cc9bd60e-ccaf-582c-b18d-9ae981fb3941",
+   "created": "2026-11-21T00:00:00Z",
    "name": "url https://github.com/opticantbarrow/Ultra-Edit",
    "pattern_type": "stix",
-   "valid_from": "2026-11-21T00:24:49Z",
+   "valid_from": "2026-11-21T00:00:00Z",
    "pattern": "[url:value = 'https://github.com/opticantbarrow/Ultra-Edit']",
    "labels": [
     "malicious-activity",
@@ -1909,11 +1909,11 @@
   {
    "type": "indicator",
    "spec_version": "2.1",
-   "id": "indicator--000000000000160215828985567771",
-   "created": "2026-11-21T00:24:49Z",
+   "id": "indicator--1d8a0350-b6c2-5537-afe4-bfce12a76988",
+   "created": "2026-11-21T00:00:00Z",
    "name": "url https://github.com/silverofficialdusk/Easeus-Todo-Backup-For-Windows",
    "pattern_type": "stix",
-   "valid_from": "2026-11-21T00:24:49Z",
+   "valid_from": "2026-11-21T00:00:00Z",
    "pattern": "[url:value = 'https://github.com/silverofficialdusk/Easeus-Todo-Backup-For-Windows']",
    "labels": [
     "malicious-activity",
@@ -1923,11 +1923,11 @@
   {
    "type": "indicator",
    "spec_version": "2.1",
-   "id": "indicator--000000000006061602477695035569",
-   "created": "2026-11-21T00:24:49Z",
+   "id": "indicator--8e760f23-e8f7-5140-8409-4148650d196a",
+   "created": "2026-11-21T00:00:00Z",
    "name": "url https://github.com/sparkfiremancollar21/Microsoft-Project-For-Windows",
    "pattern_type": "stix",
-   "valid_from": "2026-11-21T00:24:49Z",
+   "valid_from": "2026-11-21T00:00:00Z",
    "pattern": "[url:value = 'https://github.com/sparkfiremancollar21/Microsoft-Project-For-Windows']",
    "labels": [
     "malicious-activity",
@@ -1937,11 +1937,11 @@
   {
    "type": "indicator",
    "spec_version": "2.1",
-   "id": "indicator--000000000004040509474028098156",
-   "created": "2026-11-21T00:24:49Z",
+   "id": "indicator--c9a81a74-0677-58a3-92b5-44a564faccf4",
+   "created": "2026-11-21T00:00:00Z",
    "name": "url https://github.com/BetaChampionTitle/Coreldraw-For-Windows",
    "pattern_type": "stix",
-   "valid_from": "2026-11-21T00:24:49Z",
+   "valid_from": "2026-11-21T00:00:00Z",
    "pattern": "[url:value = 'https://github.com/BetaChampionTitle/Coreldraw-For-Windows']",
    "labels": [
     "malicious-activity",
@@ -1951,11 +1951,11 @@
   {
    "type": "indicator",
    "spec_version": "2.1",
-   "id": "indicator--000000000001663969272454872140",
-   "created": "2026-11-21T00:24:49Z",
+   "id": "indicator--64516b15-1aeb-531d-8668-e2288599b2ef",
+   "created": "2026-11-21T00:00:00Z",
    "name": "url https://github.com/StitchSerfJump/Microsoft-Visio-For-Windows",
    "pattern_type": "stix",
-   "valid_from": "2026-11-21T00:24:49Z",
+   "valid_from": "2026-11-21T00:00:00Z",
    "pattern": "[url:value = 'https://github.com/StitchSerfJump/Microsoft-Visio-For-Windows']",
    "labels": [
     "malicious-activity",
@@ -1965,11 +1965,11 @@
   {
    "type": "indicator",
    "spec_version": "2.1",
-   "id": "indicator--000000000006724514740070837847",
-   "created": "2026-11-21T00:24:49Z",
+   "id": "indicator--1c6b9a75-6349-5820-b4d6-5a82d5f823c4",
+   "created": "2026-11-21T00:00:00Z",
    "name": "url https://github.com/DeckhandIgnite/Davinci-Resolve-Studio-For-Windows",
    "pattern_type": "stix",
-   "valid_from": "2026-11-21T00:24:49Z",
+   "valid_from": "2026-11-21T00:00:00Z",
    "pattern": "[url:value = 'https://github.com/DeckhandIgnite/Davinci-Resolve-Studio-For-Windows']",
    "labels": [
     "malicious-activity",
@@ -1979,11 +1979,11 @@
   {
    "type": "indicator",
    "spec_version": "2.1",
-   "id": "indicator--000000000007815533067288149285",
-   "created": "2026-11-21T00:24:49Z",
+   "id": "indicator--07ad0ac9-0c0b-5f8c-8a4f-7d18dbfddcc6",
+   "created": "2026-11-21T00:00:00Z",
    "name": "url https://github.com/ElementalistTurbine/Ccleaner-Professional-For-Windows",
    "pattern_type": "stix",
-   "valid_from": "2026-11-21T00:24:49Z",
+   "valid_from": "2026-11-21T00:00:00Z",
    "pattern": "[url:value = 'https://github.com/ElementalistTurbine/Ccleaner-Professional-For-Windows']",
    "labels": [
     "malicious-activity",
@@ -1993,11 +1993,11 @@
   {
    "type": "indicator",
    "spec_version": "2.1",
-   "id": "indicator--000000000005988840914246027364",
-   "created": "2026-11-21T00:24:49Z",
+   "id": "indicator--481c01a6-ea9e-556a-9ec4-58e884ef1d3d",
+   "created": "2026-11-21T00:00:00Z",
    "name": "url https://github.com/MudTsuchikage/Fl-Studio-For-Windows",
    "pattern_type": "stix",
-   "valid_from": "2026-11-21T00:24:49Z",
+   "valid_from": "2026-11-21T00:00:00Z",
    "pattern": "[url:value = 'https://github.com/MudTsuchikage/Fl-Studio-For-Windows']",
    "labels": [
     "malicious-activity",
@@ -2007,11 +2007,11 @@
   {
    "type": "indicator",
    "spec_version": "2.1",
-   "id": "indicator--000000000008093384422218801722",
-   "created": "2026-11-21T00:24:49Z",
+   "id": "indicator--f1d00002-59fc-5565-b6bd-d92098de0b43",
+   "created": "2026-11-21T00:00:00Z",
    "name": "url https://github.com/OrangeSaviorImagine/Abbyy-Finereader-Pdf-For-Windows",
    "pattern_type": "stix",
-   "valid_from": "2026-11-21T00:24:49Z",
+   "valid_from": "2026-11-21T00:00:00Z",
    "pattern": "[url:value = 'https://github.com/OrangeSaviorImagine/Abbyy-Finereader-Pdf-For-Windows']",
    "labels": [
     "malicious-activity",
@@ -2021,11 +2021,11 @@
   {
    "type": "indicator",
    "spec_version": "2.1",
-   "id": "indicator--000000000003966964782540082536",
-   "created": "2026-11-21T00:24:49Z",
+   "id": "indicator--539ba447-c0d8-59a0-aec2-7366377a1c5f",
+   "created": "2026-11-21T00:00:00Z",
    "name": "url https://github.com/Velocityatrhythm/Autodesk-3ds-Max-For-Windows",
    "pattern_type": "stix",
-   "valid_from": "2026-11-21T00:24:49Z",
+   "valid_from": "2026-11-21T00:00:00Z",
    "pattern": "[url:value = 'https://github.com/Velocityatrhythm/Autodesk-3ds-Max-For-Windows']",
    "labels": [
     "malicious-activity",
@@ -2035,11 +2035,11 @@
   {
    "type": "indicator",
    "spec_version": "2.1",
-   "id": "indicator--000000000007129696752975224395",
-   "created": "2026-11-21T00:24:49Z",
+   "id": "indicator--50bed25b-8c10-52c6-a4b1-9ce62973354b",
+   "created": "2026-11-21T00:00:00Z",
    "name": "url https://github.com/MortarBeetleStyle/Autocad-For-Windows",
    "pattern_type": "stix",
-   "valid_from": "2026-11-21T00:24:49Z",
+   "valid_from": "2026-11-21T00:00:00Z",
    "pattern": "[url:value = 'https://github.com/MortarBeetleStyle/Autocad-For-Windows']",
    "labels": [
     "malicious-activity",
@@ -2049,11 +2049,11 @@
   {
    "type": "indicator",
    "spec_version": "2.1",
-   "id": "indicator--000000000005180755107311735331",
-   "created": "2026-11-21T00:24:49Z",
+   "id": "indicator--54b9f57f-2885-50aa-a6f8-a8499a009183",
+   "created": "2026-11-21T00:00:00Z",
    "name": "url https://github.com/CatchArtisanDone86/Movavi-Video-Editor-For-Windows",
    "pattern_type": "stix",
-   "valid_from": "2026-11-21T00:24:49Z",
+   "valid_from": "2026-11-21T00:00:00Z",
    "pattern": "[url:value = 'https://github.com/CatchArtisanDone86/Movavi-Video-Editor-For-Windows']",
    "labels": [
     "malicious-activity",
@@ -2063,11 +2063,11 @@
   {
    "type": "indicator",
    "spec_version": "2.1",
-   "id": "indicator--000000000002438397745691400369",
-   "created": "2026-11-21T00:24:49Z",
+   "id": "indicator--e532fd04-4379-5ac5-a9a9-ca42c638ac58",
+   "created": "2026-11-21T00:00:00Z",
    "name": "url https://github.com/Sandsisupervise20/Adobe-Premiere-Pro-For-Windows-And-Macos",
    "pattern_type": "stix",
-   "valid_from": "2026-11-21T00:24:49Z",
+   "valid_from": "2026-11-21T00:00:00Z",
    "pattern": "[url:value = 'https://github.com/Sandsisupervise20/Adobe-Premiere-Pro-For-Windows-And-Macos']",
    "labels": [
     "malicious-activity",
@@ -2077,11 +2077,11 @@
   {
    "type": "indicator",
    "spec_version": "2.1",
-   "id": "indicator--000000000001001650539494271306",
-   "created": "2026-11-21T00:24:49Z",
+   "id": "indicator--76f1a5bc-499e-5f17-adb0-19866a326433",
+   "created": "2026-11-21T00:00:00Z",
    "name": "url https://github.com/gleameconomicjetty/Adobe-Indesign-For-Windows-And-Macos",
    "pattern_type": "stix",
-   "valid_from": "2026-11-21T00:24:49Z",
+   "valid_from": "2026-11-21T00:00:00Z",
    "pattern": "[url:value = 'https://github.com/gleameconomicjetty/Adobe-Indesign-For-Windows-And-Macos']",
    "labels": [
     "malicious-activity",
@@ -2091,11 +2091,11 @@
   {
    "type": "indicator",
    "spec_version": "2.1",
-   "id": "indicator--000000000005077813540912154046",
-   "created": "2026-11-21T00:24:49Z",
+   "id": "indicator--8d9cb1ea-1b79-5d4b-a1a7-5f9b53c2708c",
+   "created": "2026-11-21T00:00:00Z",
    "name": "url https://github.com/ManeSwordGraph/Adobe-Lightroom-Classic-For-Windows-And-Macos",
    "pattern_type": "stix",
-   "valid_from": "2026-11-21T00:24:49Z",
+   "valid_from": "2026-11-21T00:00:00Z",
    "pattern": "[url:value = 'https://github.com/ManeSwordGraph/Adobe-Lightroom-Classic-For-Windows-And-Macos']",
    "labels": [
     "malicious-activity",
@@ -2105,11 +2105,11 @@
   {
    "type": "indicator",
    "spec_version": "2.1",
-   "id": "indicator--000000000000828133202106533771",
-   "created": "2026-11-21T00:24:49Z",
+   "id": "indicator--716f1a43-46e6-5ea3-b781-19343e725bee",
+   "created": "2026-11-21T00:00:00Z",
    "name": "url https://github.com/Cachewithinmake/GTA6-Preload-PC",
    "pattern_type": "stix",
-   "valid_from": "2026-11-21T00:24:49Z",
+   "valid_from": "2026-11-21T00:00:00Z",
    "pattern": "[url:value = 'https://github.com/Cachewithinmake/GTA6-Preload-PC']",
    "labels": [
     "malicious-activity",
@@ -2119,11 +2119,11 @@
   {
    "type": "indicator",
    "spec_version": "2.1",
-   "id": "indicator--000000000002830420549873603813",
-   "created": "2026-11-21T00:24:49Z",
+   "id": "indicator--94877945-def6-540d-9b83-392c0ba64f5b",
+   "created": "2026-11-21T00:00:00Z",
    "name": "url https://github.com/SageAdapter8/Rob-Run-Mod-Menu",
    "pattern_type": "stix",
-   "valid_from": "2026-11-21T00:24:49Z",
+   "valid_from": "2026-11-21T00:00:00Z",
    "pattern": "[url:value = 'https://github.com/SageAdapter8/Rob-Run-Mod-Menu']",
    "labels": [
     "malicious-activity",
@@ -2133,11 +2133,11 @@
   {
    "type": "indicator",
    "spec_version": "2.1",
-   "id": "indicator--000000000002104168134872271326",
-   "created": "2026-11-21T00:24:49Z",
+   "id": "indicator--79ef58d6-feb8-5097-9571-d7d241461498",
+   "created": "2026-11-21T00:00:00Z",
    "name": "url https://github.com/Weavedrobless13/Actual-Multiplie-Monitors",
    "pattern_type": "stix",
-   "valid_from": "2026-11-21T00:24:49Z",
+   "valid_from": "2026-11-21T00:00:00Z",
    "pattern": "[url:value = 'https://github.com/Weavedrobless13/Actual-Multiplie-Monitors']",
    "labels": [
     "malicious-activity",
@@ -2147,11 +2147,11 @@
   {
    "type": "indicator",
    "spec_version": "2.1",
-   "id": "indicator--000000000008644501120389637142",
-   "created": "2026-11-21T00:24:49Z",
+   "id": "indicator--3a626fa1-d4bb-509e-8e20-09e3aea080f4",
+   "created": "2026-11-21T00:00:00Z",
    "name": "url https://github.com/Weavedrobless13/Acronis",
    "pattern_type": "stix",
-   "valid_from": "2026-11-21T00:24:49Z",
+   "valid_from": "2026-11-21T00:00:00Z",
    "pattern": "[url:value = 'https://github.com/Weavedrobless13/Acronis']",
    "labels": [
     "malicious-activity",
@@ -2161,11 +2161,11 @@
   {
    "type": "indicator",
    "spec_version": "2.1",
-   "id": "indicator--000000000006070367375772614118",
-   "created": "2026-11-21T00:24:49Z",
+   "id": "indicator--8081d38f-3e88-5fa4-8ee8-4a48cbb615a3",
+   "created": "2026-11-21T00:00:00Z",
    "name": "url https://github.com/Wireearadial/Adobe-After-Effects",
    "pattern_type": "stix",
-   "valid_from": "2026-11-21T00:24:49Z",
+   "valid_from": "2026-11-21T00:00:00Z",
    "pattern": "[url:value = 'https://github.com/Wireearadial/Adobe-After-Effects']",
    "labels": [
     "malicious-activity",
@@ -2175,11 +2175,11 @@
   {
    "type": "indicator",
    "spec_version": "2.1",
-   "id": "indicator--000000000008650447979764686032",
-   "created": "2026-11-21T00:24:49Z",
+   "id": "indicator--219fc755-be1b-54ee-9bf2-0631d27cb17d",
+   "created": "2026-11-21T00:00:00Z",
    "name": "url https://github.com/Wireearadial/Actual-Multiplie-Monitors",
    "pattern_type": "stix",
-   "valid_from": "2026-11-21T00:24:49Z",
+   "valid_from": "2026-11-21T00:00:00Z",
    "pattern": "[url:value = 'https://github.com/Wireearadial/Actual-Multiplie-Monitors']",
    "labels": [
     "malicious-activity",
@@ -2189,11 +2189,11 @@
   {
    "type": "indicator",
    "spec_version": "2.1",
-   "id": "indicator--000000000003451215413008196670",
-   "created": "2026-11-21T00:24:49Z",
+   "id": "indicator--e66df218-4025-53ab-be2d-8b6a80b79274",
+   "created": "2026-11-21T00:00:00Z",
    "name": "url https://github.com/WharfBeetleGallery37/Acronis",
    "pattern_type": "stix",
-   "valid_from": "2026-11-21T00:24:49Z",
+   "valid_from": "2026-11-21T00:00:00Z",
    "pattern": "[url:value = 'https://github.com/WharfBeetleGallery37/Acronis']",
    "labels": [
     "malicious-activity",
@@ -2203,11 +2203,11 @@
   {
    "type": "indicator",
    "spec_version": "2.1",
-   "id": "indicator--000000000005153606902773639929",
-   "created": "2026-11-21T00:24:49Z",
+   "id": "indicator--81d9d615-d430-5cef-a43b-48019102d570",
+   "created": "2026-11-21T00:00:00Z",
    "name": "url https://github.com/WharfBeetleGallery37/Ableton-Live-12",
    "pattern_type": "stix",
-   "valid_from": "2026-11-21T00:24:49Z",
+   "valid_from": "2026-11-21T00:00:00Z",
    "pattern": "[url:value = 'https://github.com/WharfBeetleGallery37/Ableton-Live-12']",
    "labels": [
     "malicious-activity",
@@ -2217,11 +2217,11 @@
   {
    "type": "indicator",
    "spec_version": "2.1",
-   "id": "indicator--000000000005066197425537294614",
-   "created": "2026-11-21T00:24:49Z",
+   "id": "indicator--9dee4a6b-ec71-52b5-9e61-18e6dea05a74",
+   "created": "2026-11-21T00:00:00Z",
    "name": "url https://github.com/ShaleNurseBurst/Wise-Registrity",
    "pattern_type": "stix",
-   "valid_from": "2026-11-21T00:24:49Z",
+   "valid_from": "2026-11-21T00:00:00Z",
    "pattern": "[url:value = 'https://github.com/ShaleNurseBurst/Wise-Registrity']",
    "labels": [
     "malicious-activity",
@@ -2231,11 +2231,11 @@
   {
    "type": "indicator",
    "spec_version": "2.1",
-   "id": "indicator--000000000002274613724472475392",
-   "created": "2026-11-21T00:24:49Z",
+   "id": "indicator--9f4ef2e3-4f94-57da-a72f-d2fad84ceef4",
+   "created": "2026-11-21T00:00:00Z",
    "name": "url https://github.com/ManufacturingTurbine/Serato-DJ-Pro",
    "pattern_type": "stix",
-   "valid_from": "2026-11-21T00:24:49Z",
+   "valid_from": "2026-11-21T00:00:00Z",
    "pattern": "[url:value = 'https://github.com/ManufacturingTurbine/Serato-DJ-Pro']",
    "labels": [
     "malicious-activity",
@@ -2245,11 +2245,11 @@
   {
    "type": "indicator",
    "spec_version": "2.1",
-   "id": "indicator--000000000000778105274894711851",
-   "created": "2026-11-21T00:24:49Z",
+   "id": "indicator--e1b069b9-e8fd-5c7e-b581-5f145e7903d9",
+   "created": "2026-11-21T00:00:00Z",
    "name": "url https://github.com/BondFletcher/Ashampoo-WinOptimizer",
    "pattern_type": "stix",
-   "valid_from": "2026-11-21T00:24:49Z",
+   "valid_from": "2026-11-21T00:00:00Z",
    "pattern": "[url:value = 'https://github.com/BondFletcher/Ashampoo-WinOptimizer']",
    "labels": [
     "malicious-activity",
@@ -2259,11 +2259,11 @@
   {
    "type": "indicator",
    "spec_version": "2.1",
-   "id": "indicator--000000000006464391447859787009",
-   "created": "2026-11-21T00:24:49Z",
+   "id": "indicator--22f896c1-6a17-5341-8108-7da735b106bb",
+   "created": "2026-11-21T00:00:00Z",
    "name": "url https://github.com/angleartisanstitch/SystemCare-Pro",
    "pattern_type": "stix",
-   "valid_from": "2026-11-21T00:24:49Z",
+   "valid_from": "2026-11-21T00:00:00Z",
    "pattern": "[url:value = 'https://github.com/angleartisanstitch/SystemCare-Pro']",
    "labels": [
     "malicious-activity",
@@ -2273,11 +2273,11 @@
   {
    "type": "indicator",
    "spec_version": "2.1",
-   "id": "indicator--000000000003444178998843314025",
-   "created": "2026-11-21T00:24:49Z",
+   "id": "indicator--49420cca-9080-585c-b06f-be21657b6634",
+   "created": "2026-11-21T00:00:00Z",
    "name": "url https://github.com/JoinDamselReduce/Movavi-Video-Suite-Plus",
    "pattern_type": "stix",
-   "valid_from": "2026-11-21T00:24:49Z",
+   "valid_from": "2026-11-21T00:00:00Z",
    "pattern": "[url:value = 'https://github.com/JoinDamselReduce/Movavi-Video-Suite-Plus']",
    "labels": [
     "malicious-activity",
@@ -2287,11 +2287,11 @@
   {
    "type": "indicator",
    "spec_version": "2.1",
-   "id": "indicator--000000000004200495133257893285",
-   "created": "2026-11-21T00:24:49Z",
+   "id": "indicator--d29f3c30-4480-5795-959b-57d5417493e9",
+   "created": "2026-11-21T00:00:00Z",
    "name": "url https://github.com/beastcrewmanraise56/AutoCad",
    "pattern_type": "stix",
-   "valid_from": "2026-11-21T00:24:49Z",
+   "valid_from": "2026-11-21T00:00:00Z",
    "pattern": "[url:value = 'https://github.com/beastcrewmanraise56/AutoCad']",
    "labels": [
     "malicious-activity",
@@ -2301,11 +2301,11 @@
   {
    "type": "indicator",
    "spec_version": "2.1",
-   "id": "indicator--000000000006180557101327593075",
-   "created": "2026-11-21T00:24:49Z",
+   "id": "indicator--6e89af9d-d0d9-54aa-a6b4-039c75548f44",
+   "created": "2026-11-21T00:00:00Z",
    "name": "url https://github.com/CaptainFurnish/AOMEI-Backupper",
    "pattern_type": "stix",
-   "valid_from": "2026-11-21T00:24:49Z",
+   "valid_from": "2026-11-21T00:00:00Z",
    "pattern": "[url:value = 'https://github.com/CaptainFurnish/AOMEI-Backupper']",
    "labels": [
     "malicious-activity",
@@ -2315,11 +2315,11 @@
   {
    "type": "indicator",
    "spec_version": "2.1",
-   "id": "indicator--000000000000587353616281007985",
-   "created": "2026-11-21T00:24:49Z",
+   "id": "indicator--38ef655b-8e43-54c7-a8a8-daaee541b82f",
+   "created": "2026-11-21T00:00:00Z",
    "name": "url https://github.com/celestialsteamsupply/Movavi-Video-Suite-Plus",
    "pattern_type": "stix",
-   "valid_from": "2026-11-21T00:24:49Z",
+   "valid_from": "2026-11-21T00:00:00Z",
    "pattern": "[url:value = 'https://github.com/celestialsteamsupply/Movavi-Video-Suite-Plus']",
    "labels": [
     "malicious-activity",
@@ -2329,11 +2329,11 @@
   {
    "type": "indicator",
    "spec_version": "2.1",
-   "id": "indicator--000000000000864889617699760053",
-   "created": "2026-11-21T00:24:49Z",
+   "id": "indicator--bc2ad609-814f-5f29-a295-2421ab02cd8e",
+   "created": "2026-11-21T00:00:00Z",
    "name": "url https://github.com/PathSwallowLock/Wise-Care",
    "pattern_type": "stix",
-   "valid_from": "2026-11-21T00:24:49Z",
+   "valid_from": "2026-11-21T00:00:00Z",
    "pattern": "[url:value = 'https://github.com/PathSwallowLock/Wise-Care']",
    "labels": [
     "malicious-activity",
@@ -2343,11 +2343,11 @@
   {
    "type": "indicator",
    "spec_version": "2.1",
-   "id": "indicator--000000000004967997164500290505",
-   "created": "2026-11-21T00:24:49Z",
+   "id": "indicator--b90ee4d8-35c2-57c1-b791-ab7e40af4000",
+   "created": "2026-11-21T00:00:00Z",
    "name": "url https://github.com/BrokerSpiral/CapCut-for-Windows",
    "pattern_type": "stix",
-   "valid_from": "2026-11-21T00:24:49Z",
+   "valid_from": "2026-11-21T00:00:00Z",
    "pattern": "[url:value = 'https://github.com/BrokerSpiral/CapCut-for-Windows']",
    "labels": [
     "malicious-activity",
@@ -2357,11 +2357,11 @@
   {
    "type": "indicator",
    "spec_version": "2.1",
-   "id": "indicator--000000000008267108969015722854",
-   "created": "2026-11-21T00:24:49Z",
+   "id": "indicator--58a5a62a-a15d-5551-b6fd-d49eec260242",
+   "created": "2026-11-21T00:00:00Z",
    "name": "url https://github.com/convergeattorneyquay/Claude-Jailbreak-Prompt",
    "pattern_type": "stix",
-   "valid_from": "2026-11-21T00:24:49Z",
+   "valid_from": "2026-11-21T00:00:00Z",
    "pattern": "[url:value = 'https://github.com/convergeattorneyquay/Claude-Jailbreak-Prompt']",
    "labels": [
     "malicious-activity",
@@ -2371,11 +2371,11 @@
   {
    "type": "indicator",
    "spec_version": "2.1",
-   "id": "indicator--000000000007073636471053627137",
-   "created": "2026-11-21T00:24:49Z",
+   "id": "indicator--861632aa-021d-56c9-bf00-417b01c33aa7",
+   "created": "2026-11-21T00:00:00Z",
    "name": "url https://github.com/Holeyospindle/Movavi-Effects",
    "pattern_type": "stix",
-   "valid_from": "2026-11-21T00:24:49Z",
+   "valid_from": "2026-11-21T00:00:00Z",
    "pattern": "[url:value = 'https://github.com/Holeyospindle/Movavi-Effects']",
    "labels": [
     "malicious-activity",
@@ -2385,11 +2385,11 @@
   {
    "type": "indicator",
    "spec_version": "2.1",
-   "id": "indicator--000000000000987329273673527064",
-   "created": "2026-11-21T00:24:49Z",
+   "id": "indicator--526afdfd-7c8a-5110-bcdc-e2978c2ef354",
+   "created": "2026-11-21T00:00:00Z",
    "name": "url https://github.com/Polygonglicavity/FL-Studio",
    "pattern_type": "stix",
-   "valid_from": "2026-11-21T00:24:49Z",
+   "valid_from": "2026-11-21T00:00:00Z",
    "pattern": "[url:value = 'https://github.com/Polygonglicavity/FL-Studio']",
    "labels": [
     "malicious-activity",
@@ -2399,11 +2399,11 @@
   {
    "type": "indicator",
    "spec_version": "2.1",
-   "id": "indicator--000000000004601755160596110117",
-   "created": "2026-11-21T00:24:49Z",
+   "id": "indicator--22e66b80-7cb8-52ae-a768-fb73ac2f4b90",
+   "created": "2026-11-21T00:00:00Z",
    "name": "url https://github.com/Sandstonelunamode/Autodesk-Revit",
    "pattern_type": "stix",
-   "valid_from": "2026-11-21T00:24:49Z",
+   "valid_from": "2026-11-21T00:00:00Z",
    "pattern": "[url:value = 'https://github.com/Sandstonelunamode/Autodesk-Revit']",
    "labels": [
     "malicious-activity",
@@ -2413,11 +2413,11 @@
   {
    "type": "indicator",
    "spec_version": "2.1",
-   "id": "indicator--000000000007770478478455074254",
-   "created": "2026-11-21T00:24:49Z",
+   "id": "indicator--cc24f712-e4bc-5496-9808-c80777bad9d5",
+   "created": "2026-11-21T00:00:00Z",
    "name": "url https://github.com/MatrixSeaCode25/SketchUp-Pro",
    "pattern_type": "stix",
-   "valid_from": "2026-11-21T00:24:49Z",
+   "valid_from": "2026-11-21T00:00:00Z",
    "pattern": "[url:value = 'https://github.com/MatrixSeaCode25/SketchUp-Pro']",
    "labels": [
     "malicious-activity",
@@ -2427,11 +2427,11 @@
   {
    "type": "indicator",
    "spec_version": "2.1",
-   "id": "indicator--000000000004319608184798373935",
-   "created": "2026-11-21T00:24:49Z",
+   "id": "indicator--f613468e-0c29-57e2-af31-34ad4992e55b",
+   "created": "2026-11-21T00:00:00Z",
    "name": "url https://github.com/HarborAxolotl/Kontakt-8",
    "pattern_type": "stix",
-   "valid_from": "2026-11-21T00:24:49Z",
+   "valid_from": "2026-11-21T00:00:00Z",
    "pattern": "[url:value = 'https://github.com/HarborAxolotl/Kontakt-8']",
    "labels": [
     "malicious-activity",
@@ -2441,11 +2441,11 @@
   {
    "type": "indicator",
    "spec_version": "2.1",
-   "id": "indicator--000000000004355237509140957201",
-   "created": "2026-11-21T00:24:49Z",
+   "id": "indicator--d0a56bb8-e131-5b14-b849-f1c837f77cca",
+   "created": "2026-11-21T00:00:00Z",
    "name": "url https://github.com/StoragePupaAgitate/CorelDraw",
    "pattern_type": "stix",
-   "valid_from": "2026-11-21T00:24:49Z",
+   "valid_from": "2026-11-21T00:00:00Z",
    "pattern": "[url:value = 'https://github.com/StoragePupaAgitate/CorelDraw']",
    "labels": [
     "malicious-activity",
@@ -2455,11 +2455,11 @@
   {
    "type": "indicator",
    "spec_version": "2.1",
-   "id": "indicator--000000000005250092825206483918",
-   "created": "2026-11-21T00:24:49Z",
+   "id": "indicator--867fc2a8-14f1-52a4-b756-af45c410c921",
+   "created": "2026-11-21T00:00:00Z",
    "name": "url https://github.com/Magicvanmemorialize/Quicken-Deluxe",
    "pattern_type": "stix",
-   "valid_from": "2026-11-21T00:24:49Z",
+   "valid_from": "2026-11-21T00:00:00Z",
    "pattern": "[url:value = 'https://github.com/Magicvanmemorialize/Quicken-Deluxe']",
    "labels": [
     "malicious-activity",
@@ -2469,11 +2469,11 @@
   {
    "type": "indicator",
    "spec_version": "2.1",
-   "id": "indicator--000000000006147047504639506029",
-   "created": "2026-11-21T00:24:49Z",
+   "id": "indicator--d4c3cce3-f9b7-5b60-b7e6-17a755320bbb",
+   "created": "2026-11-21T00:00:00Z",
    "name": "url https://github.com/OfficialHook/VoiceChanger",
    "pattern_type": "stix",
-   "valid_from": "2026-11-21T00:24:49Z",
+   "valid_from": "2026-11-21T00:00:00Z",
    "pattern": "[url:value = 'https://github.com/OfficialHook/VoiceChanger']",
    "labels": [
     "malicious-activity",
@@ -2483,11 +2483,11 @@
   {
    "type": "indicator",
    "spec_version": "2.1",
-   "id": "indicator--000000000007240767371595529812",
-   "created": "2026-11-21T00:24:49Z",
+   "id": "indicator--54902ce7-09ac-5402-8976-c35761d68b2b",
+   "created": "2026-11-21T00:00:00Z",
    "name": "url https://github.com/NoviceBandage/Ashampoo-Uninstaller",
    "pattern_type": "stix",
-   "valid_from": "2026-11-21T00:24:49Z",
+   "valid_from": "2026-11-21T00:00:00Z",
    "pattern": "[url:value = 'https://github.com/NoviceBandage/Ashampoo-Uninstaller']",
    "labels": [
     "malicious-activity",
@@ -2497,11 +2497,11 @@
   {
    "type": "indicator",
    "spec_version": "2.1",
-   "id": "indicator--000000000002423469777237010208",
-   "created": "2026-11-21T00:24:49Z",
+   "id": "indicator--03f0b448-7962-5b5d-a450-ac0d5acec027",
+   "created": "2026-11-21T00:00:00Z",
    "name": "url https://github.com/TrapSilversmith/KeyShot-Pro",
    "pattern_type": "stix",
-   "valid_from": "2026-11-21T00:24:49Z",
+   "valid_from": "2026-11-21T00:00:00Z",
    "pattern": "[url:value = 'https://github.com/TrapSilversmith/KeyShot-Pro']",
    "labels": [
     "malicious-activity",
@@ -2511,11 +2511,11 @@
   {
    "type": "indicator",
    "spec_version": "2.1",
-   "id": "indicator--000000000004830555749346160632",
-   "created": "2026-11-21T00:24:49Z",
+   "id": "indicator--d95c5b86-b96b-57b3-b12e-9ccfe6700e76",
+   "created": "2026-11-21T00:00:00Z",
    "name": "url https://github.com/beamcrystalplunder/Actual-Multiplie-Monitors",
    "pattern_type": "stix",
-   "valid_from": "2026-11-21T00:24:49Z",
+   "valid_from": "2026-11-21T00:00:00Z",
    "pattern": "[url:value = 'https://github.com/beamcrystalplunder/Actual-Multiplie-Monitors']",
    "labels": [
     "malicious-activity",
@@ -2525,11 +2525,11 @@
   {
    "type": "indicator",
    "spec_version": "2.1",
-   "id": "indicator--000000000000041981052157109010",
-   "created": "2026-11-21T00:24:49Z",
+   "id": "indicator--8d9bcf68-de2e-5c0f-8a00-553ac9d9e362",
+   "created": "2026-11-21T00:00:00Z",
    "name": "url https://github.com/CassowaryMansion/Autodesk-CFD",
    "pattern_type": "stix",
-   "valid_from": "2026-11-21T00:24:49Z",
+   "valid_from": "2026-11-21T00:00:00Z",
    "pattern": "[url:value = 'https://github.com/CassowaryMansion/Autodesk-CFD']",
    "labels": [
     "malicious-activity",
@@ -2539,11 +2539,11 @@
   {
    "type": "indicator",
    "spec_version": "2.1",
-   "id": "indicator--000000000005174741432945648588",
-   "created": "2026-11-21T00:24:49Z",
+   "id": "indicator--03d46b6d-f836-5440-9251-e077d5887f6c",
+   "created": "2026-11-21T00:00:00Z",
    "name": "url https://github.com/BadgeHealerConverter/Adobe-After-Effects",
    "pattern_type": "stix",
-   "valid_from": "2026-11-21T00:24:49Z",
+   "valid_from": "2026-11-21T00:00:00Z",
    "pattern": "[url:value = 'https://github.com/BadgeHealerConverter/Adobe-After-Effects']",
    "labels": [
     "malicious-activity",
@@ -2553,11 +2553,11 @@
   {
    "type": "indicator",
    "spec_version": "2.1",
-   "id": "indicator--000000000005040447731464458736",
-   "created": "2026-11-21T00:24:49Z",
+   "id": "indicator--45db4801-014d-5fe2-8e9b-7722b29de952",
+   "created": "2026-11-21T00:00:00Z",
    "name": "url https://github.com/Fabledandtrowel/Claude-Jailbreak-Prompt",
    "pattern_type": "stix",
-   "valid_from": "2026-11-21T00:24:49Z",
+   "valid_from": "2026-11-21T00:00:00Z",
    "pattern": "[url:value = 'https://github.com/Fabledandtrowel/Claude-Jailbreak-Prompt']",
    "labels": [
     "malicious-activity",
@@ -2567,11 +2567,11 @@
   {
    "type": "indicator",
    "spec_version": "2.1",
-   "id": "indicator--000000000003138869324593881041",
-   "created": "2026-11-21T00:24:49Z",
+   "id": "indicator--1acbe16a-c378-5183-b436-7c0f23e6bf76",
+   "created": "2026-11-21T00:00:00Z",
    "name": "url https://github.com/ExaMajorYell/FabFilter-Pro",
    "pattern_type": "stix",
-   "valid_from": "2026-11-21T00:24:49Z",
+   "valid_from": "2026-11-21T00:00:00Z",
    "pattern": "[url:value = 'https://github.com/ExaMajorYell/FabFilter-Pro']",
    "labels": [
     "malicious-activity",
@@ -2581,11 +2581,11 @@
   {
    "type": "indicator",
    "spec_version": "2.1",
-   "id": "indicator--000000000005196714461781801716",
-   "created": "2026-11-21T00:24:49Z",
+   "id": "indicator--7ab0ea7a-9c1f-5a3e-badd-18bc2866fd74",
+   "created": "2026-11-21T00:00:00Z",
    "name": "url https://github.com/SphereIguana8/AutoCad",
    "pattern_type": "stix",
-   "valid_from": "2026-11-21T00:24:49Z",
+   "valid_from": "2026-11-21T00:00:00Z",
    "pattern": "[url:value = 'https://github.com/SphereIguana8/AutoCad']",
    "labels": [
     "malicious-activity",
@@ -2595,11 +2595,11 @@
   {
    "type": "indicator",
    "spec_version": "2.1",
-   "id": "indicator--000000000006782030208784627564",
-   "created": "2026-11-21T00:24:49Z",
+   "id": "indicator--19ca6e1e-30a0-53dd-bacd-22194848140e",
+   "created": "2026-11-21T00:00:00Z",
    "name": "url https://github.com/legendaryturkeyspark/Ozone-12-Advanced",
    "pattern_type": "stix",
-   "valid_from": "2026-11-21T00:24:49Z",
+   "valid_from": "2026-11-21T00:00:00Z",
    "pattern": "[url:value = 'https://github.com/legendaryturkeyspark/Ozone-12-Advanced']",
    "labels": [
     "malicious-activity",
@@ -2609,11 +2609,11 @@
   {
    "type": "indicator",
    "spec_version": "2.1",
-   "id": "indicator--000000000002202621071519047290",
-   "created": "2026-11-21T00:24:49Z",
+   "id": "indicator--b82fb423-74cc-5813-9419-7cab0af17eb6",
+   "created": "2026-11-21T00:00:00Z",
    "name": "url https://github.com/azurepikemandivide/GrayKet",
    "pattern_type": "stix",
-   "valid_from": "2026-11-21T00:24:49Z",
+   "valid_from": "2026-11-21T00:00:00Z",
    "pattern": "[url:value = 'https://github.com/azurepikemandivide/GrayKet']",
    "labels": [
     "malicious-activity",
@@ -2623,11 +2623,11 @@
   {
    "type": "indicator",
    "spec_version": "2.1",
-   "id": "indicator--000000000006977527836122134675",
-   "created": "2026-11-21T00:24:49Z",
+   "id": "indicator--4d66a72b-007a-531b-bfe9-d0f0f4c97d5b",
+   "created": "2026-11-21T00:00:00Z",
    "name": "url https://github.com/GraphSoldierPergola/Instagram-Liker-Bot",
    "pattern_type": "stix",
-   "valid_from": "2026-11-21T00:24:49Z",
+   "valid_from": "2026-11-21T00:00:00Z",
    "pattern": "[url:value = 'https://github.com/GraphSoldierPergola/Instagram-Liker-Bot']",
    "labels": [
     "malicious-activity",
@@ -2637,11 +2637,11 @@
   {
    "type": "indicator",
    "spec_version": "2.1",
-   "id": "indicator--000000000003135123318079336607",
-   "created": "2026-11-21T00:24:49Z",
+   "id": "indicator--43eb7064-1fdb-5077-af6e-0f15b21a02db",
+   "created": "2026-11-21T00:00:00Z",
    "name": "url https://github.com/DensityCooper/Designcenter-NX",
    "pattern_type": "stix",
-   "valid_from": "2026-11-21T00:24:49Z",
+   "valid_from": "2026-11-21T00:00:00Z",
    "pattern": "[url:value = 'https://github.com/DensityCooper/Designcenter-NX']",
    "labels": [
     "malicious-activity",
@@ -2651,11 +2651,11 @@
   {
    "type": "indicator",
    "spec_version": "2.1",
-   "id": "indicator--000000000005219723594703645263",
-   "created": "2026-11-21T00:24:49Z",
+   "id": "indicator--e823ebed-1bac-5314-95e5-18c0c5464be5",
+   "created": "2026-11-21T00:00:00Z",
    "name": "url https://github.com/FlowScorpion/HitFilm",
    "pattern_type": "stix",
-   "valid_from": "2026-11-21T00:24:49Z",
+   "valid_from": "2026-11-21T00:00:00Z",
    "pattern": "[url:value = 'https://github.com/FlowScorpion/HitFilm']",
    "labels": [
     "malicious-activity",
@@ -2665,11 +2665,11 @@
   {
    "type": "indicator",
    "spec_version": "2.1",
-   "id": "indicator--000000000003888953645603371156",
-   "created": "2026-11-21T00:24:49Z",
+   "id": "indicator--34c210f3-7959-5590-b3c2-b7590a27097d",
+   "created": "2026-11-21T00:00:00Z",
    "name": "url https://github.com/Feelingubattle/FL-Studio",
    "pattern_type": "stix",
-   "valid_from": "2026-11-21T00:24:49Z",
+   "valid_from": "2026-11-21T00:00:00Z",
    "pattern": "[url:value = 'https://github.com/Feelingubattle/FL-Studio']",
    "labels": [
     "malicious-activity",
@@ -2679,11 +2679,11 @@
   {
    "type": "indicator",
    "spec_version": "2.1",
-   "id": "indicator--000000000007050111804304086211",
-   "created": "2026-11-21T00:24:49Z",
+   "id": "indicator--987e6ce9-bcd8-5ef9-a716-0739fde0eca5",
+   "created": "2026-11-21T00:00:00Z",
    "name": "url https://github.com/Characternearequip/CCleaner-Pro",
    "pattern_type": "stix",
-   "valid_from": "2026-11-21T00:24:49Z",
+   "valid_from": "2026-11-21T00:00:00Z",
    "pattern": "[url:value = 'https://github.com/Characternearequip/CCleaner-Pro']",
    "labels": [
     "malicious-activity",
@@ -2693,11 +2693,11 @@
   {
    "type": "indicator",
    "spec_version": "2.1",
-   "id": "indicator--000000000006732918585351311485",
-   "created": "2026-11-21T00:24:49Z",
+   "id": "indicator--09c90a3e-7957-52b7-b5fd-54ae96dc49f3",
+   "created": "2026-11-21T00:00:00Z",
    "name": "url https://github.com/mintconductorzen/SonyVegas",
    "pattern_type": "stix",
-   "valid_from": "2026-11-21T00:24:49Z",
+   "valid_from": "2026-11-21T00:00:00Z",
    "pattern": "[url:value = 'https://github.com/mintconductorzen/SonyVegas']",
    "labels": [
     "malicious-activity",
@@ -2707,11 +2707,11 @@
   {
    "type": "indicator",
    "spec_version": "2.1",
-   "id": "indicator--000000000007545397428622411051",
-   "created": "2026-11-21T00:24:49Z",
+   "id": "indicator--c27376ca-8b62-55d5-bc7c-a8991080eac1",
+   "created": "2026-11-21T00:00:00Z",
    "name": "url https://github.com/colonylightsever/Cinebench",
    "pattern_type": "stix",
-   "valid_from": "2026-11-21T00:24:49Z",
+   "valid_from": "2026-11-21T00:00:00Z",
    "pattern": "[url:value = 'https://github.com/colonylightsever/Cinebench']",
    "labels": [
     "malicious-activity",
@@ -2721,11 +2721,11 @@
   {
    "type": "indicator",
    "spec_version": "2.1",
-   "id": "indicator--000000000006659942636387062069",
-   "created": "2026-11-21T00:24:49Z",
+   "id": "indicator--46c38176-80c5-59ef-a80d-2404213eff21",
+   "created": "2026-11-21T00:00:00Z",
    "name": "url https://github.com/bodyconquerorclimb/Adobe-Substance-3d",
    "pattern_type": "stix",
-   "valid_from": "2026-11-21T00:24:49Z",
+   "valid_from": "2026-11-21T00:00:00Z",
    "pattern": "[url:value = 'https://github.com/bodyconquerorclimb/Adobe-Substance-3d']",
    "labels": [
     "malicious-activity",
@@ -2735,11 +2735,11 @@
   {
    "type": "indicator",
    "spec_version": "2.1",
-   "id": "indicator--000000000005791888202523792983",
-   "created": "2026-11-21T00:24:49Z",
+   "id": "indicator--9abd6a78-f65b-59fd-a44a-05ad3f9bdbf6",
+   "created": "2026-11-21T00:00:00Z",
    "name": "url https://github.com/heightsongsouk/Microsoft-365",
    "pattern_type": "stix",
-   "valid_from": "2026-11-21T00:24:49Z",
+   "valid_from": "2026-11-21T00:00:00Z",
    "pattern": "[url:value = 'https://github.com/heightsongsouk/Microsoft-365']",
    "labels": [
     "malicious-activity",
@@ -2749,11 +2749,11 @@
   {
    "type": "indicator",
    "spec_version": "2.1",
-   "id": "indicator--000000000001065390078472558031",
-   "created": "2026-11-21T00:24:49Z",
+   "id": "indicator--b744740d-30d3-5444-bf22-e146e3574817",
+   "created": "2026-11-21T00:00:00Z",
    "name": "url https://github.com/Cacheacrossregain/Auslogics",
    "pattern_type": "stix",
-   "valid_from": "2026-11-21T00:24:49Z",
+   "valid_from": "2026-11-21T00:00:00Z",
    "pattern": "[url:value = 'https://github.com/Cacheacrossregain/Auslogics']",
    "labels": [
     "malicious-activity",
@@ -2763,11 +2763,11 @@
   {
    "type": "indicator",
    "spec_version": "2.1",
-   "id": "indicator--000000000000462679723269006106",
-   "created": "2026-11-21T00:24:49Z",
+   "id": "indicator--9ca4ae8f-13ed-585e-93bb-483549dea41b",
+   "created": "2026-11-21T00:00:00Z",
    "name": "url https://github.com/phantombudgiesheave/Wise-Registrity",
    "pattern_type": "stix",
-   "valid_from": "2026-11-21T00:24:49Z",
+   "valid_from": "2026-11-21T00:00:00Z",
    "pattern": "[url:value = 'https://github.com/phantombudgiesheave/Wise-Registrity']",
    "labels": [
     "malicious-activity",
@@ -2777,11 +2777,11 @@
   {
    "type": "indicator",
    "spec_version": "2.1",
-   "id": "indicator--000000000007640658238151756223",
-   "created": "2026-11-21T00:24:49Z",
+   "id": "indicator--44e97836-193f-5e2b-8999-3fece58cfa4d",
+   "created": "2026-11-21T00:00:00Z",
    "name": "url https://github.com/Arenadensocket/Data-Grip",
    "pattern_type": "stix",
-   "valid_from": "2026-11-21T00:24:49Z",
+   "valid_from": "2026-11-21T00:00:00Z",
    "pattern": "[url:value = 'https://github.com/Arenadensocket/Data-Grip']",
    "labels": [
     "malicious-activity",
@@ -2791,11 +2791,11 @@
   {
    "type": "indicator",
    "spec_version": "2.1",
-   "id": "indicator--000000000004868745718951937490",
-   "created": "2026-11-21T00:24:49Z",
+   "id": "indicator--128bd89d-e677-5f20-9757-cada24524571",
+   "created": "2026-11-21T00:00:00Z",
    "name": "url https://github.com/ChampionHaulerFlue/Burning-Studio",
    "pattern_type": "stix",
-   "valid_from": "2026-11-21T00:24:49Z",
+   "valid_from": "2026-11-21T00:00:00Z",
    "pattern": "[url:value = 'https://github.com/ChampionHaulerFlue/Burning-Studio']",
    "labels": [
     "malicious-activity",
@@ -2805,11 +2805,11 @@
   {
    "type": "indicator",
    "spec_version": "2.1",
-   "id": "indicator--000000000003925304952409584554",
-   "created": "2026-11-21T00:24:49Z",
+   "id": "indicator--90e27e0a-109a-5c38-ae3e-f3c22dd46e93",
+   "created": "2026-11-21T00:00:00Z",
    "name": "url https://github.com/Ensignchetrap/Easy-Worship",
    "pattern_type": "stix",
-   "valid_from": "2026-11-21T00:24:49Z",
+   "valid_from": "2026-11-21T00:00:00Z",
    "pattern": "[url:value = 'https://github.com/Ensignchetrap/Easy-Worship']",
    "labels": [
     "malicious-activity",
@@ -2819,11 +2819,11 @@
   {
    "type": "indicator",
    "spec_version": "2.1",
-   "id": "indicator--000000000004680921343944496459",
-   "created": "2026-11-21T00:24:49Z",
+   "id": "indicator--0d5ce443-e812-540a-bcf9-db1a1f8748a9",
+   "created": "2026-11-21T00:00:00Z",
    "name": "url https://github.com/NightingaleHinge/CCleaner-Pro",
    "pattern_type": "stix",
-   "valid_from": "2026-11-21T00:24:49Z",
+   "valid_from": "2026-11-21T00:00:00Z",
    "pattern": "[url:value = 'https://github.com/NightingaleHinge/CCleaner-Pro']",
    "labels": [
     "malicious-activity",
@@ -2833,11 +2833,11 @@
   {
    "type": "indicator",
    "spec_version": "2.1",
-   "id": "indicator--000000000000716507906224623346",
-   "created": "2026-11-21T00:24:49Z",
+   "id": "indicator--783e6aa1-a8ec-56de-9dc5-5b4bde677725",
+   "created": "2026-11-21T00:00:00Z",
    "name": "url https://github.com/FabledEmpressFree19/FabFilter-Total",
    "pattern_type": "stix",
-   "valid_from": "2026-11-21T00:24:49Z",
+   "valid_from": "2026-11-21T00:00:00Z",
    "pattern": "[url:value = 'https://github.com/FabledEmpressFree19/FabFilter-Total']",
    "labels": [
     "malicious-activity",
@@ -2847,11 +2847,11 @@
   {
    "type": "indicator",
    "spec_version": "2.1",
-   "id": "indicator--000000000003238395379271002605",
-   "created": "2026-11-21T00:24:49Z",
+   "id": "indicator--d3a3fa6e-be2c-5c18-82f2-81abd0dec17d",
+   "created": "2026-11-21T00:00:00Z",
    "name": "url https://github.com/Coaliocontact/Chief-Architect-Premier",
    "pattern_type": "stix",
-   "valid_from": "2026-11-21T00:24:49Z",
+   "valid_from": "2026-11-21T00:00:00Z",
    "pattern": "[url:value = 'https://github.com/Coaliocontact/Chief-Architect-Premier']",
    "labels": [
     "malicious-activity",
@@ -2861,11 +2861,11 @@
   {
    "type": "indicator",
    "spec_version": "2.1",
-   "id": "indicator--000000000003425670647210053891",
-   "created": "2026-11-21T00:24:49Z",
+   "id": "indicator--9dfc8739-68cb-50b9-b833-6519a54fced5",
+   "created": "2026-11-21T00:00:00Z",
    "name": "url https://github.com/hornsurgeontweezers/Movavi-Converter",
    "pattern_type": "stix",
-   "valid_from": "2026-11-21T00:24:49Z",
+   "valid_from": "2026-11-21T00:00:00Z",
    "pattern": "[url:value = 'https://github.com/hornsurgeontweezers/Movavi-Converter']",
    "labels": [
     "malicious-activity",
@@ -2875,11 +2875,11 @@
   {
    "type": "indicator",
    "spec_version": "2.1",
-   "id": "indicator--000000000008851014070246323021",
-   "created": "2026-11-21T00:24:49Z",
+   "id": "indicator--0143b421-9120-578d-83a7-7f51f70a9820",
+   "created": "2026-11-21T00:00:00Z",
    "name": "url https://github.com/anglemayorwinch30/ArchiCAD",
    "pattern_type": "stix",
-   "valid_from": "2026-11-21T00:24:49Z",
+   "valid_from": "2026-11-21T00:00:00Z",
    "pattern": "[url:value = 'https://github.com/anglemayorwinch30/ArchiCAD']",
    "labels": [
     "malicious-activity",
@@ -2889,11 +2889,11 @@
   {
    "type": "indicator",
    "spec_version": "2.1",
-   "id": "indicator--000000000006675797340021240868",
-   "created": "2026-11-21T00:24:49Z",
+   "id": "indicator--6c47dae0-1574-5b3c-8ea6-b711ff5c0607",
+   "created": "2026-11-21T00:00:00Z",
    "name": "url https://github.com/Topazchosouk/Autodesk-Inventor",
    "pattern_type": "stix",
-   "valid_from": "2026-11-21T00:24:49Z",
+   "valid_from": "2026-11-21T00:00:00Z",
    "pattern": "[url:value = 'https://github.com/Topazchosouk/Autodesk-Inventor']",
    "labels": [
     "malicious-activity",
@@ -2903,11 +2903,11 @@
   {
    "type": "indicator",
    "spec_version": "2.1",
-   "id": "indicator--000000000005258249702069279279",
-   "created": "2026-11-21T00:24:49Z",
+   "id": "indicator--82c55573-1383-58cb-a804-a4eb0846c109",
+   "created": "2026-11-21T00:00:00Z",
    "name": "url https://github.com/BarbTernCrack/Acronis",
    "pattern_type": "stix",
-   "valid_from": "2026-11-21T00:24:49Z",
+   "valid_from": "2026-11-21T00:00:00Z",
    "pattern": "[url:value = 'https://github.com/BarbTernCrack/Acronis']",
    "labels": [
     "malicious-activity",
@@ -2917,11 +2917,11 @@
   {
    "type": "indicator",
    "spec_version": "2.1",
-   "id": "indicator--000000000005473586257175066433",
-   "created": "2026-11-21T00:24:49Z",
+   "id": "indicator--9b2dc995-b8cd-5344-bbe0-80ed52f762d3",
+   "created": "2026-11-21T00:00:00Z",
    "name": "url https://github.com/wyrmlawyerberth/Catia-Cad",
    "pattern_type": "stix",
-   "valid_from": "2026-11-21T00:24:49Z",
+   "valid_from": "2026-11-21T00:00:00Z",
    "pattern": "[url:value = 'https://github.com/wyrmlawyerberth/Catia-Cad']",
    "labels": [
     "malicious-activity",
@@ -2931,11 +2931,11 @@
   {
    "type": "indicator",
    "spec_version": "2.1",
-   "id": "indicator--000000000007402546590363375278",
-   "created": "2026-11-21T00:24:49Z",
+   "id": "indicator--d77e69d2-7707-5196-a995-73330cad0286",
+   "created": "2026-11-21T00:00:00Z",
    "name": "url https://github.com/Highwayphomoon/Microsoft-Visio",
    "pattern_type": "stix",
-   "valid_from": "2026-11-21T00:24:49Z",
+   "valid_from": "2026-11-21T00:00:00Z",
    "pattern": "[url:value = 'https://github.com/Highwayphomoon/Microsoft-Visio']",
    "labels": [
     "malicious-activity",
@@ -2945,11 +2945,11 @@
   {
    "type": "indicator",
    "spec_version": "2.1",
-   "id": "indicator--000000000007204784765323459374",
-   "created": "2026-11-21T00:24:49Z",
+   "id": "indicator--9d72b44d-a0b3-53c8-a359-9a861116d04f",
+   "created": "2026-11-21T00:00:00Z",
    "name": "url https://github.com/Dockuafill99/Directory-Opus",
    "pattern_type": "stix",
-   "valid_from": "2026-11-21T00:24:49Z",
+   "valid_from": "2026-11-21T00:00:00Z",
    "pattern": "[url:value = 'https://github.com/Dockuafill99/Directory-Opus']",
    "labels": [
     "malicious-activity",
@@ -2959,11 +2959,11 @@
   {
    "type": "indicator",
    "spec_version": "2.1",
-   "id": "indicator--000000000002537043356297816929",
-   "created": "2026-11-21T00:24:49Z",
+   "id": "indicator--39aaa22d-8cb9-576a-b380-63d7b1cb758c",
+   "created": "2026-11-21T00:00:00Z",
    "name": "url https://github.com/BeamHornetStation/Adobe-Photoshop",
    "pattern_type": "stix",
-   "valid_from": "2026-11-21T00:24:49Z",
+   "valid_from": "2026-11-21T00:00:00Z",
    "pattern": "[url:value = 'https://github.com/BeamHornetStation/Adobe-Photoshop']",
    "labels": [
     "malicious-activity",
@@ -2973,11 +2973,11 @@
   {
    "type": "indicator",
    "spec_version": "2.1",
-   "id": "indicator--000000000008862145027095463806",
-   "created": "2026-11-21T00:24:49Z",
+   "id": "indicator--60ebdfce-32e6-5e07-8b0a-9ffbef2ee887",
+   "created": "2026-11-21T00:00:00Z",
    "name": "url https://github.com/OceanViceIgnite97/Cinebench",
    "pattern_type": "stix",
-   "valid_from": "2026-11-21T00:24:49Z",
+   "valid_from": "2026-11-21T00:00:00Z",
    "pattern": "[url:value = 'https://github.com/OceanViceIgnite97/Cinebench']",
    "labels": [
     "malicious-activity",
@@ -2987,11 +2987,11 @@
   {
    "type": "indicator",
    "spec_version": "2.1",
-   "id": "indicator--000000000002085999352401987626",
-   "created": "2026-11-21T00:24:49Z",
+   "id": "indicator--a6ef309d-2489-52e1-897d-3ca324aad4c0",
+   "created": "2026-11-21T00:00:00Z",
    "name": "url https://github.com/DustInterest/Ashampoo-WinOptimizer",
    "pattern_type": "stix",
-   "valid_from": "2026-11-21T00:24:49Z",
+   "valid_from": "2026-11-21T00:00:00Z",
    "pattern": "[url:value = 'https://github.com/DustInterest/Ashampoo-WinOptimizer']",
    "labels": [
     "malicious-activity",
@@ -3001,11 +3001,11 @@
   {
    "type": "indicator",
    "spec_version": "2.1",
-   "id": "indicator--000000000002037639286309993070",
-   "created": "2026-11-21T00:24:49Z",
+   "id": "indicator--e0302480-34e5-59f3-ad92-80373665ac56",
+   "created": "2026-11-21T00:00:00Z",
    "name": "url https://github.com/Captureglewharf/Autodesk-Inventor",
    "pattern_type": "stix",
-   "valid_from": "2026-11-21T00:24:49Z",
+   "valid_from": "2026-11-21T00:00:00Z",
    "pattern": "[url:value = 'https://github.com/Captureglewharf/Autodesk-Inventor']",
    "labels": [
     "malicious-activity",
@@ -3015,11 +3015,11 @@
   {
    "type": "indicator",
    "spec_version": "2.1",
-   "id": "indicator--000000000000277846115482535521",
-   "created": "2026-11-21T00:24:49Z",
+   "id": "indicator--2c526de1-9297-5ef3-b9b6-f2b0a3c396aa",
+   "created": "2026-11-21T00:00:00Z",
    "name": "url https://github.com/stratumvaporrecall/Melodyne-5",
    "pattern_type": "stix",
-   "valid_from": "2026-11-21T00:24:49Z",
+   "valid_from": "2026-11-21T00:00:00Z",
    "pattern": "[url:value = 'https://github.com/stratumvaporrecall/Melodyne-5']",
    "labels": [
     "malicious-activity",
@@ -3029,11 +3029,11 @@
   {
    "type": "indicator",
    "spec_version": "2.1",
-   "id": "indicator--000000000000855401006967182557",
-   "created": "2026-11-21T00:24:49Z",
+   "id": "indicator--505caeb4-e85a-5862-afeb-dceb813f5542",
+   "created": "2026-11-21T00:00:00Z",
    "name": "url https://github.com/OperativeNegotiator/WinUtilits",
    "pattern_type": "stix",
-   "valid_from": "2026-11-21T00:24:49Z",
+   "valid_from": "2026-11-21T00:00:00Z",
    "pattern": "[url:value = 'https://github.com/OperativeNegotiator/WinUtilits']",
    "labels": [
     "malicious-activity",
@@ -3043,11 +3043,11 @@
   {
    "type": "indicator",
    "spec_version": "2.1",
-   "id": "indicator--000000000003117675303527497028",
-   "created": "2026-11-21T00:24:49Z",
+   "id": "indicator--837bfb0b-cd6e-534e-a1a1-f51c7fa55a53",
+   "created": "2026-11-21T00:00:00Z",
    "name": "url https://github.com/Ambereuform65/Adobe-Acrobat-Pro",
    "pattern_type": "stix",
-   "valid_from": "2026-11-21T00:24:49Z",
+   "valid_from": "2026-11-21T00:00:00Z",
    "pattern": "[url:value = 'https://github.com/Ambereuform65/Adobe-Acrobat-Pro']",
    "labels": [
     "malicious-activity",
@@ -3057,11 +3057,11 @@
   {
    "type": "indicator",
    "spec_version": "2.1",
-   "id": "indicator--000000000007595278584768902411",
-   "created": "2026-11-21T00:24:49Z",
+   "id": "indicator--f3b8a9fb-041f-5064-b4fe-62f4bb016b55",
+   "created": "2026-11-21T00:00:00Z",
    "name": "url https://github.com/MagentaMonetary/PHP-Storm",
    "pattern_type": "stix",
-   "valid_from": "2026-11-21T00:24:49Z",
+   "valid_from": "2026-11-21T00:00:00Z",
    "pattern": "[url:value = 'https://github.com/MagentaMonetary/PHP-Storm']",
    "labels": [
     "malicious-activity",
@@ -3071,11 +3071,11 @@
   {
    "type": "indicator",
    "spec_version": "2.1",
-   "id": "indicator--000000000001423407876036743690",
-   "created": "2026-11-21T00:24:49Z",
+   "id": "indicator--fddde5fa-b2dc-5fbf-9a22-af1c6f810cc4",
+   "created": "2026-11-21T00:00:00Z",
    "name": "url https://github.com/Stuccoflarear/Burning-Studio",
    "pattern_type": "stix",
-   "valid_from": "2026-11-21T00:24:49Z",
+   "valid_from": "2026-11-21T00:00:00Z",
    "pattern": "[url:value = 'https://github.com/Stuccoflarear/Burning-Studio']",
    "labels": [
     "malicious-activity",
@@ -3085,11 +3085,11 @@
   {
    "type": "indicator",
    "spec_version": "2.1",
-   "id": "indicator--000000000006929240131938695387",
-   "created": "2026-11-21T00:24:49Z",
+   "id": "indicator--d842e6b2-f7e8-59bd-b3fb-4ff2ea3d4385",
+   "created": "2026-11-21T00:00:00Z",
    "name": "url https://github.com/GraspEmissaryKiln/Ads-Blocker",
    "pattern_type": "stix",
-   "valid_from": "2026-11-21T00:24:49Z",
+   "valid_from": "2026-11-21T00:00:00Z",
    "pattern": "[url:value = 'https://github.com/GraspEmissaryKiln/Ads-Blocker']",
    "labels": [
     "malicious-activity",
@@ -3099,11 +3099,11 @@
   {
    "type": "indicator",
    "spec_version": "2.1",
-   "id": "indicator--000000000008065939042164260441",
-   "created": "2026-11-21T00:24:49Z",
+   "id": "indicator--1b2a027f-7fd1-5fa4-a803-e4da965347fc",
+   "created": "2026-11-21T00:00:00Z",
    "name": "url https://github.com/Mortalveamend/StartAll-Back",
    "pattern_type": "stix",
-   "valid_from": "2026-11-21T00:24:49Z",
+   "valid_from": "2026-11-21T00:00:00Z",
    "pattern": "[url:value = 'https://github.com/Mortalveamend/StartAll-Back']",
    "labels": [
     "malicious-activity",
@@ -3113,11 +3113,11 @@
   {
    "type": "indicator",
    "spec_version": "2.1",
-   "id": "indicator--000000000002795517263548099186",
-   "created": "2026-11-21T00:24:49Z",
+   "id": "indicator--ef34fc2f-c737-542a-9729-9a5a30d41104",
+   "created": "2026-11-21T00:00:00Z",
    "name": "url https://github.com/cascadefireflychill/Instagram-Liker-Bot",
    "pattern_type": "stix",
-   "valid_from": "2026-11-21T00:24:49Z",
+   "valid_from": "2026-11-21T00:00:00Z",
    "pattern": "[url:value = 'https://github.com/cascadefireflychill/Instagram-Liker-Bot']",
    "labels": [
     "malicious-activity",
@@ -3127,11 +3127,11 @@
   {
    "type": "indicator",
    "spec_version": "2.1",
-   "id": "indicator--000000000002085493417286903292",
-   "created": "2026-11-21T00:24:49Z",
+   "id": "indicator--6d1c2487-a535-5a67-a278-decb5ba0715a",
+   "created": "2026-11-21T00:00:00Z",
    "name": "url https://github.com/DecaStudentIncrease/Data-Grip",
    "pattern_type": "stix",
-   "valid_from": "2026-11-21T00:24:49Z",
+   "valid_from": "2026-11-21T00:00:00Z",
    "pattern": "[url:value = 'https://github.com/DecaStudentIncrease/Data-Grip']",
    "labels": [
     "malicious-activity",
@@ -3141,11 +3141,11 @@
   {
    "type": "indicator",
    "spec_version": "2.1",
-   "id": "indicator--000000000003544353293019383141",
-   "created": "2026-11-21T00:24:49Z",
+   "id": "indicator--099c97c0-c999-5bad-a21d-c34201b968e3",
+   "created": "2026-11-21T00:00:00Z",
    "name": "url https://github.com/GripEmuSupply/FabFilter-Total",
    "pattern_type": "stix",
-   "valid_from": "2026-11-21T00:24:49Z",
+   "valid_from": "2026-11-21T00:00:00Z",
    "pattern": "[url:value = 'https://github.com/GripEmuSupply/FabFilter-Total']",
    "labels": [
     "malicious-activity",
@@ -3155,11 +3155,11 @@
   {
    "type": "indicator",
    "spec_version": "2.1",
-   "id": "indicator--000000000007751138692952716236",
-   "created": "2026-11-21T00:24:49Z",
+   "id": "indicator--cb2e26da-9fe0-5c1b-b297-a82c15f0b0be",
+   "created": "2026-11-21T00:00:00Z",
    "name": "url https://github.com/MarineBridge/RX-11-Audio-Editor",
    "pattern_type": "stix",
-   "valid_from": "2026-11-21T00:24:49Z",
+   "valid_from": "2026-11-21T00:00:00Z",
    "pattern": "[url:value = 'https://github.com/MarineBridge/RX-11-Audio-Editor']",
    "labels": [
     "malicious-activity",
@@ -3169,11 +3169,11 @@
   {
    "type": "indicator",
    "spec_version": "2.1",
-   "id": "indicator--000000000005205056958212593611",
-   "created": "2026-11-21T00:24:49Z",
+   "id": "indicator--2c59a52f-94ad-5824-8e58-8ceca2afe7a8",
+   "created": "2026-11-21T00:00:00Z",
    "name": "url https://github.com/Centisaintpuzzle/Autodesk-Revit",
    "pattern_type": "stix",
-   "valid_from": "2026-11-21T00:24:49Z",
+   "valid_from": "2026-11-21T00:00:00Z",
    "pattern": "[url:value = 'https://github.com/Centisaintpuzzle/Autodesk-Revit']",
    "labels": [
     "malicious-activity",
@@ -3183,11 +3183,11 @@
   {
    "type": "indicator",
    "spec_version": "2.1",
-   "id": "indicator--000000000000376135812590037559",
-   "created": "2026-11-21T00:24:49Z",
+   "id": "indicator--ba15b652-e75c-5538-a404-f67384aa3d04",
+   "created": "2026-11-21T00:00:00Z",
    "name": "url https://github.com/TheaterOcean/ExitLag",
    "pattern_type": "stix",
-   "valid_from": "2026-11-21T00:24:49Z",
+   "valid_from": "2026-11-21T00:00:00Z",
    "pattern": "[url:value = 'https://github.com/TheaterOcean/ExitLag']",
    "labels": [
     "malicious-activity",
@@ -3197,11 +3197,11 @@
   {
    "type": "indicator",
    "spec_version": "2.1",
-   "id": "indicator--000000000002167660774957993047",
-   "created": "2026-11-21T00:24:49Z",
+   "id": "indicator--9eaeb6d8-c527-5f52-a9f6-2a2590e9dfb8",
+   "created": "2026-11-21T00:00:00Z",
    "name": "url https://github.com/beattestingdisplay/Directory-Opus",
    "pattern_type": "stix",
-   "valid_from": "2026-11-21T00:24:49Z",
+   "valid_from": "2026-11-21T00:00:00Z",
    "pattern": "[url:value = 'https://github.com/beattestingdisplay/Directory-Opus']",
    "labels": [
     "malicious-activity",
@@ -3211,11 +3211,11 @@
   {
    "type": "indicator",
    "spec_version": "2.1",
-   "id": "indicator--000000000001497608467477962026",
-   "created": "2026-11-21T00:24:49Z",
+   "id": "indicator--9fda1b27-cf73-5052-aa4d-af57152c37dc",
+   "created": "2026-11-21T00:00:00Z",
    "name": "url https://github.com/CenterBorder/Imei-Repair",
    "pattern_type": "stix",
-   "valid_from": "2026-11-21T00:24:49Z",
+   "valid_from": "2026-11-21T00:00:00Z",
    "pattern": "[url:value = 'https://github.com/CenterBorder/Imei-Repair']",
    "labels": [
     "malicious-activity",
@@ -3225,11 +3225,11 @@
   {
    "type": "indicator",
    "spec_version": "2.1",
-   "id": "indicator--000000000004567913223231007489",
-   "created": "2026-11-21T00:24:49Z",
+   "id": "indicator--46668622-6f8b-59e4-951f-afa5ce89b4f0",
+   "created": "2026-11-21T00:00:00Z",
    "name": "url https://github.com/Hidefitzoscillate/Microsoft-Project",
    "pattern_type": "stix",
-   "valid_from": "2026-11-21T00:24:49Z",
+   "valid_from": "2026-11-21T00:00:00Z",
    "pattern": "[url:value = 'https://github.com/Hidefitzoscillate/Microsoft-Project']",
    "labels": [
     "malicious-activity",
@@ -3239,11 +3239,11 @@
   {
    "type": "indicator",
    "spec_version": "2.1",
-   "id": "indicator--000000000001013585772630389041",
-   "created": "2026-11-21T00:24:49Z",
+   "id": "indicator--c0fdb3b4-aa65-5e24-8528-2b69d9976935",
+   "created": "2026-11-21T00:00:00Z",
    "name": "url https://github.com/HectoGoldsmith/Melodyne-5",
    "pattern_type": "stix",
-   "valid_from": "2026-11-21T00:24:49Z",
+   "valid_from": "2026-11-21T00:00:00Z",
    "pattern": "[url:value = 'https://github.com/HectoGoldsmith/Melodyne-5']",
    "labels": [
     "malicious-activity",
@@ -3253,11 +3253,11 @@
   {
    "type": "indicator",
    "spec_version": "2.1",
-   "id": "indicator--000000000002638705876090004656",
-   "created": "2026-11-21T00:24:49Z",
+   "id": "indicator--7b71c937-31e7-5aa6-baf1-f7e5de1c9159",
+   "created": "2026-11-21T00:00:00Z",
    "name": "url https://github.com/Copperrutrim/AnyUnlock",
    "pattern_type": "stix",
-   "valid_from": "2026-11-21T00:24:49Z",
+   "valid_from": "2026-11-21T00:00:00Z",
    "pattern": "[url:value = 'https://github.com/Copperrutrim/AnyUnlock']",
    "labels": [
     "malicious-activity",
@@ -3267,11 +3267,11 @@
   {
    "type": "indicator",
    "spec_version": "2.1",
-   "id": "indicator--000000000006584767358515234563",
-   "created": "2026-11-21T00:24:49Z",
+   "id": "indicator--a56cf8ef-ebbd-5fc1-ba45-f89574bd5909",
+   "created": "2026-11-21T00:00:00Z",
    "name": "url https://github.com/beachactivistmanor/Adobe-Audition",
    "pattern_type": "stix",
-   "valid_from": "2026-11-21T00:24:49Z",
+   "valid_from": "2026-11-21T00:00:00Z",
    "pattern": "[url:value = 'https://github.com/beachactivistmanor/Adobe-Audition']",
    "labels": [
     "malicious-activity",
@@ -3281,11 +3281,11 @@
   {
    "type": "indicator",
    "spec_version": "2.1",
-   "id": "indicator--000000000000687074255774795466",
-   "created": "2026-11-21T00:24:49Z",
+   "id": "indicator--b0acf859-deab-5625-976c-4c9ffc0caa39",
+   "created": "2026-11-21T00:00:00Z",
    "name": "url https://github.com/tunnelowlcutters/Display-Fusion",
    "pattern_type": "stix",
-   "valid_from": "2026-11-21T00:24:49Z",
+   "valid_from": "2026-11-21T00:00:00Z",
    "pattern": "[url:value = 'https://github.com/tunnelowlcutters/Display-Fusion']",
    "labels": [
     "malicious-activity",
@@ -3295,11 +3295,11 @@
   {
    "type": "indicator",
    "spec_version": "2.1",
-   "id": "indicator--000000000006620512963034028372",
-   "created": "2026-11-21T00:24:49Z",
+   "id": "indicator--921e0edf-9921-595e-9b12-fe9efeca2912",
+   "created": "2026-11-21T00:00:00Z",
    "name": "url https://github.com/TrueSkyTassel/Auslogics",
    "pattern_type": "stix",
-   "valid_from": "2026-11-21T00:24:49Z",
+   "valid_from": "2026-11-21T00:00:00Z",
    "pattern": "[url:value = 'https://github.com/TrueSkyTassel/Auslogics']",
    "labels": [
     "malicious-activity",
@@ -3309,11 +3309,11 @@
   {
    "type": "indicator",
    "spec_version": "2.1",
-   "id": "indicator--000000000006684225611355171347",
-   "created": "2026-11-21T00:24:49Z",
+   "id": "indicator--d5898cdd-df1a-5d0b-a3b8-06c3b528be1a",
+   "created": "2026-11-21T00:00:00Z",
    "name": "url https://github.com/flattoucanphase/GrayKet",
    "pattern_type": "stix",
-   "valid_from": "2026-11-21T00:24:49Z",
+   "valid_from": "2026-11-21T00:00:00Z",
    "pattern": "[url:value = 'https://github.com/flattoucanphase/GrayKet']",
    "labels": [
     "malicious-activity",
@@ -3323,11 +3323,11 @@
   {
    "type": "indicator",
    "spec_version": "2.1",
-   "id": "indicator--000000000004852149834513695637",
-   "created": "2026-11-21T00:24:49Z",
+   "id": "indicator--6ec822a6-49c3-5ba3-9d98-4c04676361a4",
+   "created": "2026-11-21T00:00:00Z",
    "name": "url https://github.com/CommercialRuminate/Autodesk-CFD",
    "pattern_type": "stix",
-   "valid_from": "2026-11-21T00:24:49Z",
+   "valid_from": "2026-11-21T00:00:00Z",
    "pattern": "[url:value = 'https://github.com/CommercialRuminate/Autodesk-CFD']",
    "labels": [
     "malicious-activity",
@@ -3337,11 +3337,11 @@
   {
    "type": "indicator",
    "spec_version": "2.1",
-   "id": "indicator--000000000003763334673508833101",
-   "created": "2026-11-21T00:24:49Z",
+   "id": "indicator--ef7dd730-b152-57a1-b210-525df7abd159",
+   "created": "2026-11-21T00:00:00Z",
    "name": "url https://github.com/PurpleStationCharge/AnyDesk",
    "pattern_type": "stix",
-   "valid_from": "2026-11-21T00:24:49Z",
+   "valid_from": "2026-11-21T00:00:00Z",
    "pattern": "[url:value = 'https://github.com/PurpleStationCharge/AnyDesk']",
    "labels": [
     "malicious-activity",
@@ -3351,11 +3351,11 @@
   {
    "type": "indicator",
    "spec_version": "2.1",
-   "id": "indicator--000000000002249405337720743136",
-   "created": "2026-11-21T00:24:49Z",
+   "id": "indicator--45267297-6186-529d-8680-f201eb5edcbb",
+   "created": "2026-11-21T00:00:00Z",
    "name": "url https://github.com/exajackdawmall/ExitLag",
    "pattern_type": "stix",
-   "valid_from": "2026-11-21T00:24:49Z",
+   "valid_from": "2026-11-21T00:00:00Z",
    "pattern": "[url:value = 'https://github.com/exajackdawmall/ExitLag']",
    "labels": [
     "malicious-activity",
@@ -3365,11 +3365,11 @@
   {
    "type": "indicator",
    "spec_version": "2.1",
-   "id": "indicator--000000000001690349661024737039",
-   "created": "2026-11-21T00:24:49Z",
+   "id": "indicator--6a8d71ff-285d-50a2-a859-411df98b8708",
+   "created": "2026-11-21T00:00:00Z",
    "name": "url https://github.com/LimestoneTellerHover/Serato-DJ-Pro",
    "pattern_type": "stix",
-   "valid_from": "2026-11-21T00:24:49Z",
+   "valid_from": "2026-11-21T00:00:00Z",
    "pattern": "[url:value = 'https://github.com/LimestoneTellerHover/Serato-DJ-Pro']",
    "labels": [
     "malicious-activity",
@@ -3379,11 +3379,11 @@
   {
    "type": "indicator",
    "spec_version": "2.1",
-   "id": "indicator--000000000008661746464650778333",
-   "created": "2026-11-21T00:24:49Z",
+   "id": "indicator--17ddc69b-2024-5e73-9d0c-216638be642b",
+   "created": "2026-11-21T00:00:00Z",
    "name": "url https://github.com/BasiliskBrakemanMoon/ArchiCAD",
    "pattern_type": "stix",
-   "valid_from": "2026-11-21T00:24:49Z",
+   "valid_from": "2026-11-21T00:00:00Z",
    "pattern": "[url:value = 'https://github.com/BasiliskBrakemanMoon/ArchiCAD']",
    "labels": [
     "malicious-activity",
@@ -3393,11 +3393,11 @@
   {
    "type": "indicator",
    "spec_version": "2.1",
-   "id": "indicator--000000000003063636757060426543",
-   "created": "2026-11-21T00:24:49Z",
+   "id": "indicator--756a0a39-8600-5c75-9eb9-fe3b29d2c494",
+   "created": "2026-11-21T00:00:00Z",
    "name": "url https://github.com/barrierpilotcatalog/Ads-Blocker",
    "pattern_type": "stix",
-   "valid_from": "2026-11-21T00:24:49Z",
+   "valid_from": "2026-11-21T00:00:00Z",
    "pattern": "[url:value = 'https://github.com/barrierpilotcatalog/Ads-Blocker']",
    "labels": [
     "malicious-activity",
@@ -3407,11 +3407,11 @@
   {
    "type": "indicator",
    "spec_version": "2.1",
-   "id": "indicator--000000000006535561937629143791",
-   "created": "2026-11-21T00:24:49Z",
+   "id": "indicator--d98491d2-a8e7-5268-af14-a97a17f9d44f",
+   "created": "2026-11-21T00:00:00Z",
    "name": "url https://github.com/NodeRajaCrater/Cellebrite-UFED",
    "pattern_type": "stix",
-   "valid_from": "2026-11-21T00:24:49Z",
+   "valid_from": "2026-11-21T00:00:00Z",
    "pattern": "[url:value = 'https://github.com/NodeRajaCrater/Cellebrite-UFED']",
    "labels": [
     "malicious-activity",
@@ -3421,11 +3421,11 @@
   {
    "type": "indicator",
    "spec_version": "2.1",
-   "id": "indicator--000000000005680506171261824651",
-   "created": "2026-11-21T00:24:49Z",
+   "id": "indicator--daa2c88b-82b3-5eec-aa58-97d6c71b97d2",
+   "created": "2026-11-21T00:00:00Z",
    "name": "url https://github.com/trueparakeetadmire63/AOMEI-Backupper",
    "pattern_type": "stix",
-   "valid_from": "2026-11-21T00:24:49Z",
+   "valid_from": "2026-11-21T00:00:00Z",
    "pattern": "[url:value = 'https://github.com/trueparakeetadmire63/AOMEI-Backupper']",
    "labels": [
     "malicious-activity",
@@ -3435,11 +3435,11 @@
   {
    "type": "indicator",
    "spec_version": "2.1",
-   "id": "indicator--000000000002536174310657559060",
-   "created": "2026-11-21T00:24:49Z",
+   "id": "indicator--3c3fa724-05f2-5c43-9842-3a1725aeaf6d",
+   "created": "2026-11-21T00:00:00Z",
    "name": "url https://github.com/NinjaLynxFlow/SystemCare-Pro",
    "pattern_type": "stix",
-   "valid_from": "2026-11-21T00:24:49Z",
+   "valid_from": "2026-11-21T00:00:00Z",
    "pattern": "[url:value = 'https://github.com/NinjaLynxFlow/SystemCare-Pro']",
    "labels": [
     "malicious-activity",
@@ -3449,11 +3449,11 @@
   {
    "type": "indicator",
    "spec_version": "2.1",
-   "id": "indicator--000000000007399365765646573598",
-   "created": "2026-11-21T00:24:49Z",
+   "id": "indicator--e2ee4da5-e1b0-5763-a4c6-bc8b51df0d72",
+   "created": "2026-11-21T00:00:00Z",
    "name": "url https://github.com/VectorMotorman/Clion",
    "pattern_type": "stix",
-   "valid_from": "2026-11-21T00:24:49Z",
+   "valid_from": "2026-11-21T00:00:00Z",
    "pattern": "[url:value = 'https://github.com/VectorMotorman/Clion']",
    "labels": [
     "malicious-activity",
@@ -3463,11 +3463,11 @@
   {
    "type": "indicator",
    "spec_version": "2.1",
-   "id": "indicator--000000000001282092125331767094",
-   "created": "2026-11-21T00:24:49Z",
+   "id": "indicator--b51a5329-035d-5b3f-b6d5-1bfc80c694d5",
+   "created": "2026-11-21T00:00:00Z",
    "name": "url https://github.com/monsterroguecontinue/Start11",
    "pattern_type": "stix",
-   "valid_from": "2026-11-21T00:24:49Z",
+   "valid_from": "2026-11-21T00:00:00Z",
    "pattern": "[url:value = 'https://github.com/monsterroguecontinue/Start11']",
    "labels": [
     "malicious-activity",
@@ -3477,11 +3477,11 @@
   {
    "type": "indicator",
    "spec_version": "2.1",
-   "id": "indicator--000000000005357355798778042157",
-   "created": "2026-11-21T00:24:49Z",
+   "id": "indicator--88b2594d-08cd-5059-9ec0-e739af0c2516",
+   "created": "2026-11-21T00:00:00Z",
    "name": "sha256 9974033ff14688dba81c1e48a8cf0d4237815ea4c185c8a09fe584812457b576",
    "pattern_type": "stix",
-   "valid_from": "2026-11-21T00:24:49Z",
+   "valid_from": "2026-11-21T00:00:00Z",
    "pattern": "[file:hashes.'SHA-256' = '9974033ff14688dba81c1e48a8cf0d4237815ea4c185c8a09fe584812457b576']",
    "labels": [
     "malicious-activity",
@@ -3491,11 +3491,11 @@
   {
    "type": "indicator",
    "spec_version": "2.1",
-   "id": "indicator--000000000001080276193529788818",
-   "created": "2026-11-21T00:24:49Z",
+   "id": "indicator--cba2c2e9-6b71-50de-b1e1-3dee1029aaff",
+   "created": "2026-11-21T00:00:00Z",
    "name": "sha256 8a826a8d766d2fe7b0106e9435f319d8db02178a93a74cbdfa43c9094bf0c334",
    "pattern_type": "stix",
-   "valid_from": "2026-11-21T00:24:49Z",
+   "valid_from": "2026-11-21T00:00:00Z",
    "pattern": "[file:hashes.'SHA-256' = '8a826a8d766d2fe7b0106e9435f319d8db02178a93a74cbdfa43c9094bf0c334']",
    "labels": [
     "malicious-activity",
@@ -3505,11 +3505,11 @@
   {
    "type": "indicator",
    "spec_version": "2.1",
-   "id": "indicator--000000000003914962697804351953",
-   "created": "2026-11-21T00:24:49Z",
+   "id": "indicator--90b7fb1d-ed90-5f15-8cef-7398c0781808",
+   "created": "2026-11-21T00:00:00Z",
    "name": "sha256 eef29c3207e463e789555d227c0aae4013cd0d457f80c157b7eb59dcce89ba6f",
    "pattern_type": "stix",
-   "valid_from": "2026-11-21T00:24:49Z",
+   "valid_from": "2026-11-21T00:00:00Z",
    "pattern": "[file:hashes.'SHA-256' = 'eef29c3207e463e789555d227c0aae4013cd0d457f80c157b7eb59dcce89ba6f']",
    "labels": [
     "malicious-activity",

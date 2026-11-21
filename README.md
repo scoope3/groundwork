@@ -6,7 +6,7 @@ The tooling that produces these findings is not in this repository.
 
 ## What is here
 
-* `feed/` a daily IOC feed, one file per day plus a rolling 30-day file, in CSV, STIX 2.1 and MISP JSON. Every row names its case, its evidence types and whether it preceded the public feeds.
+* `feed/` the IOC feed: one set of files per day holding what was first published that day (CSV, STIX 2.1, MISP JSON), plus a rolling 30-day CSV of what is published now. Every row names its case, its evidence types and whether it preceded the public feeds.
 * `cases/` one directory per published case, with the write-up, the full evidence table, the indicator list and the timeline.
 * `CHANGELOG.md` corrections, retractions and re-gradings, dated. If something here turns out to be wrong, that is where it is said.
 * `METHOD.md` how a case is built and graded, what the columns mean, and how to consume the feed.

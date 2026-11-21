@@ -34,14 +34,14 @@ When a case involves a package or a web page, it was run in an isolated environm
 
 ## Corrections
 
-Mistakes are corrected in place and recorded in `CHANGELOG.md` with the date, what changed and why. Retracted indicators are removed from the rolling feed and marked in the day file they appeared in.
+Mistakes are corrected in place and recorded in `CHANGELOG.md` with the date, what changed and why. A retracted indicator leaves `rolling-30d.csv` and the case's `indicators.csv` at the next publication. The day file it first appeared in is a dated record and is not rewritten, so check an old day file against the current lists.
 
 ## Feed columns
 
 | Column | Meaning |
 | --- | --- |
-| published_at | when the row was published, UTC |
-| entity_type | domain, ip, package, publisher_account, url, email, asn |
+| published_at | when the indicator was first published for that case, UTC |
+| entity_type | domain, ip, package, publisher_account, url, email, asn, contract_address, crypto_address, sha256 (a file hash) |
 | value | the indicator; hostnames are not defanged in the feed files |
 | category | the research category the case belongs to |
 | case | the case directory under `cases/` |
