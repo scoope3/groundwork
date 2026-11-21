@@ -34,7 +34,7 @@ When a case involves a package or a web page, it was run in an isolated environm
 
 ## Corrections
 
-Mistakes are corrected in place and recorded in `CHANGELOG.md` with the date, what changed and why. A retracted indicator leaves `rolling-30d.csv` and the case's `indicators.csv` at the next publication. The day file it first appeared in is a dated record and is not rewritten, so check an old day file against the current lists.
+Mistakes are corrected in place and recorded in `CHANGELOG.md` with the date, what changed and why. A retracted indicator leaves `rolling-30d.csv` at the next publication, and the case's `indicators.csv` as long as the case still has other indicators. A case page whose every indicator is withdrawn is taken down by hand and the takedown is recorded in `CHANGELOG.md`. The day files (CSV, STIX, MISP) are a dated record of first publication: after their own day they are not rewritten, so a correction never appears in them. Check an old day file, and anything read from the STIX or MISP files, against `rolling-30d.csv` or the case's `indicators.csv`.
 
 ## Feed columns
 
@@ -47,6 +47,6 @@ Mistakes are corrected in place and recorded in `CHANGELOG.md` with the date, wh
 | case | the case directory under `cases/` |
 | evidence_types | the evidence types behind the row, semicolon separated |
 | first_seen | when I first observed the entity |
-| first_finder | true when no checked public source had it at publication |
-| vendor_seen_at | the earliest vendor timestamp found, with the source |
-| days_ahead | days between my publication and the first vendor, negative when a vendor was first |
+| first_finder | the current answer to: had no checked public source listed it when I looked? It turns false if a vendor sighting is recorded later |
+| vendor_seen_at | when the first checked vendor or public source had it, if known (a time only) |
+| days_ahead | days between my first sighting (`first_seen`) and the first vendor sighting, when both are known; negative when a vendor was first |
