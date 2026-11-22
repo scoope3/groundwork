@@ -1,0 +1,272 @@
+{
+ "type": "bundle",
+ "id": "bundle--37877416-7940-59fe-a3ea-4d102b7c1bac",
+ "objects": [
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--0256b706-5455-50ef-be11-e725c644cfc7",
+   "created": "2026-11-22T00:00:00Z",
+   "name": "url https://github.com/Monstereuraise/Audition-Pc",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-22T00:00:00Z",
+   "pattern": "[url:value = 'https://github.com/Monstereuraise/Audition-Pc']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--ffe547eb-c98c-5ebc-9746-dbe181f85306",
+   "created": "2026-11-22T00:00:00Z",
+   "name": "url https://github.com/WraithSheikh/stellar-recovery-hard-disk",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-22T00:00:00Z",
+   "pattern": "[url:value = 'https://github.com/WraithSheikh/stellar-recovery-hard-disk']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--c1d6427a-1354-5292-92dc-669a6f512e18",
+   "created": "2026-11-22T00:00:00Z",
+   "name": "url https://github.com/FuseVanquisher/dex-screener-crypto-analytics",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-22T00:00:00Z",
+   "pattern": "[url:value = 'https://github.com/FuseVanquisher/dex-screener-crypto-analytics']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--4f8ef636-b3fd-570d-aaa9-bddb97ed0e34",
+   "created": "2026-11-22T00:00:00Z",
+   "name": "url https://github.com/GhostMeadowlark/EaseUS-Todo-Backup",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-22T00:00:00Z",
+   "pattern": "[url:value = 'https://github.com/GhostMeadowlark/EaseUS-Todo-Backup']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--b25a0041-a372-54a3-bdb3-d744d56fa388",
+   "created": "2026-11-22T00:00:00Z",
+   "name": "url https://github.com/WeightAlbatross/Uipath-Studio",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-22T00:00:00Z",
+   "pattern": "[url:value = 'https://github.com/WeightAlbatross/Uipath-Studio']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--bfcaf6cc-a3da-5ac8-b2ef-b9ce9f9b2630",
+   "created": "2026-11-22T00:00:00Z",
+   "name": "url https://github.com/LoopPresident/aion-2-bot-auto-farm-optimizer",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-22T00:00:00Z",
+   "pattern": "[url:value = 'https://github.com/LoopPresident/aion-2-bot-auto-farm-optimizer']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--b99a151d-2c95-5678-ab04-2da166e32430",
+   "created": "2026-11-22T00:00:00Z",
+   "name": "url https://github.com/Portionshuupgrade/wardogs-cheat-game-trainer",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-22T00:00:00Z",
+   "pattern": "[url:value = 'https://github.com/Portionshuupgrade/wardogs-cheat-game-trainer']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--3fd0a7e8-d27e-507b-8c7f-dc3f3b86098d",
+   "created": "2026-11-22T00:00:00Z",
+   "name": "url https://github.com/leveetempoemancipate/Power-Bio-PC-Full",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-22T00:00:00Z",
+   "pattern": "[url:value = 'https://github.com/leveetempoemancipate/Power-Bio-PC-Full']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--14897134-1499-55aa-abb4-8e9671ba10d5",
+   "created": "2026-11-22T00:00:00Z",
+   "name": "url https://github.com/GlowPolitician/rust-scripts-automation-tools",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-22T00:00:00Z",
+   "pattern": "[url:value = 'https://github.com/GlowPolitician/rust-scripts-automation-tools']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--97b5e5b9-a9c1-57a9-9714-49c1d1e6d60c",
+   "created": "2026-11-22T00:00:00Z",
+   "name": "url https://github.com/Tabooonchain/slay-the-spire-2-mods",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-22T00:00:00Z",
+   "pattern": "[url:value = 'https://github.com/Tabooonchain/slay-the-spire-2-mods']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--2c04299b-f056-5602-b291-aad09ffd29ff",
+   "created": "2026-11-22T00:00:00Z",
+   "name": "url https://github.com/LookoutVisionRivet/path-of-exile-2-bot",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-22T00:00:00Z",
+   "pattern": "[url:value = 'https://github.com/LookoutVisionRivet/path-of-exile-2-bot']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--4cf6f22b-e76b-51d6-b0c7-4d9e324fce11",
+   "created": "2026-11-22T00:00:00Z",
+   "name": "url https://github.com/momentumtiername/-xsplit-broadcaster",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-22T00:00:00Z",
+   "pattern": "[url:value = 'https://github.com/momentumtiername/-xsplit-broadcaster']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--5b98d29e-6fd9-5c0c-82f6-3a2613c75518",
+   "created": "2026-11-22T00:00:00Z",
+   "name": "url https://github.com/PharaohManage/construct3",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-22T00:00:00Z",
+   "pattern": "[url:value = 'https://github.com/PharaohManage/construct3']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--305f655b-2a32-52c2-90a6-c65d29f2cd5d",
+   "created": "2026-11-22T00:00:00Z",
+   "name": "url https://github.com/PinTechnicianBang/ets2-mods-trainer",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-22T00:00:00Z",
+   "pattern": "[url:value = 'https://github.com/PinTechnicianBang/ets2-mods-trainer']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--acbabdc8-907b-519d-9d4a-d4de9d9c53ef",
+   "created": "2026-11-22T00:00:00Z",
+   "name": "url https://github.com/PhysicianDominate/marvel-rivals-skin-changer-tools",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-22T00:00:00Z",
+   "pattern": "[url:value = 'https://github.com/PhysicianDominate/marvel-rivals-skin-changer-tools']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--c0f1b240-09ee-5420-a67a-5d07183d6013",
+   "created": "2026-11-22T00:00:00Z",
+   "name": "url https://github.com/gridloaderrepair/Vmix-Pro",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-22T00:00:00Z",
+   "pattern": "[url:value = 'https://github.com/gridloaderrepair/Vmix-Pro']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--0afe407a-b7f8-5043-a82e-8b521c1f274f",
+   "created": "2026-11-22T00:00:00Z",
+   "name": "url https://github.com/TremorRider54/FMOD-Studio",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-22T00:00:00Z",
+   "pattern": "[url:value = 'https://github.com/TremorRider54/FMOD-Studio']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--942c8aa0-334f-5c1a-9516-ee4b6884e3de",
+   "created": "2026-11-22T00:00:00Z",
+   "name": "url https://github.com/SpikeAxolotl/FL-STUDIO-PC",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-22T00:00:00Z",
+   "pattern": "[url:value = 'https://github.com/SpikeAxolotl/FL-STUDIO-PC']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--11c94f41-e228-5854-8af5-8d32e5ed8caf",
+   "created": "2026-11-22T00:00:00Z",
+   "name": "url https://github.com/BeetleRemain/gta-6-pc-download",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-22T00:00:00Z",
+   "pattern": "[url:value = 'https://github.com/BeetleRemain/gta-6-pc-download']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  }
+ ]
+}

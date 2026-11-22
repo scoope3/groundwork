@@ -397,6 +397,25 @@ Nothing in this case is attributed to a person or group.
 | lure_repo | operator | 0% | `https://github.com/NinjaLynxFlow/SystemCare-Pro` |
 | lure_repo | operator | 0% | `https://github.com/VectorMotorman/Clion` |
 | lure_repo | operator | 0% | `https://github.com/monsterroguecontinue/Start11` |
+| lure_repo | operator | 0% | `https://github.com/Monstereuraise/Audition-Pc` |
+| lure_repo | operator | 0% | `https://github.com/WraithSheikh/stellar-recovery-hard-disk` |
+| lure_repo | operator | 0% | `https://github.com/FuseVanquisher/dex-screener-crypto-analytics` |
+| lure_repo | operator | 0% | `https://github.com/GhostMeadowlark/EaseUS-Todo-Backup` |
+| lure_repo | operator | 0% | `https://github.com/WeightAlbatross/Uipath-Studio` |
+| lure_repo | operator | 0% | `https://github.com/LoopPresident/aion-2-bot-auto-farm-optimizer` |
+| lure_repo | operator | 0% | `https://github.com/Portionshuupgrade/wardogs-cheat-game-trainer` |
+| lure_repo | operator | 0% | `https://github.com/leveetempoemancipate/Power-Bio-PC-Full` |
+| lure_repo | operator | 0% | `https://github.com/GlowPolitician/rust-scripts-automation-tools` |
+| lure_repo | operator | 0% | `https://github.com/Tabooonchain/slay-the-spire-2-mods` |
+| lure_repo | operator | 0% | `https://github.com/LookoutVisionRivet/path-of-exile-2-bot` |
+| lure_repo | operator | 0% | `https://github.com/momentumtiername/-xsplit-broadcaster` |
+| lure_repo | operator | 0% | `https://github.com/PharaohManage/construct3` |
+| lure_repo | operator | 0% | `https://github.com/PinTechnicianBang/ets2-mods-trainer` |
+| lure_repo | operator | 0% | `https://github.com/PhysicianDominate/marvel-rivals-skin-changer-tools` |
+| lure_repo | operator | 0% | `https://github.com/gridloaderrepair/Vmix-Pro` |
+| lure_repo | operator | 0% | `https://github.com/TremorRider54/FMOD-Studio` |
+| lure_repo | operator | 0% | `https://github.com/SpikeAxolotl/FL-STUDIO-PC` |
+| lure_repo | operator | 0% | `https://github.com/BeetleRemain/gta-6-pc-download` |
 | lure_repo_template | kit | 0% | `github-repo-set:windows-defender-cc` |
 | next_stage_host | operator | 0% | `toolget2.lol` |
 | resolver_contract | operator | 0% | `0x1ee6A331881102B84d2DebdD5eefd2E591a65f14` |
@@ -779,6 +798,25 @@ Nothing in this case is attributed to a person or group.
 | url | `https://github.com/NinjaLynxFlow/SystemCare-Pro` | lure_repo | not claimed |
 | url | `https://github.com/VectorMotorman/Clion` | lure_repo | not claimed |
 | url | `https://github.com/monsterroguecontinue/Start11` | lure_repo | not claimed |
+| url | `https://github.com/Monstereuraise/Audition-Pc` | lure_repo | not claimed |
+| url | `https://github.com/WraithSheikh/stellar-recovery-hard-disk` | lure_repo | not claimed |
+| url | `https://github.com/FuseVanquisher/dex-screener-crypto-analytics` | lure_repo | not claimed |
+| url | `https://github.com/GhostMeadowlark/EaseUS-Todo-Backup` | lure_repo | not claimed |
+| url | `https://github.com/WeightAlbatross/Uipath-Studio` | lure_repo | not claimed |
+| url | `https://github.com/LoopPresident/aion-2-bot-auto-farm-optimizer` | lure_repo | not claimed |
+| url | `https://github.com/Portionshuupgrade/wardogs-cheat-game-trainer` | lure_repo | not claimed |
+| url | `https://github.com/leveetempoemancipate/Power-Bio-PC-Full` | lure_repo | not claimed |
+| url | `https://github.com/GlowPolitician/rust-scripts-automation-tools` | lure_repo | not claimed |
+| url | `https://github.com/Tabooonchain/slay-the-spire-2-mods` | lure_repo | not claimed |
+| url | `https://github.com/LookoutVisionRivet/path-of-exile-2-bot` | lure_repo | not claimed |
+| url | `https://github.com/momentumtiername/-xsplit-broadcaster` | lure_repo | not claimed |
+| url | `https://github.com/PharaohManage/construct3` | lure_repo | not claimed |
+| url | `https://github.com/PinTechnicianBang/ets2-mods-trainer` | lure_repo | not claimed |
+| url | `https://github.com/PhysicianDominate/marvel-rivals-skin-changer-tools` | lure_repo | not claimed |
+| url | `https://github.com/gridloaderrepair/Vmix-Pro` | lure_repo | not claimed |
+| url | `https://github.com/TremorRider54/FMOD-Studio` | lure_repo | not claimed |
+| url | `https://github.com/SpikeAxolotl/FL-STUDIO-PC` | lure_repo | not claimed |
+| url | `https://github.com/BeetleRemain/gta-6-pc-download` | lure_repo | not claimed |
 
 ## Files
 
