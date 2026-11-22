@@ -254,6 +254,55 @@
     "value": "https://github.com/superstormfringe/autohotkey-trove",
     "to_ids": true,
     "comment": "case windows-defender-cc-lure-repos; lure_repo"
+   },
+   {
+    "type": "url",
+    "category": "Network activity",
+    "value": "https://github.com/LogoGunsmithSteeple/siemens-nx-full-version",
+    "to_ids": true,
+    "comment": "case windows-defender-cc-lure-repos; lure_repo"
+   },
+   {
+    "type": "url",
+    "category": "Network activity",
+    "value": "https://github.com/onyxformvise/Autodesk-Revit-Full-Version",
+    "to_ids": true,
+    "comment": "case windows-defender-cc-lure-repos; lure_repo"
+   },
+   {
+    "type": "url",
+    "category": "Network activity",
+    "value": "https://github.com/SeniorExemplify/Adobe-Illustrator-Full-Version",
+    "to_ids": true,
+    "comment": "case windows-defender-cc-lure-repos; lure_repo"
+   },
+   {
+    "type": "url",
+    "category": "Network activity",
+    "value": "https://github.com/CorporateAxle/Steinberg-Nuendo-Full-version",
+    "to_ids": true,
+    "comment": "case windows-defender-cc-lure-repos; lure_repo"
+   },
+   {
+    "type": "url",
+    "category": "Network activity",
+    "value": "https://github.com/protonemuseparator/catia-3dexperience-full-version",
+    "to_ids": true,
+    "comment": "case windows-defender-cc-lure-repos; lure_repo"
+   },
+   {
+    "type": "url",
+    "category": "Network activity",
+    "value": "https://github.com/SpeedGiraffeWatt96/CorelDRAW-Graphics-Suite",
+    "to_ids": true,
+    "comment": "case windows-defender-cc-lure-repos; lure_repo"
+   },
+   {
+    "type": "url",
+    "category": "Network activity",
+    "value": "https://github.com/Followerpuvault/Autodesk-AutoCAD-Full-Version",
+    "to_ids": true,
+    "comment": "case windows-defender-cc-lure-repos; lure_repo"
    }
   ]
  }

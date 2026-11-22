@@ -491,6 +491,104 @@
     "malicious-activity",
     "infrastructure-setup-patterns"
    ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--90d8ca5c-5d40-53b4-af3d-08014662f013",
+   "created": "2026-11-22T00:00:00Z",
+   "name": "url https://github.com/LogoGunsmithSteeple/siemens-nx-full-version",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-22T00:00:00Z",
+   "pattern": "[url:value = 'https://github.com/LogoGunsmithSteeple/siemens-nx-full-version']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--72d915cf-e476-585f-8db5-dde6430fb4a5",
+   "created": "2026-11-22T00:00:00Z",
+   "name": "url https://github.com/onyxformvise/Autodesk-Revit-Full-Version",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-22T00:00:00Z",
+   "pattern": "[url:value = 'https://github.com/onyxformvise/Autodesk-Revit-Full-Version']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--9214c0f3-73dc-5439-832d-49b24db0ecce",
+   "created": "2026-11-22T00:00:00Z",
+   "name": "url https://github.com/SeniorExemplify/Adobe-Illustrator-Full-Version",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-22T00:00:00Z",
+   "pattern": "[url:value = 'https://github.com/SeniorExemplify/Adobe-Illustrator-Full-Version']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--b6e255d9-6265-57e2-a978-81b5bb2d2ef0",
+   "created": "2026-11-22T00:00:00Z",
+   "name": "url https://github.com/CorporateAxle/Steinberg-Nuendo-Full-version",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-22T00:00:00Z",
+   "pattern": "[url:value = 'https://github.com/CorporateAxle/Steinberg-Nuendo-Full-version']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--8c1d5bb5-9cce-5f4e-9c14-328b59e4d833",
+   "created": "2026-11-22T00:00:00Z",
+   "name": "url https://github.com/protonemuseparator/catia-3dexperience-full-version",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-22T00:00:00Z",
+   "pattern": "[url:value = 'https://github.com/protonemuseparator/catia-3dexperience-full-version']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--173704ee-74f9-5293-b40c-0de6e2ddea06",
+   "created": "2026-11-22T00:00:00Z",
+   "name": "url https://github.com/SpeedGiraffeWatt96/CorelDRAW-Graphics-Suite",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-22T00:00:00Z",
+   "pattern": "[url:value = 'https://github.com/SpeedGiraffeWatt96/CorelDRAW-Graphics-Suite']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--973af531-9383-594c-9385-2bfc8b6cbc65",
+   "created": "2026-11-22T00:00:00Z",
+   "name": "url https://github.com/Followerpuvault/Autodesk-AutoCAD-Full-Version",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-22T00:00:00Z",
+   "pattern": "[url:value = 'https://github.com/Followerpuvault/Autodesk-AutoCAD-Full-Version']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
   }
  ]
 }

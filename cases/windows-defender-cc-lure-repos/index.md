@@ -432,6 +432,13 @@ Nothing in this case is attributed to a person or group.
 | lure_repo | operator | 0% | `https://github.com/polygondomainport/obs-streamer-stack` |
 | lure_repo | operator | 0% | `https://github.com/silverbeatcompute/jellyfin-media-notebook` |
 | lure_repo | operator | 0% | `https://github.com/superstormfringe/autohotkey-trove` |
+| lure_repo | operator | 0% | `https://github.com/LogoGunsmithSteeple/siemens-nx-full-version` |
+| lure_repo | operator | 0% | `https://github.com/onyxformvise/Autodesk-Revit-Full-Version` |
+| lure_repo | operator | 0% | `https://github.com/SeniorExemplify/Adobe-Illustrator-Full-Version` |
+| lure_repo | operator | 0% | `https://github.com/CorporateAxle/Steinberg-Nuendo-Full-version` |
+| lure_repo | operator | 0% | `https://github.com/protonemuseparator/catia-3dexperience-full-version` |
+| lure_repo | operator | 0% | `https://github.com/SpeedGiraffeWatt96/CorelDRAW-Graphics-Suite` |
+| lure_repo | operator | 0% | `https://github.com/Followerpuvault/Autodesk-AutoCAD-Full-Version` |
 | lure_repo_template | kit | 0% | `github-repo-set:windows-defender-cc` |
 | next_stage_host | operator | 0% | `toolget2.lol` |
 | resolver_contract | operator | 0% | `0x1ee6A331881102B84d2DebdD5eefd2E591a65f14` |
@@ -849,6 +856,13 @@ Nothing in this case is attributed to a person or group.
 | url | `https://github.com/polygondomainport/obs-streamer-stack` | lure_repo | not claimed |
 | url | `https://github.com/silverbeatcompute/jellyfin-media-notebook` | lure_repo | not claimed |
 | url | `https://github.com/superstormfringe/autohotkey-trove` | lure_repo | not claimed |
+| url | `https://github.com/LogoGunsmithSteeple/siemens-nx-full-version` | lure_repo | not claimed |
+| url | `https://github.com/onyxformvise/Autodesk-Revit-Full-Version` | lure_repo | not claimed |
+| url | `https://github.com/SeniorExemplify/Adobe-Illustrator-Full-Version` | lure_repo | not claimed |
+| url | `https://github.com/CorporateAxle/Steinberg-Nuendo-Full-version` | lure_repo | not claimed |
+| url | `https://github.com/protonemuseparator/catia-3dexperience-full-version` | lure_repo | not claimed |
+| url | `https://github.com/SpeedGiraffeWatt96/CorelDRAW-Graphics-Suite` | lure_repo | not claimed |
+| url | `https://github.com/Followerpuvault/Autodesk-AutoCAD-Full-Version` | lure_repo | not claimed |
 
 ## Files
 
