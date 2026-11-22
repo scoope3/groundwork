@@ -267,6 +267,230 @@
     "malicious-activity",
     "infrastructure-setup-patterns"
    ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--701fe654-4af8-5907-a04a-5a2c1f65b767",
+   "created": "2026-11-22T00:00:00Z",
+   "name": "domain pkgsetup.cc",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-22T00:00:00Z",
+   "pattern": "[domain-name:value = 'pkgsetup.cc']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--3c7895b2-4752-5fe0-86b7-b7f9556fc2d4",
+   "created": "2026-11-22T00:00:00Z",
+   "name": "url https://github.com/BehemothDyer/stable-diffusion-atelier",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-22T00:00:00Z",
+   "pattern": "[url:value = 'https://github.com/BehemothDyer/stable-diffusion-atelier']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--7c0892d2-af42-5780-8620-b6056b736a56",
+   "created": "2026-11-22T00:00:00Z",
+   "name": "url https://github.com/Brinkoversteeple/docker-compose-stash",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-22T00:00:00Z",
+   "pattern": "[url:value = 'https://github.com/Brinkoversteeple/docker-compose-stash']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--73c339c5-6af9-5ea8-88b1-066cc6398bae",
+   "created": "2026-11-22T00:00:00Z",
+   "name": "url https://github.com/EmissaryHike/jellyfin-media-notebook",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-22T00:00:00Z",
+   "pattern": "[url:value = 'https://github.com/EmissaryHike/jellyfin-media-notebook']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--ed022b69-e0d8-5bef-b602-509d1f6cf9e3",
+   "created": "2026-11-22T00:00:00Z",
+   "name": "url https://github.com/Glosszumlattice/quickbooks-ledger-alts",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-22T00:00:00Z",
+   "pattern": "[url:value = 'https://github.com/Glosszumlattice/quickbooks-ledger-alts']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--aa0990b4-a8a2-55e9-8aac-5d1aa30fe377",
+   "created": "2026-11-22T00:00:00Z",
+   "name": "url https://github.com/Hubarsalvage/nintendo-switch-emulation-desk",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-22T00:00:00Z",
+   "pattern": "[url:value = 'https://github.com/Hubarsalvage/nintendo-switch-emulation-desk']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--5ec463f7-b60f-5c05-a677-1aa8f4dc128a",
+   "created": "2026-11-22T00:00:00Z",
+   "name": "url https://github.com/OutpostPython/tableau-viz-gallery",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-22T00:00:00Z",
+   "pattern": "[url:value = 'https://github.com/OutpostPython/tableau-viz-gallery']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--28bb1111-9b41-5ba0-a3a2-b8f8cdd340af",
+   "created": "2026-11-22T00:00:00Z",
+   "name": "url https://github.com/Tensorflearcade/ps5-backup-saver",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-22T00:00:00Z",
+   "pattern": "[url:value = 'https://github.com/Tensorflearcade/ps5-backup-saver']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--6224b5ff-eea2-529c-acdc-1cea1f2504cd",
+   "created": "2026-11-22T00:00:00Z",
+   "name": "url https://github.com/VendorShelter/telegram-bot-foundry",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-22T00:00:00Z",
+   "pattern": "[url:value = 'https://github.com/VendorShelter/telegram-bot-foundry']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--126b0200-a7b3-5f17-a585-7f5b6ecc176e",
+   "created": "2026-11-22T00:00:00Z",
+   "name": "url https://github.com/VillagePrefect/stable-diffusion-atelier",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-22T00:00:00Z",
+   "pattern": "[url:value = 'https://github.com/VillagePrefect/stable-diffusion-atelier']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--f9a1f885-81a2-51c3-a92b-c844bfc45af8",
+   "created": "2026-11-22T00:00:00Z",
+   "name": "url https://github.com/WindServiceIdentify/ableton-production-bench",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-22T00:00:00Z",
+   "pattern": "[url:value = 'https://github.com/WindServiceIdentify/ableton-production-bench']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--e915ea96-7fbb-5ffd-ba29-7189781d5ed9",
+   "created": "2026-11-22T00:00:00Z",
+   "name": "url https://github.com/grottosanninvoyage/k8s-homelab-sailor",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-22T00:00:00Z",
+   "pattern": "[url:value = 'https://github.com/grottosanninvoyage/k8s-homelab-sailor']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--c7090330-d172-5e57-b75d-91d02aba5453",
+   "created": "2026-11-22T00:00:00Z",
+   "name": "url https://github.com/nora-herrera49/ADlabs-toolz",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-22T00:00:00Z",
+   "pattern": "[url:value = 'https://github.com/nora-herrera49/ADlabs-toolz']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--c7820c1a-c321-5902-ae3d-aebdb8a92bbe",
+   "created": "2026-11-22T00:00:00Z",
+   "name": "url https://github.com/polygondomainport/obs-streamer-stack",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-22T00:00:00Z",
+   "pattern": "[url:value = 'https://github.com/polygondomainport/obs-streamer-stack']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--e6693b6e-107d-5f38-87d2-67b3001798be",
+   "created": "2026-11-22T00:00:00Z",
+   "name": "url https://github.com/silverbeatcompute/jellyfin-media-notebook",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-22T00:00:00Z",
+   "pattern": "[url:value = 'https://github.com/silverbeatcompute/jellyfin-media-notebook']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--a09e5ef4-d67c-5761-b7e5-f06114ba5f80",
+   "created": "2026-11-22T00:00:00Z",
+   "name": "url https://github.com/superstormfringe/autohotkey-trove",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-22T00:00:00Z",
+   "pattern": "[url:value = 'https://github.com/superstormfringe/autohotkey-trove']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
   }
  ]
 }

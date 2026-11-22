@@ -46,6 +46,7 @@ Nothing in this case is attributed to a person or group.
 | lure_delivery_domain | operator | 0% | `git-software.cc` |
 | lure_delivery_domain | operator | 0% | `quickrun31.cc` |
 | lure_delivery_domain | operator | 0% | `appget29.tools` |
+| lure_delivery_domain | operator | 0% | `pkgsetup.cc` |
 | lure_repo | operator | 0% | `https://github.com/dreamtherapistcrypt/Chaos-Enscape-Collection-Free-Professional-3D-Rendering` |
 | lure_repo | operator | 0% | `https://github.com/petacockatooblock/Chaos-Corona-Collection-Free-Professional-Architectural-Rendering` |
 | lure_repo | operator | 0% | `https://github.com/Blizzardteawning/IK-Multimedia-AmpliTube-5-MAX-v2-Free-Guitar-Bass-Modeling` |
@@ -416,6 +417,21 @@ Nothing in this case is attributed to a person or group.
 | lure_repo | operator | 0% | `https://github.com/TremorRider54/FMOD-Studio` |
 | lure_repo | operator | 0% | `https://github.com/SpikeAxolotl/FL-STUDIO-PC` |
 | lure_repo | operator | 0% | `https://github.com/BeetleRemain/gta-6-pc-download` |
+| lure_repo | operator | 0% | `https://github.com/BehemothDyer/stable-diffusion-atelier` |
+| lure_repo | operator | 0% | `https://github.com/Brinkoversteeple/docker-compose-stash` |
+| lure_repo | operator | 0% | `https://github.com/EmissaryHike/jellyfin-media-notebook` |
+| lure_repo | operator | 0% | `https://github.com/Glosszumlattice/quickbooks-ledger-alts` |
+| lure_repo | operator | 0% | `https://github.com/Hubarsalvage/nintendo-switch-emulation-desk` |
+| lure_repo | operator | 0% | `https://github.com/OutpostPython/tableau-viz-gallery` |
+| lure_repo | operator | 0% | `https://github.com/Tensorflearcade/ps5-backup-saver` |
+| lure_repo | operator | 0% | `https://github.com/VendorShelter/telegram-bot-foundry` |
+| lure_repo | operator | 0% | `https://github.com/VillagePrefect/stable-diffusion-atelier` |
+| lure_repo | operator | 0% | `https://github.com/WindServiceIdentify/ableton-production-bench` |
+| lure_repo | operator | 0% | `https://github.com/grottosanninvoyage/k8s-homelab-sailor` |
+| lure_repo | operator | 0% | `https://github.com/nora-herrera49/ADlabs-toolz` |
+| lure_repo | operator | 0% | `https://github.com/polygondomainport/obs-streamer-stack` |
+| lure_repo | operator | 0% | `https://github.com/silverbeatcompute/jellyfin-media-notebook` |
+| lure_repo | operator | 0% | `https://github.com/superstormfringe/autohotkey-trove` |
 | lure_repo_template | kit | 0% | `github-repo-set:windows-defender-cc` |
 | next_stage_host | operator | 0% | `toolget2.lol` |
 | resolver_contract | operator | 0% | `0x1ee6A331881102B84d2DebdD5eefd2E591a65f14` |
@@ -817,6 +833,22 @@ Nothing in this case is attributed to a person or group.
 | url | `https://github.com/TremorRider54/FMOD-Studio` | lure_repo | not claimed |
 | url | `https://github.com/SpikeAxolotl/FL-STUDIO-PC` | lure_repo | not claimed |
 | url | `https://github.com/BeetleRemain/gta-6-pc-download` | lure_repo | not claimed |
+| domain | `pkgsetup.cc` | lure_delivery_domain | not claimed |
+| url | `https://github.com/BehemothDyer/stable-diffusion-atelier` | lure_repo | not claimed |
+| url | `https://github.com/Brinkoversteeple/docker-compose-stash` | lure_repo | not claimed |
+| url | `https://github.com/EmissaryHike/jellyfin-media-notebook` | lure_repo | not claimed |
+| url | `https://github.com/Glosszumlattice/quickbooks-ledger-alts` | lure_repo | not claimed |
+| url | `https://github.com/Hubarsalvage/nintendo-switch-emulation-desk` | lure_repo | not claimed |
+| url | `https://github.com/OutpostPython/tableau-viz-gallery` | lure_repo | not claimed |
+| url | `https://github.com/Tensorflearcade/ps5-backup-saver` | lure_repo | not claimed |
+| url | `https://github.com/VendorShelter/telegram-bot-foundry` | lure_repo | not claimed |
+| url | `https://github.com/VillagePrefect/stable-diffusion-atelier` | lure_repo | not claimed |
+| url | `https://github.com/WindServiceIdentify/ableton-production-bench` | lure_repo | not claimed |
+| url | `https://github.com/grottosanninvoyage/k8s-homelab-sailor` | lure_repo | not claimed |
+| url | `https://github.com/nora-herrera49/ADlabs-toolz` | lure_repo | not claimed |
+| url | `https://github.com/polygondomainport/obs-streamer-stack` | lure_repo | not claimed |
+| url | `https://github.com/silverbeatcompute/jellyfin-media-notebook` | lure_repo | not claimed |
+| url | `https://github.com/superstormfringe/autohotkey-trove` | lure_repo | not claimed |
 
 ## Files
 
