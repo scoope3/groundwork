@@ -1,0 +1,104 @@
+{
+ "type": "bundle",
+ "id": "bundle--1c386162-b47d-5cae-88fe-25ab4aee9ea4",
+ "objects": [
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--0617ac85-14fe-55e8-9f79-e4b99991a049",
+   "created": "2026-11-23T00:00:00Z",
+   "name": "url https://github.com/KrakenCraneCraft/Wirecast-Version-Pro",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-23T00:00:00Z",
+   "pattern": "[url:value = 'https://github.com/KrakenCraneCraft/Wirecast-Version-Pro']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--bfe0420e-2a69-5e11-aae3-d56cc77af8a8",
+   "created": "2026-11-23T00:00:00Z",
+   "name": "url https://github.com/ProsecutorSpade/Premier-Version-Pro",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-23T00:00:00Z",
+   "pattern": "[url:value = 'https://github.com/ProsecutorSpade/Premier-Version-Pro']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--ab9f52f3-8144-57f7-9b3c-539b8b66f77c",
+   "created": "2026-11-23T00:00:00Z",
+   "name": "url https://github.com/Woodglodisclose/DXO-PHOTOLAB-10-ELITE",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-23T00:00:00Z",
+   "pattern": "[url:value = 'https://github.com/Woodglodisclose/DXO-PHOTOLAB-10-ELITE']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--13610dd7-8158-5a23-8b7f-7aea0b2da4ef",
+   "created": "2026-11-23T00:00:00Z",
+   "name": "url https://github.com/TrenchZebraMaster/Capture-One-Pro",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-23T00:00:00Z",
+   "pattern": "[url:value = 'https://github.com/TrenchZebraMaster/Capture-One-Pro']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--63fe9b1d-6f44-5c9b-9ef5-64bd6fdc8aea",
+   "created": "2026-11-23T00:00:00Z",
+   "name": "url https://github.com/Streetthetent33/Avid-Pro-Tools-Ultimate",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-23T00:00:00Z",
+   "pattern": "[url:value = 'https://github.com/Streetthetent33/Avid-Pro-Tools-Ultimate']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--4ddb20a3-6e7d-517b-8e05-f6ec105ccb40",
+   "created": "2026-11-23T00:00:00Z",
+   "name": "url https://github.com/trapworkerravine/Davinci-resolve-version-pro",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-23T00:00:00Z",
+   "pattern": "[url:value = 'https://github.com/trapworkerravine/Davinci-resolve-version-pro']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--773ab06f-58a9-545d-8e2d-c163395b814e",
+   "created": "2026-11-23T00:00:00Z",
+   "name": "url https://github.com/WildCooperYank/vMix-Pro",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-23T00:00:00Z",
+   "pattern": "[url:value = 'https://github.com/WildCooperYank/vMix-Pro']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  }
+ ]
+}

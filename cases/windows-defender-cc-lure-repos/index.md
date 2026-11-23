@@ -432,6 +432,13 @@ Nothing in this case is attributed to a person or group.
 | lure_repo | operator | 0% | `https://github.com/polygondomainport/obs-streamer-stack` |
 | lure_repo | operator | 0% | `https://github.com/silverbeatcompute/jellyfin-media-notebook` |
 | lure_repo | operator | 0% | `https://github.com/superstormfringe/autohotkey-trove` |
+| lure_repo | operator | 0% | `https://github.com/KrakenCraneCraft/Wirecast-Version-Pro` |
+| lure_repo | operator | 0% | `https://github.com/ProsecutorSpade/Premier-Version-Pro` |
+| lure_repo | operator | 0% | `https://github.com/Woodglodisclose/DXO-PHOTOLAB-10-ELITE` |
+| lure_repo | operator | 0% | `https://github.com/TrenchZebraMaster/Capture-One-Pro` |
+| lure_repo | operator | 0% | `https://github.com/Streetthetent33/Avid-Pro-Tools-Ultimate` |
+| lure_repo | operator | 0% | `https://github.com/trapworkerravine/Davinci-resolve-version-pro` |
+| lure_repo | operator | 0% | `https://github.com/WildCooperYank/vMix-Pro` |
 | lure_repo | operator | 0% | `https://github.com/LogoGunsmithSteeple/siemens-nx-full-version` |
 | lure_repo | operator | 0% | `https://github.com/onyxformvise/Autodesk-Revit-Full-Version` |
 | lure_repo | operator | 0% | `https://github.com/SeniorExemplify/Adobe-Illustrator-Full-Version` |
@@ -856,6 +863,13 @@ Nothing in this case is attributed to a person or group.
 | url | `https://github.com/polygondomainport/obs-streamer-stack` | lure_repo | not claimed |
 | url | `https://github.com/silverbeatcompute/jellyfin-media-notebook` | lure_repo | not claimed |
 | url | `https://github.com/superstormfringe/autohotkey-trove` | lure_repo | not claimed |
+| url | `https://github.com/KrakenCraneCraft/Wirecast-Version-Pro` | lure_repo | not claimed |
+| url | `https://github.com/ProsecutorSpade/Premier-Version-Pro` | lure_repo | not claimed |
+| url | `https://github.com/Woodglodisclose/DXO-PHOTOLAB-10-ELITE` | lure_repo | not claimed |
+| url | `https://github.com/TrenchZebraMaster/Capture-One-Pro` | lure_repo | not claimed |
+| url | `https://github.com/Streetthetent33/Avid-Pro-Tools-Ultimate` | lure_repo | not claimed |
+| url | `https://github.com/trapworkerravine/Davinci-resolve-version-pro` | lure_repo | not claimed |
+| url | `https://github.com/WildCooperYank/vMix-Pro` | lure_repo | not claimed |
 | url | `https://github.com/LogoGunsmithSteeple/siemens-nx-full-version` | lure_repo | not claimed |
 | url | `https://github.com/onyxformvise/Autodesk-Revit-Full-Version` | lure_repo | not claimed |
 | url | `https://github.com/SeniorExemplify/Adobe-Illustrator-Full-Version` | lure_repo | not claimed |

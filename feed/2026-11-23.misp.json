@@ -1,0 +1,64 @@
+{
+ "Event": {
+  "info": "Groundwork daily feed 2026-11-23",
+  "threat_level_id": "2",
+  "analysis": "2",
+  "distribution": "3",
+  "Tag": [
+   {
+    "name": "tlp:clear"
+   }
+  ],
+  "Attribute": [
+   {
+    "type": "url",
+    "category": "Network activity",
+    "value": "https://github.com/KrakenCraneCraft/Wirecast-Version-Pro",
+    "to_ids": true,
+    "comment": "case windows-defender-cc-lure-repos; lure_repo"
+   },
+   {
+    "type": "url",
+    "category": "Network activity",
+    "value": "https://github.com/ProsecutorSpade/Premier-Version-Pro",
+    "to_ids": true,
+    "comment": "case windows-defender-cc-lure-repos; lure_repo"
+   },
+   {
+    "type": "url",
+    "category": "Network activity",
+    "value": "https://github.com/Woodglodisclose/DXO-PHOTOLAB-10-ELITE",
+    "to_ids": true,
+    "comment": "case windows-defender-cc-lure-repos; lure_repo"
+   },
+   {
+    "type": "url",
+    "category": "Network activity",
+    "value": "https://github.com/TrenchZebraMaster/Capture-One-Pro",
+    "to_ids": true,
+    "comment": "case windows-defender-cc-lure-repos; lure_repo"
+   },
+   {
+    "type": "url",
+    "category": "Network activity",
+    "value": "https://github.com/Streetthetent33/Avid-Pro-Tools-Ultimate",
+    "to_ids": true,
+    "comment": "case windows-defender-cc-lure-repos; lure_repo"
+   },
+   {
+    "type": "url",
+    "category": "Network activity",
+    "value": "https://github.com/trapworkerravine/Davinci-resolve-version-pro",
+    "to_ids": true,
+    "comment": "case windows-defender-cc-lure-repos; lure_repo"
+   },
+   {
+    "type": "url",
+    "category": "Network activity",
+    "value": "https://github.com/WildCooperYank/vMix-Pro",
+    "to_ids": true,
+    "comment": "case windows-defender-cc-lure-repos; lure_repo"
+   }
+  ]
+ }
+}
