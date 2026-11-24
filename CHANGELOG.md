@@ -2,6 +2,10 @@
 
 Dated record of every retraction, re-grading or correction to a published case or feed entry. Newest first.
 
+## 2026-11-24
+
+* **Feed, `first_seen` on 241 lure repositories.** For 241 repository rows first published on 2026-11-21, `first_seen` held the repository's last push time (2026-10-01 to 2026-11-20), not the time I first recorded it. Each now holds the time the repository was first recorded here (2026-11-21, shortly after 00:00 UTC; the read itself was made on 2026-11-20). Corrected in `feed/2026-11-21.csv` and `feed/rolling-30d.csv`. No indicator was added or removed, and no first-finder claim was affected (none was made for these rows).
+
 ## 2026-11-21
 
 * **Feed, duplicates.** The day file for 2026-11-21 repeated all 125 indicators of 2026-11-20, and `rolling-30d.csv` listed those 125 twice, for about half an hour after 00:00 UTC. Both were replaced the same day. From this date a day file holds only what was first published that day, and the rolling file is the current list of what was first published in the last 30 days. `feed/README.md` and `METHOD.md` now say so.
