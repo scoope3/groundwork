@@ -4,6 +4,7 @@ Dated record of every retraction, re-grading or correction to a published case o
 
 ## 2026-11-24
 
+* **Feed and case lists, layout change.** The three first-finder columns (`first_finder`, `vendor_seen_at` and `days_ahead`) are gone from every published file. Every day file published in the old layout was rewritten once to drop those columns, and the seven columns they kept are unchanged, with no row added or removed. Each case's `indicators.csv` now has five more columns (`role`, `description`, `linked_to`, `recorded`, `details`), and `METHOD.md` says what each one holds. The indicator table on each case page lost its first-finder column. The STIX and MISP files did not carry these fields and were not rewritten for this change, so no STIX id moved.
 * **Feed, `first_seen` on 241 lure repositories.** For 241 repository rows first published on 2026-11-21, `first_seen` held the repository's last push time (2026-10-01 to 2026-11-20), not the time I first recorded it. Each now holds the time the repository was first recorded here (2026-11-21, shortly after 00:00 UTC; the read itself was made on 2026-11-20). Corrected in `feed/2026-11-21.csv` and `feed/rolling-30d.csv`. No indicator was added or removed, and no first-finder claim was affected (none was made for these rows).
 
 ## 2026-11-21
