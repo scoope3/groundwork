@@ -1,0 +1,85 @@
+{
+ "Event": {
+  "info": "Groundwork daily feed 2026-11-24",
+  "threat_level_id": "2",
+  "analysis": "2",
+  "distribution": "3",
+  "Tag": [
+   {
+    "name": "tlp:clear"
+   }
+  ],
+  "Attribute": [
+   {
+    "type": "url",
+    "category": "Network activity",
+    "value": "https://github.com/Matrixacrosscompact/SideFX-Houdini-FX-Full-Version",
+    "to_ids": true,
+    "comment": "case windows-defender-cc-lure-repos; lure_repo"
+   },
+   {
+    "type": "url",
+    "category": "Network activity",
+    "value": "https://github.com/ViceDeveloper/ivcam-full-version",
+    "to_ids": true,
+    "comment": "case windows-defender-cc-lure-repos; lure_repo"
+   },
+   {
+    "type": "url",
+    "category": "Network activity",
+    "value": "https://github.com/AmbassadorHonor/Autodesk-Maya-Full-Version",
+    "to_ids": true,
+    "comment": "case windows-defender-cc-lure-repos; lure_repo"
+   },
+   {
+    "type": "url",
+    "category": "Network activity",
+    "value": "https://github.com/Aquaunbungalow/Autodesk-3ds-max-full-version",
+    "to_ids": true,
+    "comment": "case windows-defender-cc-lure-repos; lure_repo"
+   },
+   {
+    "type": "url",
+    "category": "Network activity",
+    "value": "https://github.com/Plumemccharge/Maxon-ZBrush-Full-Version",
+    "to_ids": true,
+    "comment": "case windows-defender-cc-lure-repos; lure_repo"
+   },
+   {
+    "type": "url",
+    "category": "Network activity",
+    "value": "https://github.com/Watertrestring/camo-studio-pro-full-version",
+    "to_ids": true,
+    "comment": "case windows-defender-cc-lure-repos; lure_repo"
+   },
+   {
+    "type": "url",
+    "category": "Network activity",
+    "value": "https://github.com/wildswiftintroduce/rob-run-mod-menu-zoel",
+    "to_ids": true,
+    "comment": "case windows-defender-cc-lure-repos; lure_repo"
+   },
+   {
+    "type": "url",
+    "category": "Network activity",
+    "value": "https://github.com/GlossConstableShears/Unity-Pro-Full-Version",
+    "to_ids": true,
+    "comment": "case windows-defender-cc-lure-repos; lure_repo"
+   },
+   {
+    "type": "url",
+    "category": "Network activity",
+    "value": "https://github.com/FloorHelmsmanAxle95/-Grand-Theft-Auto-VI-preload-pc",
+    "to_ids": true,
+    "comment": "case windows-defender-cc-lure-repos; lure_repo"
+   },
+   {
+    "type": "url",
+    "category": "Network activity",
+    "value": "https://github.com/Modernuovacuum/gamemaker-professional-full-version",
+    "to_ids": true,
+    "comment": "case windows-defender-cc-lure-repos; lure_repo"
+   }
+  ]
+ }
+}

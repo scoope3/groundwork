@@ -1,0 +1,146 @@
+{
+ "type": "bundle",
+ "id": "bundle--540483f9-d529-5098-8570-94042daade8d",
+ "objects": [
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--d775f30f-7b55-5fc6-9af0-5096b0ff155b",
+   "created": "2026-11-24T00:00:00Z",
+   "name": "url https://github.com/Matrixacrosscompact/SideFX-Houdini-FX-Full-Version",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-24T00:00:00Z",
+   "pattern": "[url:value = 'https://github.com/Matrixacrosscompact/SideFX-Houdini-FX-Full-Version']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--5bc9d4e5-8bb9-597a-8922-19f6c80a7b50",
+   "created": "2026-11-24T00:00:00Z",
+   "name": "url https://github.com/ViceDeveloper/ivcam-full-version",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-24T00:00:00Z",
+   "pattern": "[url:value = 'https://github.com/ViceDeveloper/ivcam-full-version']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--f8ab0b59-363e-570c-8659-6cd36d2cf2d6",
+   "created": "2026-11-24T00:00:00Z",
+   "name": "url https://github.com/AmbassadorHonor/Autodesk-Maya-Full-Version",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-24T00:00:00Z",
+   "pattern": "[url:value = 'https://github.com/AmbassadorHonor/Autodesk-Maya-Full-Version']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--653ef37c-84f1-5463-9fb9-765abcf96db1",
+   "created": "2026-11-24T00:00:00Z",
+   "name": "url https://github.com/Aquaunbungalow/Autodesk-3ds-max-full-version",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-24T00:00:00Z",
+   "pattern": "[url:value = 'https://github.com/Aquaunbungalow/Autodesk-3ds-max-full-version']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--53f6fc38-9863-5035-a994-507a2df601b2",
+   "created": "2026-11-24T00:00:00Z",
+   "name": "url https://github.com/Plumemccharge/Maxon-ZBrush-Full-Version",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-24T00:00:00Z",
+   "pattern": "[url:value = 'https://github.com/Plumemccharge/Maxon-ZBrush-Full-Version']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--70f49307-fba0-5b81-bdf1-4cbd62d41ed9",
+   "created": "2026-11-24T00:00:00Z",
+   "name": "url https://github.com/Watertrestring/camo-studio-pro-full-version",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-24T00:00:00Z",
+   "pattern": "[url:value = 'https://github.com/Watertrestring/camo-studio-pro-full-version']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--e7e6b7fe-d80e-5ae5-9b90-91c066d57d52",
+   "created": "2026-11-24T00:00:00Z",
+   "name": "url https://github.com/wildswiftintroduce/rob-run-mod-menu-zoel",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-24T00:00:00Z",
+   "pattern": "[url:value = 'https://github.com/wildswiftintroduce/rob-run-mod-menu-zoel']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--a6c57e35-1efa-5c32-923f-6e417499e66d",
+   "created": "2026-11-24T00:00:00Z",
+   "name": "url https://github.com/GlossConstableShears/Unity-Pro-Full-Version",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-24T00:00:00Z",
+   "pattern": "[url:value = 'https://github.com/GlossConstableShears/Unity-Pro-Full-Version']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--4e365230-3c27-5321-b64e-9f61889e36e2",
+   "created": "2026-11-24T00:00:00Z",
+   "name": "url https://github.com/FloorHelmsmanAxle95/-Grand-Theft-Auto-VI-preload-pc",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-24T00:00:00Z",
+   "pattern": "[url:value = 'https://github.com/FloorHelmsmanAxle95/-Grand-Theft-Auto-VI-preload-pc']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--71c629aa-8ef0-5480-9374-7d882067854d",
+   "created": "2026-11-24T00:00:00Z",
+   "name": "url https://github.com/Modernuovacuum/gamemaker-professional-full-version",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-24T00:00:00Z",
+   "pattern": "[url:value = 'https://github.com/Modernuovacuum/gamemaker-professional-full-version']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  }
+ ]
+}

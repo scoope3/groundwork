@@ -1,8 +1,8 @@
-published_at,entity_type,value,category,case,evidence_types,first_seen,first_finder,vendor_seen_at,days_ahead
-2026-11-23T22:23:53Z,url,https://github.com/KrakenCraneCraft/Wirecast-Version-Pro,infrastructure-setup-patterns,windows-defender-cc-lure-repos,lure_repo,2026-11-22T20:18:21Z,False,,
-2026-11-23T22:23:53Z,url,https://github.com/ProsecutorSpade/Premier-Version-Pro,infrastructure-setup-patterns,windows-defender-cc-lure-repos,lure_repo,2026-11-22T20:18:21Z,False,,
-2026-11-23T22:23:53Z,url,https://github.com/Woodglodisclose/DXO-PHOTOLAB-10-ELITE,infrastructure-setup-patterns,windows-defender-cc-lure-repos,lure_repo,2026-11-22T20:18:21Z,False,,
-2026-11-23T22:23:53Z,url,https://github.com/TrenchZebraMaster/Capture-One-Pro,infrastructure-setup-patterns,windows-defender-cc-lure-repos,lure_repo,2026-11-22T20:18:21Z,False,,
-2026-11-23T22:23:53Z,url,https://github.com/Streetthetent33/Avid-Pro-Tools-Ultimate,infrastructure-setup-patterns,windows-defender-cc-lure-repos,lure_repo,2026-11-22T20:18:21Z,False,,
-2026-11-23T22:23:53Z,url,https://github.com/trapworkerravine/Davinci-resolve-version-pro,infrastructure-setup-patterns,windows-defender-cc-lure-repos,lure_repo,2026-11-22T20:18:21Z,False,,
-2026-11-23T22:23:53Z,url,https://github.com/WildCooperYank/vMix-Pro,infrastructure-setup-patterns,windows-defender-cc-lure-repos,lure_repo,2026-11-22T20:18:21Z,False,,
+published_at,entity_type,value,category,case,evidence_types,first_seen
+2026-11-23T22:23:53Z,url,https://github.com/KrakenCraneCraft/Wirecast-Version-Pro,infrastructure-setup-patterns,windows-defender-cc-lure-repos,lure_repo,2026-11-22T20:18:21Z
+2026-11-23T22:23:53Z,url,https://github.com/ProsecutorSpade/Premier-Version-Pro,infrastructure-setup-patterns,windows-defender-cc-lure-repos,lure_repo,2026-11-22T20:18:21Z
+2026-11-23T22:23:53Z,url,https://github.com/Woodglodisclose/DXO-PHOTOLAB-10-ELITE,infrastructure-setup-patterns,windows-defender-cc-lure-repos,lure_repo,2026-11-22T20:18:21Z
+2026-11-23T22:23:53Z,url,https://github.com/TrenchZebraMaster/Capture-One-Pro,infrastructure-setup-patterns,windows-defender-cc-lure-repos,lure_repo,2026-11-22T20:18:21Z
+2026-11-23T22:23:53Z,url,https://github.com/Streetthetent33/Avid-Pro-Tools-Ultimate,infrastructure-setup-patterns,windows-defender-cc-lure-repos,lure_repo,2026-11-22T20:18:21Z
+2026-11-23T22:23:53Z,url,https://github.com/trapworkerravine/Davinci-resolve-version-pro,infrastructure-setup-patterns,windows-defender-cc-lure-repos,lure_repo,2026-11-22T20:18:21Z
+2026-11-23T22:23:53Z,url,https://github.com/WildCooperYank/vMix-Pro,infrastructure-setup-patterns,windows-defender-cc-lure-repos,lure_repo,2026-11-22T20:18:21Z
