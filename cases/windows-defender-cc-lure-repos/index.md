@@ -27,6 +27,26 @@ Accounts of the same make, one of them in a creation batch shared with this case
 - `third_party_c2`: reported by another researcher and credited to him; not re-derived here.
 - Files, in the order listed below: the loader script served at `devtools8[.]lol/j2sj9blzc` (PowerShell, 14,841 bytes, same hash in three sandbox runs); the loader script served at `monolit[.]sbs` (PowerShell, 4,819 bytes, retrieved 2026-11-18); the password-protected archive `67q65idtq.rar` served by `toolget2[.]lol` (3,286,078 bytes); and the stealer as delivered, `bh3xm14ke1.exe` (packed, self-signed, 3,460,200 bytes; hash reported by two analysis sessions). Then the second build as delivered from `quickrun31[.]cc`, `pt12owjk2s.exe` (packed, 2,622,928 bytes); its archive `l1d2va.rar` as served on 2026-11-20; and the macOS program served by `appget29[.]tools` (universal Mach-O, 811,040 bytes). The unpacker the loader downloads is reported to be a genuine UnRAR build and is deliberately not listed.
 
+## Star rings
+
+Two groups of GitHub accounts starred 40 lure repositories of this case, and one other repository, in coordinated bursts on 21 and 22 November 2026. Every date in this section is a day in UTC time. Within each group the same accounts appeared on one lure after another on the same day. This section records what was seen and names no accounts. An account is suspected here only by how it behaved, and that is not enough to publish it.
+
+### The ring of 21 November
+
+I measured at least 296 accounts starring 17 repositories on 21 November, 16 of them lures of this case. On sixteen of those repositories the stars came in two bursts on the same day, each from a different part of the group. When I read the feeds again on 23 November, my watch had every one of the 296 accounts marked as no longer found on GitHub, so I kept the figures and no account. Fifteen of the sixteen repositories in this case were recorded as up on 25 November.
+
+### The ring of 22 November
+
+I measured 125 accounts starring 13 lure repositories of this case in bursts on 22 November. The same 123 of those accounts appeared on each of eleven of the repositories. Between then and early on 23 November, 122 to 125 of the same accounts starred each of ten more lure repositories of this case, and I saw 60 of them on an eleventh. All 24 of those repositories are rows of this case today. When I read the accounts on 23 November, 123 of the 125 still answered. Nearly all of their own lures had been removed by then, and the few stars still visible on the accounts were all lures on record. On 23 November, 23 of the 24 repositories and their owner accounts answered as not found, and I did not check the last one.
+
+### Bursts outside the two rings
+
+Captures from other days show the same kind of burst, mostly from accounts outside both rings. On 15, 16 and 17 November, 14 lure repositories of this case each received a burst of stars from between 36 and 101 accounts. Those 14 repositories were starred by 653 accounts in all, and 188 of them appeared on at least three of the repositories. None of those 653 accounts was seen in either ring. One more lure of this case received a burst from 68 accounts on 20 November. On 23 and 24 November, three repositories were each starred in bursts by between 274 and 300 accounts, and two of the three are lures of this case. I counted 605 accounts across the three, with 210 of them on at least two and 90 on all three. Sixty accounts of the 22 November ring were among them, all sixty on one repository and two of them also on another. Eighteen others had also starred repositories of the 21 November ring.
+
+### What this does and does not show
+
+The second ring's accounts showed no star on anything except a lure, though I could see only a few stars on each. I read that as a sign the accounts are kept for this purpose, and it remains an inference. I could not test it for the first ring, because its accounts were gone. The first ring, as I measured it, was more than twice the size of the second. I do not know whether one operator runs both, who controls the accounts, or whether the stars were bought from a service. The counts are lower bounds where my record of a repository's stars was incomplete. This section rests on captures of stars dated 15 to 24 November, and I have not looked at later ones.
+
 Nothing in this case is attributed to a person or group.
 
 ## Evidence
