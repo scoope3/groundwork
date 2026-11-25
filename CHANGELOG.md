@@ -4,6 +4,7 @@ Dated record of every retraction, re-grading or correction to a published case o
 
 ## 2026-11-25
 
+* **Case `windows-defender-cc-lure-repos`, page rewritten.** The case page was rewritten on 2026-11-25 to follow the victim's path first and to carry fewer figures. No finding, indicator or credit changed, and the star-rings section of the same day was shortened to one paragraph.
 * **Case lists, repository status added.** Lure repository rows in `indicators.csv` can now end their `details` cell with `status` and `status_since`, described under "Repository status" in `METHOD.md`. The nine columns are unchanged, and no other cell of any row changed with this addition. From that day on, the automatic publish carries status changes at most once a day, and a large batch of new `not_found` or `replaced` waits for a manual check.
 
 ## 2026-11-24
