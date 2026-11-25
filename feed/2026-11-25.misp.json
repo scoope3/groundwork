@@ -23,6 +23,13 @@
     "value": "https://github.com/PeakNegotiatorKiln/Grand-Version-6",
     "to_ids": true,
     "comment": "case windows-defender-cc-lure-repos; lure_repo"
+   },
+   {
+    "type": "url",
+    "category": "Network activity",
+    "value": "https://github.com/ivoryhailagitate/Grand-6-Pc-Version",
+    "to_ids": true,
+    "comment": "case windows-defender-cc-lure-repos; lure_repo"
    }
   ]
  }

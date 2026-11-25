@@ -469,6 +469,7 @@ Nothing in this case is attributed to a person or group.
 | lure_repo | operator | 0% | `https://github.com/Modernuovacuum/gamemaker-professional-full-version` |
 | lure_repo | operator | 0% | `https://github.com/blazeclientvise/rob-run-tools` |
 | lure_repo | operator | 0% | `https://github.com/PeakNegotiatorKiln/Grand-Version-6` |
+| lure_repo | operator | 0% | `https://github.com/ivoryhailagitate/Grand-6-Pc-Version` |
 | lure_repo_template | kit | 0% | `github-repo-set:windows-defender-cc` |
 | next_stage_host | operator | 0% | `toolget2.lol` |
 | resolver_contract | operator | 0% | `0x1ee6A331881102B84d2DebdD5eefd2E591a65f14` |
@@ -912,6 +913,7 @@ Nothing in this case is attributed to a person or group.
 | url | `https://github.com/Modernuovacuum/gamemaker-professional-full-version` | lure_repo |
 | url | `https://github.com/blazeclientvise/rob-run-tools` | lure_repo |
 | url | `https://github.com/PeakNegotiatorKiln/Grand-Version-6` | lure_repo |
+| url | `https://github.com/ivoryhailagitate/Grand-6-Pc-Version` | lure_repo |
 
 ## Files
 

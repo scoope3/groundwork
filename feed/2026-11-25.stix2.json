@@ -29,6 +29,20 @@
     "malicious-activity",
     "infrastructure-setup-patterns"
    ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--f6854eca-9f50-51c3-bca2-7be01f85c3e0",
+   "created": "2026-11-25T00:00:00Z",
+   "name": "url https://github.com/ivoryhailagitate/Grand-6-Pc-Version",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-25T00:00:00Z",
+   "pattern": "[url:value = 'https://github.com/ivoryhailagitate/Grand-6-Pc-Version']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
   }
  ]
 }
