@@ -1,0 +1,34 @@
+{
+ "type": "bundle",
+ "id": "bundle--097aa507-1702-5798-a288-e5e4d317298d",
+ "objects": [
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--804ff54a-6445-555d-989e-ba7b2f5e28c3",
+   "created": "2026-11-25T00:00:00Z",
+   "name": "url https://github.com/blazeclientvise/rob-run-tools",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-25T00:00:00Z",
+   "pattern": "[url:value = 'https://github.com/blazeclientvise/rob-run-tools']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--1c9822a6-adf7-5e37-a77f-6877b49731ad",
+   "created": "2026-11-25T00:00:00Z",
+   "name": "url https://github.com/PeakNegotiatorKiln/Grand-Version-6",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-25T00:00:00Z",
+   "pattern": "[url:value = 'https://github.com/PeakNegotiatorKiln/Grand-Version-6']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  }
+ ]
+}

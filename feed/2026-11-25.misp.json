@@ -1,0 +1,29 @@
+{
+ "Event": {
+  "info": "Groundwork daily feed 2026-11-25",
+  "threat_level_id": "2",
+  "analysis": "2",
+  "distribution": "3",
+  "Tag": [
+   {
+    "name": "tlp:clear"
+   }
+  ],
+  "Attribute": [
+   {
+    "type": "url",
+    "category": "Network activity",
+    "value": "https://github.com/blazeclientvise/rob-run-tools",
+    "to_ids": true,
+    "comment": "case windows-defender-cc-lure-repos; lure_repo"
+   },
+   {
+    "type": "url",
+    "category": "Network activity",
+    "value": "https://github.com/PeakNegotiatorKiln/Grand-Version-6",
+    "to_ids": true,
+    "comment": "case windows-defender-cc-lure-repos; lure_repo"
+   }
+  ]
+ }
+}
