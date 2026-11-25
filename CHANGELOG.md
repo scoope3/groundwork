@@ -2,6 +2,10 @@
 
 Dated record of every retraction, re-grading or correction to a published case or feed entry. Newest first.
 
+## 2026-11-25
+
+* **Case lists, repository status added.** Lure repository rows in `indicators.csv` can now end their `details` cell with `status` and `status_since`, described under "Repository status" in `METHOD.md`. The nine columns are unchanged, and no other cell of any row changed with this addition. From that day on, the automatic publish carries status changes at most once a day, and a large batch of new `not_found` or `replaced` waits for a manual check.
+
 ## 2026-11-24
 
 * **Feed and case lists, layout change.** The three first-finder columns (`first_finder`, `vendor_seen_at` and `days_ahead`) are gone from every published file. Every day file published in the old layout was rewritten once to drop those columns, and the seven columns they kept are unchanged, with no row added or removed. Each case's `indicators.csv` now has five more columns (`role`, `description`, `linked_to`, `recorded`, `details`), and `METHOD.md` says what each one holds. The indicator table on each case page lost its first-finder column. The STIX and MISP files did not carry these fields and were not rewritten for this change, so no STIX id moved.

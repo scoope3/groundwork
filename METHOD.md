@@ -46,7 +46,7 @@ Each case directory holds `indicators.csv`, the full current list of what is pub
 
 | Evidence type | role | description | details keys |
 | --- | --- | --- | --- |
-| lure_repo | lure repository | "GitHub repository recorded as a lure for the delivery host in linked_to" when `linked_to` is filled, and "GitHub repository accepted as a lure of this case" when it is empty | owner_account_created |
+| lure_repo | lure repository | "GitHub repository recorded as a lure for the delivery host in linked_to" when `linked_to` is filled, and "GitHub repository accepted as a lure of this case" when it is empty | owner_account_created, status, status_since |
 | lure_delivery_domain | delivery host | "Domain that lure repository READMEs named as the place to download from" | registered, registrar |
 | next_stage_host | next-stage host | "Host the first-stage script fetched its next stage from" | none |
 | stealer_c2 | stealer command-and-control host | "Command-and-control host recovered by decrypting a value stored in the sample" | port, contacted_by_me |
@@ -70,6 +70,24 @@ A row with two or more evidence types joins their roles with ` | ` and joins the
 | selector | The four-byte function selector recorded for the dead-drop contract in the evidence, in lower-case hex. |
 
 Where several evidence rows of one type give the same key, the value of the row written latest is used. The one exception is `contacted_by_me`, and it is printed only when every one of those rows says the host was never contacted. A key whose stored value does not have its expected shape is left out of the row. Days are printed as `YYYY-MM-DD` exactly as they were stored. A stored day without a time carries no time zone, and a stored time gives its day only when that time is written in UTC. Nothing in these columns says whether an indicator is still online, because I have no pass yet that checks every published row again. Paths, file names, account numbers and the way an indicator was found are never published in these columns.
+
+### Repository status
+
+A lure repository row can end its `details` with two more keys, `status` and `status_since`. Roughly once a day, and never twice within twenty hours, I ask GitHub's API whether each published lure repository with a standard GitHub address still answers there. I ask for the repository's numeric id, its current owner and name, and its creation date. Each query also reads one fixed repository of GitHub's own, as a check that the answer can be trusted. Before I call a repository not found, I ask a second API endpoint and use only whether it returns 404.
+
+| status | Meaning |
+| --- | --- |
+| up | The address answered with the repository id I have on record, under the same owner and name, ignoring letter case. |
+| moved | The repository id I have on record answered under another owner or name, and the new name is not published. |
+| replaced | The address answered with a different repository id from the one on record, or with a repository created after the row was recorded. |
+| not_found | GitHub answered "not found" on two reads at least twelve hours apart, and a second API endpoint agreed on the later read. |
+| unverified | The address answers with a repository created on or before the row was recorded, but I have no id on record to confirm it is the same one. |
+
+`status_since` is the UTC day of the read that first showed the current status after it last changed. It is the day I saw the change, and the change itself can be older. For `not_found` it is the day of the second read, the one that confirmed it. A row with no `status` has not been given one yet, for example because it was never read, was not found only once, or has an address I cannot ask about.
+
+The id on record is the repository id saved in the row's accepted evidence, when that evidence has one. For a row recorded without an id, the first repository that answers before any status is stored becomes the id on record, but only when GitHub reports it was created on or before the day the address was first recorded as a lure. A younger repository at that address is reported as `replaced`. A row that was not found on its last read, or that was `not_found` or `replaced` before it had an id, gets no id from my reads, so a repository created on or before that day answering there later makes it `unverified`. A repository put at the address before my first read cannot be told apart from the original by these reads.
+
+A status describes the address and says nothing about what the repository holds today. `up` does not mean the lure text is still in the README, and `not_found` does not say whether the owner, GitHub or anyone else removed it. A repository can be made private and public again, so a status is not a reason to stop blocking an indicator. The status keys appear only in `indicators.csv`, and the feed files, the STIX files and the MISP files do not carry them.
 
 ## Verification
 
