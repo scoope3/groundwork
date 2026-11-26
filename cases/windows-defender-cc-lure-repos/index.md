@@ -58,6 +58,8 @@ Nothing in this case is attributed to a person or group.
 | lure_delivery_domain | operator | 0% | `quickrun31.cc` |
 | lure_delivery_domain | operator | 0% | `appget29.tools` |
 | lure_delivery_domain | operator | 0% | `pkgsetup.cc` |
+| lure_delivery_domain | operator | 0% | `toolget2.lol` |
+| lure_delivery_domain | operator | 0% | `pkgload2.tools` |
 | lure_repo | operator | 0% | `https://github.com/dreamtherapistcrypt/Chaos-Enscape-Collection-Free-Professional-3D-Rendering` |
 | lure_repo | operator | 0% | `https://github.com/petacockatooblock/Chaos-Corona-Collection-Free-Professional-Architectural-Rendering` |
 | lure_repo | operator | 0% | `https://github.com/Blizzardteawning/IK-Multimedia-AmpliTube-5-MAX-v2-Free-Guitar-Bass-Modeling` |
@@ -470,6 +472,7 @@ Nothing in this case is attributed to a person or group.
 | lure_repo | operator | 0% | `https://github.com/blazeclientvise/rob-run-tools` |
 | lure_repo | operator | 0% | `https://github.com/PeakNegotiatorKiln/Grand-Version-6` |
 | lure_repo | operator | 0% | `https://github.com/ivoryhailagitate/Grand-6-Pc-Version` |
+| lure_repo | operator | 0% | `https://github.com/JOVEMdevv/Premiere-Pro-For-Windows` |
 | lure_repo_template | kit | 0% | `github-repo-set:windows-defender-cc` |
 | next_stage_host | operator | 0% | `toolget2.lol` |
 | resolver_contract | operator | 0% | `0x1ee6A331881102B84d2DebdD5eefd2E591a65f14` |
@@ -486,7 +489,7 @@ Nothing in this case is attributed to a person or group.
 | domain | `windows-defender.cc` | lure_delivery_domain |
 | domain | `monolit.sbs` | lure_delivery_domain |
 | domain | `devtools8.lol` | lure_delivery_domain |
-| domain | `toolget2.lol` | next_stage_host |
+| domain | `toolget2.lol` | lure_delivery_domain;next_stage_host |
 | domain | `power-shell.cc` | lure_delivery_domain |
 | domain | `powershell.lat` | lure_delivery_domain |
 | domain | `meta3.grovestack.one` | stealer_c2 |
@@ -914,6 +917,8 @@ Nothing in this case is attributed to a person or group.
 | url | `https://github.com/blazeclientvise/rob-run-tools` | lure_repo |
 | url | `https://github.com/PeakNegotiatorKiln/Grand-Version-6` | lure_repo |
 | url | `https://github.com/ivoryhailagitate/Grand-6-Pc-Version` | lure_repo |
+| domain | `pkgload2.tools` | lure_delivery_domain |
+| url | `https://github.com/JOVEMdevv/Premiere-Pro-For-Windows` | lure_repo |
 
 ## Files
 

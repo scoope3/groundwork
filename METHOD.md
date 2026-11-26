@@ -26,7 +26,7 @@ Each evidence type has a measured false-positive rate, the share of past proposa
 
 ## Indicator columns
 
-Each case directory holds `indicators.csv`, the full current list of what is published for that case. The first four columns name the indicator and the evidence behind it. The next five describe the indicator, and every one of them comes only from accepted evidence of that case. A row with no accepted evidence of a type listed below has those five cells empty.
+Each case directory holds `indicators.csv`, the full current list of what is published for that case. The first four columns name the indicator and the evidence behind it. The next six describe the indicator, and they come only from accepted evidence of that case, except the repository status that `details` can end with. A row with no accepted evidence of a type listed below has those six cells empty. The last column, `source_detail`, comes from a read of the repository's README by a tool of mine and is described under "Source".
 
 | Column | Meaning |
 | --- | --- |
@@ -39,6 +39,8 @@ Each case directory holds `indicators.csv`, the full current list of what is pub
 | linked_to | The host name of another indicator in the same file that this one points at, filled only as described below. |
 | recorded | The day the earliest observation behind the row was written into my store, as a UTC day. |
 | details | A short list of `key=value` pairs separated by semicolons, with only the keys listed below. |
+| source | One or more fixed words for the kind of material the indicator was read from, as listed under "Source" below, or empty. |
+| source_detail | A short list of `key=value` pairs about a read of the repository's README, with only the keys listed under "Source" below. |
 
 `recorded` is the day an observation was written into my store, and it is not a sighting. For indicators that came in with a batch research import it is the day of the import, so many rows share one day.
 
@@ -89,6 +91,21 @@ The id on record is the repository id saved in the row's accepted evidence, when
 
 A status describes the address and says nothing about what the repository holds today. `up` does not mean the lure text is still in the README, and `not_found` does not say whether the owner, GitHub or anyone else removed it. A repository can be made private and public again, so a status is not a reason to stop blocking an indicator. The status keys appear only in `indicators.csv`, and the feed files, the STIX files and the MISP files do not carry them.
 
+### Source
+
+`source` says what kind of material an indicator was read from, and it does not say how I came to look at that material. The cell holds one of the fixed words below, or several joined by ` | ` when the evidence supports more than one. The cell is empty when the accepted evidence of a row does not record what it was read from, so an empty cell is no statement about the row.
+
+| Word | Meaning |
+| --- | --- |
+| readme command | The indicator is a repository recorded with the delivery host its README named, or a host that lure repository READMEs named as the download place. |
+| script read | A script that I retrieved and read named paths on this host. |
+| sandbox run | The next-stage host was seen on the wire during a run in a sandbox. |
+| static analysis | The value was taken from the analysis of a sample, such as an address recovered by decryption or a page or contract that the sample reads. |
+| chain record | The value comes from public blockchain records, such as the deployer of a contract. |
+| third-party report | The value was reported in another researcher's publication and was not verified here. |
+
+For a lure repository, `source_detail` can hold `readme_sha256` and `readme_read`. The first is the SHA-256 of the README found at the repository's address when a tool of mine read it, and the second is the UTC day of that read. The pair is printed only when that read found the row's current `linked_to` host in the README. It describes the README on the day of the read, and that day can be later than the day the repository was first recorded. A row has no pair when it has no `linked_to` host, when no such read has been made, when the read did not find the host in the README or found no README, or when the README could not be hashed whole.
+
 ## Verification
 
 When a case involves a package or a web page, it was run in an isolated environment that records what the sample does. The result is hashed; the hash and date are published with the case, the record is kept privately and can be shared on request so a third party can verify it.
@@ -99,7 +116,7 @@ Mistakes are corrected in place and recorded in `CHANGELOG.md` with the date, wh
 
 ## Feed columns
 
-The day files and `rolling-30d.csv` both have the same seven columns, listed below.
+The day CSV files and `rolling-30d.csv` share the seven columns below, and each kind of file then adds columns of its own.
 
 | Column | Meaning |
 | --- | --- |
@@ -111,4 +128,19 @@ The day files and `rolling-30d.csv` both have the same seven columns, listed bel
 | evidence_types | The evidence types behind the row, separated by semicolons when there are several. |
 | first_seen | The earliest time my store holds for the entity, in UTC. For a lure repository that is the time I first recorded it. For some other sources it is the first-seen time the source itself reported. |
 
-Until the layout change recorded in `CHANGELOG.md` the feed files had three more columns about first finding. Every day file published in the old layout was rewritten once to drop those three columns, and the case files now carry the descriptive columns described above.
+A day CSV file adds `role`, `linked_to` and `source`, with the meanings given under "Indicator columns". A row first published on or after 2026-11-26 keeps the three cells of the last publication made on its own day, and later publications leave them as they are. `rolling-30d.csv` adds `role`, `description`, `linked_to`, `source` and `details`, and it is rebuilt at every publication, so its cells show each row as it is now. The feed files never carry `status` or `status_since`, and the current status of a repository is in the case's `indicators.csv`. File-hash rows in the feed files have the added cells empty, and the case's `files.csv` describes each file. The STIX and MISP day files are unchanged by these columns.
+
+Until the layout change of 2026-11-24 the feed files had three more columns about first finding, and every day file in that layout was rewritten once to drop them. On 2026-11-26 every day CSV file published before that day was rewritten once to add `role`, `linked_to` and `source`. Those cells hold the values each row had when the rewrite was made on 2026-11-26, and they are empty for file-hash rows and for rows that were no longer published then. No row was added to or removed from a day file by either rewrite.
+
+## File hashes
+
+A case directory can hold `files.csv`, with one row for each file whose hash is published for the case.
+
+| Column | Meaning |
+| --- | --- |
+| sha256 | The SHA-256 of the file as I recorded it for the case. |
+| kind | A fixed word for what the file is, one of loader script, archive, stealer build or macOS binary, or empty when no fixed word is recorded. |
+| delivered_by | The host recorded as serving the file, filled only when that host is a delivery host or next-stage host row of the same case. |
+| source | How the file was obtained, either sandbox run or retrieved script, or empty when no fixed word is recorded. |
+
+File names are not published, because a file name is text chosen by whoever served the file.

@@ -2,6 +2,11 @@
 
 Dated record of every retraction, re-grading or correction to a published case or feed entry. Newest first.
 
+## 2026-11-26
+
+* **Feed and case lists, layout change.** Case `indicators.csv` files gained two columns, `source` and `source_detail`, described under "Source" in `METHOD.md`. Day CSV files gained `role`, `linked_to` and `source`, and `rolling-30d.csv` gained `role`, `description`, `linked_to`, `source` and `details`. Every day CSV file published before this change was rewritten once to add its three columns, with no row added or removed, and the STIX and MISP day files were not changed. `files.csv` gained `kind`, `delivered_by` and `source`, each filled only where recorded. The layout change itself added, withdrew or re-graded no indicator, and indicators added on the same day are listed in the next entry.
+* **Case `windows-defender-cc-lure-repos`, two hosts added.** `pkgload2.tools` was added as a delivery host, and it is named in a macOS command in lure READMEs that also carry the Windows command for `pkgsetup.cc`. The script at that address was retrieved once, and it is written to download an archive from the same host. The archive was not retrieved, so what it installs is not known. `toolget2.lol`, already listed as a next-stage host, is now also listed as a delivery host, because one lure README names it in its paste command, and that repository was added to the case list. Nothing in this entry is attributed to a person or to a group.
+
 ## 2026-11-25
 
 * **Case `windows-defender-cc-lure-repos`, page rewritten.** The case page was rewritten on 2026-11-25 to follow the victim's path first and to carry fewer figures. No finding, indicator or credit changed, and the star-rings section of the same day was shortened to one paragraph.

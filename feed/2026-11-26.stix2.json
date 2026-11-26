@@ -1,0 +1,34 @@
+{
+ "type": "bundle",
+ "id": "bundle--22a70093-7d65-5283-a0e9-e3cb96be5b7e",
+ "objects": [
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--b279d886-8c2b-59ca-95c3-2f264b35f04a",
+   "created": "2026-11-26T00:00:00Z",
+   "name": "domain pkgload2.tools",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-26T00:00:00Z",
+   "pattern": "[domain-name:value = 'pkgload2.tools']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--853474fb-c29f-5ac8-a778-fe9903272ee6",
+   "created": "2026-11-26T00:00:00Z",
+   "name": "url https://github.com/JOVEMdevv/Premiere-Pro-For-Windows",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-26T00:00:00Z",
+   "pattern": "[url:value = 'https://github.com/JOVEMdevv/Premiere-Pro-For-Windows']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  }
+ ]
+}

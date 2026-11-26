@@ -1,0 +1,29 @@
+{
+ "Event": {
+  "info": "Groundwork daily feed 2026-11-26",
+  "threat_level_id": "2",
+  "analysis": "2",
+  "distribution": "3",
+  "Tag": [
+   {
+    "name": "tlp:clear"
+   }
+  ],
+  "Attribute": [
+   {
+    "type": "domain",
+    "category": "Network activity",
+    "value": "pkgload2.tools",
+    "to_ids": true,
+    "comment": "case windows-defender-cc-lure-repos; lure_delivery_domain"
+   },
+   {
+    "type": "url",
+    "category": "Network activity",
+    "value": "https://github.com/JOVEMdevv/Premiere-Pro-For-Windows",
+    "to_ids": true,
+    "comment": "case windows-defender-cc-lure-repos; lure_repo"
+   }
+  ]
+ }
+}

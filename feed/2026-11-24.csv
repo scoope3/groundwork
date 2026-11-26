@@ -1,11 +1,11 @@
-published_at,entity_type,value,category,case,evidence_types,first_seen
-2026-11-24T12:52:40Z,url,https://github.com/Matrixacrosscompact/SideFX-Houdini-FX-Full-Version,infrastructure-setup-patterns,windows-defender-cc-lure-repos,lure_repo,2026-11-23T00:54:42Z
-2026-11-24T12:52:40Z,url,https://github.com/ViceDeveloper/ivcam-full-version,infrastructure-setup-patterns,windows-defender-cc-lure-repos,lure_repo,2026-11-23T00:54:42Z
-2026-11-24T12:52:40Z,url,https://github.com/AmbassadorHonor/Autodesk-Maya-Full-Version,infrastructure-setup-patterns,windows-defender-cc-lure-repos,lure_repo,2026-11-23T00:54:42Z
-2026-11-24T12:52:40Z,url,https://github.com/Aquaunbungalow/Autodesk-3ds-max-full-version,infrastructure-setup-patterns,windows-defender-cc-lure-repos,lure_repo,2026-11-23T00:54:42Z
-2026-11-24T12:52:40Z,url,https://github.com/Plumemccharge/Maxon-ZBrush-Full-Version,infrastructure-setup-patterns,windows-defender-cc-lure-repos,lure_repo,2026-11-23T00:54:42Z
-2026-11-24T12:52:40Z,url,https://github.com/Watertrestring/camo-studio-pro-full-version,infrastructure-setup-patterns,windows-defender-cc-lure-repos,lure_repo,2026-11-23T00:54:42Z
-2026-11-24T12:52:40Z,url,https://github.com/wildswiftintroduce/rob-run-mod-menu-zoel,infrastructure-setup-patterns,windows-defender-cc-lure-repos,lure_repo,2026-11-23T00:54:42Z
-2026-11-24T12:52:40Z,url,https://github.com/GlossConstableShears/Unity-Pro-Full-Version,infrastructure-setup-patterns,windows-defender-cc-lure-repos,lure_repo,2026-11-23T00:54:42Z
-2026-11-24T12:52:40Z,url,https://github.com/FloorHelmsmanAxle95/-Grand-Theft-Auto-VI-preload-pc,infrastructure-setup-patterns,windows-defender-cc-lure-repos,lure_repo,2026-11-23T00:54:42Z
-2026-11-24T12:52:40Z,url,https://github.com/Modernuovacuum/gamemaker-professional-full-version,infrastructure-setup-patterns,windows-defender-cc-lure-repos,lure_repo,2026-11-23T00:54:42Z
+published_at,entity_type,value,category,case,evidence_types,first_seen,role,linked_to,source
+2026-11-24T12:52:40Z,url,https://github.com/Matrixacrosscompact/SideFX-Houdini-FX-Full-Version,infrastructure-setup-patterns,windows-defender-cc-lure-repos,lure_repo,2026-11-23T00:54:42Z,lure repository,monolit.sbs,readme command
+2026-11-24T12:52:40Z,url,https://github.com/ViceDeveloper/ivcam-full-version,infrastructure-setup-patterns,windows-defender-cc-lure-repos,lure_repo,2026-11-23T00:54:42Z,lure repository,monolit.sbs,readme command
+2026-11-24T12:52:40Z,url,https://github.com/AmbassadorHonor/Autodesk-Maya-Full-Version,infrastructure-setup-patterns,windows-defender-cc-lure-repos,lure_repo,2026-11-23T00:54:42Z,lure repository,monolit.sbs,readme command
+2026-11-24T12:52:40Z,url,https://github.com/Aquaunbungalow/Autodesk-3ds-max-full-version,infrastructure-setup-patterns,windows-defender-cc-lure-repos,lure_repo,2026-11-23T00:54:42Z,lure repository,monolit.sbs,readme command
+2026-11-24T12:52:40Z,url,https://github.com/Plumemccharge/Maxon-ZBrush-Full-Version,infrastructure-setup-patterns,windows-defender-cc-lure-repos,lure_repo,2026-11-23T00:54:42Z,lure repository,monolit.sbs,readme command
+2026-11-24T12:52:40Z,url,https://github.com/Watertrestring/camo-studio-pro-full-version,infrastructure-setup-patterns,windows-defender-cc-lure-repos,lure_repo,2026-11-23T00:54:42Z,lure repository,monolit.sbs,readme command
+2026-11-24T12:52:40Z,url,https://github.com/wildswiftintroduce/rob-run-mod-menu-zoel,infrastructure-setup-patterns,windows-defender-cc-lure-repos,lure_repo,2026-11-23T00:54:42Z,lure repository,monolit.sbs,readme command
+2026-11-24T12:52:40Z,url,https://github.com/GlossConstableShears/Unity-Pro-Full-Version,infrastructure-setup-patterns,windows-defender-cc-lure-repos,lure_repo,2026-11-23T00:54:42Z,lure repository,monolit.sbs,readme command
+2026-11-24T12:52:40Z,url,https://github.com/FloorHelmsmanAxle95/-Grand-Theft-Auto-VI-preload-pc,infrastructure-setup-patterns,windows-defender-cc-lure-repos,lure_repo,2026-11-23T00:54:42Z,lure repository,monolit.sbs,readme command
+2026-11-24T12:52:40Z,url,https://github.com/Modernuovacuum/gamemaker-professional-full-version,infrastructure-setup-patterns,windows-defender-cc-lure-repos,lure_repo,2026-11-23T00:54:42Z,lure repository,monolit.sbs,readme command
