@@ -50,6 +50,7 @@ Each case directory holds `indicators.csv`, the full current list of what is pub
 | --- | --- | --- | --- |
 | lure_repo | lure repository | "GitHub repository recorded as a lure for the delivery host in linked_to" when `linked_to` is filled, and "GitHub repository accepted as a lure of this case" when it is empty | owner_account_created, status, status_since |
 | lure_delivery_domain | delivery host | "Domain that lure repository READMEs named as the place to download from" | registered, registrar |
+| lure_page_host | lure page download host | "Host set as the download address in a web page that a lure repository links to" | registered, registrar |
 | next_stage_host | next-stage host | "Host the first-stage script fetched its next stage from" | none |
 | stealer_c2 | stealer command-and-control host | "Command-and-control host recovered by decrypting a value stored in the sample" | port, contacted_by_me |
 | third_party_c2 | command-and-control host (third-party report) | "Reported in a third-party publication; not verified here" | reported |
@@ -98,6 +99,7 @@ A status describes the address and says nothing about what the repository holds 
 | Word | Meaning |
 | --- | --- |
 | readme command | The indicator is a repository recorded with the delivery host its README named, or a host that lure repository READMEs named as the download place. |
+| lure page | The host was read from a web page that a lure repository links to. |
 | script read | A script that I retrieved and read named paths on this host. |
 | sandbox run | The next-stage host was seen on the wire during a run in a sandbox. |
 | static analysis | The value was taken from the analysis of a sample, such as an address recovered by decryption or a page or contract that the sample reads. |

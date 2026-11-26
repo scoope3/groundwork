@@ -30,6 +30,20 @@
     "value": "fastpkg64.cc",
     "to_ids": true,
     "comment": "case windows-defender-cc-lure-repos; lure_delivery_domain"
+   },
+   {
+    "type": "domain",
+    "category": "Network activity",
+    "value": "activation-suite.xyz",
+    "to_ids": true,
+    "comment": "case windows-defender-cc-lure-repos; lure_page_host"
+   },
+   {
+    "type": "domain",
+    "category": "Network activity",
+    "value": "unlock-tool.cc",
+    "to_ids": true,
+    "comment": "case windows-defender-cc-lure-repos; lure_page_host"
    }
   ]
  }

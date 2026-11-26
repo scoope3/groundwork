@@ -43,6 +43,34 @@
     "malicious-activity",
     "infrastructure-setup-patterns"
    ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--0706df5f-4e01-5723-9b07-d26bac258423",
+   "created": "2026-11-26T00:00:00Z",
+   "name": "domain activation-suite.xyz",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-26T00:00:00Z",
+   "pattern": "[domain-name:value = 'activation-suite.xyz']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--30933dc0-4d06-5cb7-bd19-dba1801848c6",
+   "created": "2026-11-26T00:00:00Z",
+   "name": "domain unlock-tool.cc",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-26T00:00:00Z",
+   "pattern": "[domain-name:value = 'unlock-tool.cc']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
   }
  ]
 }
