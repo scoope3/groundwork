@@ -60,6 +60,7 @@ Nothing in this case is attributed to a person or group.
 | lure_delivery_domain | operator | 0% | `pkgsetup.cc` |
 | lure_delivery_domain | operator | 0% | `toolget2.lol` |
 | lure_delivery_domain | operator | 0% | `pkgload2.tools` |
+| lure_delivery_domain | operator | 0% | `fastpkg64.cc` |
 | lure_repo | operator | 0% | `https://github.com/dreamtherapistcrypt/Chaos-Enscape-Collection-Free-Professional-3D-Rendering` |
 | lure_repo | operator | 0% | `https://github.com/petacockatooblock/Chaos-Corona-Collection-Free-Professional-Architectural-Rendering` |
 | lure_repo | operator | 0% | `https://github.com/Blizzardteawning/IK-Multimedia-AmpliTube-5-MAX-v2-Free-Guitar-Bass-Modeling` |
@@ -919,6 +920,7 @@ Nothing in this case is attributed to a person or group.
 | url | `https://github.com/ivoryhailagitate/Grand-6-Pc-Version` | lure_repo |
 | domain | `pkgload2.tools` | lure_delivery_domain |
 | url | `https://github.com/JOVEMdevv/Premiere-Pro-For-Windows` | lure_repo |
+| domain | `fastpkg64.cc` | lure_delivery_domain |
 
 ## Files
 

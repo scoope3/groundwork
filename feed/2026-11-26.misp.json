@@ -23,6 +23,13 @@
     "value": "https://github.com/JOVEMdevv/Premiere-Pro-For-Windows",
     "to_ids": true,
     "comment": "case windows-defender-cc-lure-repos; lure_repo"
+   },
+   {
+    "type": "domain",
+    "category": "Network activity",
+    "value": "fastpkg64.cc",
+    "to_ids": true,
+    "comment": "case windows-defender-cc-lure-repos; lure_delivery_domain"
    }
   ]
  }

@@ -1,3 +1,4 @@
 published_at,entity_type,value,category,case,evidence_types,first_seen,role,linked_to,source
 2026-11-26T14:00:26Z,domain,pkgload2.tools,infrastructure-setup-patterns,windows-defender-cc-lure-repos,lure_delivery_domain,2026-11-26T13:53:12Z,delivery host,,readme command
 2026-11-26T14:00:26Z,url,https://github.com/JOVEMdevv/Premiere-Pro-For-Windows,infrastructure-setup-patterns,windows-defender-cc-lure-repos,lure_repo,2026-11-26T13:53:12Z,lure repository,toolget2.lol,readme command
+2026-11-26T14:29:43Z,domain,fastpkg64.cc,infrastructure-setup-patterns,windows-defender-cc-lure-repos,lure_delivery_domain,2026-11-26T14:29:35Z,delivery host,,readme command
