@@ -1,0 +1,76 @@
+{
+ "type": "bundle",
+ "id": "bundle--91e38994-5a8d-523e-ba52-24d8d10895a8",
+ "objects": [
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--65f01a1f-1983-5b94-bcbb-42b084cf7668",
+   "created": "2026-11-27T00:00:00Z",
+   "name": "url https://github.com/SerpentSparkStride95/Robrun",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-27T00:00:00Z",
+   "pattern": "[url:value = 'https://github.com/SerpentSparkStride95/Robrun']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--8a0f8809-b803-57ba-a344-ad40613ff391",
+   "created": "2026-11-27T00:00:00Z",
+   "name": "url https://github.com/TeraHealer76/Grand-Version-6-latest-Pc",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-27T00:00:00Z",
+   "pattern": "[url:value = 'https://github.com/TeraHealer76/Grand-Version-6-latest-Pc']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--2d845d04-557f-5e76-af4e-a1d5d4fb61cc",
+   "created": "2026-11-27T00:00:00Z",
+   "name": "url https://github.com/hayden-lee22-hash/blockcraft-launcher-hub",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-27T00:00:00Z",
+   "pattern": "[url:value = 'https://github.com/hayden-lee22-hash/blockcraft-launcher-hub']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--63e2bff7-485d-565b-b68c-1da3d35c836a",
+   "created": "2026-11-27T00:00:00Z",
+   "name": "url https://github.com/sharpeterson08/jetbrains-dev-setup",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-27T00:00:00Z",
+   "pattern": "[url:value = 'https://github.com/sharpeterson08/jetbrains-dev-setup']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--c6b524a9-4dc7-58ee-a75c-3fac4a530c57",
+   "created": "2026-11-27T00:00:00Z",
+   "name": "url https://github.com/victor5245/sublime-fastkit",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-27T00:00:00Z",
+   "pattern": "[url:value = 'https://github.com/victor5245/sublime-fastkit']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  }
+ ]
+}

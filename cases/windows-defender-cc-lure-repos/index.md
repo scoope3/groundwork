@@ -475,6 +475,11 @@ Nothing in this case is attributed to a person or group.
 | lure_repo | operator | 0% | `https://github.com/blazeclientvise/rob-run-tools` |
 | lure_repo | operator | 0% | `https://github.com/PeakNegotiatorKiln/Grand-Version-6` |
 | lure_repo | operator | 0% | `https://github.com/ivoryhailagitate/Grand-6-Pc-Version` |
+| lure_repo | operator | 0% | `https://github.com/SerpentSparkStride95/Robrun` |
+| lure_repo | operator | 0% | `https://github.com/TeraHealer76/Grand-Version-6-latest-Pc` |
+| lure_repo | operator | 0% | `https://github.com/hayden-lee22-hash/blockcraft-launcher-hub` |
+| lure_repo | operator | 0% | `https://github.com/sharpeterson08/jetbrains-dev-setup` |
+| lure_repo | operator | 0% | `https://github.com/victor5245/sublime-fastkit` |
 | lure_repo | operator | 0% | `https://github.com/JOVEMdevv/Premiere-Pro-For-Windows` |
 | lure_repo_template | kit | 0% | `github-repo-set:windows-defender-cc` |
 | next_stage_host | operator | 0% | `toolget2.lol` |
@@ -920,6 +925,11 @@ Nothing in this case is attributed to a person or group.
 | url | `https://github.com/blazeclientvise/rob-run-tools` | lure_repo |
 | url | `https://github.com/PeakNegotiatorKiln/Grand-Version-6` | lure_repo |
 | url | `https://github.com/ivoryhailagitate/Grand-6-Pc-Version` | lure_repo |
+| url | `https://github.com/SerpentSparkStride95/Robrun` | lure_repo |
+| url | `https://github.com/TeraHealer76/Grand-Version-6-latest-Pc` | lure_repo |
+| url | `https://github.com/hayden-lee22-hash/blockcraft-launcher-hub` | lure_repo |
+| url | `https://github.com/sharpeterson08/jetbrains-dev-setup` | lure_repo |
+| url | `https://github.com/victor5245/sublime-fastkit` | lure_repo |
 | domain | `pkgload2.tools` | lure_delivery_domain |
 | url | `https://github.com/JOVEMdevv/Premiere-Pro-For-Windows` | lure_repo |
 | domain | `fastpkg64.cc` | lure_delivery_domain |

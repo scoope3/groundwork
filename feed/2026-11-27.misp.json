@@ -1,0 +1,50 @@
+{
+ "Event": {
+  "info": "Groundwork daily feed 2026-11-27",
+  "threat_level_id": "2",
+  "analysis": "2",
+  "distribution": "3",
+  "Tag": [
+   {
+    "name": "tlp:clear"
+   }
+  ],
+  "Attribute": [
+   {
+    "type": "url",
+    "category": "Network activity",
+    "value": "https://github.com/SerpentSparkStride95/Robrun",
+    "to_ids": true,
+    "comment": "case windows-defender-cc-lure-repos; lure_repo"
+   },
+   {
+    "type": "url",
+    "category": "Network activity",
+    "value": "https://github.com/TeraHealer76/Grand-Version-6-latest-Pc",
+    "to_ids": true,
+    "comment": "case windows-defender-cc-lure-repos; lure_repo"
+   },
+   {
+    "type": "url",
+    "category": "Network activity",
+    "value": "https://github.com/hayden-lee22-hash/blockcraft-launcher-hub",
+    "to_ids": true,
+    "comment": "case windows-defender-cc-lure-repos; lure_repo"
+   },
+   {
+    "type": "url",
+    "category": "Network activity",
+    "value": "https://github.com/sharpeterson08/jetbrains-dev-setup",
+    "to_ids": true,
+    "comment": "case windows-defender-cc-lure-repos; lure_repo"
+   },
+   {
+    "type": "url",
+    "category": "Network activity",
+    "value": "https://github.com/victor5245/sublime-fastkit",
+    "to_ids": true,
+    "comment": "case windows-defender-cc-lure-repos; lure_repo"
+   }
+  ]
+ }
+}

@@ -1,0 +1,6 @@
+published_at,entity_type,value,category,case,evidence_types,first_seen,role,linked_to,source
+2026-11-27T15:04:06Z,url,https://github.com/SerpentSparkStride95/Robrun,infrastructure-setup-patterns,windows-defender-cc-lure-repos,lure_repo,2026-11-25T23:57:44Z,lure repository,monolit.sbs,readme command
+2026-11-27T15:04:06Z,url,https://github.com/TeraHealer76/Grand-Version-6-latest-Pc,infrastructure-setup-patterns,windows-defender-cc-lure-repos,lure_repo,2026-11-25T23:57:44Z,lure repository,monolit.sbs,readme command
+2026-11-27T15:04:06Z,url,https://github.com/hayden-lee22-hash/blockcraft-launcher-hub,infrastructure-setup-patterns,windows-defender-cc-lure-repos,lure_repo,2026-11-26T02:24:44Z,lure repository,quickrun31.cc,readme command
+2026-11-27T15:04:06Z,url,https://github.com/sharpeterson08/jetbrains-dev-setup,infrastructure-setup-patterns,windows-defender-cc-lure-repos,lure_repo,2026-11-26T04:46:18Z,lure repository,quickrun31.cc,readme command
+2026-11-27T15:04:06Z,url,https://github.com/victor5245/sublime-fastkit,infrastructure-setup-patterns,windows-defender-cc-lure-repos,lure_repo,2026-11-26T13:00:54Z,lure repository,quickrun31.cc,readme command
