@@ -1,0 +1,85 @@
+{
+ "Event": {
+  "info": "Groundwork daily feed 2026-11-28",
+  "threat_level_id": "2",
+  "analysis": "2",
+  "distribution": "3",
+  "Tag": [
+   {
+    "name": "tlp:clear"
+   }
+  ],
+  "Attribute": [
+   {
+    "type": "url",
+    "category": "Network activity",
+    "value": "https://github.com/connormartin16/win11-performance-toolkit",
+    "to_ids": true,
+    "comment": "case windows-defender-cc-lure-repos; lure_repo"
+   },
+   {
+    "type": "url",
+    "category": "Network activity",
+    "value": "https://github.com/philipb7681/ableton-production-bench",
+    "to_ids": true,
+    "comment": "case windows-defender-cc-lure-repos; lure_repo"
+   },
+   {
+    "type": "url",
+    "category": "Network activity",
+    "value": "https://github.com/Helixarcomplete59/vrchat-osc-vrchat-mod",
+    "to_ids": true,
+    "comment": "case windows-defender-cc-lure-repos; lure_repo"
+   },
+   {
+    "type": "url",
+    "category": "Network activity",
+    "value": "https://github.com/MaxiDonorCelebrate91/fifa-27-mod-loader-fut-bot-snipebot",
+    "to_ids": true,
+    "comment": "case windows-defender-cc-lure-repos; lure_repo"
+   },
+   {
+    "type": "url",
+    "category": "Network activity",
+    "value": "https://github.com/elizturner-99/photo-studio-setup-notes",
+    "to_ids": true,
+    "comment": "case windows-defender-cc-lure-repos; lure_repo"
+   },
+   {
+    "type": "url",
+    "category": "Network activity",
+    "value": "https://github.com/paigereyes553/ios-unlock-lab",
+    "to_ids": true,
+    "comment": "case windows-defender-cc-lure-repos; lure_repo"
+   },
+   {
+    "type": "url",
+    "category": "Network activity",
+    "value": "https://github.com/tempestlouseapplaud/portrait-displays-calman-studio",
+    "to_ids": true,
+    "comment": "case windows-defender-cc-lure-repos; lure_repo"
+   },
+   {
+    "type": "url",
+    "category": "Network activity",
+    "value": "https://github.com/Falsevumonitor91/assimilate-scratch-full-version",
+    "to_ids": true,
+    "comment": "case windows-defender-cc-lure-repos; lure_repo"
+   },
+   {
+    "type": "url",
+    "category": "Network activity",
+    "value": "https://github.com/shieldserpenthex/avid-media-composer-enterprise",
+    "to_ids": true,
+    "comment": "case windows-defender-cc-lure-repos; lure_repo"
+   },
+   {
+    "type": "url",
+    "category": "Network activity",
+    "value": "https://github.com/FeelingCraneCraft/Boris-FX-Suite",
+    "to_ids": true,
+    "comment": "case windows-defender-cc-lure-repos; lure_repo"
+   }
+  ]
+ }
+}

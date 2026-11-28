@@ -481,6 +481,16 @@ Nothing in this case is attributed to a person or group.
 | lure_repo | operator | 0% | `https://github.com/sharpeterson08/jetbrains-dev-setup` |
 | lure_repo | operator | 0% | `https://github.com/victor5245/sublime-fastkit` |
 | lure_repo | operator | 0% | `https://github.com/JOVEMdevv/Premiere-Pro-For-Windows` |
+| lure_repo | operator | 0% | `https://github.com/connormartin16/win11-performance-toolkit` |
+| lure_repo | operator | 0% | `https://github.com/philipb7681/ableton-production-bench` |
+| lure_repo | operator | 0% | `https://github.com/Helixarcomplete59/vrchat-osc-vrchat-mod` |
+| lure_repo | operator | 0% | `https://github.com/MaxiDonorCelebrate91/fifa-27-mod-loader-fut-bot-snipebot` |
+| lure_repo | operator | 0% | `https://github.com/elizturner-99/photo-studio-setup-notes` |
+| lure_repo | operator | 0% | `https://github.com/paigereyes553/ios-unlock-lab` |
+| lure_repo | operator | 0% | `https://github.com/tempestlouseapplaud/portrait-displays-calman-studio` |
+| lure_repo | operator | 0% | `https://github.com/Falsevumonitor91/assimilate-scratch-full-version` |
+| lure_repo | operator | 0% | `https://github.com/shieldserpenthex/avid-media-composer-enterprise` |
+| lure_repo | operator | 0% | `https://github.com/FeelingCraneCraft/Boris-FX-Suite` |
 | lure_repo_template | kit | 0% | `github-repo-set:windows-defender-cc` |
 | next_stage_host | operator | 0% | `toolget2.lol` |
 | resolver_contract | operator | 0% | `0x1ee6A331881102B84d2DebdD5eefd2E591a65f14` |
@@ -932,9 +942,19 @@ Nothing in this case is attributed to a person or group.
 | url | `https://github.com/victor5245/sublime-fastkit` | lure_repo |
 | domain | `pkgload2.tools` | lure_delivery_domain |
 | url | `https://github.com/JOVEMdevv/Premiere-Pro-For-Windows` | lure_repo |
+| url | `https://github.com/connormartin16/win11-performance-toolkit` | lure_repo |
 | domain | `fastpkg64.cc` | lure_delivery_domain |
 | domain | `activation-suite.xyz` | lure_page_host |
 | domain | `unlock-tool.cc` | lure_page_host |
+| url | `https://github.com/philipb7681/ableton-production-bench` | lure_repo |
+| url | `https://github.com/Helixarcomplete59/vrchat-osc-vrchat-mod` | lure_repo |
+| url | `https://github.com/MaxiDonorCelebrate91/fifa-27-mod-loader-fut-bot-snipebot` | lure_repo |
+| url | `https://github.com/elizturner-99/photo-studio-setup-notes` | lure_repo |
+| url | `https://github.com/paigereyes553/ios-unlock-lab` | lure_repo |
+| url | `https://github.com/tempestlouseapplaud/portrait-displays-calman-studio` | lure_repo |
+| url | `https://github.com/Falsevumonitor91/assimilate-scratch-full-version` | lure_repo |
+| url | `https://github.com/shieldserpenthex/avid-media-composer-enterprise` | lure_repo |
+| url | `https://github.com/FeelingCraneCraft/Boris-FX-Suite` | lure_repo |
 
 ## Files
 

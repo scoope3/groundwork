@@ -1,0 +1,146 @@
+{
+ "type": "bundle",
+ "id": "bundle--7a17cfb1-3a45-59c2-a579-7af51c547a12",
+ "objects": [
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--fb2cb243-a312-5bac-8b13-6e0b00176627",
+   "created": "2026-11-28T00:00:00Z",
+   "name": "url https://github.com/connormartin16/win11-performance-toolkit",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-28T00:00:00Z",
+   "pattern": "[url:value = 'https://github.com/connormartin16/win11-performance-toolkit']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--ec3cadd2-cf48-5df7-b4e5-ee0699f254b2",
+   "created": "2026-11-28T00:00:00Z",
+   "name": "url https://github.com/philipb7681/ableton-production-bench",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-28T00:00:00Z",
+   "pattern": "[url:value = 'https://github.com/philipb7681/ableton-production-bench']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--913a65eb-25ba-5908-9faa-980b85dbbfcf",
+   "created": "2026-11-28T00:00:00Z",
+   "name": "url https://github.com/Helixarcomplete59/vrchat-osc-vrchat-mod",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-28T00:00:00Z",
+   "pattern": "[url:value = 'https://github.com/Helixarcomplete59/vrchat-osc-vrchat-mod']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--b67b6277-cb1a-5e04-8170-02bf4cd6ffdc",
+   "created": "2026-11-28T00:00:00Z",
+   "name": "url https://github.com/MaxiDonorCelebrate91/fifa-27-mod-loader-fut-bot-snipebot",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-28T00:00:00Z",
+   "pattern": "[url:value = 'https://github.com/MaxiDonorCelebrate91/fifa-27-mod-loader-fut-bot-snipebot']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--91b07fb0-3cc1-5039-9077-be86f9350b80",
+   "created": "2026-11-28T00:00:00Z",
+   "name": "url https://github.com/elizturner-99/photo-studio-setup-notes",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-28T00:00:00Z",
+   "pattern": "[url:value = 'https://github.com/elizturner-99/photo-studio-setup-notes']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--6ace983e-2d73-5c8b-a735-55526cf78e90",
+   "created": "2026-11-28T00:00:00Z",
+   "name": "url https://github.com/paigereyes553/ios-unlock-lab",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-28T00:00:00Z",
+   "pattern": "[url:value = 'https://github.com/paigereyes553/ios-unlock-lab']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--d42af22f-8b8b-5ddc-88f7-3995ddc3bb77",
+   "created": "2026-11-28T00:00:00Z",
+   "name": "url https://github.com/tempestlouseapplaud/portrait-displays-calman-studio",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-28T00:00:00Z",
+   "pattern": "[url:value = 'https://github.com/tempestlouseapplaud/portrait-displays-calman-studio']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--1cae31e7-9098-5abc-8114-d5883f9b1ead",
+   "created": "2026-11-28T00:00:00Z",
+   "name": "url https://github.com/Falsevumonitor91/assimilate-scratch-full-version",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-28T00:00:00Z",
+   "pattern": "[url:value = 'https://github.com/Falsevumonitor91/assimilate-scratch-full-version']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--25a3ff34-3b94-5d3c-a543-e6daba6e18e0",
+   "created": "2026-11-28T00:00:00Z",
+   "name": "url https://github.com/shieldserpenthex/avid-media-composer-enterprise",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-28T00:00:00Z",
+   "pattern": "[url:value = 'https://github.com/shieldserpenthex/avid-media-composer-enterprise']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  },
+  {
+   "type": "indicator",
+   "spec_version": "2.1",
+   "id": "indicator--db97d906-40c9-57fa-8375-8073b4f1130a",
+   "created": "2026-11-28T00:00:00Z",
+   "name": "url https://github.com/FeelingCraneCraft/Boris-FX-Suite",
+   "pattern_type": "stix",
+   "valid_from": "2026-11-28T00:00:00Z",
+   "pattern": "[url:value = 'https://github.com/FeelingCraneCraft/Boris-FX-Suite']",
+   "labels": [
+    "malicious-activity",
+    "infrastructure-setup-patterns"
+   ]
+  }
+ ]
+}
